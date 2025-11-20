@@ -30,6 +30,15 @@ export default function ToolLayout({ children, title, description }: ToolLayoutP
                 </div>
             </header>
 
+            {/* Ad Placement - Top Banner (728x90 or responsive) */}
+            <div className="bg-gray-100 border-b border-gray-200">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+                    <div className="bg-white rounded-lg border-2 border-dashed border-gray-300 h-24 flex items-center justify-center">
+                        <span className="text-gray-400 text-sm">Ad Space (728x90)</span>
+                    </div>
+                </div>
+            </div>
+
             {/* Tool Content */}
             <main className="py-8">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -43,8 +52,17 @@ export default function ToolLayout({ children, title, description }: ToolLayoutP
                 </div>
             </main>
 
+            {/* Ad Placement - Bottom Banner (728x90 or responsive) */}
+            <div className="bg-gray-100 border-t border-gray-200 mt-12">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+                    <div className="bg-white rounded-lg border-2 border-dashed border-gray-300 h-24 flex items-center justify-center">
+                        <span className="text-gray-400 text-sm">Ad Space (728x90)</span>
+                    </div>
+                </div>
+            </div>
+
             {/* Footer */}
-            <footer className="bg-white border-t border-gray-200 py-8 mt-12">
+            <footer className="bg-white border-t border-gray-200 py-8">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center text-sm text-gray-600">
                         <p>© {new Date().getFullYear()} Tool Suite. All tools are free and open source.</p>

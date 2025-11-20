@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import ToolLayout from "../../components/ToolLayout";
 
 export default function JsonFormatter() {
     const [input, setInput] = useState("");
@@ -45,83 +46,86 @@ export default function JsonFormatter() {
     };
 
     return (
-        <div className="min-h-screen bg-gray-900 text-white p-8 flex flex-col items-center">
-            <h1 className="text-4xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">
-                JSON Formatter & Validator
-            </h1>
-
-            <div className="w-full max-w-6xl grid grid-cols-1 lg:grid-cols-2 gap-6 h-[calc(100vh-200px)] min-h-[600px]">
-                {/* Input */}
-                <div className="flex flex-col">
-                    <div className="flex justify-between items-center mb-2">
-                        <label className="text-gray-400 text-sm">Input JSON</label>
-                        <div className="space-x-2">
+        <ToolLayout
+            title="JSON Formatter & Validator"
+            description="Format, validate, and minify JSON data with syntax highlighting."
+        >
+            <div className="max-w-7xl mx-auto">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 h-[calc(100vh-300px)] min-h-[600px]">
+                    {/* Input */}
+                    <div className="flex flex-col">
+                        <div className="flex justify-between items-center mb-3">
+                            <label className="text-gray-700 font-medium text-sm">Input JSON</label>
                             <button
                                 onClick={() => setInput("")}
-                                className="text-xs text-gray-500 hover:text-red-400"
+                                className="text-xs text-gray-500 hover:text-red-600 font-medium min-h-8 px-3"
                             >
                                 Clear
                             </button>
                         </div>
+                        <textarea
+                            value={input}
+                            onChange={(e) => setInput(e.target.value)}
+                            placeholder='Paste JSON here... {"key": "value"}'
+                            className="flex-1 bg-white text-gray-900 p-4 rounded-2xl border-2 border-gray-200 focus:outline-none focus:border-purple-500 transition-colors resize-none font-mono text-sm shadow-sm"
+                        />
                     </div>
-                    <textarea
-                        value={input}
-                        onChange={(e) => setInput(e.target.value)}
-                        placeholder='Paste JSON here... {"key": "value"}'
-                        className="flex-1 bg-gray-800 text-gray-200 p-4 rounded-xl border border-gray-700 focus:outline-none focus:border-yellow-500 transition-colors resize-none font-mono text-sm"
-                    />
-                </div>
 
-                {/* Controls & Output */}
-                <div className="flex flex-col">
-                    <div className="flex justify-between items-center mb-2">
-                        <label className="text-gray-400 text-sm">Output</label>
-                        <div className="flex space-x-2">
-                            <select
-                                value={indent}
-                                onChange={(e) => setIndent(Number(e.target.value))}
-                                className="bg-gray-800 text-xs text-white border border-gray-700 rounded px-2 py-1"
-                            >
-                                <option value={2}>2 Spaces</option>
-                                <option value={4}>4 Spaces</option>
-                                <option value={8}>8 Spaces</option>
-                            </select>
-                            <button
-                                onClick={formatJson}
-                                className="bg-yellow-600 hover:bg-yellow-500 text-white text-xs px-3 py-1 rounded transition-colors"
-                            >
-                                Format
-                            </button>
-                            <button
-                                onClick={minifyJson}
-                                className="bg-gray-700 hover:bg-gray-600 text-white text-xs px-3 py-1 rounded transition-colors"
-                            >
-                                Minify
-                            </button>
-                            <button
-                                onClick={() => navigator.clipboard.writeText(output)}
-                                disabled={!output}
-                                className="bg-gray-700 hover:bg-gray-600 text-white text-xs px-3 py-1 rounded transition-colors disabled:opacity-50"
-                            >
-                                Copy
-                            </button>
+                    {/* Controls & Output */}
+                    <div className="flex flex-col">
+                        <div className="flex justify-between items-center mb-3">
+                            <label className="text-gray-700 font-medium text-sm">Output</label>
+                            <div className="flex space-x-2">
+                                <select
+                                    value={indent}
+                                    onChange={(e) => setIndent(Number(e.target.value))}
+                                    className="bg-white text-sm text-gray-700 border-2 border-gray-200 rounded-lg px-3 py-1.5 focus:outline-none focus:border-purple-500"
+                                >
+                                    <option value={2}>2 Spaces</option>
+                                    <option value={4}>4 Spaces</option>
+                                    <option value={8}>8 Spaces</option>
+                                </select>
+                                <button
+                                    onClick={formatJson}
+                                    className="bg-purple-600 hover:bg-purple-700 text-white text-sm px-4 py-1.5 rounded-lg transition-colors font-medium min-h-8"
+                                >
+                                    Format
+                                </button>
+                                <button
+                                    onClick={minifyJson}
+                                    className="bg-gray-600 hover:bg-gray-700 text-white text-sm px-4 py-1.5 rounded-lg transition-colors font-medium min-h-8"
+                                >
+                                    Minify
+                                </button>
+                                <button
+                                    onClick={() => navigator.clipboard.writeText(output)}
+                                    disabled={!output}
+                                    className="bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-1.5 rounded-lg transition-colors font-medium disabled:opacity-50 disabled:cursor-not-allowed min-h-8"
+                                >
+                                    Copy
+                                </button>
+                            </div>
+                        </div>
+
+                        <div className={`flex-1 bg-white p-4 rounded-2xl border-2 ${error ? 'border-red-500' : 'border-gray-200'} overflow-auto shadow-sm`}>
+                            {error ? (
+                                <div className="text-red-600 font-mono text-sm">
+                                    <p className="font-bold mb-2">❌ Error parsing JSON:</p>
+                                    <p>{error}</p>
+                                </div>
+                            ) : (
+                                <pre className="text-purple-600 font-mono text-sm whitespace-pre-wrap break-all">
+                                    {output}
+                                </pre>
+                            )}
                         </div>
                     </div>
+                </div>
 
-                    <div className={`flex-1 bg-gray-800 p-4 rounded-xl border ${error ? 'border-red-500' : 'border-gray-700'} overflow-auto relative`}>
-                        {error ? (
-                            <div className="text-red-400 font-mono text-sm">
-                                <p className="font-bold mb-2">Error parsing JSON:</p>
-                                <p>{error}</p>
-                            </div>
-                        ) : (
-                            <pre className="text-green-400 font-mono text-sm whitespace-pre-wrap break-all">
-                                {output}
-                            </pre>
-                        )}
-                    </div>
+                <div className="mt-8 text-gray-600 text-sm text-center bg-purple-50 p-4 rounded-xl">
+                    <p>💻 All processing happens in your browser. Your JSON data never leaves your device.</p>
                 </div>
             </div>
-        </div>
+        </ToolLayout>
     );
 }
