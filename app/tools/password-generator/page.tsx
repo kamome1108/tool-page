@@ -140,8 +140,8 @@ export default function PasswordGenerator() {
 
         <div className="mt-8 text-gray-600 text-sm text-center bg-blue-50 p-4 rounded-xl">
           <p>
-            🔒 Securely generated in your browser using <code className="bg-white px-2 py-1 rounded">crypto.getRandomValues()</code>.
-            <br />No data is ever sent to a server.
+            🔒 Your password is generated securely in your browser.
+            <br />No data is ever sent to our servers.
           </p>
         </div>
       </div>
