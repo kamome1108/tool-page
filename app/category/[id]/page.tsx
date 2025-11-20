@@ -9,17 +9,46 @@ export async function generateStaticParams() {
 }
 
 interface PageProps {
-    params: {
+    params: Promise<{
         id: string;
-    };
+    }>;
 }
 
-export default function CategoryPage({ params }: PageProps) {
-    const category = categories.find((c) => c.id === params.id);
-    const categoryTools = tools.filter((t) => t.category === params.id);
+export default async function CategoryPage({ params }: PageProps) {
+    const resolvedParams = await params;
+    const category = categories.find((c) => c.id === resolvedParams.id);
+    const categoryTools = tools.filter((t) => t.category === resolvedParams.id);
 
+    // Debug view when category is not found
     if (!category) {
-        return <div>Category not found</div>;
+        return (
+            <div className="min-h-screen flex items-center justify-center bg-gray-100 p-4">
+                <div className="bg-white p-8 rounded-lg shadow-lg max-w-2xl w-full">
+                    <h1 className="text-2xl font-bold text-red-600 mb-4">Debug: Category Not Found</h1>
+                    <div className="space-y-4 font-mono text-sm">
+                        <div>
+                            <p className="font-bold text-gray-700">Received ID (resolvedParams.id):</p>
+                            <p className="bg-gray-100 p-2 rounded border border-gray-300">{resolvedParams.id || 'undefined'}</p>
+                        </div>
+                        <div>
+                            <p className="font-bold text-gray-700">Available Categories:</p>
+                            <pre className="bg-gray-100 p-2 rounded border border-gray-300 overflow-auto max-h-60">
+                                {JSON.stringify(categories.map(c => ({ id: c.id, name: c.name.en })), null, 2)}
+                            </pre>
+                        </div>
+                        <div>
+                            <p className="font-bold text-gray-700">Comparison Check:</p>
+                            <p className="bg-gray-100 p-2 rounded border border-gray-300">
+                                Is 'security' === resolvedParams.id? {String('security' === resolvedParams.id)}
+                            </p>
+                        </div>
+                    </div>
+                    <div className="mt-6">
+                        <Link href="/" className="text-blue-600 hover:underline">← Back to Home</Link>
+                    </div>
+                </div>
+            </div>
+        );
     }
 
     return (
@@ -33,9 +62,9 @@ export default function CategoryPage({ params }: PageProps) {
                             <h1 className="text-xl font-bold text-gray-900">Tool Suite</h1>
                         </Link>
                         <div className="flex items-center space-x-4">
-                            <button className="text-sm text-gray-600 hover:text-gray-900 transition-colors">
-                                🌐 EN
-                            </button>
+                            <Link href="/" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">
+                                ← Back to Home
+                            </Link>
                         </div>
                     </div>
                 </div>
