@@ -1,102 +1,110 @@
 import Link from "next/link";
+import { categories } from "./config/categories";
+import { tools } from "./config/tools";
 
 export default function Home() {
-  const tools = [
-    {
-      href: "/tools/password-generator",
-      icon: "🔒",
-      title: "Password Generator",
-      desc: "Generate strong, secure passwords instantly. 100% client-side.",
-      color: "group-hover:text-cyan-400",
-      bg: "group-hover:bg-cyan-900",
-      border: "hover:border-cyan-500",
-      shadow: "hover:shadow-[0_0_20px_rgba(6,182,212,0.3)]"
-    },
-    {
-      href: "/tools/character-counter",
-      icon: "📝",
-      title: "Character Counter",
-      desc: "Count characters, lines, and paragraphs in real-time.",
-      color: "group-hover:text-green-400",
-      bg: "group-hover:bg-green-900",
-      border: "hover:border-green-500",
-      shadow: "hover:shadow-[0_0_20px_rgba(74,222,128,0.3)]"
-    },
-    {
-      href: "/tools/aspect-ratio-calculator",
-      icon: "📐",
-      title: "Aspect Ratio Calculator",
-      desc: "Calculate dimensions for 16:9, 4:3, and custom ratios.",
-      color: "group-hover:text-pink-400",
-      bg: "group-hover:bg-pink-900",
-      border: "hover:border-pink-500",
-      shadow: "hover:shadow-[0_0_20px_rgba(244,114,182,0.3)]"
-    },
-    {
-      href: "/tools/json-formatter",
-      icon: "DATA",
-      title: "JSON Formatter",
-      desc: "Format, validate, and minify JSON data with syntax highlighting.",
-      color: "group-hover:text-yellow-400",
-      bg: "group-hover:bg-yellow-900",
-      border: "hover:border-yellow-500",
-      shadow: "hover:shadow-[0_0_20px_rgba(250,204,21,0.3)]"
-    },
-    {
-      href: "/tools/multi-cropper",
-      icon: "✂️",
-      title: "Multi-Image Cropper",
-      desc: "Crop multiple areas from a single image and download as ZIP.",
-      color: "group-hover:text-purple-400",
-      bg: "group-hover:bg-purple-900",
-      border: "hover:border-purple-500",
-      shadow: "hover:shadow-[0_0_20px_rgba(192,132,252,0.3)]"
-    }
-  ];
+  // Count tools per category
+  const toolCountByCategory = tools.reduce((acc, tool) => {
+    acc[tool.category] = (acc[tool.category] || 0) + 1;
+    return acc;
+  }, {} as Record<string, number>);
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white font-[family-name:var(--font-geist-sans)]">
-      <main className="max-w-6xl mx-auto p-8 sm:p-20">
-        <header className="mb-16 text-center">
-          <h1 className="text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
-            Asset Tools Suite
-          </h1>
-          <p className="text-xl text-gray-400">
-            Secure, fast, and private tools running entirely in your browser.
-          </p>
-        </header>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {tools.map((tool) => (
-            <Link
-              key={tool.href}
-              href={tool.href}
-              className={`group block p-6 bg-gray-800 rounded-xl border border-gray-700 transition-all ${tool.border} ${tool.shadow}`}
-            >
-              <div className="flex items-center mb-4">
-                <div className={`p-3 bg-gray-700 rounded-lg text-xl font-bold transition-colors ${tool.bg} ${tool.color}`}>
-                  {tool.icon}
-                </div>
-                <h2 className={`ml-4 text-xl font-semibold text-white transition-colors ${tool.color}`}>
-                  {tool.title}
-                </h2>
-              </div>
-              <p className="text-gray-400 group-hover:text-gray-300 text-sm">
-                {tool.desc}
-              </p>
-            </Link>
-          ))}
-
-          {/* Placeholder */}
-          <div className="p-6 bg-gray-800/30 rounded-xl border border-gray-700/50 border-dashed flex flex-col items-center justify-center text-center opacity-50 hover:opacity-75 transition-opacity">
-            <div className="text-3xl mb-2">🚀</div>
-            <h2 className="text-lg font-semibold text-gray-500">More Coming Soon</h2>
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+      {/* Header */}
+      <header className="bg-white border-b border-gray-200 sticky top-0 z-50 backdrop-blur-sm bg-white/90">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-16">
+            <div className="flex items-center space-x-3">
+              <div className="text-2xl">🛠️</div>
+              <h1 className="text-xl font-bold text-gray-900">Tool Suite</h1>
+            </div>
+            <div className="flex items-center space-x-4">
+              <button className="text-sm text-gray-600 hover:text-gray-900 transition-colors">
+                🌐 EN
+              </button>
+            </div>
           </div>
         </div>
-      </main>
+      </header>
 
-      <footer className="text-center py-12 text-gray-600 text-sm border-t border-gray-800 mt-12">
-        <p>© {new Date().getFullYear()} Asset Tools Suite. Open Source & Privacy First.</p>
+      {/* Hero Section */}
+      <section className="py-12 sm:py-16 lg:py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
+            Free Online Tools
+            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mt-2">
+              For Everyone
+            </span>
+          </h2>
+          <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
+            100% free, privacy-focused tools that run entirely in your browser. No sign-up required.
+          </p>
+        </div>
+      </section>
+
+      {/* Category Grid */}
+      <section className="pb-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+            {categories.map((category) => {
+              const toolCount = toolCountByCategory[category.id] || 0;
+              const colorClass = `category-${category.color}`;
+
+              return (
+                <Link
+                  key={category.id}
+                  href={`/category/${category.id}`}
+                  className="group relative bg-white rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-200 hover:border-transparent overflow-hidden"
+                  style={{
+                    ['--category-color' as string]: `var(--color-category-${category.color})`,
+                  }}
+                >
+                  {/* Hover Background Effect */}
+                  <div
+                    className="absolute inset-0 opacity-0 group-hover:opacity-5 transition-opacity duration-300"
+                    style={{ backgroundColor: `var(--color-category-${category.color})` }}
+                  />
+
+                  {/* Content */}
+                  <div className="relative">
+                    <div className="flex items-start justify-between mb-4">
+                      <div className="text-4xl">{category.icon}</div>
+                      <div className="px-2.5 py-1 bg-gray-100 group-hover:bg-opacity-50 rounded-full text-xs font-medium text-gray-600">
+                        {toolCount} {toolCount === 1 ? 'tool' : 'tools'}
+                      </div>
+                    </div>
+
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-gray-700 transition-colors">
+                      {category.name.en}
+                    </h3>
+
+                    <p className="text-sm text-gray-600 line-clamp-2">
+                      {category.description.en}
+                    </p>
+
+                    {/* Arrow Icon */}
+                    <div className="mt-4 flex items-center text-sm font-medium text-gray-400 group-hover:text-gray-600 transition-colors">
+                      <span>Explore</span>
+                      <svg className="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </div>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-white border-t border-gray-200 py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center text-sm text-gray-600">
+            <p>© {new Date().getFullYear()} Tool Suite. All tools are free and open source.</p>
+          </div>
+        </div>
       </footer>
     </div>
   );
