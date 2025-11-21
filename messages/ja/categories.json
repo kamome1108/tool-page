@@ -1,0 +1,50 @@
+{
+    "security": {
+        "name": "セキュリティ & プライバシー",
+        "description": "安全なパスワード生成とデータ保護。"
+    },
+    "dev": {
+        "name": "開発者ツール",
+        "description": "コーディングのためのフォーマッター、コンバーター、ユーティリティ。"
+    },
+    "design": {
+        "name": "デザイン & クリエイティブ",
+        "description": "色、グラデーション、デザインリソース。"
+    },
+    "image": {
+        "name": "画像 & 写真",
+        "description": "画像の切り抜き、リサイズ、最適化。"
+    },
+    "writing": {
+        "name": "ライティング & テキスト",
+        "description": "文字数カウント、テキスト操作、分析。"
+    },
+    "productivity": {
+        "name": "生産性",
+        "description": "仕事を効率化するツール。"
+    },
+    "finance": {
+        "name": "金融 & ビジネス",
+        "description": "金融やビジネスニーズのための計算機。"
+    },
+    "education": {
+        "name": "教育 & 学習",
+        "description": "学生と教師のためのツール。"
+    },
+    "web": {
+        "name": "Web & SEO",
+        "description": "ウェブサイトの最適化とSEO指標のチェック。"
+    },
+    "social": {
+        "name": "ソーシャルメディア",
+        "description": "SNSコンテンツ作成のためのツール。"
+    },
+    "media": {
+        "name": "オーディオ & ビデオ",
+        "description": "音声と動画ファイルの処理。"
+    },
+    "utilities": {
+        "name": "ユーティリティ",
+        "description": "多目的ユーティリティとツール。"
+    }
+}

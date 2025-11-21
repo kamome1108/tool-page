@@ -1,9 +1,11 @@
-"use client";
+'use client';
 
-import { useState, useRef, useEffect } from "react";
-import JSZip from "jszip";
-import { saveAs } from "file-saver";
-import ToolLayout from "../../components/ToolLayout";
+import { useState, useRef, useEffect } from 'react';
+import JSZip from 'jszip';
+import { saveAs } from 'file-saver';
+import { useTranslations } from 'next-intl';
+import ToolLayout from '@/app/components/ToolLayout';
+import { Button } from '@/app/components/ui/Button';
 
 interface Crop {
     id: string;
@@ -13,7 +15,9 @@ interface Crop {
     h: number;
 }
 
-export default function MultiCropper() {
+export default function MultiCropperClient({ locale }: { locale: string }) {
+    const t = useTranslations('Tools.multi-cropper');
+
     const [imageSrc, setImageSrc] = useState<string | null>(null);
     const [crops, setCrops] = useState<Crop[]>([]);
     const [isDrawing, setIsDrawing] = useState(false);
@@ -49,7 +53,7 @@ export default function MultiCropper() {
 
     const drawCanvas = () => {
         const canvas = canvasRef.current;
-        const ctx = canvas?.getContext("2d");
+        const ctx = canvas?.getContext('2d');
         const img = imageRef.current;
 
         if (canvas && ctx && img) {
@@ -57,25 +61,25 @@ export default function MultiCropper() {
             canvas.height = img.height;
             ctx.drawImage(img, 0, 0);
 
-            ctx.strokeStyle = "#3B82F6";
+            ctx.strokeStyle = '#3B82F6';
             ctx.lineWidth = 4;
-            ctx.fillStyle = "rgba(59, 130, 246, 0.2)";
+            ctx.fillStyle = 'rgba(59, 130, 246, 0.2)';
 
             crops.forEach((crop) => {
                 ctx.strokeRect(crop.x, crop.y, crop.w, crop.h);
                 ctx.fillRect(crop.x, crop.y, crop.w, crop.h);
 
-                ctx.fillStyle = "#3B82F6";
+                ctx.fillStyle = '#3B82F6';
                 ctx.fillRect(crop.x, crop.y - 30, 40, 30);
-                ctx.fillStyle = "white";
-                ctx.font = "20px Arial";
+                ctx.fillStyle = 'white';
+                ctx.font = '20px Arial';
                 ctx.fillText(crop.id, crop.x + 10, crop.y - 8);
-                ctx.fillStyle = "rgba(59, 130, 246, 0.2)";
+                ctx.fillStyle = 'rgba(59, 130, 246, 0.2)';
             });
 
             if (currentRect) {
-                ctx.strokeStyle = "#EC4899";
-                ctx.fillStyle = "rgba(236, 72, 153, 0.2)";
+                ctx.strokeStyle = '#EC4899';
+                ctx.fillStyle = 'rgba(236, 72, 153, 0.2)';
                 ctx.strokeRect(currentRect.x, currentRect.y, currentRect.w, currentRect.h);
                 ctx.fillRect(currentRect.x, currentRect.y, currentRect.w, currentRect.h);
             }
@@ -134,10 +138,10 @@ export default function MultiCropper() {
 
     const getCroppedBlob = (crop: Crop): Promise<Blob> => {
         return new Promise((resolve) => {
-            const canvas = document.createElement("canvas");
+            const canvas = document.createElement('canvas');
             canvas.width = crop.w;
             canvas.height = crop.h;
-            const ctx = canvas.getContext("2d");
+            const ctx = canvas.getContext('2d');
             if (imageRef.current && ctx) {
                 ctx.drawImage(
                     imageRef.current,
@@ -146,7 +150,7 @@ export default function MultiCropper() {
                 );
                 canvas.toBlob((blob) => {
                     if (blob) resolve(blob);
-                }, "image/png");
+                }, 'image/png');
             }
         });
     };
@@ -164,8 +168,8 @@ export default function MultiCropper() {
         });
 
         await Promise.all(promises);
-        const content = await zip.generateAsync({ type: "blob" });
-        saveAs(content, "crops.zip");
+        const content = await zip.generateAsync({ type: 'blob' });
+        saveAs(content, 'crops.zip');
     };
 
     const deleteCrop = (index: number) => {
@@ -176,16 +180,16 @@ export default function MultiCropper() {
 
     return (
         <ToolLayout
-            title="Multi-Image Cropper"
-            description="Crop multiple areas from a single image and download them individually or as a ZIP file."
+            title={t('meta.title')}
+            description={t('meta.description')}
         >
             <div className="max-w-7xl mx-auto">
                 {!imageSrc ? (
                     <div className="w-full max-w-2xl mx-auto h-64 border-2 border-dashed border-gray-300 rounded-2xl flex flex-col items-center justify-center bg-white hover:border-orange-400 transition-colors shadow-sm">
                         <label className="cursor-pointer flex flex-col items-center">
                             <span className="text-6xl mb-4">📁</span>
-                            <span className="text-xl font-semibold text-gray-700">Click to Upload Image</span>
-                            <span className="text-sm text-gray-500 mt-2">Supports JPG, PNG, WebP</span>
+                            <span className="text-xl font-semibold text-gray-700">{t('ui.uploadImage')}</span>
+                            <span className="text-sm text-gray-500 mt-2">{t('ui.supports')}</span>
                             <input type="file" accept="image/*" onChange={handleImageUpload} className="hidden" />
                         </label>
                     </div>
@@ -204,27 +208,31 @@ export default function MultiCropper() {
                                 />
                             </div>
                             <div className="mt-4 flex justify-between items-center">
-                                <p className="text-sm text-gray-600">✂️ Click and drag to create crop areas</p>
-                                <button
+                                <p className="text-sm text-gray-600">{t('ui.dragInstruction')}</p>
+                                <Button
                                     onClick={() => setImageSrc(null)}
-                                    className="text-sm text-red-600 hover:text-red-700 font-medium min-h-8 px-3"
+                                    variant="ghost"
+                                    size="sm"
+                                    className="text-red-600 hover:text-red-700 hover:bg-red-50"
                                 >
-                                    Reset Image
-                                </button>
+                                    {t('ui.reset')}
+                                </Button>
                             </div>
                         </div>
 
                         {/* Sidebar */}
                         <div className="bg-white p-6 rounded-2xl border border-gray-200 h-fit shadow-sm">
                             <div className="flex justify-between items-center mb-6">
-                                <h2 className="text-xl font-bold text-gray-900">Crops ({crops.length})</h2>
+                                <h2 className="text-xl font-bold text-gray-900">{t('ui.crops')} ({crops.length})</h2>
                                 {crops.length > 0 && (
-                                    <button
+                                    <Button
                                         onClick={downloadAll}
-                                        className="bg-orange-600 hover:bg-orange-700 text-white font-semibold py-2 px-4 rounded-lg shadow-sm text-sm min-h-11"
+                                        variant="primary"
+                                        size="sm"
+                                        className="bg-orange-600 hover:bg-orange-700 border-transparent"
                                     >
-                                        📦 Download ZIP
-                                    </button>
+                                        📦 {t('ui.downloadZip')}
+                                    </Button>
                                 )}
                             </div>
 
@@ -235,26 +243,30 @@ export default function MultiCropper() {
                                         <div className="text-xs text-gray-600">
                                             {Math.round(crop.w)} × {Math.round(crop.h)}
                                         </div>
-                                        <div className="space-x-2">
-                                            <button
+                                        <div className="space-x-2 flex items-center">
+                                            <Button
                                                 onClick={() => downloadSingle(crop)}
-                                                className="text-green-600 hover:text-green-700 text-sm font-medium min-h-8 px-2"
-                                                title="Download"
+                                                variant="ghost"
+                                                size="sm"
+                                                className="text-green-600 hover:text-green-700 hover:bg-green-50 px-2 min-h-8 h-8"
+                                                title={t('ui.download')}
                                             >
                                                 ⬇️
-                                            </button>
-                                            <button
+                                            </Button>
+                                            <Button
                                                 onClick={() => deleteCrop(index)}
-                                                className="text-red-600 hover:text-red-700 text-sm font-medium min-h-8 px-2"
-                                                title="Delete"
+                                                variant="ghost"
+                                                size="sm"
+                                                className="text-red-600 hover:text-red-700 hover:bg-red-50 px-2 min-h-8 h-8"
+                                                title={t('ui.delete')}
                                             >
                                                 ✕
-                                            </button>
+                                            </Button>
                                         </div>
                                     </div>
                                 ))}
                                 {crops.length === 0 && (
-                                    <p className="text-gray-500 text-center py-8">No crops selected yet.</p>
+                                    <p className="text-gray-500 text-center py-8">{t('ui.noCrops')}</p>
                                 )}
                             </div>
                         </div>
@@ -262,7 +274,7 @@ export default function MultiCropper() {
                 )}
 
                 <div className="mt-8 text-gray-600 text-sm text-center bg-orange-50 p-4 rounded-xl">
-                    <p>✂️ All processing happens in your browser. Your images never leave your device.</p>
+                    <p>{t('ui.processingNote')}</p>
                 </div>
             </div>
         </ToolLayout>

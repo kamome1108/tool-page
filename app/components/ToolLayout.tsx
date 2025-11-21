@@ -1,72 +1,66 @@
-import Link from "next/link";
-import { ReactNode } from "react";
+import { Section } from '@/app/components/ui/Section';
+import { Card } from '@/app/components/ui/Card';
+import { Link } from '@/i18n/routing';
+import { useTranslations } from 'next-intl';
 
 interface ToolLayoutProps {
-    children: ReactNode;
     title: string;
-    description?: string;
+    description: string;
+    children: React.ReactNode;
 }
 
-export default function ToolLayout({ children, title, description }: ToolLayoutProps) {
+export default function ToolLayout({ title, description, children }: ToolLayoutProps) {
+    const t = useTranslations('Common');
+
     return (
-        <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
-            {/* Header */}
-            <header className="bg-white border-b border-gray-200 sticky top-0 z-50 backdrop-blur-sm bg-white/90">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex items-center justify-between h-16">
-                        <Link href="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
-                            <div className="text-2xl">🛠️</div>
-                            <h1 className="text-xl font-bold text-gray-900">Tool Suite</h1>
+        <div className="min-h-screen bg-gray-50 flex flex-col">
+            {/* Breadcrumb */}
+            <div className="bg-white border-b border-gray-200">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+                    <nav className="flex items-center space-x-2 text-sm">
+                        <Link href="/" className="text-gray-600 hover:text-gray-900">
+                            Home
                         </Link>
-                        <div className="flex items-center space-x-4">
-                            <Link
-                                href="/"
-                                className="text-sm text-gray-600 hover:text-gray-900 transition-colors"
-                            >
-                                ← Back to Home
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-            </header>
-
-            {/* Ad Placement - Top Banner (728x90 or responsive) */}
-            <div className="bg-gray-100 border-b border-gray-200">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-                    <div className="bg-white rounded-lg border-2 border-dashed border-gray-300 h-24 flex items-center justify-center">
-                        <span className="text-gray-400 text-sm">Ad Space (728x90)</span>
-                    </div>
+                        <span className="text-gray-400">/</span>
+                        <span className="text-gray-900 font-medium">{title}</span>
+                    </nav>
                 </div>
             </div>
 
-            {/* Tool Content */}
-            <main className="py-8">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    {description && (
-                        <div className="mb-6 text-center">
-                            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">{title}</h2>
-                            <p className="text-gray-600">{description}</p>
-                        </div>
-                    )}
-                    {children}
-                </div>
-            </main>
+            {/* Main Content */}
+            <Section padding="md" className="flex-grow">
+                <div className="max-w-4xl mx-auto">
+                    {/* Tool Header */}
+                    <div className="text-center mb-10">
+                        <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+                            {title}
+                        </h1>
+                        <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                            {description}
+                        </p>
+                    </div>
 
-            {/* Ad Placement - Bottom Banner (728x90 or responsive) */}
-            <div className="bg-gray-100 border-t border-gray-200 mt-12">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-                    <div className="bg-white rounded-lg border-2 border-dashed border-gray-300 h-24 flex items-center justify-center">
-                        <span className="text-gray-400 text-sm">Ad Space (728x90)</span>
+                    {/* Ad Placement - Top */}
+                    <div className="mb-8 bg-gray-100 rounded-lg h-24 flex items-center justify-center text-gray-400 text-sm border-2 border-dashed border-gray-200">
+                        Ad Space (Top)
+                    </div>
+
+                    {/* Tool Interface */}
+                    <Card padding="lg" className="shadow-sm border border-gray-200">
+                        {children}
+                    </Card>
+
+                    {/* Ad Placement - Bottom */}
+                    <div className="mt-8 bg-gray-100 rounded-lg h-24 flex items-center justify-center text-gray-400 text-sm border-2 border-dashed border-gray-200">
+                        Ad Space (Bottom)
                     </div>
                 </div>
-            </div>
+            </Section>
 
             {/* Footer */}
-            <footer className="bg-white border-t border-gray-200 py-8">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center text-sm text-gray-600">
-                        <p>© {new Date().getFullYear()} Tool Suite. All tools are free and open source.</p>
-                    </div>
+            <footer className="bg-white border-t border-gray-200 py-8 mt-auto">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-600">
+                    <p>{t('copyright', { year: new Date().getFullYear() })}</p>
                 </div>
             </footer>
         </div>

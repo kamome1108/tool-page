@@ -1,0 +1,81 @@
+{
+    "Common": {
+        "title": "ツールスイート",
+        "description": "開発者とクリエイターのための、無料でプライバシー重視のオンラインツール集。",
+        "backToHome": "ホームに戻る",
+        "openTool": "ツールを開く",
+        "explore": "見る",
+        "tools": "ツール",
+        "tool": "ツール",
+        "copyright": "© {year} Tool Suite. すべてのツールは無料かつオープンソースです。",
+        "language": "言語"
+    },
+    "Home": {
+        "heroTitle": "無料オンラインツール",
+        "heroSubtitle": "すべての人のために",
+        "heroDescription": "100%無料、プライバシー重視。すべてブラウザ上で動作します。登録不要。"
+    },
+    "Categories": {
+        "security": {
+            "name": "セキュリティ & プライバシー",
+            "description": "安全なパスワード生成とデータ保護。"
+        },
+        "dev": {
+            "name": "開発ツール",
+            "description": "フォーマッター、コンバーター、コーディングユーティリティ。"
+        },
+        "design": {
+            "name": "デザイン & クリエイティブ",
+            "description": "色、グラデーション、デザインリソース。"
+        },
+        "image": {
+            "name": "画像 & 写真",
+            "description": "画像の切り抜き、リサイズ、最適化。"
+        },
+        "writing": {
+            "name": "ライティング & テキスト",
+            "description": "文字数カウント、テキスト操作、分析。"
+        },
+        "productivity": {
+            "name": "生産性",
+            "description": "作業効率を上げるためのツール。"
+        },
+        "finance": {
+            "name": "金融 & ビジネス",
+            "description": "金融やビジネスに必要な計算ツール。"
+        },
+        "education": {
+            "name": "教育 & 学習",
+            "description": "学生や教師のためのツール。"
+        },
+        "web": {
+            "name": "Web & SEO",
+            "description": "Webサイトの最適化とSEOチェック。"
+        },
+        "social": {
+            "name": "ソーシャルメディア",
+            "description": "SNSコンテンツ作成のためのツール。"
+        },
+        "media": {
+            "name": "オーディオ & ビデオ",
+            "description": "音声や動画ファイルの処理。"
+        },
+        "utilities": {
+            "name": "ユーティリティ",
+            "description": "多目的なユーティリティツール。"
+        }
+    },
+    "PasswordGenerator": {
+        "length": "長さ",
+        "characters": "文字種",
+        "uppercase": "大文字 (A-Z)",
+        "lowercase": "小文字 (a-z)",
+        "numbers": "数字 (0-9)",
+        "symbols": "記号 (!@#$)",
+        "generate": "新しいパスワードを生成",
+        "copy": "コピー",
+        "copied": "コピーしました！",
+        "strength": "強度",
+        "secureMessage": "🔒 パスワードはブラウザ内で安全に生成されます。サーバーにデータが送信されることはありません。"
+    }
+}
