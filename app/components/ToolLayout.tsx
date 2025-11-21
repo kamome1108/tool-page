@@ -60,7 +60,7 @@ export default function ToolLayout({ title, description, children }: ToolLayoutP
             {/* Footer */}
             <footer className="bg-white border-t border-gray-200 py-8 mt-auto">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-600">
-                    <p>{t('copyright', { year: new Date().getFullYear() })}</p>
+                    <p>{t('footer.copyright', { year: new Date().getFullYear() })}</p>
                 </div>
             </footer>
         </div>

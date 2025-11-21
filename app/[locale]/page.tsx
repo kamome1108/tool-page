@@ -107,7 +107,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       <footer className="bg-white border-t border-gray-200 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center text-sm text-gray-600">
-            <p>{tCommon('copyright', { year: new Date().getFullYear() })}</p>
+            <p>{tCommon('footer.copyright', { year: new Date().getFullYear() })}</p>
           </div>
         </div>
       </footer>

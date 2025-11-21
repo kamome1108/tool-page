@@ -6,6 +6,14 @@
     "explore": "Explore",
     "tools": "tools",
     "tool": "tool",
-    "copyright": "© {year} Tool Suite. All tools are free and open source.",
+    "footer": {
+        "copyright": "© {year} Tool Suite. All rights reserved.",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service"
+    },
+    "meta": {
+        "title": "Tool Suite - Free Online Tools for Developers & Creators",
+        "description": "A collection of free, privacy-focused online tools including password generators, formatters, and calculators. No sign-up required, runs entirely in your browser."
+    },
     "language": "Language"
 }

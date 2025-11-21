@@ -6,6 +6,14 @@
     "explore": "探索する",
     "tools": "ツール",
     "tool": "ツール",
-    "copyright": "© {year} Tool Suite. すべてのツールは無料かつオープンソースです。",
-    "language": "言語"
+    "language": "言語",
+    "footer": {
+        "copyright": "© {year} Tool Suite. All rights reserved.",
+        "privacy": "プライバシーポリシー",
+        "terms": "利用規約"
+    },
+    "meta": {
+        "title": "Tool Suite - 開発者とクリエイターのための無料オンラインツール",
+        "description": "パスワード生成、フォーマッター、計算機など、プライバシー重視の無料オンラインツール集。登録不要、すべてブラウザ上で動作します。"
+    }
 }
