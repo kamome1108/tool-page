@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "Multi Image Cropper",
+        "description": "Crop multiple areas from an image and download them individually or as a ZIP.",
+        "keywords": "crop, image, multi crop, zip, download"
+    },
+    "ui": {
+        "uploadImage": "Click to Upload Image",
+        "supports": "Supports JPG, PNG, WebP",
+        "reset": "Reset Image",
+        "downloadZip": "Download ZIP",
+        "crops": "Crops",
+        "noCrops": "No crops selected yet.",
+        "dragInstruction": "✂️ Click and drag to create crop areas",
+        "processingNote": "✂️ All processing happens in your browser. Your images never leave your device.",
+        "download": "Download",
+        "delete": "Delete"
+    }
+}

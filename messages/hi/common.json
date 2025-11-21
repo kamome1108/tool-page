@@ -1,0 +1,25 @@
+{
+    "title": "Tool Suite",
+    "description": "Free, privacy-focused online tools for developers and creators.",
+    "backToHome": "Back to Home",
+    "openTool": "Open tool",
+    "explore": "Explore",
+    "tools": "tools",
+    "tool": "tool",
+    "language": "Language",
+    "footer": {
+        "copyright": "© {year} Tool Suite. All rights reserved.",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service"
+    },
+    "search": {
+        "placeholder": "Search tools...",
+        "noResults": "No tools found matching \"{query}\"",
+        "resultsTitle": "Search Results for \"{query}\"",
+        "clear": "Clear search"
+    },
+    "meta": {
+        "title": "Tool Suite - Free Online Tools for Developers & Creators",
+        "description": "A collection of free, privacy-focused online tools including password generators, formatters, and calculators. No sign-up required, runs entirely in your browser."
+    }
+}

@@ -38,4 +38,10 @@ export const tools: Tool[] = [
         category: 'image',
         icon: '✂️',
     },
+    {
+        id: 'image-resizer',
+        slug: 'image-resizer',
+        category: 'image',
+        icon: '🖼️',
+    },
 ];

@@ -1,0 +1,18 @@
+{
+    "meta": {
+        "title": "Character & Line Counter",
+        "description": "Count characters, lines, and paragraphs in real-time.",
+        "keywords": "character, counter, writing, text"
+    },
+    "ui": {
+        "inputPlaceholder": "Type or paste your text here...",
+        "characters": "Characters",
+        "lines": "Lines",
+        "paragraphs": "Paragraphs",
+        "words": "Words",
+        "bytes": "Bytes",
+        "clear": "Clear",
+        "statistics": "Statistics",
+        "withoutSpaces": "Without Spaces"
+    }
+}
