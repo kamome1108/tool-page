@@ -1,19 +1,19 @@
 {
     "meta": {
         "title": "Multi Image Cropper",
-        "description": "Crop multiple areas from an image and download them individually or as a ZIP.",
+        "description": "ตัดหลายพื้นที่จากรูปภาพเดียวและดาวน์โหลดแยกกันหรือเป็นไฟล์ ZIP",
         "keywords": "crop, image, multi crop, zip, download"
     },
     "ui": {
-        "uploadImage": "Click to Upload Image",
-        "supports": "Supports JPG, PNG, WebP",
-        "reset": "Reset Image",
-        "downloadZip": "Download ZIP",
-        "crops": "Crops",
-        "noCrops": "No crops selected yet.",
-        "dragInstruction": "✂️ Click and drag to create crop areas",
-        "processingNote": "✂️ All processing happens in your browser. Your images never leave your device.",
-        "download": "Download",
-        "delete": "Delete"
+        "uploadImage": "คลิกเพื่ออัปโหลดรูปภาพ",
+        "supports": "รองรับ JPG, PNG, WebP",
+        "reset": "รีเซ็ตรูปภาพ",
+        "downloadZip": "ดาวน์โหลด ZIP",
+        "crops": "การตัด",
+        "noCrops": "ยังไม่ได้เลือกการตัด",
+        "dragInstruction": "✂️ คลิกและลากเพื่อสร้างพื้นที่ตัด",
+        "processingNote": "✂️ การประมวลผลทั้งหมดเกิดขึ้นในเบราว์เซอร์ของคุณ รูปภาพของคุณจะไม่ถูกส่งออกจากอุปกรณ์ของคุณ",
+        "download": "ดาวน์โหลด",
+        "delete": "ลบ"
     }
 }

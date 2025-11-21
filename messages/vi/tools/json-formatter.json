@@ -1,20 +1,20 @@
 {
     "meta": {
         "title": "JSON Formatter & Validator",
-        "description": "Format, validate, and minify JSON data.",
+        "description": "Định dạng, xác thực và thu nhỏ dữ liệu JSON.",
         "keywords": "json, formatter, validator, minify, beautify"
     },
     "ui": {
-        "inputJson": "Input JSON",
-        "outputJson": "Output",
-        "format": "Format",
-        "minify": "Minify",
-        "copy": "Copy",
-        "clear": "Clear",
-        "pastePlaceholder": "Paste JSON here... {\"key\": \"value\"}",
-        "spaces": "Spaces",
-        "errorParsing": "❌ Error parsing JSON:",
-        "invalidJson": "Invalid JSON",
-        "processingNote": "💻 All processing happens in your browser. Your JSON data never leaves your device."
+        "inputJson": "JSON đầu vào",
+        "outputJson": "Đầu ra",
+        "format": "Định dạng",
+        "minify": "Thu nhỏ",
+        "copy": "Sao chép",
+        "clear": "Xóa",
+        "pastePlaceholder": "Dán JSON vào đây... {\"key\": \"value\"}",
+        "spaces": "Khoảng trắng",
+        "errorParsing": "❌ Lỗi phân tích cú pháp JSON:",
+        "invalidJson": "JSON không hợp lệ",
+        "processingNote": "💻 Tất cả quá trình xử lý diễn ra trong trình duyệt của bạn. Dữ liệu JSON của bạn không bao giờ rời khỏi thiết bị của bạn."
     }
 }

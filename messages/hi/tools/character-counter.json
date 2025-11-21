@@ -1,18 +1,18 @@
 {
     "meta": {
         "title": "Character & Line Counter",
-        "description": "Count characters, lines, and paragraphs in real-time.",
+        "description": "रीयल-टाइम में वर्ण, पंक्तियाँ और पैराग्राफ गिनें।",
         "keywords": "character, counter, writing, text"
     },
     "ui": {
-        "inputPlaceholder": "Type or paste your text here...",
-        "characters": "Characters",
-        "lines": "Lines",
-        "paragraphs": "Paragraphs",
-        "words": "Words",
-        "bytes": "Bytes",
-        "clear": "Clear",
-        "statistics": "Statistics",
-        "withoutSpaces": "Without Spaces"
+        "inputPlaceholder": "अपना टेक्स्ट यहाँ टाइप या पेस्ट करें...",
+        "characters": "वर्ण",
+        "lines": "पंक्तियाँ",
+        "paragraphs": "पैराग्राफ",
+        "words": "शब्द",
+        "bytes": "बाइट्स",
+        "clear": "साफ़ करें",
+        "statistics": "सांख्यिकी",
+        "withoutSpaces": "रिक्त स्थान के बिना"
     }
 }

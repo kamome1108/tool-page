@@ -1,18 +1,19 @@
 {
     "meta": {
-        "title": "Image Compressor - Compress Images Online for Free",
-        "description": "Compress JPG, PNG, and WebP images online to reduce file size without losing quality. Free, fast, and secure image compression tool."
+        "title": "Image Compressor - छवियों को ऑनलाइन कंप्रेस करें मुफ्त में",
+        "description": "गुणवत्ता खोए बिना फ़ाइल का आकार कम करने के लिए JPG, PNG और WebP छवियों को ऑनलाइन कंप्रेस करें। मुफ़्त, तेज़ और सुरक्षित छवि कंप्रेशन उपकरण।",
+        "keywords": "image compressor, compress image, reduce size, optimize image"
     },
     "title": "Image Compressor",
-    "description": "Reduce image file size while maintaining quality.",
+    "description": "गुणवत्ता बनाए रखते हुए छवि फ़ाइल का आकार कम करें।",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "यहाँ एक छवि छोड़ें, या चुनने के लिए क्लिक करें"
     },
-    "quality": "Compression Level (0-100)",
-    "compress": "Compress Image",
-    "download": "Download Compressed Image",
-    "reset": "Reset",
-    "originalSize": "Original Size: {size}",
-    "compressedSize": "Compressed Size: {size}",
-    "savings": "Savings: {percent}%"
+    "quality": "कंप्रेशन स्तर (0-100)",
+    "compress": "छवि कंप्रेस करें",
+    "download": "कंप्रेस की गई छवि डाउनलोड करें",
+    "reset": "रीसेट करें",
+    "originalSize": "मूल आकार: {size}",
+    "compressedSize": "कंप्रेस किया गया आकार: {size}",
+    "savings": "बचत: {percent}%"
 }

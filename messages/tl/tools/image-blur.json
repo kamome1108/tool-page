@@ -1,15 +1,15 @@
 {
     "meta": {
-        "title": "Image Blur - Blur Images Online for Free",
-        "description": "Blur your images online. Adjust blur intensity and download the result. Free, fast, and secure image blurring tool."
+        "title": "Image Blur - I-blur ang mga Larawan Online nang Libre",
+        "description": "I-blur ang iyong mga larawan online. Ayusin ang tindi ng blur at i-download ang resulta. Libre, mabilis, at secure na tool sa pag-blur ng larawan."
     },
     "title": "Image Blur",
-    "description": "Apply blur effect to your images with adjustable intensity.",
+    "description": "Ilapat ang blur effect sa iyong mga larawan na may adjustable na tindi.",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "I-drop ang isang larawan dito, o mag-click upang pumili"
     },
-    "intensity": "Blur Intensity",
-    "apply": "Apply Blur",
-    "download": "Download Blurred Image",
-    "reset": "Reset"
+    "intensity": "Tindi ng Blur",
+    "apply": "Ilapat ang Blur",
+    "download": "I-download ang Naka-blur na Larawan",
+    "reset": "I-reset"
 }

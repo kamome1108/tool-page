@@ -1,17 +1,17 @@
 {
     "meta": {
         "title": "Aspect Ratio Calculator",
-        "description": "Calculate aspect ratios and image dimensions easily.",
+        "description": "คำนวณอัตราส่วนภาพและขนาดรูปภาพได้อย่างง่ายดาย",
         "keywords": "aspect ratio, calculator, image dimensions, resize"
     },
     "ui": {
-        "commonPresets": "Common Presets",
-        "dimensions": "Dimensions (px)",
-        "width": "Width",
-        "height": "Height",
-        "ratio": "Ratio",
+        "commonPresets": "ค่าที่ตั้งไว้ล่วงหน้าทั่วไป",
+        "dimensions": "ขนาด (px)",
+        "width": "ความกว้าง",
+        "height": "ความสูง",
+        "ratio": "อัตราส่วน",
         "w": "W",
         "h": "H",
-        "visualPreview": "📐 Visual preview updates in real-time. All calculations happen in your browser."
+        "visualPreview": "📐 การแสดงตัวอย่างภาพอัปเดตตามเวลาจริง การคำนวณทั้งหมดเกิดขึ้นในเบราว์เซอร์ของคุณ"
     }
 }

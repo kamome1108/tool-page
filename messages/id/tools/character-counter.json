@@ -1,18 +1,18 @@
 {
     "meta": {
         "title": "Character & Line Counter",
-        "description": "Count characters, lines, and paragraphs in real-time.",
+        "description": "Hitung karakter, baris, dan paragraf secara real-time.",
         "keywords": "character, counter, writing, text"
     },
     "ui": {
-        "inputPlaceholder": "Type or paste your text here...",
-        "characters": "Characters",
-        "lines": "Lines",
-        "paragraphs": "Paragraphs",
-        "words": "Words",
-        "bytes": "Bytes",
-        "clear": "Clear",
-        "statistics": "Statistics",
-        "withoutSpaces": "Without Spaces"
+        "inputPlaceholder": "Ketik atau tempel teks Anda di sini...",
+        "characters": "Karakter",
+        "lines": "Baris",
+        "paragraphs": "Paragraf",
+        "words": "Kata",
+        "bytes": "Byte",
+        "clear": "Hapus",
+        "statistics": "Statistik",
+        "withoutSpaces": "Tanpa Spasi"
     }
 }

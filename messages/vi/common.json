@@ -1,25 +1,25 @@
 {
     "title": "Tool Suite",
-    "description": "Free, privacy-focused online tools for developers and creators.",
-    "backToHome": "Back to Home",
-    "openTool": "Open tool",
-    "explore": "Explore",
-    "tools": "tools",
-    "tool": "tool",
-    "language": "Language",
+    "description": "Các công cụ trực tuyến miễn phí, tập trung vào quyền riêng tư dành cho nhà phát triển và người sáng tạo.",
+    "backToHome": "Quay lại Trang chủ",
+    "openTool": "Mở công cụ",
+    "explore": "Khám phá",
+    "tools": "công cụ",
+    "tool": "công cụ",
+    "language": "Ngôn ngữ",
     "footer": {
-        "copyright": "© {year} Tool Suite. All rights reserved.",
-        "privacy": "Privacy Policy",
-        "terms": "Terms of Service"
+        "copyright": "© {year} Tool Suite. Đã đăng ký Bản quyền.",
+        "privacy": "Chính sách bảo mật",
+        "terms": "Điều khoản dịch vụ"
     },
     "search": {
-        "placeholder": "Search tools...",
-        "noResults": "No tools found matching \"{query}\"",
-        "resultsTitle": "Search Results for \"{query}\"",
-        "clear": "Clear search"
+        "placeholder": "Tìm kiếm công cụ...",
+        "noResults": "Không tìm thấy công cụ nào phù hợp với \"{query}\"",
+        "resultsTitle": "Kết quả tìm kiếm cho \"{query}\"",
+        "clear": "Xóa tìm kiếm"
     },
     "meta": {
-        "title": "Tool Suite - Free Online Tools for Developers & Creators",
-        "description": "A collection of free, privacy-focused online tools including password generators, formatters, and calculators. No sign-up required, runs entirely in your browser."
+        "title": "Tool Suite - Công cụ trực tuyến miễn phí cho nhà phát triển & người sáng tạo",
+        "description": "Một bộ sưu tập các công cụ trực tuyến miễn phí, tập trung vào quyền riêng tư bao gồm trình tạo mật khẩu, định dạng và máy tính. Không cần đăng ký, chạy hoàn toàn trong trình duyệt của bạn."
     }
 }

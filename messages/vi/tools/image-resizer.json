@@ -1,19 +1,20 @@
 {
     "meta": {
-        "title": "Image Resizer - Resize Images Online for Free",
-        "description": "Resize your images to exact pixel dimensions online. Free, fast, and secure image resizing tool that runs in your browser."
+        "title": "Image Resizer - Thay đổi kích thước hình ảnh trực tuyến miễn phí",
+        "description": "Thay đổi kích thước hình ảnh của bạn theo kích thước pixel chính xác trực tuyến. Công cụ thay đổi kích thước hình ảnh miễn phí, nhanh chóng và an toàn chạy trong trình duyệt của bạn.",
+        "keywords": "image resizer, resize image, change dimensions, image scaling"
     },
     "title": "Image Resizer",
-    "description": "Resize images to specific dimensions while maintaining aspect ratio.",
+    "description": "Thay đổi kích thước hình ảnh theo kích thước cụ thể trong khi vẫn duy trì tỷ lệ khung hình.",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "Thả hình ảnh vào đây hoặc nhấp để chọn"
     },
-    "width": "Width (px)",
-    "height": "Height (px)",
-    "maintainAspectRatio": "Maintain aspect ratio",
-    "resize": "Resize Image",
-    "download": "Download Resized Image",
-    "reset": "Reset",
-    "original": "Original: {width} x {height}",
-    "new": "New: {width} x {height}"
+    "width": "Chiều rộng (px)",
+    "height": "Chiều cao (px)",
+    "maintainAspectRatio": "Duy trì tỷ lệ khung hình",
+    "resize": "Thay đổi kích thước hình ảnh",
+    "download": "Tải xuống hình ảnh đã thay đổi kích thước",
+    "reset": "Đặt lại",
+    "original": "Gốc: {width} x {height}",
+    "new": "Mới: {width} x {height}"
 }

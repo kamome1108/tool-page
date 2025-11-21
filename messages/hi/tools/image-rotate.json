@@ -1,17 +1,18 @@
 {
     "meta": {
-        "title": "Image Rotate & Flip - Rotate Images Online for Free",
-        "description": "Rotate and flip your images online. Rotate 90 degrees, flip horizontally or vertically. Free, fast, and secure image rotation tool."
+        "title": "Image Rotate & Flip - छवियों को घुमाएं ऑनलाइन मुफ्त में",
+        "description": "अपनी छवियों को ऑनलाइन घुमाएं और पलटें। 90 डिग्री घुमाएं, क्षैतिज या लंबवत पलटें। मुफ़्त, तेज़ और सुरक्षित छवि रोटेशन उपकरण।",
+        "keywords": "rotate image, flip image, rotate 90 degrees, mirror image"
     },
     "title": "Image Rotate & Flip",
-    "description": "Rotate images 90 degrees or flip them horizontally/vertically.",
+    "description": "छवियों को 90 डिग्री घुमाएं या उन्हें क्षैतिज/लंबवत पलटें।",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "यहाँ एक छवि छोड़ें, या चुनने के लिए क्लिक करें"
     },
-    "rotateLeft": "Rotate Left",
-    "rotateRight": "Rotate Right",
-    "flipHorizontal": "Flip Horizontal",
-    "flipVertical": "Flip Vertical",
-    "download": "Download Image",
-    "reset": "Reset"
+    "rotateLeft": "बाएं घुमाएं",
+    "rotateRight": "दाएं घुमाएं",
+    "flipHorizontal": "क्षैतिज पलटें",
+    "flipVertical": "लंबवत पलटें",
+    "download": "छवि डाउनलोड करें",
+    "reset": "रीसेट करें"
 }

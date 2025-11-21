@@ -1,17 +1,18 @@
 {
     "meta": {
-        "title": "Image Rotate & Flip - Rotate Images Online for Free",
-        "description": "Rotate and flip your images online. Rotate 90 degrees, flip horizontally or vertically. Free, fast, and secure image rotation tool."
+        "title": "Image Rotate & Flip - หมุนรูปภาพออนไลน์ฟรี",
+        "description": "หมุนและพลิกรูปภาพของคุณออนไลน์ หมุน 90 องศา พลิกแนวนอนหรือแนวตั้ง เครื่องมือหมุนรูปภาพฟรี รวดเร็ว และปลอดภัย",
+        "keywords": "rotate image, flip image, rotate 90 degrees, mirror image"
     },
     "title": "Image Rotate & Flip",
-    "description": "Rotate images 90 degrees or flip them horizontally/vertically.",
+    "description": "หมุนรูปภาพ 90 องศาหรือพลิกแนวนอน/แนวตั้ง",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "วางรูปภาพที่นี่ หรือคลิกเพื่อเลือก"
     },
-    "rotateLeft": "Rotate Left",
-    "rotateRight": "Rotate Right",
-    "flipHorizontal": "Flip Horizontal",
-    "flipVertical": "Flip Vertical",
-    "download": "Download Image",
-    "reset": "Reset"
+    "rotateLeft": "หมุนซ้าย",
+    "rotateRight": "หมุนขวา",
+    "flipHorizontal": "พลิกแนวนอน",
+    "flipVertical": "พลิกแนวตั้ง",
+    "download": "ดาวน์โหลดรูปภาพ",
+    "reset": "รีเซ็ต"
 }

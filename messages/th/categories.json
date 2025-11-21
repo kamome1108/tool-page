@@ -1,50 +1,50 @@
 {
     "security": {
-        "name": "Security & Privacy",
-        "description": "Generate secure passwords and protect your data."
+        "name": "ความปลอดภัยและความเป็นส่วนตัว",
+        "description": "สร้างรหัสผ่านที่ปลอดภัยและปกป้องข้อมูลของคุณ"
     },
     "dev": {
-        "name": "Developer Tools",
-        "description": "Formatters, converters, and utilities for coding."
+        "name": "เครื่องมือนักพัฒนา",
+        "description": "ตัวจัดรูปแบบ ตัวแปลง และยูทิลิตี้สำหรับการเขียนโค้ด"
     },
     "design": {
-        "name": "Design & Creative",
-        "description": "Colors, gradients, and design resources."
+        "name": "การออกแบบและความคิดสร้างสรรค์",
+        "description": "สี การไล่ระดับสี และทรัพยากรการออกแบบ"
     },
     "image": {
-        "name": "Image & Photo",
-        "description": "Crop, resize, and optimize images."
+        "name": "รูปภาพและภาพถ่าย",
+        "description": "ตัด ปรับขนาด และปรับปรุงรูปภาพ"
     },
     "writing": {
-        "name": "Writing & Text",
-        "description": "Word counters, text manipulation, and analysis."
+        "name": "การเขียนและข้อความ",
+        "description": "ตัวนับคำ การจัดการข้อความ และการวิเคราะห์"
     },
     "productivity": {
-        "name": "Productivity",
-        "description": "Tools to help you get things done faster."
+        "name": "ผลผลิต",
+        "description": "เครื่องมือที่จะช่วยให้คุณทำงานเสร็จเร็วขึ้น"
     },
     "finance": {
-        "name": "Finance & Business",
-        "description": "Calculators for finance and business needs."
+        "name": "การเงินและธุรกิจ",
+        "description": "เครื่องคิดเลขสำหรับความต้องการทางการเงินและธุรกิจ"
     },
     "education": {
-        "name": "Education & Learning",
-        "description": "Tools for students and teachers."
+        "name": "การศึกษาและการเรียนรู้",
+        "description": "เครื่องมือสำหรับนักเรียนและครู"
     },
     "web": {
-        "name": "Web & SEO",
-        "description": "Optimize your website and check SEO metrics."
+        "name": "เว็บและ SEO",
+        "description": "ปรับปรุงเว็บไซต์ของคุณและตรวจสอบเมตริก SEO"
     },
     "social": {
-        "name": "Social Media",
-        "description": "Tools for social media content creation."
+        "name": "โซเชียลมีเดีย",
+        "description": "เครื่องมือสำหรับการสร้างเนื้อหาโซเชียลมีเดีย"
     },
     "media": {
-        "name": "Audio & Video",
-        "description": "Process audio and video files."
+        "name": "เสียงและวิดีโอ",
+        "description": "ประมวลผลไฟล์เสียงและวิดีโอ"
     },
     "utilities": {
-        "name": "Utilities",
-        "description": "General purpose utilities and tools."
+        "name": "ยูทิลิตี้",
+        "description": "ยูทิลิตี้และเครื่องมือทั่วไป"
     }
 }

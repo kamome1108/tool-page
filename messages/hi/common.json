@@ -1,25 +1,25 @@
 {
-    "title": "Tool Suite",
-    "description": "Free, privacy-focused online tools for developers and creators.",
-    "backToHome": "Back to Home",
-    "openTool": "Open tool",
-    "explore": "Explore",
-    "tools": "tools",
-    "tool": "tool",
-    "language": "Language",
+    "title": "टूल सुइट (Tool Suite)",
+    "description": "डेवलपर्स और क्रिएटर्स के लिए मुफ्त, गोपनीयता-केंद्रित ऑनलाइन टूल।",
+    "backToHome": "होम पर वापस जाएं",
+    "openTool": "टूल खोलें",
+    "explore": "एक्सप्लोर करें",
+    "tools": "टूल्स",
+    "tool": "टूल",
+    "language": "भाषा",
     "footer": {
-        "copyright": "© {year} Tool Suite. All rights reserved.",
-        "privacy": "Privacy Policy",
-        "terms": "Terms of Service"
+        "copyright": "© {year} टूल सुइट। सर्वाधिकार सुरक्षित।",
+        "privacy": "गोपनीयता नीति",
+        "terms": "सेवा की शर्तें"
     },
     "search": {
-        "placeholder": "Search tools...",
-        "noResults": "No tools found matching \"{query}\"",
-        "resultsTitle": "Search Results for \"{query}\"",
-        "clear": "Clear search"
+        "placeholder": "टूल्स खोजें...",
+        "noResults": "\"{query}\" से मेल खाने वाला कोई टूल नहीं मिला",
+        "resultsTitle": "\"{query}\" के लिए खोज परिणाम",
+        "clear": "खोज साफ़ करें"
     },
     "meta": {
-        "title": "Tool Suite - Free Online Tools for Developers & Creators",
-        "description": "A collection of free, privacy-focused online tools including password generators, formatters, and calculators. No sign-up required, runs entirely in your browser."
+        "title": "टूल सुइट - डेवलपर्स और क्रिएटर्स के लिए मुफ्त ऑनलाइन टूल्स",
+        "description": "पासवर्ड जनरेटर, फॉर्मेटर और कैलकुलेटर सहित मुफ्त, गोपनीयता-केंद्रित ऑनलाइन टूल का एक संग्रह। साइन-अप की आवश्यकता नहीं है, पूरी तरह से आपके ब्राउज़र में चलता है।"
     }
 }

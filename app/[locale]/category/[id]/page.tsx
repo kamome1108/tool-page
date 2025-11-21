@@ -1,11 +1,11 @@
 import { useTranslations } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
-import { Link } from '@/i18n/routing';
+import { Link, routing } from '@/i18n/routing';
 import { categories } from "@/app/config/categories";
 import { tools } from "@/app/config/tools";
 
 export async function generateStaticParams() {
-    const locales = ['en', 'ja'];
+    const locales = routing.locales;
     const params = [];
 
     for (const locale of locales) {

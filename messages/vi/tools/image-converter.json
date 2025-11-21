@@ -1,18 +1,19 @@
 {
     "meta": {
-        "title": "Image Converter - Convert Images Online for Free",
-        "description": "Convert images between PNG, JPG, WebP, and GIF formats online. Free, fast, and secure image converter tool."
+        "title": "Image Converter - Chuyển đổi hình ảnh trực tuyến miễn phí",
+        "description": "Chuyển đổi hình ảnh giữa các định dạng PNG, JPG, WebP và GIF trực tuyến. Công cụ chuyển đổi hình ảnh miễn phí, nhanh chóng và an toàn.",
+        "keywords": "image converter, convert image, png to jpg, jpg to png, webp converter"
     },
     "title": "Image Converter",
-    "description": "Convert images to different formats (PNG, JPG, WebP, GIF).",
+    "description": "Chuyển đổi hình ảnh sang các định dạng khác nhau (PNG, JPG, WebP, GIF).",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "Thả hình ảnh vào đây hoặc nhấp để chọn"
     },
-    "format": "Target Format",
-    "quality": "Quality (0-100, for JPG/WebP)",
-    "convert": "Convert Image",
-    "download": "Download Converted Image",
-    "reset": "Reset",
+    "format": "Định dạng mục tiêu",
+    "quality": "Chất lượng (0-100, cho JPG/WebP)",
+    "convert": "Chuyển đổi hình ảnh",
+    "download": "Tải xuống hình ảnh đã chuyển đổi",
+    "reset": "Đặt lại",
     "formats": {
         "png": "PNG",
         "jpeg": "JPG",

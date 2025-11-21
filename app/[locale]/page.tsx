@@ -4,8 +4,10 @@ import { Link } from '@/i18n/routing';
 import { categories } from "../config/categories";
 import { tools } from "../config/tools";
 
+import { routing } from '@/i18n/routing';
+
 export function generateStaticParams() {
-  return [{ locale: 'en' }, { locale: 'ja' }];
+  return routing.locales.map((locale) => ({ locale }));
 }
 
 import { Section } from '@/app/components/ui/Section';

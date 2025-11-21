@@ -1,25 +1,25 @@
 {
     "title": "Tool Suite",
-    "description": "Free, privacy-focused online tools for developers and creators.",
-    "backToHome": "Back to Home",
-    "openTool": "Open tool",
-    "explore": "Explore",
-    "tools": "tools",
-    "tool": "tool",
-    "language": "Language",
+    "description": "Alat online gratis yang berfokus pada privasi untuk pengembang dan pembuat konten.",
+    "backToHome": "Kembali ke Beranda",
+    "openTool": "Buka alat",
+    "explore": "Jelajahi",
+    "tools": "alat",
+    "tool": "alat",
+    "language": "Bahasa",
     "footer": {
-        "copyright": "© {year} Tool Suite. All rights reserved.",
-        "privacy": "Privacy Policy",
-        "terms": "Terms of Service"
+        "copyright": "© {year} Tool Suite. Hak cipta dilindungi undang-undang.",
+        "privacy": "Kebijakan Privasi",
+        "terms": "Ketentuan Layanan"
     },
     "search": {
-        "placeholder": "Search tools...",
-        "noResults": "No tools found matching \"{query}\"",
-        "resultsTitle": "Search Results for \"{query}\"",
-        "clear": "Clear search"
+        "placeholder": "Cari alat...",
+        "noResults": "Tidak ada alat yang ditemukan cocok dengan \"{query}\"",
+        "resultsTitle": "Hasil Pencarian untuk \"{query}\"",
+        "clear": "Hapus pencarian"
     },
     "meta": {
-        "title": "Tool Suite - Free Online Tools for Developers & Creators",
-        "description": "A collection of free, privacy-focused online tools including password generators, formatters, and calculators. No sign-up required, runs entirely in your browser."
+        "title": "Tool Suite - Alat Online Gratis untuk Pengembang & Pembuat Konten",
+        "description": "Kumpulan alat online gratis yang berfokus pada privasi termasuk pembuat kata sandi, pemformat, dan kalkulator. Tidak perlu mendaftar, berjalan sepenuhnya di browser Anda."
     }
 }

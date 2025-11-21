@@ -1,18 +1,18 @@
 {
     "meta": {
-        "title": "Image Converter - Convert Images Online for Free",
-        "description": "Convert images between PNG, JPG, WebP, and GIF formats online. Free, fast, and secure image converter tool."
+        "title": "Image Converter - I-convert ang mga Larawan Online nang Libre",
+        "description": "I-convert ang mga larawan sa pagitan ng PNG, JPG, WebP, at GIF format online. Libre, mabilis, at secure na tool sa pag-convert ng larawan."
     },
     "title": "Image Converter",
-    "description": "Convert images to different formats (PNG, JPG, WebP, GIF).",
+    "description": "I-convert ang mga larawan sa iba't ibang format (PNG, JPG, WebP, GIF).",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "I-drop ang isang larawan dito, o mag-click upang pumili"
     },
-    "format": "Target Format",
-    "quality": "Quality (0-100, for JPG/WebP)",
-    "convert": "Convert Image",
-    "download": "Download Converted Image",
-    "reset": "Reset",
+    "format": "Target na Format",
+    "quality": "Kalidad (0-100, para sa JPG/WebP)",
+    "convert": "I-convert ang Larawan",
+    "download": "I-download ang Na-convert na Larawan",
+    "reset": "I-reset",
     "formats": {
         "png": "PNG",
         "jpeg": "JPG",

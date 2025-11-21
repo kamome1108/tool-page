@@ -1,19 +1,19 @@
 {
     "meta": {
         "title": "Multi Image Cropper",
-        "description": "Crop multiple areas from an image and download them individually or as a ZIP.",
+        "description": "Cắt nhiều vùng từ một hình ảnh và tải xuống riêng lẻ hoặc dưới dạng ZIP.",
         "keywords": "crop, image, multi crop, zip, download"
     },
     "ui": {
-        "uploadImage": "Click to Upload Image",
-        "supports": "Supports JPG, PNG, WebP",
-        "reset": "Reset Image",
-        "downloadZip": "Download ZIP",
-        "crops": "Crops",
-        "noCrops": "No crops selected yet.",
-        "dragInstruction": "✂️ Click and drag to create crop areas",
-        "processingNote": "✂️ All processing happens in your browser. Your images never leave your device.",
-        "download": "Download",
-        "delete": "Delete"
+        "uploadImage": "Nhấp để tải lên hình ảnh",
+        "supports": "Hỗ trợ JPG, PNG, WebP",
+        "reset": "Đặt lại hình ảnh",
+        "downloadZip": "Tải xuống ZIP",
+        "crops": "Vùng cắt",
+        "noCrops": "Chưa chọn vùng cắt nào.",
+        "dragInstruction": "✂️ Nhấp và kéo để tạo vùng cắt",
+        "processingNote": "✂️ Tất cả quá trình xử lý diễn ra trong trình duyệt của bạn. Hình ảnh của bạn không bao giờ rời khỏi thiết bị của bạn.",
+        "download": "Tải xuống",
+        "delete": "Xóa"
     }
 }

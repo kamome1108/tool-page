@@ -1,18 +1,19 @@
 {
     "meta": {
-        "title": "Image Converter - Convert Images Online for Free",
-        "description": "Convert images between PNG, JPG, WebP, and GIF formats online. Free, fast, and secure image converter tool."
+        "title": "Image Converter - छवियों को ऑनलाइन कन्वर्ट करें मुफ्त में",
+        "description": "PNG, JPG, WebP और GIF प्रारूपों के बीच छवियों को ऑनलाइन कन्वर्ट करें। मुफ़्त, तेज़ और सुरक्षित छवि कनवर्टर उपकरण।",
+        "keywords": "image converter, convert image, png to jpg, jpg to png, webp converter"
     },
     "title": "Image Converter",
-    "description": "Convert images to different formats (PNG, JPG, WebP, GIF).",
+    "description": "छवियों को विभिन्न प्रारूपों (PNG, JPG, WebP, GIF) में बदलें।",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "यहाँ एक छवि छोड़ें, या चुनने के लिए क्लिक करें"
     },
-    "format": "Target Format",
-    "quality": "Quality (0-100, for JPG/WebP)",
-    "convert": "Convert Image",
-    "download": "Download Converted Image",
-    "reset": "Reset",
+    "format": "लक्ष्य प्रारूप",
+    "quality": "गुणवत्ता (0-100, JPG/WebP के लिए)",
+    "convert": "छवि कन्वर्ट करें",
+    "download": "कन्वर्ट की गई छवि डाउनलोड करें",
+    "reset": "रीसेट करें",
     "formats": {
         "png": "PNG",
         "jpeg": "JPG",

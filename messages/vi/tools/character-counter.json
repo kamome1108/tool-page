@@ -1,18 +1,18 @@
 {
     "meta": {
         "title": "Character & Line Counter",
-        "description": "Count characters, lines, and paragraphs in real-time.",
+        "description": "Đếm ký tự, dòng và đoạn văn trong thời gian thực.",
         "keywords": "character, counter, writing, text"
     },
     "ui": {
-        "inputPlaceholder": "Type or paste your text here...",
-        "characters": "Characters",
-        "lines": "Lines",
-        "paragraphs": "Paragraphs",
-        "words": "Words",
-        "bytes": "Bytes",
-        "clear": "Clear",
-        "statistics": "Statistics",
-        "withoutSpaces": "Without Spaces"
+        "inputPlaceholder": "Nhập hoặc dán văn bản của bạn vào đây...",
+        "characters": "Ký tự",
+        "lines": "Dòng",
+        "paragraphs": "Đoạn văn",
+        "words": "Từ",
+        "bytes": "Byte",
+        "clear": "Xóa",
+        "statistics": "Thống kê",
+        "withoutSpaces": "Không có khoảng trắng"
     }
 }

@@ -1,19 +1,19 @@
 {
     "meta": {
         "title": "Multi Image Cropper",
-        "description": "Crop multiple areas from an image and download them individually or as a ZIP.",
+        "description": "Mag-crop ng maraming lugar mula sa isang larawan at i-download ang mga ito nang paisa-isa o bilang ZIP.",
         "keywords": "crop, image, multi crop, zip, download"
     },
     "ui": {
-        "uploadImage": "Click to Upload Image",
-        "supports": "Supports JPG, PNG, WebP",
-        "reset": "Reset Image",
-        "downloadZip": "Download ZIP",
-        "crops": "Crops",
-        "noCrops": "No crops selected yet.",
-        "dragInstruction": "✂️ Click and drag to create crop areas",
-        "processingNote": "✂️ All processing happens in your browser. Your images never leave your device.",
-        "download": "Download",
-        "delete": "Delete"
+        "uploadImage": "Mag-click upang Mag-upload ng Larawan",
+        "supports": "Sumusuporta sa JPG, PNG, WebP",
+        "reset": "I-reset ang Larawan",
+        "downloadZip": "I-download ang ZIP",
+        "crops": "Mga Crop",
+        "noCrops": "Wala pang napiling mga crop.",
+        "dragInstruction": "✂️ Mag-click at mag-drag upang lumikha ng mga lugar ng crop",
+        "processingNote": "✂️ Ang lahat ng pagproseso ay nangyayari sa iyong browser. Ang iyong mga larawan ay hindi kailanman umaalis sa iyong device.",
+        "download": "I-download",
+        "delete": "Tanggalin"
     }
 }

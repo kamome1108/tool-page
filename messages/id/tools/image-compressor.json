@@ -1,18 +1,19 @@
 {
     "meta": {
-        "title": "Image Compressor - Compress Images Online for Free",
-        "description": "Compress JPG, PNG, and WebP images online to reduce file size without losing quality. Free, fast, and secure image compression tool."
+        "title": "Image Compressor - Kompres Gambar Online Gratis",
+        "description": "Kompres gambar JPG, PNG, dan WebP secara online untuk mengurangi ukuran file tanpa kehilangan kualitas. Alat kompresi gambar gratis, cepat, dan aman.",
+        "keywords": "image compressor, compress image, reduce size, optimize image"
     },
     "title": "Image Compressor",
-    "description": "Reduce image file size while maintaining quality.",
+    "description": "Kurangi ukuran file gambar sambil mempertahankan kualitas.",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "Jatuhkan gambar di sini, atau klik untuk memilih"
     },
-    "quality": "Compression Level (0-100)",
-    "compress": "Compress Image",
-    "download": "Download Compressed Image",
-    "reset": "Reset",
-    "originalSize": "Original Size: {size}",
-    "compressedSize": "Compressed Size: {size}",
-    "savings": "Savings: {percent}%"
+    "quality": "Tingkat Kompresi (0-100)",
+    "compress": "Kompres Gambar",
+    "download": "Unduh Gambar Terkompresi",
+    "reset": "Atur Ulang",
+    "originalSize": "Ukuran Asli: {size}",
+    "compressedSize": "Ukuran Terkompresi: {size}",
+    "savings": "Hemat: {percent}%"
 }

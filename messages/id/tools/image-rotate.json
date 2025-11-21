@@ -1,17 +1,18 @@
 {
     "meta": {
-        "title": "Image Rotate & Flip - Rotate Images Online for Free",
-        "description": "Rotate and flip your images online. Rotate 90 degrees, flip horizontally or vertically. Free, fast, and secure image rotation tool."
+        "title": "Image Rotate & Flip - Putar Gambar Online Gratis",
+        "description": "Putar dan balik gambar Anda secara online. Putar 90 derajat, balik secara horizontal atau vertikal. Alat pemutar gambar gratis, cepat, dan aman.",
+        "keywords": "rotate image, flip image, rotate 90 degrees, mirror image"
     },
     "title": "Image Rotate & Flip",
-    "description": "Rotate images 90 degrees or flip them horizontally/vertically.",
+    "description": "Putar gambar 90 derajat atau balik secara horizontal/vertikal.",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "Jatuhkan gambar di sini, atau klik untuk memilih"
     },
-    "rotateLeft": "Rotate Left",
-    "rotateRight": "Rotate Right",
-    "flipHorizontal": "Flip Horizontal",
-    "flipVertical": "Flip Vertical",
-    "download": "Download Image",
-    "reset": "Reset"
+    "rotateLeft": "Putar Kiri",
+    "rotateRight": "Putar Kanan",
+    "flipHorizontal": "Balik Horizontal",
+    "flipVertical": "Balik Vertikal",
+    "download": "Unduh Gambar",
+    "reset": "Atur Ulang"
 }

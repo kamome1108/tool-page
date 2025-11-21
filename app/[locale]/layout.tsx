@@ -16,14 +16,28 @@ const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
 });
 
+import { routing } from '@/i18n/routing';
+
+// ...
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Common.meta' });
-  const baseUrl = 'https://tool-page-29b.pages.dev'; // Replace with actual domain if different
+  const baseUrl = 'https://tool-page-29b.pages.dev';
+
+  // Generate alternates for all supported locales
+  const languages: Record<string, string> = {};
+  routing.locales.forEach(lang => {
+    languages[lang] = `${baseUrl}/${lang}`;
+  });
 
   return {
     title: t('title'),
     description: t('description'),
+    alternates: {
+      canonical: `${baseUrl}/${locale}`,
+      languages: languages,
+    },
     openGraph: {
       title: t('title'),
       description: t('description'),
@@ -51,7 +65,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 export function generateStaticParams() {
-  return [{ locale: 'en' }, { locale: 'ja' }];
+  return routing.locales.map((locale) => ({ locale }));
 }
 
 interface LocaleLayoutProps {
@@ -73,7 +87,7 @@ export default async function LocaleLayout({
   setRequestLocale(resolvedParams.locale);
 
   // Ensure that the incoming `locale` is valid
-  if (!['en', 'ja'].includes(resolvedParams.locale)) {
+  if (!routing.locales.includes(resolvedParams.locale as any)) {
     notFound();
   }
 

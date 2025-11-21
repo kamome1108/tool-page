@@ -5,8 +5,10 @@ type Props = {
     params: Promise<{ locale: string }>;
 };
 
+import { routing } from '@/i18n/routing';
+
 export function generateStaticParams() {
-    return [{ locale: 'en' }, { locale: 'ja' }];
+    return routing.locales.map((locale) => ({ locale }));
 }
 
 export default async function SearchPage({ params }: Props) {

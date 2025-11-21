@@ -1,18 +1,19 @@
 {
     "meta": {
-        "title": "Image Converter - Convert Images Online for Free",
-        "description": "Convert images between PNG, JPG, WebP, and GIF formats online. Free, fast, and secure image converter tool."
+        "title": "Image Converter - แปลงรูปภาพออนไลน์ฟรี",
+        "description": "แปลงรูปภาพระหว่างรูปแบบ PNG, JPG, WebP และ GIF ออนไลน์ เครื่องมือแปลงรูปภาพฟรี รวดเร็ว และปลอดภัย",
+        "keywords": "image converter, convert image, png to jpg, jpg to png, webp converter"
     },
     "title": "Image Converter",
-    "description": "Convert images to different formats (PNG, JPG, WebP, GIF).",
+    "description": "แปลงรูปภาพเป็นรูปแบบต่างๆ (PNG, JPG, WebP, GIF)",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "วางรูปภาพที่นี่ หรือคลิกเพื่อเลือก"
     },
-    "format": "Target Format",
-    "quality": "Quality (0-100, for JPG/WebP)",
-    "convert": "Convert Image",
-    "download": "Download Converted Image",
-    "reset": "Reset",
+    "format": "รูปแบบเป้าหมาย",
+    "quality": "คุณภาพ (0-100 สำหรับ JPG/WebP)",
+    "convert": "แปลงรูปภาพ",
+    "download": "ดาวน์โหลดรูปภาพที่แปลงแล้ว",
+    "reset": "รีเซ็ต",
     "formats": {
         "png": "PNG",
         "jpeg": "JPG",

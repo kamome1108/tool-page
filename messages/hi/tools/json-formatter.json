@@ -1,20 +1,20 @@
 {
     "meta": {
         "title": "JSON Formatter & Validator",
-        "description": "Format, validate, and minify JSON data.",
+        "description": "JSON डेटा को फॉर्मेट, वैलिडेट और मिनिफाई करें।",
         "keywords": "json, formatter, validator, minify, beautify"
     },
     "ui": {
-        "inputJson": "Input JSON",
-        "outputJson": "Output",
-        "format": "Format",
-        "minify": "Minify",
-        "copy": "Copy",
-        "clear": "Clear",
-        "pastePlaceholder": "Paste JSON here... {\"key\": \"value\"}",
-        "spaces": "Spaces",
-        "errorParsing": "❌ Error parsing JSON:",
-        "invalidJson": "Invalid JSON",
-        "processingNote": "💻 All processing happens in your browser. Your JSON data never leaves your device."
+        "inputJson": "इनपुट JSON",
+        "outputJson": "आउटपुट",
+        "format": "फॉर्मेट",
+        "minify": "मिनिफाई",
+        "copy": "कॉपी करें",
+        "clear": "साफ़ करें",
+        "pastePlaceholder": "JSON यहाँ पेस्ट करें... {\"key\": \"value\"}",
+        "spaces": "रिक्त स्थान",
+        "errorParsing": "❌ JSON पार्स करने में त्रुटि:",
+        "invalidJson": "अमान्य JSON",
+        "processingNote": "💻 सभी प्रोसेसिंग आपके ब्राउज़र में होती है। आपका JSON डेटा कभी भी आपके डिवाइस को नहीं छोड़ता है।"
     }
 }

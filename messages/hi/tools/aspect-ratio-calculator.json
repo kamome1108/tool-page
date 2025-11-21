@@ -1,17 +1,17 @@
 {
     "meta": {
         "title": "Aspect Ratio Calculator",
-        "description": "Calculate aspect ratios and image dimensions easily.",
+        "description": "आसानी से आस्पेक्ट रेश्यो और छवि आयामों की गणना करें।",
         "keywords": "aspect ratio, calculator, image dimensions, resize"
     },
     "ui": {
-        "commonPresets": "Common Presets",
-        "dimensions": "Dimensions (px)",
-        "width": "Width",
-        "height": "Height",
-        "ratio": "Ratio",
+        "commonPresets": "सामान्य प्रीसेट",
+        "dimensions": "आयाम (px)",
+        "width": "चौड़ाई",
+        "height": "ऊंचाई",
+        "ratio": "अनुपात",
         "w": "W",
         "h": "H",
-        "visualPreview": "📐 Visual preview updates in real-time. All calculations happen in your browser."
+        "visualPreview": "📐 विज़ुअल प्रीव्यू रीयल-टाइम में अपडेट होता है। सभी गणनाएं आपके ब्राउज़र में होती हैं।"
     }
 }

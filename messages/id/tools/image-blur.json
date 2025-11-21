@@ -1,15 +1,16 @@
 {
     "meta": {
-        "title": "Image Blur - Blur Images Online for Free",
-        "description": "Blur your images online. Adjust blur intensity and download the result. Free, fast, and secure image blurring tool."
+        "title": "Image Blur - Buramkan Gambar Online Gratis",
+        "description": "Buramkan gambar Anda secara online. Sesuaikan intensitas buram dan unduh hasilnya. Alat pemburaman gambar gratis, cepat, dan aman.",
+        "keywords": "image blur, blur tool, privacy, obfuscate"
     },
     "title": "Image Blur",
-    "description": "Apply blur effect to your images with adjustable intensity.",
+    "description": "Terapkan efek buram pada gambar Anda dengan intensitas yang dapat disesuaikan.",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "Jatuhkan gambar di sini, atau klik untuk memilih"
     },
-    "intensity": "Blur Intensity",
-    "apply": "Apply Blur",
-    "download": "Download Blurred Image",
-    "reset": "Reset"
+    "intensity": "Intensitas Buram",
+    "apply": "Terapkan Buram",
+    "download": "Unduh Gambar Buram",
+    "reset": "Atur Ulang"
 }

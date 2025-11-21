@@ -1,15 +1,16 @@
 {
     "meta": {
-        "title": "Image Blur - Blur Images Online for Free",
-        "description": "Blur your images online. Adjust blur intensity and download the result. Free, fast, and secure image blurring tool."
+        "title": "Image Blur - Làm mờ hình ảnh trực tuyến miễn phí",
+        "description": "Làm mờ hình ảnh của bạn trực tuyến. Điều chỉnh cường độ làm mờ và tải xuống kết quả. Công cụ làm mờ hình ảnh miễn phí, nhanh chóng và an toàn.",
+        "keywords": "image blur, blur tool, privacy, obfuscate"
     },
     "title": "Image Blur",
-    "description": "Apply blur effect to your images with adjustable intensity.",
+    "description": "Áp dụng hiệu ứng làm mờ cho hình ảnh của bạn với cường độ có thể điều chỉnh.",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "Thả hình ảnh vào đây hoặc nhấp để chọn"
     },
-    "intensity": "Blur Intensity",
-    "apply": "Apply Blur",
-    "download": "Download Blurred Image",
-    "reset": "Reset"
+    "intensity": "Cường độ làm mờ",
+    "apply": "Áp dụng làm mờ",
+    "download": "Tải xuống hình ảnh đã làm mờ",
+    "reset": "Đặt lại"
 }

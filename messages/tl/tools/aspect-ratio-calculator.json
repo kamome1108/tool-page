@@ -1,17 +1,17 @@
 {
     "meta": {
         "title": "Aspect Ratio Calculator",
-        "description": "Calculate aspect ratios and image dimensions easily.",
-        "keywords": "aspect ratio, calculator, image dimensions, resize"
+        "description": "Kalkulahin ang mga aspect ratio at sukat ng larawan nang madali.",
+        "keywords": "aspect ratio, calculator, sukat ng larawan, resize"
     },
     "ui": {
-        "commonPresets": "Common Presets",
-        "dimensions": "Dimensions (px)",
-        "width": "Width",
-        "height": "Height",
+        "commonPresets": "Mga Karaniwang Preset",
+        "dimensions": "Mga Sukat (px)",
+        "width": "Lapad",
+        "height": "Taas",
         "ratio": "Ratio",
         "w": "W",
         "h": "H",
-        "visualPreview": "📐 Visual preview updates in real-time. All calculations happen in your browser."
+        "visualPreview": "📐 Ang visual preview ay nag-a-update nang real-time. Ang lahat ng kalkulasyon ay nangyayari sa iyong browser."
     }
 }

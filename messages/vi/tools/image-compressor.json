@@ -1,18 +1,19 @@
 {
     "meta": {
-        "title": "Image Compressor - Compress Images Online for Free",
-        "description": "Compress JPG, PNG, and WebP images online to reduce file size without losing quality. Free, fast, and secure image compression tool."
+        "title": "Image Compressor - Nén hình ảnh trực tuyến miễn phí",
+        "description": "Nén hình ảnh JPG, PNG và WebP trực tuyến để giảm kích thước tệp mà không làm giảm chất lượng. Công cụ nén hình ảnh miễn phí, nhanh chóng và an toàn.",
+        "keywords": "image compressor, compress image, reduce size, optimize image"
     },
     "title": "Image Compressor",
-    "description": "Reduce image file size while maintaining quality.",
+    "description": "Giảm kích thước tệp hình ảnh trong khi vẫn duy trì chất lượng.",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "Thả hình ảnh vào đây hoặc nhấp để chọn"
     },
-    "quality": "Compression Level (0-100)",
-    "compress": "Compress Image",
-    "download": "Download Compressed Image",
-    "reset": "Reset",
-    "originalSize": "Original Size: {size}",
-    "compressedSize": "Compressed Size: {size}",
-    "savings": "Savings: {percent}%"
+    "quality": "Mức nén (0-100)",
+    "compress": "Nén hình ảnh",
+    "download": "Tải xuống hình ảnh đã nén",
+    "reset": "Đặt lại",
+    "originalSize": "Kích thước gốc: {size}",
+    "compressedSize": "Kích thước đã nén: {size}",
+    "savings": "Tiết kiệm: {percent}%"
 }

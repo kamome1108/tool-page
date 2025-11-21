@@ -1,50 +1,50 @@
 {
     "security": {
-        "name": "Security & Privacy",
-        "description": "Generate secure passwords and protect your data."
+        "name": "Bảo mật & Quyền riêng tư",
+        "description": "Tạo mật khẩu an toàn và bảo vệ dữ liệu của bạn."
     },
     "dev": {
-        "name": "Developer Tools",
-        "description": "Formatters, converters, and utilities for coding."
+        "name": "Công cụ dành cho nhà phát triển",
+        "description": "Trình định dạng, trình chuyển đổi và tiện ích để mã hóa."
     },
     "design": {
-        "name": "Design & Creative",
-        "description": "Colors, gradients, and design resources."
+        "name": "Thiết kế & Sáng tạo",
+        "description": "Màu sắc, độ dốc và tài nguyên thiết kế."
     },
     "image": {
-        "name": "Image & Photo",
-        "description": "Crop, resize, and optimize images."
+        "name": "Hình ảnh & Ảnh",
+        "description": "Cắt, thay đổi kích thước và tối ưu hóa hình ảnh."
     },
     "writing": {
-        "name": "Writing & Text",
-        "description": "Word counters, text manipulation, and analysis."
+        "name": "Viết & Văn bản",
+        "description": "Bộ đếm từ, thao tác văn bản và phân tích."
     },
     "productivity": {
-        "name": "Productivity",
-        "description": "Tools to help you get things done faster."
+        "name": "Năng suất",
+        "description": "Các công cụ giúp bạn hoàn thành công việc nhanh hơn."
     },
     "finance": {
-        "name": "Finance & Business",
-        "description": "Calculators for finance and business needs."
+        "name": "Tài chính & Kinh doanh",
+        "description": "Máy tính cho nhu cầu tài chính và kinh doanh."
     },
     "education": {
-        "name": "Education & Learning",
-        "description": "Tools for students and teachers."
+        "name": "Giáo dục & Học tập",
+        "description": "Công cụ cho học sinh và giáo viên."
     },
     "web": {
         "name": "Web & SEO",
-        "description": "Optimize your website and check SEO metrics."
+        "description": "Tối ưu hóa trang web của bạn và kiểm tra các chỉ số SEO."
     },
     "social": {
-        "name": "Social Media",
-        "description": "Tools for social media content creation."
+        "name": "Mạng xã hội",
+        "description": "Các công cụ để tạo nội dung truyền thông xã hội."
     },
     "media": {
-        "name": "Audio & Video",
-        "description": "Process audio and video files."
+        "name": "Âm thanh & Video",
+        "description": "Xử lý các tệp âm thanh và video."
     },
     "utilities": {
-        "name": "Utilities",
-        "description": "General purpose utilities and tools."
+        "name": "Tiện ích",
+        "description": "Các tiện ích và công cụ đa năng."
     }
 }

@@ -1,20 +1,20 @@
 {
     "meta": {
         "title": "JSON Formatter & Validator",
-        "description": "Format, validate, and minify JSON data.",
+        "description": "I-format, i-validate, at i-minify ang JSON data.",
         "keywords": "json, formatter, validator, minify, beautify"
     },
     "ui": {
         "inputJson": "Input JSON",
         "outputJson": "Output",
-        "format": "Format",
-        "minify": "Minify",
-        "copy": "Copy",
-        "clear": "Clear",
-        "pastePlaceholder": "Paste JSON here... {\"key\": \"value\"}",
-        "spaces": "Spaces",
-        "errorParsing": "❌ Error parsing JSON:",
-        "invalidJson": "Invalid JSON",
-        "processingNote": "💻 All processing happens in your browser. Your JSON data never leaves your device."
+        "format": "I-format",
+        "minify": "I-minify",
+        "copy": "Kopyahin",
+        "clear": "I-clear",
+        "pastePlaceholder": "I-paste ang JSON dito... {\"key\": \"value\"}",
+        "spaces": "Mga Puwang",
+        "errorParsing": "❌ Error sa pag-parse ng JSON:",
+        "invalidJson": "Hindi wastong JSON",
+        "processingNote": "💻 Ang lahat ng pagproseso ay nangyayari sa iyong browser. Ang iyong JSON data ay hindi kailanman umaalis sa iyong device."
     }
 }

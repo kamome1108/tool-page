@@ -1,19 +1,19 @@
 {
     "meta": {
-        "title": "Image Resizer - Resize Images Online for Free",
-        "description": "Resize your images to exact pixel dimensions online. Free, fast, and secure image resizing tool that runs in your browser."
+        "title": "Image Resizer - I-resize ang mga Larawan Online nang Libre",
+        "description": "I-resize ang iyong mga larawan sa eksaktong pixel dimensions online. Libre, mabilis, at secure na tool sa pag-resize ng larawan na gumagana sa iyong browser."
     },
     "title": "Image Resizer",
-    "description": "Resize images to specific dimensions while maintaining aspect ratio.",
+    "description": "I-resize ang mga larawan sa mga partikular na sukat habang pinapanatili ang aspect ratio.",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "I-drop ang isang larawan dito, o mag-click upang pumili"
     },
-    "width": "Width (px)",
-    "height": "Height (px)",
-    "maintainAspectRatio": "Maintain aspect ratio",
-    "resize": "Resize Image",
-    "download": "Download Resized Image",
-    "reset": "Reset",
-    "original": "Original: {width} x {height}",
-    "new": "New: {width} x {height}"
+    "width": "Lapad (px)",
+    "height": "Taas (px)",
+    "maintainAspectRatio": "Panatilihin ang aspect ratio",
+    "resize": "I-resize ang Larawan",
+    "download": "I-download ang Na-resize na Larawan",
+    "reset": "I-reset",
+    "original": "Orihinal: {width} x {height}",
+    "new": "Bago: {width} x {height}"
 }

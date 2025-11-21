@@ -1,18 +1,18 @@
 {
     "meta": {
         "title": "Character & Line Counter",
-        "description": "Count characters, lines, and paragraphs in real-time.",
-        "keywords": "character, counter, writing, text"
+        "description": "Bilangin ang mga character, linya, at talata nang real-time.",
+        "keywords": "character, counter, pagsusulat, teksto"
     },
     "ui": {
-        "inputPlaceholder": "Type or paste your text here...",
-        "characters": "Characters",
-        "lines": "Lines",
-        "paragraphs": "Paragraphs",
-        "words": "Words",
+        "inputPlaceholder": "I-type o i-paste ang iyong teksto dito...",
+        "characters": "Mga Character",
+        "lines": "Mga Linya",
+        "paragraphs": "Mga Talata",
+        "words": "Mga Salita",
         "bytes": "Bytes",
-        "clear": "Clear",
-        "statistics": "Statistics",
-        "withoutSpaces": "Without Spaces"
+        "clear": "I-clear",
+        "statistics": "Mga Istatistika",
+        "withoutSpaces": "Walang Puwang"
     }
 }

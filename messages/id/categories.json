@@ -1,50 +1,50 @@
 {
     "security": {
-        "name": "Security & Privacy",
-        "description": "Generate secure passwords and protect your data."
+        "name": "Keamanan & Privasi",
+        "description": "Hasilkan kata sandi yang aman dan lindungi data Anda."
     },
     "dev": {
-        "name": "Developer Tools",
-        "description": "Formatters, converters, and utilities for coding."
+        "name": "Alat Pengembang",
+        "description": "Pemformat, konverter, dan utilitas untuk pengkodean."
     },
     "design": {
-        "name": "Design & Creative",
-        "description": "Colors, gradients, and design resources."
+        "name": "Desain & Kreatif",
+        "description": "Warna, gradien, dan sumber daya desain."
     },
     "image": {
-        "name": "Image & Photo",
-        "description": "Crop, resize, and optimize images."
+        "name": "Gambar & Foto",
+        "description": "Pangkas, ubah ukuran, dan optimalkan gambar."
     },
     "writing": {
-        "name": "Writing & Text",
-        "description": "Word counters, text manipulation, and analysis."
+        "name": "Menulis & Teks",
+        "description": "Penghitung kata, manipulasi teks, dan analisis."
     },
     "productivity": {
-        "name": "Productivity",
-        "description": "Tools to help you get things done faster."
+        "name": "Produktivitas",
+        "description": "Alat untuk membantu Anda menyelesaikan pekerjaan lebih cepat."
     },
     "finance": {
-        "name": "Finance & Business",
-        "description": "Calculators for finance and business needs."
+        "name": "Keuangan & Bisnis",
+        "description": "Kalkulator untuk kebutuhan keuangan dan bisnis."
     },
     "education": {
-        "name": "Education & Learning",
-        "description": "Tools for students and teachers."
+        "name": "Pendidikan & Pembelajaran",
+        "description": "Alat untuk siswa dan guru."
     },
     "web": {
         "name": "Web & SEO",
-        "description": "Optimize your website and check SEO metrics."
+        "description": "Optimalkan situs web Anda dan periksa metrik SEO."
     },
     "social": {
-        "name": "Social Media",
-        "description": "Tools for social media content creation."
+        "name": "Media Sosial",
+        "description": "Alat untuk pembuatan konten media sosial."
     },
     "media": {
         "name": "Audio & Video",
-        "description": "Process audio and video files."
+        "description": "Proses file audio dan video."
     },
     "utilities": {
-        "name": "Utilities",
-        "description": "General purpose utilities and tools."
+        "name": "Utilitas",
+        "description": "Utilitas dan alat tujuan umum."
     }
 }

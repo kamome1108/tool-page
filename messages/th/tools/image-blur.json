@@ -1,15 +1,16 @@
 {
     "meta": {
-        "title": "Image Blur - Blur Images Online for Free",
-        "description": "Blur your images online. Adjust blur intensity and download the result. Free, fast, and secure image blurring tool."
+        "title": "Image Blur - เบลอรูปภาพออนไลน์ฟรี",
+        "description": "เบลอรูปภาพของคุณออนไลน์ ปรับความเข้มของการเบลอและดาวน์โหลดผลลัพธ์ เครื่องมือเบลอรูปภาพฟรี รวดเร็ว และปลอดภัย",
+        "keywords": "image blur, blur tool, privacy, obfuscate"
     },
     "title": "Image Blur",
-    "description": "Apply blur effect to your images with adjustable intensity.",
+    "description": "ใช้เอฟเฟกต์เบลอกับรูปภาพของคุณด้วยความเข้มที่ปรับได้",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "วางรูปภาพที่นี่ หรือคลิกเพื่อเลือก"
     },
-    "intensity": "Blur Intensity",
-    "apply": "Apply Blur",
-    "download": "Download Blurred Image",
-    "reset": "Reset"
+    "intensity": "ความเข้มของการเบลอ",
+    "apply": "ใช้การเบลอ",
+    "download": "ดาวน์โหลดรูปภาพที่เบลอ",
+    "reset": "รีเซ็ต"
 }

@@ -1,19 +1,20 @@
 {
     "meta": {
-        "title": "Image Color Picker - Extract Colors from Images Online",
-        "description": "Pick colors from images online. Upload an image and get HEX, RGB, and HSL color codes from any pixel. Free and easy to use."
+        "title": "Image Color Picker - छवियों से रंग निकालें ऑनलाइन",
+        "description": "ऑनलाइन छवियों से रंग चुनें। एक छवि अपलोड करें और किसी भी पिक्सेल से HEX, RGB और HSL रंग कोड प्राप्त करें। मुफ़्त और उपयोग में आसान।",
+        "keywords": "color picker, image color, hex code, rgb code, hsl code"
     },
     "title": "Image Color Picker",
-    "description": "Extract colors from your images. Get HEX, RGB, and HSL codes.",
+    "description": "अपनी छवियों से रंग निकालें। HEX, RGB और HSL कोड प्राप्त करें।",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "यहाँ एक छवि छोड़ें, या चुनने के लिए क्लिक करें"
     },
-    "pickedColor": "Picked Color",
+    "pickedColor": "चुना गया रंग",
     "hex": "HEX",
     "rgb": "RGB",
     "hsl": "HSL",
-    "copy": "Copy",
-    "copied": "Copied!",
-    "reset": "Reset",
-    "clickToPick": "Click on the image to pick a color"
+    "copy": "कॉपी करें",
+    "copied": "कॉपी किया गया!",
+    "reset": "रीसेट करें",
+    "clickToPick": "रंग चुनने के लिए छवि पर क्लिक करें"
 }

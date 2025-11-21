@@ -1,50 +1,50 @@
 {
     "security": {
-        "name": "Security & Privacy",
-        "description": "Generate secure passwords and protect your data."
+        "name": "Seguridad at Privacy",
+        "description": "Gumawa ng mga secure na password at protektahan ang iyong data."
     },
     "dev": {
         "name": "Developer Tools",
-        "description": "Formatters, converters, and utilities for coding."
+        "description": "Mga formatter, converter, at utility para sa coding."
     },
     "design": {
-        "name": "Design & Creative",
-        "description": "Colors, gradients, and design resources."
+        "name": "Disenyo at Malikhain",
+        "description": "Mga kulay, gradient, at mapagkukunan ng disenyo."
     },
     "image": {
-        "name": "Image & Photo",
-        "description": "Crop, resize, and optimize images."
+        "name": "Larawan at Litrato",
+        "description": "I-crop, i-resize, at i-optimize ang mga larawan."
     },
     "writing": {
-        "name": "Writing & Text",
-        "description": "Word counters, text manipulation, and analysis."
+        "name": "Pagsusulat at Teksto",
+        "description": "Mga word counter, manipulasyon ng teksto, at pagsusuri."
     },
     "productivity": {
-        "name": "Productivity",
-        "description": "Tools to help you get things done faster."
+        "name": "Produktibidad",
+        "description": "Mga tool upang matulungan kang matapos ang mga bagay nang mas mabilis."
     },
     "finance": {
-        "name": "Finance & Business",
-        "description": "Calculators for finance and business needs."
+        "name": "Pananalapi at Negosyo",
+        "description": "Mga calculator para sa mga pangangailangan sa pananalapi at negosyo."
     },
     "education": {
-        "name": "Education & Learning",
-        "description": "Tools for students and teachers."
+        "name": "Edukasyon at Pag-aaral",
+        "description": "Mga tool para sa mga mag-aaral at guro."
     },
     "web": {
-        "name": "Web & SEO",
-        "description": "Optimize your website and check SEO metrics."
+        "name": "Web at SEO",
+        "description": "I-optimize ang iyong website at suriin ang mga sukatan ng SEO."
     },
     "social": {
         "name": "Social Media",
-        "description": "Tools for social media content creation."
+        "description": "Mga tool para sa paggawa ng nilalaman sa social media."
     },
     "media": {
-        "name": "Audio & Video",
-        "description": "Process audio and video files."
+        "name": "Audio at Video",
+        "description": "Iproseso ang mga audio at video file."
     },
     "utilities": {
-        "name": "Utilities",
-        "description": "General purpose utilities and tools."
+        "name": "Mga Utility",
+        "description": "Pangkalahatang layunin na mga utility at tool."
     }
 }

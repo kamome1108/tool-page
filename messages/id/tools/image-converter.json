@@ -1,18 +1,19 @@
 {
     "meta": {
-        "title": "Image Converter - Convert Images Online for Free",
-        "description": "Convert images between PNG, JPG, WebP, and GIF formats online. Free, fast, and secure image converter tool."
+        "title": "Image Converter - Konversi Gambar Online Gratis",
+        "description": "Konversi gambar antara format PNG, JPG, WebP, dan GIF secara online. Alat konverter gambar gratis, cepat, dan aman.",
+        "keywords": "image converter, convert image, png to jpg, jpg to png, webp converter"
     },
     "title": "Image Converter",
-    "description": "Convert images to different formats (PNG, JPG, WebP, GIF).",
+    "description": "Konversi gambar ke format yang berbeda (PNG, JPG, WebP, GIF).",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "Jatuhkan gambar di sini, atau klik untuk memilih"
     },
-    "format": "Target Format",
-    "quality": "Quality (0-100, for JPG/WebP)",
-    "convert": "Convert Image",
-    "download": "Download Converted Image",
-    "reset": "Reset",
+    "format": "Format Target",
+    "quality": "Kualitas (0-100, untuk JPG/WebP)",
+    "convert": "Konversi Gambar",
+    "download": "Unduh Gambar Terkonversi",
+    "reset": "Atur Ulang",
     "formats": {
         "png": "PNG",
         "jpeg": "JPG",

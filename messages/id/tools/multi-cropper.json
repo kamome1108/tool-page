@@ -1,19 +1,19 @@
 {
     "meta": {
         "title": "Multi Image Cropper",
-        "description": "Crop multiple areas from an image and download them individually or as a ZIP.",
+        "description": "Pangkas beberapa area dari satu gambar dan unduh secara individual atau sebagai ZIP.",
         "keywords": "crop, image, multi crop, zip, download"
     },
     "ui": {
-        "uploadImage": "Click to Upload Image",
-        "supports": "Supports JPG, PNG, WebP",
-        "reset": "Reset Image",
-        "downloadZip": "Download ZIP",
-        "crops": "Crops",
-        "noCrops": "No crops selected yet.",
-        "dragInstruction": "✂️ Click and drag to create crop areas",
-        "processingNote": "✂️ All processing happens in your browser. Your images never leave your device.",
-        "download": "Download",
-        "delete": "Delete"
+        "uploadImage": "Klik untuk Mengunggah Gambar",
+        "supports": "Mendukung JPG, PNG, WebP",
+        "reset": "Atur Ulang Gambar",
+        "downloadZip": "Unduh ZIP",
+        "crops": "Pangkasan",
+        "noCrops": "Belum ada pangkasan yang dipilih.",
+        "dragInstruction": "✂️ Klik dan seret untuk membuat area pangkas",
+        "processingNote": "✂️ Semua pemrosesan terjadi di browser Anda. Gambar Anda tidak pernah meninggalkan perangkat Anda.",
+        "download": "Unduh",
+        "delete": "Hapus"
     }
 }

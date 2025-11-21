@@ -1,25 +1,25 @@
 {
     "title": "Tool Suite",
-    "description": "Free, privacy-focused online tools for developers and creators.",
-    "backToHome": "Back to Home",
-    "openTool": "Open tool",
-    "explore": "Explore",
-    "tools": "tools",
+    "description": "Libre at privacy-focused na mga online tool para sa mga developer at creator.",
+    "backToHome": "Bumalik sa Home",
+    "openTool": "Buksan ang tool",
+    "explore": "Mag-explore",
+    "tools": "mga tool",
     "tool": "tool",
-    "language": "Language",
+    "language": "Wika",
     "footer": {
-        "copyright": "© {year} Tool Suite. All rights reserved.",
-        "privacy": "Privacy Policy",
-        "terms": "Terms of Service"
+        "copyright": "© {year} Tool Suite. Lahat ng karapatan ay nakalaan.",
+        "privacy": "Patakaran sa Privacy",
+        "terms": "Mga Tuntunin ng Serbisyo"
     },
     "search": {
-        "placeholder": "Search tools...",
-        "noResults": "No tools found matching \"{query}\"",
-        "resultsTitle": "Search Results for \"{query}\"",
-        "clear": "Clear search"
+        "placeholder": "Maghanap ng mga tool...",
+        "noResults": "Walang nahanap na tool na tumutugma sa \"{query}\"",
+        "resultsTitle": "Mga Resulta ng Paghahanap para sa \"{query}\"",
+        "clear": "I-clear ang paghahanap"
     },
     "meta": {
-        "title": "Tool Suite - Free Online Tools for Developers & Creators",
-        "description": "A collection of free, privacy-focused online tools including password generators, formatters, and calculators. No sign-up required, runs entirely in your browser."
+        "title": "Tool Suite - Libreng Online Tools para sa mga Developer at Creator",
+        "description": "Isang koleksyon ng mga libre at privacy-focused na online tool kabilang ang mga password generator, formatter, at calculator. Hindi kailangan mag-sign up, gumagana nang buo sa iyong browser."
     }
 }

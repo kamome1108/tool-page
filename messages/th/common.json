@@ -1,25 +1,25 @@
 {
     "title": "Tool Suite",
-    "description": "Free, privacy-focused online tools for developers and creators.",
-    "backToHome": "Back to Home",
-    "openTool": "Open tool",
-    "explore": "Explore",
-    "tools": "tools",
-    "tool": "tool",
-    "language": "Language",
+    "description": "เครื่องมือออนไลน์ฟรีที่เน้นความเป็นส่วนตัวสำหรับนักพัฒนาและผู้สร้างสรรค์",
+    "backToHome": "กลับสู่หน้าหลัก",
+    "openTool": "เปิดเครื่องมือ",
+    "explore": "สำรวจ",
+    "tools": "เครื่องมือ",
+    "tool": "เครื่องมือ",
+    "language": "ภาษา",
     "footer": {
-        "copyright": "© {year} Tool Suite. All rights reserved.",
-        "privacy": "Privacy Policy",
-        "terms": "Terms of Service"
+        "copyright": "© {year} Tool Suite. สงวนลิขสิทธิ์",
+        "privacy": "นโยบายความเป็นส่วนตัว",
+        "terms": "เงื่อนไขการให้บริการ"
     },
     "search": {
-        "placeholder": "Search tools...",
-        "noResults": "No tools found matching \"{query}\"",
-        "resultsTitle": "Search Results for \"{query}\"",
-        "clear": "Clear search"
+        "placeholder": "ค้นหาเครื่องมือ...",
+        "noResults": "ไม่พบเครื่องมือที่ตรงกับ \"{query}\"",
+        "resultsTitle": "ผลการค้นหาสำหรับ \"{query}\"",
+        "clear": "ล้างการค้นหา"
     },
     "meta": {
-        "title": "Tool Suite - Free Online Tools for Developers & Creators",
-        "description": "A collection of free, privacy-focused online tools including password generators, formatters, and calculators. No sign-up required, runs entirely in your browser."
+        "title": "Tool Suite - เครื่องมือออนไลน์ฟรีสำหรับนักพัฒนาและผู้สร้างสรรค์",
+        "description": "คอลเลกชันเครื่องมือออนไลน์ฟรีที่เน้นความเป็นส่วนตัว รวมถึงเครื่องมือสร้างรหัสผ่าน ตัวจัดรูปแบบ และเครื่องคิดเลข ไม่ต้องลงทะเบียน ทำงานทั้งหมดในเบราว์เซอร์ของคุณ"
     }
 }

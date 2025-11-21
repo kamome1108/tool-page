@@ -1,18 +1,18 @@
 {
     "meta": {
         "title": "Character & Line Counter",
-        "description": "Count characters, lines, and paragraphs in real-time.",
+        "description": "นับตัวอักษร บรรทัด และย่อหน้าแบบเรียลไทม์",
         "keywords": "character, counter, writing, text"
     },
     "ui": {
-        "inputPlaceholder": "Type or paste your text here...",
-        "characters": "Characters",
-        "lines": "Lines",
-        "paragraphs": "Paragraphs",
-        "words": "Words",
-        "bytes": "Bytes",
-        "clear": "Clear",
-        "statistics": "Statistics",
-        "withoutSpaces": "Without Spaces"
+        "inputPlaceholder": "พิมพ์หรือวางข้อความของคุณที่นี่...",
+        "characters": "ตัวอักษร",
+        "lines": "บรรทัด",
+        "paragraphs": "ย่อหน้า",
+        "words": "คำ",
+        "bytes": "ไบต์",
+        "clear": "ล้าง",
+        "statistics": "สถิติ",
+        "withoutSpaces": "ไม่รวมช่องว่าง"
     }
 }

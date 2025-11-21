@@ -1,17 +1,17 @@
 {
     "meta": {
-        "title": "Image Rotate & Flip - Rotate Images Online for Free",
-        "description": "Rotate and flip your images online. Rotate 90 degrees, flip horizontally or vertically. Free, fast, and secure image rotation tool."
+        "title": "Image Rotate & Flip - I-rotate ang mga Larawan Online nang Libre",
+        "description": "I-rotate at i-flip ang iyong mga larawan online. I-rotate nang 90 degrees, i-flip nang pahalang o patayo. Libre, mabilis, at secure na tool sa pag-rotate ng larawan."
     },
     "title": "Image Rotate & Flip",
-    "description": "Rotate images 90 degrees or flip them horizontally/vertically.",
+    "description": "I-rotate ang mga larawan nang 90 degrees o i-flip ang mga ito nang pahalang/patayo.",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "I-drop ang isang larawan dito, o mag-click upang pumili"
     },
-    "rotateLeft": "Rotate Left",
-    "rotateRight": "Rotate Right",
-    "flipHorizontal": "Flip Horizontal",
-    "flipVertical": "Flip Vertical",
-    "download": "Download Image",
-    "reset": "Reset"
+    "rotateLeft": "I-rotate Pakaliwa",
+    "rotateRight": "I-rotate Pakanan",
+    "flipHorizontal": "I-flip Pahalang",
+    "flipVertical": "I-flip Patayo",
+    "download": "I-download ang Larawan",
+    "reset": "I-reset"
 }

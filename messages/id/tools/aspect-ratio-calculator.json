@@ -1,17 +1,17 @@
 {
     "meta": {
         "title": "Aspect Ratio Calculator",
-        "description": "Calculate aspect ratios and image dimensions easily.",
+        "description": "Hitung rasio aspek dan dimensi gambar dengan mudah.",
         "keywords": "aspect ratio, calculator, image dimensions, resize"
     },
     "ui": {
-        "commonPresets": "Common Presets",
-        "dimensions": "Dimensions (px)",
-        "width": "Width",
-        "height": "Height",
-        "ratio": "Ratio",
+        "commonPresets": "Preset Umum",
+        "dimensions": "Dimensi (px)",
+        "width": "Lebar",
+        "height": "Tinggi",
+        "ratio": "Rasio",
         "w": "W",
         "h": "H",
-        "visualPreview": "📐 Visual preview updates in real-time. All calculations happen in your browser."
+        "visualPreview": "📐 Pratinjau visual diperbarui secara real-time. Semua perhitungan terjadi di browser Anda."
     }
 }

@@ -1,20 +1,20 @@
 {
     "meta": {
         "title": "JSON Formatter & Validator",
-        "description": "Format, validate, and minify JSON data.",
+        "description": "Format, validasi, dan perkecil data JSON.",
         "keywords": "json, formatter, validator, minify, beautify"
     },
     "ui": {
         "inputJson": "Input JSON",
         "outputJson": "Output",
         "format": "Format",
-        "minify": "Minify",
-        "copy": "Copy",
-        "clear": "Clear",
-        "pastePlaceholder": "Paste JSON here... {\"key\": \"value\"}",
-        "spaces": "Spaces",
-        "errorParsing": "❌ Error parsing JSON:",
-        "invalidJson": "Invalid JSON",
-        "processingNote": "💻 All processing happens in your browser. Your JSON data never leaves your device."
+        "minify": "Perkecil",
+        "copy": "Salin",
+        "clear": "Hapus",
+        "pastePlaceholder": "Tempel JSON di sini... {\"key\": \"value\"}",
+        "spaces": "Spasi",
+        "errorParsing": "❌ Kesalahan mengurai JSON:",
+        "invalidJson": "JSON Tidak Valid",
+        "processingNote": "💻 Semua pemrosesan terjadi di browser Anda. Data JSON Anda tidak pernah meninggalkan perangkat Anda."
     }
 }

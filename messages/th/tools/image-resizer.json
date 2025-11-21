@@ -1,19 +1,20 @@
 {
     "meta": {
-        "title": "Image Resizer - Resize Images Online for Free",
-        "description": "Resize your images to exact pixel dimensions online. Free, fast, and secure image resizing tool that runs in your browser."
+        "title": "Image Resizer - ปรับขนาดรูปภาพออนไลน์ฟรี",
+        "description": "ปรับขนาดรูปภาพของคุณให้เป็นขนาดพิกเซลที่แน่นอนออนไลน์ เครื่องมือปรับขนาดรูปภาพฟรี รวดเร็ว และปลอดภัยที่ทำงานในเบราว์เซอร์ของคุณ",
+        "keywords": "image resizer, resize image, change dimensions, image scaling"
     },
     "title": "Image Resizer",
-    "description": "Resize images to specific dimensions while maintaining aspect ratio.",
+    "description": "ปรับขนาดรูปภาพให้เป็นขนาดที่กำหนดในขณะที่ยังคงอัตราส่วนภาพไว้",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "วางรูปภาพที่นี่ หรือคลิกเพื่อเลือก"
     },
-    "width": "Width (px)",
-    "height": "Height (px)",
-    "maintainAspectRatio": "Maintain aspect ratio",
-    "resize": "Resize Image",
-    "download": "Download Resized Image",
-    "reset": "Reset",
-    "original": "Original: {width} x {height}",
-    "new": "New: {width} x {height}"
+    "width": "ความกว้าง (px)",
+    "height": "ความสูง (px)",
+    "maintainAspectRatio": "คงอัตราส่วนภาพไว้",
+    "resize": "ปรับขนาดรูปภาพ",
+    "download": "ดาวน์โหลดรูปภาพที่ปรับขนาดแล้ว",
+    "reset": "รีเซ็ต",
+    "original": "เดิม: {width} x {height}",
+    "new": "ใหม่: {width} x {height}"
 }

@@ -1,19 +1,20 @@
 {
     "meta": {
-        "title": "Image Resizer - Resize Images Online for Free",
-        "description": "Resize your images to exact pixel dimensions online. Free, fast, and secure image resizing tool that runs in your browser."
+        "title": "Image Resizer - Ubah Ukuran Gambar Online Gratis",
+        "description": "Ubah ukuran gambar Anda ke dimensi piksel yang tepat secara online. Alat pengubah ukuran gambar gratis, cepat, dan aman yang berjalan di browser Anda.",
+        "keywords": "image resizer, resize image, change dimensions, image scaling"
     },
     "title": "Image Resizer",
-    "description": "Resize images to specific dimensions while maintaining aspect ratio.",
+    "description": "Ubah ukuran gambar ke dimensi tertentu sambil mempertahankan rasio aspek.",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "Jatuhkan gambar di sini, atau klik untuk memilih"
     },
-    "width": "Width (px)",
-    "height": "Height (px)",
-    "maintainAspectRatio": "Maintain aspect ratio",
-    "resize": "Resize Image",
-    "download": "Download Resized Image",
-    "reset": "Reset",
-    "original": "Original: {width} x {height}",
-    "new": "New: {width} x {height}"
+    "width": "Lebar (px)",
+    "height": "Tinggi (px)",
+    "maintainAspectRatio": "Pertahankan rasio aspek",
+    "resize": "Ubah Ukuran Gambar",
+    "download": "Unduh Gambar yang Diubah Ukurannya",
+    "reset": "Atur Ulang",
+    "original": "Asli: {width} x {height}",
+    "new": "Baru: {width} x {height}"
 }
