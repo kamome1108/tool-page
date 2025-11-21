@@ -44,4 +44,34 @@ export const tools: Tool[] = [
         category: 'image',
         icon: '🖼️',
     },
+    {
+        id: 'image-converter',
+        slug: 'image-converter',
+        category: 'image',
+        icon: '🔄',
+    },
+    {
+        id: 'image-compressor',
+        slug: 'image-compressor',
+        category: 'image',
+        icon: '📉',
+    },
+    {
+        id: 'color-picker',
+        slug: 'color-picker',
+        category: 'image',
+        icon: '🎨',
+    },
+    {
+        id: 'image-blur',
+        slug: 'image-blur',
+        category: 'image',
+        icon: '🌫️',
+    },
+    {
+        id: 'image-rotate',
+        slug: 'image-rotate',
+        category: 'image',
+        icon: '↻',
+    },
 ];

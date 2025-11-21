@@ -1,0 +1,18 @@
+{
+    "meta": {
+        "title": "Image Compressor - Compress Images Online for Free",
+        "description": "Compress JPG, PNG, and WebP images online to reduce file size without losing quality. Free, fast, and secure image compression tool."
+    },
+    "title": "Image Compressor",
+    "description": "Reduce image file size while maintaining quality.",
+    "dropzone": {
+        "label": "Drop an image here, or click to select"
+    },
+    "quality": "Compression Level (0-100)",
+    "compress": "Compress Image",
+    "download": "Download Compressed Image",
+    "reset": "Reset",
+    "originalSize": "Original Size: {size}",
+    "compressedSize": "Compressed Size: {size}",
+    "savings": "Savings: {percent}%"
+}
