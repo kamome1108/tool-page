@@ -1,5 +1,6 @@
 import { Link } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
+import SearchInput from './SearchInput';
 import LanguageSwitcher from './LanguageSwitcher';
 
 interface HeaderProps {
@@ -19,7 +20,10 @@ export default function Header({ locale }: HeaderProps) {
                             <h1 className="text-xl font-bold text-gray-900">{t('title')}</h1>
                         </Link>
                     </div>
-                    <LanguageSwitcher locale={locale} />
+                    <div className="flex items-center space-x-4">
+                        <SearchInput />
+                        <LanguageSwitcher locale={locale} />
+                    </div>
                 </div>
             </div>
         </header>
