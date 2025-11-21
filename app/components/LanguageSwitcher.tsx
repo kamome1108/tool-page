@@ -2,9 +2,7 @@
 
 
 
-interface LanguageSwitcherProps {
-    locale: string;
-}
+
 
 import { usePathname, Link, routing } from '@/i18n/routing';
 

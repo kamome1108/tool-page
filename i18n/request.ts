@@ -4,7 +4,7 @@ import { tools } from '@/app/config/tools';
 export default getRequestConfig(async ({ requestLocale }) => {
     let locale = await requestLocale;
 
-    if (!locale || !['en', 'ja'].includes(locale)) {
+    if (!locale || !['en', 'ja', 'tl', 'hi', 'id', 'vi', 'th'].includes(locale)) {
         locale = 'en';
     }
 
