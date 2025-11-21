@@ -48,6 +48,7 @@ export default async function LocaleLayout({
   return (
     <html lang={resolvedParams.locale}>
       <head>
+        <meta name="google-adsense-account" content="ca-pub-9143019988533589" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9143019988533589" crossOrigin="anonymous"></script>
         {/* Google Analytics */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-81PNTEDXZM"></script>
