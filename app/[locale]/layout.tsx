@@ -19,10 +19,34 @@ const jetbrainsMono = JetBrains_Mono({
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Common.meta' });
+  const baseUrl = 'https://tool-page-29b.pages.dev'; // Replace with actual domain if different
 
   return {
     title: t('title'),
     description: t('description'),
+    openGraph: {
+      title: t('title'),
+      description: t('description'),
+      url: `${baseUrl}/${locale}`,
+      siteName: 'Tool Suite',
+      locale: locale,
+      type: 'website',
+      images: [
+        {
+          url: `${baseUrl}/og-image.png`,
+          width: 1200,
+          height: 630,
+          alt: 'Tool Suite',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: t('title'),
+      description: t('description'),
+      images: [`${baseUrl}/og-image.png`],
+    },
+    metadataBase: new URL(baseUrl),
   };
 }
 
@@ -34,6 +58,12 @@ interface LocaleLayoutProps {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 }
+
+import JsonLd from '@/app/components/JsonLd';
+
+// ... imports
+
+// ... generateMetadata
 
 export default async function LocaleLayout({
   children,
@@ -49,6 +79,18 @@ export default async function LocaleLayout({
 
   // Providing all messages to the client
   const messages = await getMessages();
+
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Tool Suite",
+    "url": "https://tool-page-29b.pages.dev",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://tool-page-29b.pages.dev/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  };
 
   return (
     <html lang={resolvedParams.locale}>
@@ -74,6 +116,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           <Header locale={resolvedParams.locale} />
           {children}
+          <JsonLd data={websiteSchema} />
         </NextIntlClientProvider>
       </body>
     </html>

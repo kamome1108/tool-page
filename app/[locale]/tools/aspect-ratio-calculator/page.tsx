@@ -1,8 +1,34 @@
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import AspectRatioCalculatorClient from './AspectRatioCalculatorClient';
+import JsonLd from '@/app/components/JsonLd';
 
-export default async function AspectRatioCalculatorPage({ params }: { params: Promise<{ locale: string }> }) {
+type Props = {
+    params: Promise<{ locale: string }>;
+};
+
+export default async function AspectRatioCalculatorPage({ params }: Props) {
     const { locale } = await params;
     setRequestLocale(locale);
-    return <AspectRatioCalculatorClient locale={locale} />;
+    const t = await getTranslations({ locale, namespace: 'Tools.AspectRatioCalculator' });
+
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": t('meta.title'),
+        "description": t('meta.description'),
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "Any",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    };
+
+    return (
+        <>
+            <JsonLd data={jsonLd} />
+            <AspectRatioCalculatorClient locale={locale} />
+        </>
+    );
 }
