@@ -1,0 +1,28 @@
+{
+    "meta": {
+        "title": "CSS Gradient Generator - Gumawa ng Magagandang Gradient",
+        "description": "Gumawa ng mga custom na CSS linear gradient gamit ang aming libreng online tool. Pumili ng mga kulay, direksyon, at kopyahin ang CSS code para sa iyong website."
+    },
+    "title": "CSS Gradient Generator",
+    "description": "Bumuo ng magagandang CSS gradient para sa iyong mga proyekto.",
+    "ui": {
+        "color1": "Kulay 1",
+        "color2": "Kulay 2",
+        "direction": "Direksyon",
+        "preview": "Preview",
+        "cssCode": "CSS Code",
+        "copy": "Kopyahin ang CSS",
+        "copied": "Nakopya na!",
+        "directions": {
+            "to right": "Pakanan",
+            "to left": "Pakaliwa",
+            "to bottom": "Pababa",
+            "to top": "Pataas",
+            "to bottom right": "Pababa Pakanan",
+            "to bottom left": "Pababa Pakaliwa",
+            "to top right": "Pataas Pakanan",
+            "to top left": "Pataas Pakaliwa"
+        },
+        "processingNote": "🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."
+    }
+}

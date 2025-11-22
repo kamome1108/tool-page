@@ -1,0 +1,28 @@
+{
+    "meta": {
+        "title": "Pembuat Gradien CSS - Buat Gradien Indah",
+        "description": "Buat gradien linier CSS khusus dengan alat online gratis kami. Pilih warna, arah, dan salin kode CSS untuk situs web Anda."
+    },
+    "title": "Pembuat Gradien CSS",
+    "description": "Hasilkan gradien CSS yang indah untuk proyek Anda.",
+    "ui": {
+        "color1": "Warna 1",
+        "color2": "Warna 2",
+        "direction": "Arah",
+        "preview": "Pratinjau",
+        "cssCode": "Kode CSS",
+        "copy": "Salin CSS",
+        "copied": "Disalin!",
+        "directions": {
+            "to right": "Ke Kanan",
+            "to left": "Ke Kiri",
+            "to bottom": "Ke Bawah",
+            "to top": "Ke Atas",
+            "to bottom right": "Ke Kanan Bawah",
+            "to bottom left": "Ke Kiri Bawah",
+            "to top right": "Ke Kanan Atas",
+            "to top left": "Ke Kiri Atas"
+        },
+        "processingNote": "🔒 Semua pemrosesan dilakukan di browser Anda."
+    }
+}

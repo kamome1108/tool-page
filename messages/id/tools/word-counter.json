@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "Penghitung Kata - Hitung Kata, Karakter, dan Kalimat",
+        "description": "Alat penghitung kata online gratis. Hitung kata, karakter, kalimat, dan paragraf dalam teks Anda secara real-time."
+    },
+    "title": "Penghitung Kata",
+    "description": "Hitung kata, karakter, kalimat, dan paragraf secara real-time.",
+    "ui": {
+        "input": "Ketik atau tempel teks Anda di sini...",
+        "stats": {
+            "words": "Kata",
+            "characters": "Karakter",
+            "sentences": "Kalimat",
+            "paragraphs": "Paragraf"
+        },
+        "clear": "Hapus Teks",
+        "processingNote": "🔒 Semua pemrosesan dilakukan di browser Anda."
+    }
+}

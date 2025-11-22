@@ -1,0 +1,28 @@
+{
+    "meta": {
+        "title": "CSS Gradient Generator - Create Beautiful Gradients",
+        "description": "Create custom CSS linear gradients with our free online tool. Choose colors, direction, and copy the CSS code for your website."
+    },
+    "title": "CSS Gradient Generator",
+    "description": "Generate beautiful CSS gradients for your projects.",
+    "ui": {
+        "color1": "Color 1",
+        "color2": "Color 2",
+        "direction": "Direction",
+        "preview": "Preview",
+        "cssCode": "CSS Code",
+        "copy": "Copy CSS",
+        "copied": "Copied!",
+        "directions": {
+            "to right": "To Right",
+            "to left": "To Left",
+            "to bottom": "To Bottom",
+            "to top": "To Top",
+            "to bottom right": "To Bottom Right",
+            "to bottom left": "To Bottom Left",
+            "to top right": "To Top Right",
+            "to top left": "To Top Left"
+        },
+        "processingNote": "🔒 All processing is done in your browser."
+    }
+}

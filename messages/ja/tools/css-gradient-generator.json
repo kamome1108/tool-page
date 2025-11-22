@@ -1,0 +1,28 @@
+{
+    "meta": {
+        "title": "CSSグラデーションジェネレーター - 美しいグラデーションを作成",
+        "description": "無料のオンラインツールでカスタムCSS線形グラデーションを作成します。色と方向を選択し、Webサイト用のCSSコードをコピーできます。"
+    },
+    "title": "CSSグラデーションジェネレーター",
+    "description": "プロジェクト用に美しいCSSグラデーションを生成します。",
+    "ui": {
+        "color1": "色 1",
+        "color2": "色 2",
+        "direction": "方向",
+        "preview": "プレビュー",
+        "cssCode": "CSSコード",
+        "copy": "CSSをコピー",
+        "copied": "コピーしました！",
+        "directions": {
+            "to right": "右へ",
+            "to left": "左へ",
+            "to bottom": "下へ",
+            "to top": "上へ",
+            "to bottom right": "右下へ",
+            "to bottom left": "左下へ",
+            "to top right": "右上へ",
+            "to top left": "左上へ"
+        },
+        "processingNote": "🔒 すべての処理はブラウザ上で行われます。"
+    }
+}

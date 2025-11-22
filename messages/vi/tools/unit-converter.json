@@ -1,0 +1,39 @@
+{
+    "meta": {
+        "title": "Bộ chuyển đổi đơn vị - Chiều dài, Cân nặng, Nhiệt độ",
+        "description": "Công cụ chuyển đổi đơn vị trực tuyến miễn phí. Chuyển đổi giữa các đơn vị đo chiều dài, cân nặng và nhiệt độ phổ biến một cách dễ dàng."
+    },
+    "title": "Bộ chuyển đổi đơn vị",
+    "description": "Chuyển đổi giữa các đơn vị đo lường khác nhau.",
+    "ui": {
+        "category": "Danh mục",
+        "from": "Từ",
+        "to": "Sang",
+        "input": "Giá trị",
+        "result": "Kết quả",
+        "categories": {
+            "length": "Chiều dài",
+            "weight": "Cân nặng",
+            "temperature": "Nhiệt độ"
+        },
+        "units": {
+            "meters": "Mét (m)",
+            "kilometers": "Kilômét (km)",
+            "centimeters": "Centimét (cm)",
+            "millimeters": "Milimét (mm)",
+            "inches": "Inch (in)",
+            "feet": "Feet (ft)",
+            "yards": "Yard (yd)",
+            "miles": "Dặm (mi)",
+            "kilograms": "Kilôgam (kg)",
+            "grams": "Gam (g)",
+            "milligrams": "Miligam (mg)",
+            "pounds": "Pound (lb)",
+            "ounces": "Ounce (oz)",
+            "celsius": "Độ C (°C)",
+            "fahrenheit": "Độ F (°F)",
+            "kelvin": "Kelvin (K)"
+        },
+        "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."
+    }
+}

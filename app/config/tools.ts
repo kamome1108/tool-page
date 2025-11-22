@@ -122,4 +122,34 @@ export const tools: Tool[] = [
         category: 'media',
         icon: '🖼️',
     },
+    {
+        id: 'hashtag-generator',
+        slug: 'hashtag-generator',
+        category: 'social',
+        icon: '#️⃣',
+    },
+    {
+        id: 'password-strength-checker',
+        slug: 'password-strength-checker',
+        category: 'security',
+        icon: '🛡️',
+    },
+    {
+        id: 'css-gradient-generator',
+        slug: 'css-gradient-generator',
+        category: 'design',
+        icon: '🌈',
+    },
+    {
+        id: 'word-counter',
+        slug: 'word-counter',
+        category: 'writing',
+        icon: '📝',
+    },
+    {
+        id: 'unit-converter',
+        slug: 'unit-converter',
+        category: 'utilities',
+        icon: '⚖️',
+    },
 ];

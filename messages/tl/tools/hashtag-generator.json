@@ -1,0 +1,18 @@
+{
+    "meta": {
+        "title": "Hashtag Generator - Palakasin ang Iyong Social Reach",
+        "description": "Bumuo ng mga nauugnay na hashtag para sa iyong mga post sa social media. Palakihin ang visibility sa Instagram, Twitter, TikTok, at iba pa gamit ang aming libreng hashtag generator."
+    },
+    "title": "Hashtag Generator",
+    "description": "Bumuo ng mga epektibong hashtag upang mapataas ang iyong abot sa social media.",
+    "ui": {
+        "input": "Maglagay ng mga keyword o teksto",
+        "generate": "Bumuo ng mga Hashtag",
+        "copy": "Kopyahin Lahat",
+        "copied": "Nakopya na!",
+        "clear": "I-clear",
+        "results": "Mga Nabuong Hashtag",
+        "noResults": "Maglagay ng mga keyword upang bumuo ng mga hashtag.",
+        "processingNote": "🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "meta": {
+        "title": "Unit Converter - Haba, Timbang, Temperatura",
+        "description": "Libreng online na tool sa pag-convert ng unit. Madaling mag-convert sa pagitan ng mga karaniwang unit ng haba, timbang, at temperatura."
+    },
+    "title": "Unit Converter",
+    "description": "Mag-convert sa pagitan ng iba't ibang unit ng pagsukat.",
+    "ui": {
+        "category": "Kategorya",
+        "from": "Mula sa",
+        "to": "Sa",
+        "input": "Halaga",
+        "result": "Resulta",
+        "categories": {
+            "length": "Haba",
+            "weight": "Timbang",
+            "temperature": "Temperatura"
+        },
+        "units": {
+            "meters": "Metro (m)",
+            "kilometers": "Kilometro (km)",
+            "centimeters": "Sentimetro (cm)",
+            "millimeters": "Milimetro (mm)",
+            "inches": "Pulgada (in)",
+            "feet": "Talampakan (ft)",
+            "yards": "Yard (yd)",
+            "miles": "Milya (mi)",
+            "kilograms": "Kilogramo (kg)",
+            "grams": "Gramo (g)",
+            "milligrams": "Miligramo (mg)",
+            "pounds": "Pounds (lb)",
+            "ounces": "Ounces (oz)",
+            "celsius": "Celsius (°C)",
+            "fahrenheit": "Fahrenheit (°F)",
+            "kelvin": "Kelvin (K)"
+        },
+        "processingNote": "🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "meta": {
+        "title": "Trình tạo Gradient CSS - Tạo Gradient đẹp",
+        "description": "Tạo gradient tuyến tính CSS tùy chỉnh với công cụ trực tuyến miễn phí của chúng tôi. Chọn màu sắc, hướng và sao chép mã CSS cho trang web của bạn."
+    },
+    "title": "Trình tạo Gradient CSS",
+    "description": "Tạo gradient CSS đẹp cho các dự án của bạn.",
+    "ui": {
+        "color1": "Màu 1",
+        "color2": "Màu 2",
+        "direction": "Hướng",
+        "preview": "Xem trước",
+        "cssCode": "Mã CSS",
+        "copy": "Sao chép CSS",
+        "copied": "Đã sao chép!",
+        "directions": {
+            "to right": "Sang phải",
+            "to left": "Sang trái",
+            "to bottom": "Xuống dưới",
+            "to top": "Lên trên",
+            "to bottom right": "Xuống dưới bên phải",
+            "to bottom left": "Xuống dưới bên trái",
+            "to top right": "Lên trên bên phải",
+            "to top left": "Lên trên bên trái"
+        },
+        "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."
+    }
+}
