@@ -1,18 +1,14 @@
 {
     "meta": {
-        "title": "Generator Kode QR Gratis | Buat Kode QR Kustom",
-        "description": "Buat kode QR kustom gratis untuk URL, teks, dan lainnya. Sesuaikan warna, ukuran, dan unduh dalam format PNG atau JPG.",
-        "keywords": "generator kode qr, buat kode qr, kode qr gratis, kode qr kustom"
+        "title": "Pembuat Kode QR - Buat Kode QR Gratis",
+        "description": "Pembuat Kode QR online gratis. Buat kode QR untuk URL, teks, email, dan lainnya. Unduh kode QR Anda sebagai gambar secara instan."
     },
-    "title": "Generator Kode QR",
-    "description": "Buat kode QR kustom secara instan. Masukkan teks atau URL Anda, sesuaikan desain, dan unduh dalam resolusi tinggi.",
-    "inputLabel": "Konten",
-    "inputPlaceholder": "Masukkan teks atau URL di sini...",
-    "size": "Ukuran",
-    "fgColor": "Warna Depan",
-    "bgColor": "Warna Latar Belakang",
-    "includeMargin": "Sertakan Margin",
-    "previewPlaceholder": "Masukkan teks untuk membuat kode QR",
-    "downloadPng": "Unduh PNG",
-    "downloadJpg": "Unduh JPG"
+    "title": "Pembuat Kode QR",
+    "description": "Hasilkan kode QR untuk URL, teks, dan lainnya.",
+    "ui": {
+        "inputLabel": "Masukkan Teks atau URL",
+        "generate": "Hasilkan Kode QR",
+        "download": "Unduh Gambar",
+        "processingNote": "🔒 Semua pemrosesan dilakukan di browser Anda."
+    }
 }

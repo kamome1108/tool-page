@@ -1,21 +1,20 @@
 {
     "meta": {
-        "title": "Lorem Ipsum 生成ツール - 無料ダミーテキスト作成",
-        "description": "デザインやレイアウト用のLorem Ipsumダミーテキストを生成します。段落、文、単語数をカスタマイズ可能。無料のオンラインツールです。"
+        "title": "Lorem Ipsum 生成 - ダミーテキスト作成",
+        "description": "無料のオンラインLorem Ipsum生成ツール。デザインやレイアウト用のダミーテキストを生成します。段落、文、単語の数をカスタマイズできます。"
     },
     "title": "Lorem Ipsum 生成",
-    "description": "デザインやレイアウト確認用のダミーテキストを生成します。",
+    "description": "デザイン用のダミーテキストを生成します。",
     "ui": {
-        "type": "単位",
+        "count": "数",
+        "type": "タイプ",
         "paragraphs": "段落",
         "sentences": "文",
         "words": "単語",
-        "count": "数",
-        "startWith": "'Lorem ipsum...' で始める",
-        "generate": "生成",
-        "copy": "コピー",
+        "generate": "テキストを生成",
+        "result": "生成されたテキスト",
+        "copy": "テキストをコピー",
         "copied": "コピーしました！",
-        "clear": "クリア",
         "processingNote": "🔒 すべての処理はブラウザ上で行われます。"
     }
 }

@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "Bộ chuyển đổi màu - Bộ chuyển đổi HEX, RGB, HSL",
+        "description": "Bộ chuyển đổi màu trực tuyến miễn phí. Chuyển đổi màu giữa các định dạng HEX, RGB và HSL. Xem trước màu sắc và sao chép giá trị ngay lập tức."
+    },
+    "title": "Bộ chuyển đổi màu",
+    "description": "Chuyển đổi màu giữa các định dạng HEX, RGB và HSL.",
+    "ui": {
+        "inputLabel": "Nhập màu (HEX, RGB hoặc HSL)",
+        "preview": "Xem trước",
+        "hex": "HEX",
+        "rgb": "RGB",
+        "hsl": "HSL",
+        "copy": "Sao chép",
+        "copied": "Đã sao chép!",
+        "invalidColor": "Định dạng màu không hợp lệ",
+        "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."
+    }
+}

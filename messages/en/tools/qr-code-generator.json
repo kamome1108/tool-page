@@ -1,18 +1,14 @@
 {
     "meta": {
-        "title": "Free QR Code Generator | Create Custom QR Codes",
-        "description": "Generate free custom QR codes for URLs, text, Wi-Fi, and more. Customize colors, size, and download in high quality PNG or JPG format.",
-        "keywords": "qr code generator, create qr code, free qr code, custom qr code, qr code maker"
+        "title": "QR Code Generator - Create Free QR Codes",
+        "description": "Free online QR Code generator. Create QR codes for URLs, text, email, and more. Download your QR code as an image instantly."
     },
     "title": "QR Code Generator",
-    "description": "Create custom QR codes instantly. Enter your text or URL, customize the design, and download in high resolution.",
-    "inputLabel": "Content",
-    "inputPlaceholder": "Enter text or URL here...",
-    "size": "Size",
-    "fgColor": "Foreground Color",
-    "bgColor": "Background Color",
-    "includeMargin": "Include Margin",
-    "previewPlaceholder": "Enter text to generate QR code",
-    "downloadPng": "Download PNG",
-    "downloadJpg": "Download JPG"
+    "description": "Generate QR codes for URLs, text, and more.",
+    "ui": {
+        "inputLabel": "Enter Text or URL",
+        "generate": "Generate QR Code",
+        "download": "Download Image",
+        "processingNote": "🔒 All processing is done in your browser."
+    }
 }

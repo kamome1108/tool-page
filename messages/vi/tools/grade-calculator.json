@@ -1,0 +1,18 @@
+{
+    "meta": {
+        "title": "Máy tính điểm - Tính điểm thi cuối kỳ cần thiết",
+        "description": "Máy tính điểm trực tuyến miễn phí. Tính toán số điểm bạn cần trong bài kiểm tra cuối kỳ để đạt được điểm số mục tiêu của khóa học. Đơn giản và dễ sử dụng."
+    },
+    "title": "Máy tính điểm",
+    "description": "Tính điểm số bạn cần trong bài kiểm tra cuối kỳ để đạt được điểm số mục tiêu.",
+    "ui": {
+        "currentGrade": "Điểm hiện tại (%)",
+        "targetGrade": "Điểm mục tiêu (%)",
+        "finalWeight": "Trọng số bài thi cuối kỳ (%)",
+        "calculate": "Tính toán",
+        "result": "Bạn cần đạt được:",
+        "impossible": "Không thể đạt được điểm số này.",
+        "alreadyAchieved": "Bạn đã đạt được điểm số mục tiêu!",
+        "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."
+    }
+}

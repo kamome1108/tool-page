@@ -1,21 +1,20 @@
 {
     "meta": {
-        "title": "Lorem Ipsum Generator - Free Dummy Text Generator",
-        "description": "Generate Lorem Ipsum placeholder text for your designs. Customize paragraphs, sentences, or words. Free online tool."
+        "title": "Lorem Ipsum Generator - Dummy Text Generator",
+        "description": "Free online Lorem Ipsum generator. Generate dummy text for your designs and layouts. Customize the number of paragraphs, sentences, or words."
     },
     "title": "Lorem Ipsum Generator",
-    "description": "Generate placeholder text for your designs and layouts.",
+    "description": "Generate placeholder text for your designs.",
     "ui": {
+        "count": "Count",
         "type": "Type",
         "paragraphs": "Paragraphs",
         "sentences": "Sentences",
         "words": "Words",
-        "count": "Count",
-        "startWith": "Start with 'Lorem ipsum...'",
-        "generate": "Generate",
-        "copy": "Copy",
+        "generate": "Generate Text",
+        "result": "Generated Text",
+        "copy": "Copy Text",
         "copied": "Copied!",
-        "clear": "Clear",
         "processingNote": "🔒 All processing is done in your browser."
     }
 }

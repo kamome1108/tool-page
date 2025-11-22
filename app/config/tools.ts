@@ -182,4 +182,34 @@ export const tools: Tool[] = [
         category: 'media',
         icon: '▶️',
     },
+    {
+        id: 'grade-calculator',
+        slug: 'grade-calculator',
+        category: 'education',
+        icon: '💯',
+    },
+    {
+        id: 'random-password-generator',
+        slug: 'random-password-generator',
+        category: 'security',
+        icon: '🔐',
+    },
+    {
+        id: 'color-converter',
+        slug: 'color-converter',
+        category: 'design',
+        icon: '🎨',
+    },
+    {
+        id: 'lorem-ipsum-generator',
+        slug: 'lorem-ipsum-generator',
+        category: 'writing',
+        icon: '📝',
+    },
+    {
+        id: 'qr-code-generator',
+        slug: 'qr-code-generator',
+        category: 'utilities',
+        icon: '📱',
+    },
 ];

@@ -1,10 +1,10 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import ToolLayout from '@/app/components/ToolLayout';
-import QrCodeGeneratorClient from './QRCodeGeneratorClient';
+import RandomPasswordGeneratorClient from './RandomPasswordGeneratorClient';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
     const { locale } = await params;
-    const t = await getTranslations({ locale, namespace: 'Tools.qr-code-generator' });
+    const t = await getTranslations({ locale, namespace: 'Tools.random-password-generator' });
 
     return {
         title: t('meta.title'),
@@ -12,17 +12,17 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     };
 }
 
-export default async function QrCodeGeneratorPage({ params }: { params: Promise<{ locale: string }> }) {
+export default async function RandomPasswordGeneratorPage({ params }: { params: Promise<{ locale: string }> }) {
     const { locale } = await params;
     setRequestLocale(locale);
-    const t = await getTranslations({ locale, namespace: 'Tools.qr-code-generator' });
+    const t = await getTranslations({ locale, namespace: 'Tools.random-password-generator' });
 
     return (
         <ToolLayout
             title={t('title')}
             description={t('description')}
         >
-            <QrCodeGeneratorClient locale={locale} />
+            <RandomPasswordGeneratorClient locale={locale} />
         </ToolLayout>
     );
 }

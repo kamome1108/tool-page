@@ -1,21 +1,20 @@
 {
     "meta": {
-        "title": "Lorem Ipsum Generator - Generator Teks Dummy Gratis",
-        "description": "Hasilkan teks placeholder Lorem Ipsum untuk desain Anda. Sesuaikan paragraf, kalimat, atau kata. Alat online gratis."
+        "title": "Pembuat Lorem Ipsum - Pembuat Teks Dummy",
+        "description": "Pembuat Lorem Ipsum online gratis. Buat teks dummy untuk desain dan tata letak Anda. Sesuaikan jumlah paragraf, kalimat, atau kata."
     },
-    "title": "Lorem Ipsum Generator",
-    "description": "Hasilkan teks placeholder untuk desain dan tata letak Anda.",
+    "title": "Pembuat Lorem Ipsum",
+    "description": "Buat teks placeholder untuk desain Anda.",
     "ui": {
+        "count": "Jumlah",
         "type": "Tipe",
         "paragraphs": "Paragraf",
         "sentences": "Kalimat",
         "words": "Kata",
-        "count": "Jumlah",
-        "startWith": "Mulai dengan 'Lorem ipsum...'",
-        "generate": "Hasilkan",
-        "copy": "Salin",
+        "generate": "Hasilkan Teks",
+        "result": "Teks yang Dihasilkan",
+        "copy": "Salin Teks",
         "copied": "Disalin!",
-        "clear": "Bersihkan",
         "processingNote": "🔒 Semua pemrosesan dilakukan di browser Anda."
     }
 }

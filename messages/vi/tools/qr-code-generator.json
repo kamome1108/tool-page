@@ -1,18 +1,14 @@
 {
     "meta": {
-        "title": "Trình tạo mã QR miễn phí | Tạo mã QR tùy chỉnh",
-        "description": "Tạo mã QR tùy chỉnh miễn phí cho URL, văn bản và hơn thế nữa. Tùy chỉnh màu sắc, kích thước và tải xuống ở định dạng PNG hoặc JPG.",
-        "keywords": "trình tạo mã qr, tạo mã qr, mã qr miễn phí, mã qr tùy chỉnh"
+        "title": "Trình tạo mã QR - Tạo mã QR miễn phí",
+        "description": "Trình tạo mã QR trực tuyến miễn phí. Tạo mã QR cho URL, văn bản, email và hơn thế nữa. Tải xuống mã QR của bạn dưới dạng hình ảnh ngay lập tức."
     },
     "title": "Trình tạo mã QR",
-    "description": "Tạo mã QR tùy chỉnh ngay lập tức. Nhập văn bản hoặc URL của bạn, tùy chỉnh thiết kế và tải xuống ở độ phân giải cao.",
-    "inputLabel": "Nội dung",
-    "inputPlaceholder": "Nhập văn bản hoặc URL tại đây...",
-    "size": "Kích thước",
-    "fgColor": "Màu nền trước",
-    "bgColor": "Màu nền sau",
-    "includeMargin": "Bao gồm lề",
-    "previewPlaceholder": "Nhập văn bản để tạo mã QR",
-    "downloadPng": "Tải xuống PNG",
-    "downloadJpg": "Tải xuống JPG"
+    "description": "Tạo mã QR cho URL, văn bản và hơn thế nữa.",
+    "ui": {
+        "inputLabel": "Nhập văn bản hoặc URL",
+        "generate": "Tạo mã QR",
+        "download": "Tải xuống hình ảnh",
+        "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."
+    }
 }

@@ -1,0 +1,18 @@
+{
+    "meta": {
+        "title": "Grade Calculator - Calculate Required Final Exam Score",
+        "description": "Free online grade calculator. Calculate what grade you need on your final exam to achieve your target course grade. Simple and easy to use."
+    },
+    "title": "Grade Calculator",
+    "description": "Calculate the score you need on your final exam to reach your target grade.",
+    "ui": {
+        "currentGrade": "Current Grade (%)",
+        "targetGrade": "Target Grade (%)",
+        "finalWeight": "Final Exam Weight (%)",
+        "calculate": "Calculate",
+        "result": "You need to score:",
+        "impossible": "It is impossible to achieve this grade.",
+        "alreadyAchieved": "You have already achieved your target grade!",
+        "processingNote": "🔒 All processing is done in your browser."
+    }
+}
