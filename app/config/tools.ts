@@ -86,4 +86,10 @@ export const tools: Tool[] = [
         category: 'dev',
         icon: '🔤',
     },
+    {
+        id: 'lorem-ipsum-generator',
+        slug: 'lorem-ipsum-generator',
+        category: 'writing',
+        icon: '📝',
+    },
 ];

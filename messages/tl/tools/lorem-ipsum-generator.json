@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "title": "Lorem Ipsum Generator - Libreng Dummy Text Generator",
+        "description": "Bumuo ng Lorem Ipsum placeholder text para sa iyong mga disenyo. I-customize ang mga talata, pangungusap, o salita. Libreng online tool."
+    },
+    "title": "Lorem Ipsum Generator",
+    "description": "Bumuo ng placeholder text para sa iyong mga disenyo at layout.",
+    "ui": {
+        "type": "Uri",
+        "paragraphs": "Mga Talata",
+        "sentences": "Mga Pangungusap",
+        "words": "Mga Salita",
+        "count": "Bilang",
+        "startWith": "Magsimula sa 'Lorem ipsum...'",
+        "generate": "Bumuo",
+        "copy": "Kopyahin",
+        "copied": "Nakopya na!",
+        "clear": "I-clear",
+        "processingNote": "🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."
+    }
+}

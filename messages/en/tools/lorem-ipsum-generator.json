@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "title": "Lorem Ipsum Generator - Free Dummy Text Generator",
+        "description": "Generate Lorem Ipsum placeholder text for your designs. Customize paragraphs, sentences, or words. Free online tool."
+    },
+    "title": "Lorem Ipsum Generator",
+    "description": "Generate placeholder text for your designs and layouts.",
+    "ui": {
+        "type": "Type",
+        "paragraphs": "Paragraphs",
+        "sentences": "Sentences",
+        "words": "Words",
+        "count": "Count",
+        "startWith": "Start with 'Lorem ipsum...'",
+        "generate": "Generate",
+        "copy": "Copy",
+        "copied": "Copied!",
+        "clear": "Clear",
+        "processingNote": "🔒 All processing is done in your browser."
+    }
+}
