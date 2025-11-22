@@ -1,0 +1,20 @@
+{
+    "meta": {
+        "title": "GPA Calculator - Kalkulahin ang Iyong Grade Point Average",
+        "description": "Madaling kalkulahin ang iyong GPA sa kolehiyo o high school. Magdagdag ng mga kurso, kredito, at grado upang makita ang iyong semester at pinagsama-samang GPA."
+    },
+    "title": "GPA Calculator",
+    "description": "Kalkulahin ang iyong Grade Point Average (GPA) batay sa iyong mga grado at kredito.",
+    "ui": {
+        "course": "Pangalan ng Kurso",
+        "grade": "Grado",
+        "credits": "Mga Kredito",
+        "addCourse": "Magdagdag ng Kurso",
+        "remove": "Alisin",
+        "calculate": "Kalkulahin ang GPA",
+        "reset": "I-reset",
+        "semesterGPA": "Semester GPA",
+        "totalCredits": "Kabuuang Kredito",
+        "processingNote": "🔒 Ang lahat ng pagkalkula ay ginagawa sa iyong browser."
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "title": "Trình tải xuống hình thu nhỏ YouTube - Nhận hình thu nhỏ HD",
+        "description": "Tải xuống hình thu nhỏ video YouTube ở Chất lượng cao (HD), Trung bình hoặc Tiêu chuẩn. Công cụ trực tuyến miễn phí để trích xuất hình thu nhỏ từ video YouTube."
+    },
+    "title": "Trình tải xuống hình thu nhỏ YouTube",
+    "description": "Tải xuống hình thu nhỏ từ bất kỳ video YouTube nào với nhiều chất lượng khác nhau.",
+    "ui": {
+        "input": "URL video YouTube",
+        "getThumbnails": "Lấy hình thu nhỏ",
+        "error": "URL YouTube không hợp lệ",
+        "qualities": {
+            "maxres": "Độ phân giải tối đa (HD)",
+            "high": "Chất lượng cao",
+            "medium": "Chất lượng trung bình",
+            "standard": "Chất lượng tiêu chuẩn"
+        },
+        "download": "Tải xuống",
+        "openNewTab": "Mở trong tab mới",
+        "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."
+    }
+}

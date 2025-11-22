@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "title": "YouTube Thumbnail Downloader - Get HD Thumbnails",
+        "description": "Download YouTube video thumbnails in High Quality (HD), Medium, or Standard quality. Free online tool to extract thumbnails from YouTube videos."
+    },
+    "title": "YouTube Thumbnail Downloader",
+    "description": "Download thumbnails from any YouTube video in various qualities.",
+    "ui": {
+        "input": "YouTube Video URL",
+        "getThumbnails": "Get Thumbnails",
+        "error": "Invalid YouTube URL",
+        "qualities": {
+            "maxres": "Max Resolution (HD)",
+            "high": "High Quality",
+            "medium": "Medium Quality",
+            "standard": "Standard Quality"
+        },
+        "download": "Download",
+        "openNewTab": "Open in New Tab",
+        "processingNote": "🔒 All processing is done in your browser."
+    }
+}

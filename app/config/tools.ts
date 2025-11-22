@@ -92,4 +92,34 @@ export const tools: Tool[] = [
         category: 'writing',
         icon: '📝',
     },
+    {
+        id: 'discount-calculator',
+        slug: 'discount-calculator',
+        category: 'finance',
+        icon: '🏷️',
+    },
+    {
+        id: 'pomodoro-timer',
+        slug: 'pomodoro-timer',
+        category: 'productivity',
+        icon: '🍅',
+    },
+    {
+        id: 'url-encoder-decoder',
+        slug: 'url-encoder-decoder',
+        category: 'web',
+        icon: '🔗',
+    },
+    {
+        id: 'gpa-calculator',
+        slug: 'gpa-calculator',
+        category: 'education',
+        icon: '🎓',
+    },
+    {
+        id: 'youtube-thumbnail-downloader',
+        slug: 'youtube-thumbnail-downloader',
+        category: 'media',
+        icon: '🖼️',
+    },
 ];

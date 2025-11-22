@@ -1,0 +1,18 @@
+{
+    "meta": {
+        "title": "Discount Calculator - Kalkulahin ang Huling Presyo at Matitipid",
+        "description": "Kalkulahin ang huling presyo pagkatapos ng discount at buwis. Alamin kung magkano ang matitipid mo gamit ang aming libreng online discount calculator."
+    },
+    "title": "Discount Calculator",
+    "description": "Kalkulahin ang huling presyo at matitipid pagkatapos ilapat ang discount at buwis.",
+    "ui": {
+        "originalPrice": "Orihinal na Presyo",
+        "discount": "Discount (%)",
+        "tax": "Buwis (%)",
+        "calculate": "Kalkulahin",
+        "finalPrice": "Huling Presyo",
+        "youSave": "Matitipid Mo",
+        "reset": "I-reset",
+        "processingNote": "🔒 Ang lahat ng pagkalkula ay ginagawa sa iyong browser."
+    }
+}

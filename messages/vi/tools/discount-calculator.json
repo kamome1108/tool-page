@@ -1,0 +1,18 @@
+{
+    "meta": {
+        "title": "Máy tính giảm giá - Tính giá cuối cùng & Tiết kiệm",
+        "description": "Tính giá cuối cùng sau khi giảm giá và thuế. Tìm hiểu xem bạn tiết kiệm được bao nhiêu với công cụ tính giảm giá trực tuyến miễn phí của chúng tôi."
+    },
+    "title": "Máy tính giảm giá",
+    "description": "Tính giá cuối cùng và số tiền tiết kiệm được sau khi áp dụng giảm giá và thuế.",
+    "ui": {
+        "originalPrice": "Giá gốc",
+        "discount": "Giảm giá (%)",
+        "tax": "Thuế (%)",
+        "calculate": "Tính toán",
+        "finalPrice": "Giá cuối cùng",
+        "youSave": "Bạn tiết kiệm",
+        "reset": "Đặt lại",
+        "processingNote": "🔒 Tất cả các tính toán được thực hiện trong trình duyệt của bạn."
+    }
+}

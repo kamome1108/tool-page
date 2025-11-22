@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "title": "Hẹn giờ Pomodoro - Tăng năng suất trực tuyến",
+        "description": "Tăng năng suất của bạn với Hẹn giờ Pomodoro trực tuyến miễn phí của chúng tôi. Tùy chỉnh khoảng thời gian làm việc và nghỉ ngơi. Tập trung và hoàn thành nhiều việc hơn."
+    },
+    "title": "Hẹn giờ Pomodoro",
+    "description": "Giữ sự tập trung và năng suất với Kỹ thuật Pomodoro.",
+    "ui": {
+        "work": "Làm việc",
+        "break": "Nghỉ giải lao",
+        "start": "Bắt đầu",
+        "pause": "Tạm dừng",
+        "reset": "Đặt lại",
+        "status": {
+            "work": "Thời gian tập trung!",
+            "break": "Nghỉ ngơi nào!"
+        },
+        "settings": "Cài đặt",
+        "workDuration": "Thời gian làm việc (phút)",
+        "breakDuration": "Thời gian nghỉ (phút)",
+        "processingNote": "🔒 Bộ hẹn giờ chạy cục bộ trong trình duyệt của bạn."
+    }
+}

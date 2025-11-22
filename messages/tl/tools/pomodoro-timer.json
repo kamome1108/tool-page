@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "title": "Pomodoro Timer - Palakasin ang Produktibidad Online",
+        "description": "Palakasin ang iyong produktibidad gamit ang aming libreng online na Pomodoro Timer. I-customize ang mga interval ng trabaho at pahinga. Manatiling nakatutok at gumawa ng higit pa."
+    },
+    "title": "Pomodoro Timer",
+    "description": "Manatiling nakatutok at produktibo gamit ang Pomodoro Technique.",
+    "ui": {
+        "work": "Trabaho",
+        "break": "Pahinga",
+        "start": "Simulan",
+        "pause": "I-pause",
+        "reset": "I-reset",
+        "status": {
+            "work": "Oras ng Focus!",
+            "break": "Magpahinga Muna!"
+        },
+        "settings": "Mga Setting",
+        "workDuration": "Tagal ng Trabaho (min)",
+        "breakDuration": "Tagal ng Pahinga (min)",
+        "processingNote": "🔒 Ang timer ay tumatakbo nang lokal sa iyong browser."
+    }
+}

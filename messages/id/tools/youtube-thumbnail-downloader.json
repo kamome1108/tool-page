@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "title": "Pengunduh Thumbnail YouTube - Dapatkan Thumbnail HD",
+        "description": "Unduh thumbnail video YouTube dalam Kualitas Tinggi (HD), Sedang, atau Standar. Alat online gratis untuk mengekstrak thumbnail dari video YouTube."
+    },
+    "title": "Pengunduh Thumbnail YouTube",
+    "description": "Unduh thumbnail dari video YouTube mana pun dalam berbagai kualitas.",
+    "ui": {
+        "input": "URL Video YouTube",
+        "getThumbnails": "Dapatkan Thumbnail",
+        "error": "URL YouTube tidak valid",
+        "qualities": {
+            "maxres": "Resolusi Maksimum (HD)",
+            "high": "Kualitas Tinggi",
+            "medium": "Kualitas Sedang",
+            "standard": "Kualitas Standar"
+        },
+        "download": "Unduh",
+        "openNewTab": "Buka di Tab Baru",
+        "processingNote": "🔒 Semua pemrosesan dilakukan di browser Anda."
+    }
+}

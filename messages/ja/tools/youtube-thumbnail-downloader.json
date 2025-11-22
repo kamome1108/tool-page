@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "title": "YouTubeサムネイルダウンローダー - 高画質取得",
+        "description": "YouTube動画のサムネイルを高画質（HD）、中画質、標準画質でダウンロードできます。YouTube動画からサムネイルを抽出する無料オンラインツール。"
+    },
+    "title": "YouTubeサムネイルダウンローダー",
+    "description": "YouTube動画から様々な画質のサムネイルをダウンロードします。",
+    "ui": {
+        "input": "YouTube動画URL",
+        "getThumbnails": "サムネイルを取得",
+        "error": "無効なYouTube URLです",
+        "qualities": {
+            "maxres": "最大解像度 (HD)",
+            "high": "高画質",
+            "medium": "中画質",
+            "standard": "標準画質"
+        },
+        "download": "ダウンロード",
+        "openNewTab": "新しいタブで開く",
+        "processingNote": "🔒 すべての処理はブラウザ上で行われます。"
+    }
+}

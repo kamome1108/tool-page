@@ -1,0 +1,18 @@
+{
+    "meta": {
+        "title": "Discount Calculator - Calculate Final Price & Savings",
+        "description": "Calculate the final price after discount and tax. Find out how much you save with our free online discount calculator."
+    },
+    "title": "Discount Calculator",
+    "description": "Calculate the final price and savings after applying a discount and tax.",
+    "ui": {
+        "originalPrice": "Original Price",
+        "discount": "Discount (%)",
+        "tax": "Tax (%)",
+        "calculate": "Calculate",
+        "finalPrice": "Final Price",
+        "youSave": "You Save",
+        "reset": "Reset",
+        "processingNote": "🔒 All calculations are done in your browser."
+    }
+}

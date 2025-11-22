@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "title": "YouTube Thumbnail Downloader - Kumuha ng HD Thumbnails",
+        "description": "I-download ang mga thumbnail ng video sa YouTube sa High Quality (HD), Medium, o Standard na kalidad. Libreng online tool upang kumuha ng mga thumbnail mula sa mga video sa YouTube."
+    },
+    "title": "YouTube Thumbnail Downloader",
+    "description": "I-download ang mga thumbnail mula sa anumang video sa YouTube sa iba't ibang kalidad.",
+    "ui": {
+        "input": "URL ng Video sa YouTube",
+        "getThumbnails": "Kumuha ng mga Thumbnail",
+        "error": "Hindi wastong URL ng YouTube",
+        "qualities": {
+            "maxres": "Max Resolution (HD)",
+            "high": "Mataas na Kalidad",
+            "medium": "Katamtamang Kalidad",
+            "standard": "Karaniwang Kalidad"
+        },
+        "download": "I-download",
+        "openNewTab": "Buksan sa Bagong Tab",
+        "processingNote": "🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."
+    }
+}
