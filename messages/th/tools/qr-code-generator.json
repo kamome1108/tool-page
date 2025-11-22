@@ -1,0 +1,18 @@
+{
+    "meta": {
+        "title": "เครื่องสร้าง QR Code ฟรี | สร้าง QR Code ที่กำหนดเอง",
+        "description": "สร้าง QR Code ที่กำหนดเองฟรีสำหรับ URL, ข้อความ และอื่นๆ ปรับแต่งสี ขนาด และดาวน์โหลดในรูปแบบ PNG หรือ JPG",
+        "keywords": "เครื่องสร้าง qr code, สร้าง qr code, qr code ฟรี, qr code ที่กำหนดเอง"
+    },
+    "title": "เครื่องสร้าง QR Code",
+    "description": "สร้าง QR Code ที่กำหนดเองได้ทันที ป้อนข้อความหรือ URL ของคุณ ปรับแต่งการออกแบบ และดาวน์โหลดด้วยความละเอียดสูง",
+    "inputLabel": "เนื้อหา",
+    "inputPlaceholder": "ป้อนข้อความหรือ URL ที่นี่...",
+    "size": "ขนาด",
+    "fgColor": "สีพื้นหน้า",
+    "bgColor": "สีพื้นหลัง",
+    "includeMargin": "รวมขอบ",
+    "previewPlaceholder": "ป้อนข้อความเพื่อสร้าง QR Code",
+    "downloadPng": "ดาวน์โหลด PNG",
+    "downloadJpg": "ดาวน์โหลด JPG"
+}

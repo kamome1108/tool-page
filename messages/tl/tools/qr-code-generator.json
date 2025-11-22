@@ -1,0 +1,18 @@
+{
+    "meta": {
+        "title": "Libreng QR Code Generator | Gumawa ng Custom QR Codes",
+        "description": "Gumawa ng libreng custom QR codes para sa mga URL, text, at iba pa. I-customize ang kulay, laki, at i-download sa PNG o JPG format.",
+        "keywords": "qr code generator, gumawa ng qr code, libreng qr code, custom qr code"
+    },
+    "title": "QR Code Generator",
+    "description": "Gumawa ng custom QR codes agad. Ilagay ang iyong text o URL, i-customize ang disenyo, at i-download.",
+    "inputLabel": "Nilalaman",
+    "inputPlaceholder": "Ilagay ang text o URL dito...",
+    "size": "Laki",
+    "fgColor": "Kulay ng QR Code",
+    "bgColor": "Kulay ng Background",
+    "includeMargin": "Isama ang Margin",
+    "previewPlaceholder": "Ilagay ang text para gumawa ng QR code",
+    "downloadPng": "I-download bilang PNG",
+    "downloadJpg": "I-download bilang JPG"
+}

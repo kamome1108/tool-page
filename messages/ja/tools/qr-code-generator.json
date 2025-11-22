@@ -1,0 +1,18 @@
+{
+    "meta": {
+        "title": "無料QRコード作成ツール | カスタムデザイン対応",
+        "description": "URLやテキストからQRコードを無料で作成。色やサイズをカスタマイズして、高画質PNG/JPG形式でダウンロードできます。",
+        "keywords": "QRコード作成, QRコード生成, 無料QRコード, QRコードメーカー"
+    },
+    "title": "QRコード作成",
+    "description": "テキストやURLからQRコードを瞬時に作成。色やサイズを自由にカスタマイズしてダウンロードできます。",
+    "inputLabel": "コンテンツ",
+    "inputPlaceholder": "テキストまたはURLを入力してください...",
+    "size": "サイズ",
+    "fgColor": "QRコードの色",
+    "bgColor": "背景色",
+    "includeMargin": "余白を含める",
+    "previewPlaceholder": "テキストを入力してQRコードを生成",
+    "downloadPng": "PNGでダウンロード",
+    "downloadJpg": "JPGでダウンロード"
+}

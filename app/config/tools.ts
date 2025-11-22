@@ -74,4 +74,10 @@ export const tools: Tool[] = [
         category: 'image',
         icon: '↻',
     },
+    {
+        id: 'qr-code-generator',
+        slug: 'qr-code-generator',
+        category: 'utilities',
+        icon: '📱',
+    },
 ];
