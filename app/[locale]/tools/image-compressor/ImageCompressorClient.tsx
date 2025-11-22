@@ -4,6 +4,8 @@ import { useState, useRef, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { Button } from '@/app/components/ui/Button';
 import { Card } from '@/app/components/ui/Card';
+import { FileDropzone } from '@/app/components/ui/FileDropzone';
+import { ImagePreview } from '@/app/components/ui/ImagePreview';
 import { saveAs } from 'file-saver';
 
 interface ImageCompressorClientProps {
@@ -16,10 +18,8 @@ export default function ImageCompressorClient({ locale }: ImageCompressorClientP
     const [previewUrl, setPreviewUrl] = useState<string | null>(null);
     const [compressedPreviewUrl, setCompressedPreviewUrl] = useState<string | null>(null);
     const [quality, setQuality] = useState<number>(0.8);
-    const [isDragging, setIsDragging] = useState<boolean>(false);
     const [compressedSize, setCompressedSize] = useState<number>(0);
     const [isCompressing, setIsCompressing] = useState<boolean>(false);
-    const fileInputRef = useRef<HTMLInputElement>(null);
     const canvasRef = useRef<HTMLCanvasElement>(null);
 
     useEffect(() => {
@@ -34,12 +34,6 @@ export default function ImageCompressorClient({ locale }: ImageCompressorClientP
             compressImage();
         }
     }, [file, quality]);
-
-    const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        if (e.target.files && e.target.files[0]) {
-            processFile(e.target.files[0]);
-        }
-    };
 
     const processFile = (file: File) => {
         if (!file.type.startsWith('image/')) return;
@@ -79,24 +73,6 @@ export default function ImageCompressorClient({ locale }: ImageCompressorClientP
         img.src = previewUrl;
     };
 
-    const handleDragOver = (e: React.DragEvent) => {
-        e.preventDefault();
-        setIsDragging(true);
-    };
-
-    const handleDragLeave = (e: React.DragEvent) => {
-        e.preventDefault();
-        setIsDragging(false);
-    };
-
-    const handleDrop = (e: React.DragEvent) => {
-        e.preventDefault();
-        setIsDragging(false);
-        if (e.dataTransfer.files && e.dataTransfer.files[0]) {
-            processFile(e.dataTransfer.files[0]);
-        }
-    };
-
     const handleDownload = () => {
         if (!compressedPreviewUrl || !file) return;
 
@@ -114,7 +90,6 @@ export default function ImageCompressorClient({ locale }: ImageCompressorClientP
         setPreviewUrl(null);
         setCompressedPreviewUrl(null);
         setCompressedSize(0);
-        if (fileInputRef.current) fileInputRef.current.value = '';
     };
 
     const formatSize = (bytes: number) => {
@@ -129,37 +104,17 @@ export default function ImageCompressorClient({ locale }: ImageCompressorClientP
         <div className="max-w-4xl mx-auto">
             <Card padding="lg">
                 {!file ? (
-                    <div
-                        className={`border-2 border-dashed rounded-xl p-12 text-center cursor-pointer transition-colors ${isDragging ? 'border-blue-500 bg-blue-50' : 'border-gray-300 hover:border-gray-400'
-                            }`}
-                        onDragOver={handleDragOver}
-                        onDragLeave={handleDragLeave}
-                        onDrop={handleDrop}
-                        onClick={() => fileInputRef.current?.click()}
-                    >
-                        <input
-                            type="file"
-                            ref={fileInputRef}
-                            onChange={handleFileChange}
-                            accept="image/*"
-                            className="hidden"
-                        />
-                        <div className="text-6xl mb-4">📉</div>
-                        <p className="text-lg text-gray-600">{t('dropzone.label')}</p>
-                    </div>
+                    <FileDropzone
+                        onFileSelect={processFile}
+                        label={t('dropzone.label')}
+                        icon={<div className="text-6xl mb-4">📉</div>}
+                    />
                 ) : (
                     <div className="space-y-8">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                             <div>
                                 <h3 className="text-lg font-semibold mb-2 text-gray-700">Original</h3>
-                                <div className="bg-gray-100 rounded-lg p-4 overflow-hidden h-64 flex items-center justify-center">
-                                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                                    <img
-                                        src={previewUrl!}
-                                        alt="Original"
-                                        className="max-h-full max-w-full object-contain"
-                                    />
-                                </div>
+                                <ImagePreview src={previewUrl!} className="h-64" />
                                 <p className="text-sm text-gray-500 mt-2 text-center">
                                     {t('originalSize', { size: formatSize(file.size) })}
                                 </p>

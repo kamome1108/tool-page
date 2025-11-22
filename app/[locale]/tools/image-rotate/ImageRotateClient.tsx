@@ -4,6 +4,8 @@ import { useState, useRef, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { Button } from '@/app/components/ui/Button';
 import { Card } from '@/app/components/ui/Card';
+import { FileDropzone } from '@/app/components/ui/FileDropzone';
+import { ImagePreview } from '@/app/components/ui/ImagePreview';
 import { saveAs } from 'file-saver';
 
 interface ImageRotateClientProps {
@@ -17,8 +19,6 @@ export default function ImageRotateClient({ locale }: ImageRotateClientProps) {
     const [rotation, setRotation] = useState<number>(0);
     const [flipH, setFlipH] = useState<boolean>(false);
     const [flipV, setFlipV] = useState<boolean>(false);
-    const [isDragging, setIsDragging] = useState<boolean>(false);
-    const fileInputRef = useRef<HTMLInputElement>(null);
     const canvasRef = useRef<HTMLCanvasElement>(null);
 
     useEffect(() => {
@@ -26,12 +26,6 @@ export default function ImageRotateClient({ locale }: ImageRotateClientProps) {
             if (previewUrl) URL.revokeObjectURL(previewUrl);
         };
     }, [previewUrl]);
-
-    const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        if (e.target.files && e.target.files[0]) {
-            processFile(e.target.files[0]);
-        }
-    };
 
     const processFile = (file: File) => {
         if (!file.type.startsWith('image/')) return;
@@ -42,24 +36,6 @@ export default function ImageRotateClient({ locale }: ImageRotateClientProps) {
         setRotation(0);
         setFlipH(false);
         setFlipV(false);
-    };
-
-    const handleDragOver = (e: React.DragEvent) => {
-        e.preventDefault();
-        setIsDragging(true);
-    };
-
-    const handleDragLeave = (e: React.DragEvent) => {
-        e.preventDefault();
-        setIsDragging(false);
-    };
-
-    const handleDrop = (e: React.DragEvent) => {
-        e.preventDefault();
-        setIsDragging(false);
-        if (e.dataTransfer.files && e.dataTransfer.files[0]) {
-            processFile(e.dataTransfer.files[0]);
-        }
     };
 
     const handleRotateLeft = () => {
@@ -129,7 +105,6 @@ export default function ImageRotateClient({ locale }: ImageRotateClientProps) {
         setRotation(0);
         setFlipH(false);
         setFlipV(false);
-        if (fileInputRef.current) fileInputRef.current.value = '';
     };
 
     const getTransformStyle = () => {
@@ -140,35 +115,18 @@ export default function ImageRotateClient({ locale }: ImageRotateClientProps) {
         <div className="max-w-4xl mx-auto">
             <Card padding="lg">
                 {!file ? (
-                    <div
-                        className={`border-2 border-dashed rounded-xl p-12 text-center cursor-pointer transition-colors ${isDragging ? 'border-blue-500 bg-blue-50' : 'border-gray-300 hover:border-gray-400'
-                            }`}
-                        onDragOver={handleDragOver}
-                        onDragLeave={handleDragLeave}
-                        onDrop={handleDrop}
-                        onClick={() => fileInputRef.current?.click()}
-                    >
-                        <input
-                            type="file"
-                            ref={fileInputRef}
-                            onChange={handleFileChange}
-                            accept="image/*"
-                            className="hidden"
-                        />
-                        <div className="text-6xl mb-4">↻</div>
-                        <p className="text-lg text-gray-600">{t('dropzone.label')}</p>
-                    </div>
+                    <FileDropzone
+                        onFileSelect={processFile}
+                        label={t('dropzone.label')}
+                        icon={<div className="text-6xl mb-4">↻</div>}
+                    />
                 ) : (
                     <div className="space-y-8">
-                        <div className="flex justify-center bg-gray-100 rounded-lg p-4 overflow-hidden min-h-[300px] items-center">
-                            {/* eslint-disable-next-line @next/next/no-img-element */}
-                            <img
-                                src={previewUrl!}
-                                alt="Preview"
-                                className="max-h-[400px] max-w-full object-contain transition-transform duration-300"
-                                style={{ transform: getTransformStyle() }}
-                            />
-                        </div>
+                        <ImagePreview
+                            src={previewUrl!}
+                            imageStyle={{ transform: getTransformStyle() }}
+                            className="min-h-[300px] items-center"
+                        />
 
                         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
                             <Button onClick={handleRotateLeft} variant="outline">

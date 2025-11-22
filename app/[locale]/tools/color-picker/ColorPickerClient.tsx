@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { Button } from '@/app/components/ui/Button';
 import { Card } from '@/app/components/ui/Card';
+import { FileDropzone } from '@/app/components/ui/FileDropzone';
 
 interface ColorPickerClientProps {
     locale: string;
@@ -20,9 +21,7 @@ export default function ColorPickerClient({ locale }: ColorPickerClientProps) {
     const [file, setFile] = useState<File | null>(null);
     const [previewUrl, setPreviewUrl] = useState<string | null>(null);
     const [pickedColor, setPickedColor] = useState<Color | null>(null);
-    const [isDragging, setIsDragging] = useState<boolean>(false);
     const [hoverColor, setHoverColor] = useState<string | null>(null);
-    const fileInputRef = useRef<HTMLInputElement>(null);
     const canvasRef = useRef<HTMLCanvasElement>(null);
     const imageRef = useRef<HTMLImageElement>(null);
 
@@ -32,12 +31,6 @@ export default function ColorPickerClient({ locale }: ColorPickerClientProps) {
         };
     }, [previewUrl]);
 
-    const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        if (e.target.files && e.target.files[0]) {
-            processFile(e.target.files[0]);
-        }
-    };
-
     const processFile = (file: File) => {
         if (!file.type.startsWith('image/')) return;
 
@@ -45,24 +38,6 @@ export default function ColorPickerClient({ locale }: ColorPickerClientProps) {
         const url = URL.createObjectURL(file);
         setPreviewUrl(url);
         setPickedColor(null);
-    };
-
-    const handleDragOver = (e: React.DragEvent) => {
-        e.preventDefault();
-        setIsDragging(true);
-    };
-
-    const handleDragLeave = (e: React.DragEvent) => {
-        e.preventDefault();
-        setIsDragging(false);
-    };
-
-    const handleDrop = (e: React.DragEvent) => {
-        e.preventDefault();
-        setIsDragging(false);
-        if (e.dataTransfer.files && e.dataTransfer.files[0]) {
-            processFile(e.dataTransfer.files[0]);
-        }
     };
 
     const rgbToHex = (r: number, g: number, b: number) => {
@@ -169,31 +144,17 @@ export default function ColorPickerClient({ locale }: ColorPickerClientProps) {
         setPreviewUrl(null);
         setPickedColor(null);
         setHoverColor(null);
-        if (fileInputRef.current) fileInputRef.current.value = '';
     };
 
     return (
         <div className="max-w-4xl mx-auto">
             <Card padding="lg">
                 {!file ? (
-                    <div
-                        className={`border-2 border-dashed rounded-xl p-12 text-center cursor-pointer transition-colors ${isDragging ? 'border-blue-500 bg-blue-50' : 'border-gray-300 hover:border-gray-400'
-                            }`}
-                        onDragOver={handleDragOver}
-                        onDragLeave={handleDragLeave}
-                        onDrop={handleDrop}
-                        onClick={() => fileInputRef.current?.click()}
-                    >
-                        <input
-                            type="file"
-                            ref={fileInputRef}
-                            onChange={handleFileChange}
-                            accept="image/*"
-                            className="hidden"
-                        />
-                        <div className="text-6xl mb-4">🎨</div>
-                        <p className="text-lg text-gray-600">{t('dropzone.label')}</p>
-                    </div>
+                    <FileDropzone
+                        onFileSelect={processFile}
+                        label={t('dropzone.label')}
+                        icon={<div className="text-6xl mb-4">🎨</div>}
+                    />
                 ) : (
                     <div className="space-y-8">
                         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">

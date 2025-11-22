@@ -4,6 +4,8 @@ import { useState, useRef, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { Button } from '@/app/components/ui/Button';
 import { Card } from '@/app/components/ui/Card';
+import { FileDropzone } from '@/app/components/ui/FileDropzone';
+import { ImagePreview } from '@/app/components/ui/ImagePreview';
 import { saveAs } from 'file-saver';
 
 interface ImageBlurClientProps {
@@ -15,8 +17,6 @@ export default function ImageBlurClient({ locale }: ImageBlurClientProps) {
     const [file, setFile] = useState<File | null>(null);
     const [previewUrl, setPreviewUrl] = useState<string | null>(null);
     const [intensity, setIntensity] = useState<number>(5);
-    const [isDragging, setIsDragging] = useState<boolean>(false);
-    const fileInputRef = useRef<HTMLInputElement>(null);
     const canvasRef = useRef<HTMLCanvasElement>(null);
 
     useEffect(() => {
@@ -25,36 +25,12 @@ export default function ImageBlurClient({ locale }: ImageBlurClientProps) {
         };
     }, [previewUrl]);
 
-    const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        if (e.target.files && e.target.files[0]) {
-            processFile(e.target.files[0]);
-        }
-    };
-
     const processFile = (file: File) => {
         if (!file.type.startsWith('image/')) return;
 
         setFile(file);
         const url = URL.createObjectURL(file);
         setPreviewUrl(url);
-    };
-
-    const handleDragOver = (e: React.DragEvent) => {
-        e.preventDefault();
-        setIsDragging(true);
-    };
-
-    const handleDragLeave = (e: React.DragEvent) => {
-        e.preventDefault();
-        setIsDragging(false);
-    };
-
-    const handleDrop = (e: React.DragEvent) => {
-        e.preventDefault();
-        setIsDragging(false);
-        if (e.dataTransfer.files && e.dataTransfer.files[0]) {
-            processFile(e.dataTransfer.files[0]);
-        }
     };
 
     const handleDownload = () => {
@@ -88,42 +64,23 @@ export default function ImageBlurClient({ locale }: ImageBlurClientProps) {
         setFile(null);
         setPreviewUrl(null);
         setIntensity(5);
-        if (fileInputRef.current) fileInputRef.current.value = '';
     };
 
     return (
         <div className="max-w-4xl mx-auto">
             <Card padding="lg">
                 {!file ? (
-                    <div
-                        className={`border-2 border-dashed rounded-xl p-12 text-center cursor-pointer transition-colors ${isDragging ? 'border-blue-500 bg-blue-50' : 'border-gray-300 hover:border-gray-400'
-                            }`}
-                        onDragOver={handleDragOver}
-                        onDragLeave={handleDragLeave}
-                        onDrop={handleDrop}
-                        onClick={() => fileInputRef.current?.click()}
-                    >
-                        <input
-                            type="file"
-                            ref={fileInputRef}
-                            onChange={handleFileChange}
-                            accept="image/*"
-                            className="hidden"
-                        />
-                        <div className="text-6xl mb-4">🌫️</div>
-                        <p className="text-lg text-gray-600">{t('dropzone.label')}</p>
-                    </div>
+                    <FileDropzone
+                        onFileSelect={processFile}
+                        label={t('dropzone.label')}
+                        icon={<div className="text-6xl mb-4">🌫️</div>}
+                    />
                 ) : (
                     <div className="space-y-8">
-                        <div className="flex justify-center bg-gray-100 rounded-lg p-4 overflow-hidden">
-                            {/* eslint-disable-next-line @next/next/no-img-element */}
-                            <img
-                                src={previewUrl!}
-                                alt="Preview"
-                                className="max-h-[400px] object-contain transition-all duration-200"
-                                style={{ filter: `blur(${intensity}px)` }}
-                            />
-                        </div>
+                        <ImagePreview
+                            src={previewUrl!}
+                            imageStyle={{ filter: `blur(${intensity}px)` }}
+                        />
 
                         <div>
                             <label className="block text-sm font-medium text-gray-700 mb-1">
