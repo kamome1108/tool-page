@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "title": "Base64 Encoder/Decoder - Konverter Base64 Online",
+        "description": "Enkode teks ke Base64 atau dekode Base64 ke teks secara online. Alat konverter Base64 gratis, cepat, dan aman."
+    },
+    "title": "Base64 Encoder/Decoder",
+    "description": "Enkode teks ke Base64 atau dekode string Base64 kembali ke teks.",
+    "ui": {
+        "mode": "Mode",
+        "encode": "Enkode",
+        "decode": "Dekode",
+        "input": "Input",
+        "output": "Output",
+        "copy": "Salin",
+        "copied": "Disalin!",
+        "clear": "Bersihkan",
+        "paste": "Tempel",
+        "error": "Kesalahan",
+        "invalidBase64": "String Base64 tidak valid",
+        "inputPlaceholder": "Masukkan teks di sini...",
+        "processingNote": "🔒 Semua pemrosesan dilakukan di browser Anda. Tidak ada data yang dikirim ke server mana pun."
+    }
+}

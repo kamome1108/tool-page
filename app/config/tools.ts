@@ -80,4 +80,10 @@ export const tools: Tool[] = [
         category: 'utilities',
         icon: '📱',
     },
+    {
+        id: 'base64-encoder-decoder',
+        slug: 'base64-encoder-decoder',
+        category: 'dev',
+        icon: '🔤',
+    },
 ];

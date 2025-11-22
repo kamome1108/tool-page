@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "title": "Base64 Encoder/Decoder - Online Base64 Converter",
+        "description": "Encode text to Base64 or decode Base64 to text online. Free, fast, and secure Base64 converter tool."
+    },
+    "title": "Base64 Encoder/Decoder",
+    "description": "Encode text to Base64 or decode Base64 strings back to text.",
+    "ui": {
+        "mode": "Mode",
+        "encode": "Encode",
+        "decode": "Decode",
+        "input": "Input",
+        "output": "Output",
+        "copy": "Copy",
+        "copied": "Copied!",
+        "clear": "Clear",
+        "paste": "Paste",
+        "error": "Error",
+        "invalidBase64": "Invalid Base64 string",
+        "inputPlaceholder": "Enter text here...",
+        "processingNote": "🔒 All processing is done in your browser. No data is sent to any server."
+    }
+}
