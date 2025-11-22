@@ -10,7 +10,7 @@ type Props = {
 export default async function ColorPickerPage({ params }: Props) {
     const { locale } = await params;
     setRequestLocale(locale);
-    const t = await getTranslations({ locale, namespace: 'Tools.ColorPicker' });
+    const t = await getTranslations({ locale, namespace: 'Tools.color-picker' });
 
     const jsonLd = {
         "@context": "https://schema.org",

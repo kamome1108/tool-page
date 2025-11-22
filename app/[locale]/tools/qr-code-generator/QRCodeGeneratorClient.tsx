@@ -11,7 +11,7 @@ interface QRCodeGeneratorClientProps {
 }
 
 export default function QRCodeGeneratorClient({ locale }: QRCodeGeneratorClientProps) {
-    const t = useTranslations('Tools.QRCodeGenerator');
+    const t = useTranslations('Tools.qr-code-generator');
     const [text, setText] = useState<string>('');
     const [size, setSize] = useState<number>(256);
     const [fgColor, setFgColor] = useState<string>('#000000');

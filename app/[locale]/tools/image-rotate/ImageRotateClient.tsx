@@ -13,7 +13,7 @@ interface ImageRotateClientProps {
 }
 
 export default function ImageRotateClient({ locale }: ImageRotateClientProps) {
-    const t = useTranslations('Tools.ImageRotate');
+    const t = useTranslations('Tools.image-rotate');
     const [file, setFile] = useState<File | null>(null);
     const [previewUrl, setPreviewUrl] = useState<string | null>(null);
     const [rotation, setRotation] = useState<number>(0);

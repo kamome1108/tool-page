@@ -9,7 +9,7 @@ type Props = {
 export default async function PasswordGeneratorPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations({ locale, namespace: 'Tools.PasswordGenerator' });
+  const t = await getTranslations({ locale, namespace: 'Tools.password-generator' });
 
   const jsonLd = {
     "@context": "https://schema.org",

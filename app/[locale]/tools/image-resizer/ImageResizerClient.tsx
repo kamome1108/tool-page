@@ -13,7 +13,7 @@ interface ImageResizerClientProps {
 }
 
 export default function ImageResizerClient({ locale }: ImageResizerClientProps) {
-    const t = useTranslations('Tools.ImageResizer');
+    const t = useTranslations('Tools.image-resizer');
     const [file, setFile] = useState<File | null>(null);
     const [previewUrl, setPreviewUrl] = useState<string | null>(null);
     const [width, setWidth] = useState<number>(0);

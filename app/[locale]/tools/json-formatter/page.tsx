@@ -9,7 +9,7 @@ type Props = {
 export default async function JsonFormatterPage({ params }: Props) {
     const { locale } = await params;
     setRequestLocale(locale);
-    const t = await getTranslations({ locale, namespace: 'Tools.JsonFormatter' });
+    const t = await getTranslations({ locale, namespace: 'Tools.json-formatter' });
 
     const jsonLd = {
         "@context": "https://schema.org",

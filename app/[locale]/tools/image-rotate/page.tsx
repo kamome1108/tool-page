@@ -10,7 +10,7 @@ type Props = {
 export default async function ImageRotatePage({ params }: Props) {
     const { locale } = await params;
     setRequestLocale(locale);
-    const t = await getTranslations({ locale, namespace: 'Tools.ImageRotate' });
+    const t = await getTranslations({ locale, namespace: 'Tools.image-rotate' });
 
     const jsonLd = {
         "@context": "https://schema.org",

@@ -17,7 +17,7 @@ interface Color {
 }
 
 export default function ColorPickerClient({ locale }: ColorPickerClientProps) {
-    const t = useTranslations('Tools.ColorPicker');
+    const t = useTranslations('Tools.color-picker');
     const [file, setFile] = useState<File | null>(null);
     const [previewUrl, setPreviewUrl] = useState<string | null>(null);
     const [pickedColor, setPickedColor] = useState<Color | null>(null);

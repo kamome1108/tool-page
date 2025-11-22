@@ -10,7 +10,7 @@ type Props = {
 export default async function ImageConverterPage({ params }: Props) {
     const { locale } = await params;
     setRequestLocale(locale);
-    const t = await getTranslations({ locale, namespace: 'Tools.ImageConverter' });
+    const t = await getTranslations({ locale, namespace: 'Tools.image-converter' });
 
     const jsonLd = {
         "@context": "https://schema.org",

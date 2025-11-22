@@ -10,7 +10,7 @@ type Props = {
 export default async function MultiCropperPage({ params }: Props) {
     const { locale } = await params;
     setRequestLocale(locale);
-    const t = await getTranslations({ locale, namespace: 'Tools.MultiCropper' });
+    const t = await getTranslations({ locale, namespace: 'Tools.multi-cropper' });
 
     const jsonLd = {
         "@context": "https://schema.org",

@@ -13,7 +13,7 @@ interface ImageCompressorClientProps {
 }
 
 export default function ImageCompressorClient({ locale }: ImageCompressorClientProps) {
-    const t = useTranslations('Tools.ImageCompressor');
+    const t = useTranslations('Tools.image-compressor');
     const [file, setFile] = useState<File | null>(null);
     const [previewUrl, setPreviewUrl] = useState<string | null>(null);
     const [compressedPreviewUrl, setCompressedPreviewUrl] = useState<string | null>(null);

@@ -10,7 +10,7 @@ type Props = {
 export default async function CharacterCounterPage({ params }: Props) {
     const { locale } = await params;
     setRequestLocale(locale);
-    const t = await getTranslations({ locale, namespace: 'Tools.CharacterCounter' });
+    const t = await getTranslations({ locale, namespace: 'Tools.character-counter' });
 
     const jsonLd = {
         "@context": "https://schema.org",

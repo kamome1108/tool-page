@@ -10,7 +10,7 @@ type Props = {
 export default async function ImageBlurPage({ params }: Props) {
     const { locale } = await params;
     setRequestLocale(locale);
-    const t = await getTranslations({ locale, namespace: 'Tools.ImageBlur' });
+    const t = await getTranslations({ locale, namespace: 'Tools.image-blur' });
 
     const jsonLd = {
         "@context": "https://schema.org",

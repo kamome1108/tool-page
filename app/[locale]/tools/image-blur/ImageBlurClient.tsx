@@ -13,7 +13,7 @@ interface ImageBlurClientProps {
 }
 
 export default function ImageBlurClient({ locale }: ImageBlurClientProps) {
-    const t = useTranslations('Tools.ImageBlur');
+    const t = useTranslations('Tools.image-blur');
     const [file, setFile] = useState<File | null>(null);
     const [previewUrl, setPreviewUrl] = useState<string | null>(null);
     const [intensity, setIntensity] = useState<number>(5);

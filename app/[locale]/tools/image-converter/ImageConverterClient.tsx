@@ -13,7 +13,7 @@ interface ImageConverterClientProps {
 }
 
 export default function ImageConverterClient({ locale }: ImageConverterClientProps) {
-    const t = useTranslations('Tools.ImageConverter');
+    const t = useTranslations('Tools.image-converter');
     const [file, setFile] = useState<File | null>(null);
     const [previewUrl, setPreviewUrl] = useState<string | null>(null);
     const [format, setFormat] = useState<string>('image/png');

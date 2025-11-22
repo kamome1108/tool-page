@@ -9,7 +9,7 @@ type Props = {
 export default async function AspectRatioCalculatorPage({ params }: Props) {
     const { locale } = await params;
     setRequestLocale(locale);
-    const t = await getTranslations({ locale, namespace: 'Tools.AspectRatioCalculator' });
+    const t = await getTranslations({ locale, namespace: 'Tools.aspect-ratio-calculator' });
 
     const jsonLd = {
         "@context": "https://schema.org",
