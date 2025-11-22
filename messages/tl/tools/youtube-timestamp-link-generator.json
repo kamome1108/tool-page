@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "title": "YouTube Timestamp Link Generator - Gumawa ng Mga Link na Partikular sa Oras",
+        "description": "Libreng online na YouTube timestamp link generator. Gumawa ng mga link sa mga partikular na bahagi ng mga video sa YouTube. Ibahagi ang mga video na nagsisimula sa eksaktong sandali na gusto mo."
+    },
+    "title": "YouTube Timestamp Link Generator",
+    "description": "Gumawa ng link sa YouTube na nagsisimula sa isang partikular na oras.",
+    "ui": {
+        "url": "URL ng Video sa YouTube",
+        "time": "Oras ng Pagsisimula",
+        "hours": "Oras",
+        "minutes": "Minuto",
+        "seconds": "Segundo",
+        "generate": "Bumuo ng Link",
+        "result": "Nabuong Link",
+        "copy": "Kopyahin ang Link",
+        "open": "Buksan ang Link",
+        "copied": "Nakopya na!",
+        "processingNote": "🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."
+    }
+}

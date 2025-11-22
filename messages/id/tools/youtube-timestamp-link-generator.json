@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "title": "Pembuat Tautan Stempel Waktu YouTube - Buat Tautan Khusus Waktu",
+        "description": "Alat pembuat tautan stempel waktu YouTube online gratis. Buat tautan ke bagian tertentu dari video YouTube. Bagikan video mulai dari momen yang tepat yang Anda inginkan."
+    },
+    "title": "Pembuat Tautan Stempel Waktu YouTube",
+    "description": "Buat tautan YouTube yang dimulai pada waktu tertentu.",
+    "ui": {
+        "url": "URL Video YouTube",
+        "time": "Waktu Mulai",
+        "hours": "Jam",
+        "minutes": "Menit",
+        "seconds": "Detik",
+        "generate": "Hasilkan Tautan",
+        "result": "Tautan yang Dihasilkan",
+        "copy": "Salin Tautan",
+        "open": "Buka Tautan",
+        "copied": "Disalin!",
+        "processingNote": "🔒 Semua pemrosesan dilakukan di browser Anda."
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "meta": {
+        "title": "Meta Tag Generator - Gumawa ng SEO Meta Tags",
+        "description": "Libreng online na meta tag generator. Gumawa ng HTML meta tags para sa iyong website upang mapabuti ang SEO. Bumuo ng pamagat, paglalarawan, mga keyword, at higit pa."
+    },
+    "title": "Meta Tag Generator",
+    "description": "Bumuo ng HTML meta tags para sa SEO ng iyong website.",
+    "ui": {
+        "siteTitle": "Pamagat ng Site",
+        "siteDescription": "Paglalarawan ng Site",
+        "keywords": "Mga Keyword (pinaghihiwalay ng kuwit)",
+        "author": "May-akda",
+        "viewport": "Setting ng Viewport",
+        "generate": "Bumuo ng Meta Tags",
+        "result": "Nabuong HTML",
+        "copy": "Kopyahin ang HTML",
+        "copied": "Nakopya na!",
+        "processingNote": "🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."
+    }
+}

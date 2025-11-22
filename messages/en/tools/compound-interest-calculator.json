@@ -1,0 +1,25 @@
+{
+    "meta": {
+        "title": "Compound Interest Calculator - Calculate Investment Growth",
+        "description": "Free online compound interest calculator. Calculate how your investments grow over time with compound interest. Perfect for savings and investment planning."
+    },
+    "title": "Compound Interest Calculator",
+    "description": "Calculate how your investments grow over time with compound interest.",
+    "ui": {
+        "principal": "Initial Investment",
+        "rate": "Annual Interest Rate (%)",
+        "time": "Time Period (Years)",
+        "frequency": "Compounding Frequency",
+        "calculate": "Calculate",
+        "result": "Result",
+        "totalAmount": "Total Amount",
+        "interestEarned": "Interest Earned",
+        "frequencies": {
+            "daily": "Daily",
+            "monthly": "Monthly",
+            "quarterly": "Quarterly",
+            "annually": "Annually"
+        },
+        "processingNote": "🔒 All processing is done in your browser."
+    }
+}

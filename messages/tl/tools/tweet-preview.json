@@ -1,0 +1,24 @@
+{
+    "meta": {
+        "title": "Tweet Preview - Mockup Generator",
+        "description": "Libreng online na Tweet preview tool. Gumawa ng mga mockup ng mga tweet upang makita kung ano ang hitsura ng mga ito bago mag-post. Subukan ang haba ng teksto, mga larawan, at layout."
+    },
+    "title": "Tweet Preview",
+    "description": "I-preview kung ano ang magiging hitsura ng iyong tweet bago mo ito i-post.",
+    "ui": {
+        "name": "Pangalan",
+        "handle": "Handle (@username)",
+        "text": "Teksto ng Tweet",
+        "image": "URL ng Larawan (opsyonal)",
+        "uploadImage": "O Mag-upload ng Larawan",
+        "preview": "Preview",
+        "verified": "Na-verify na Account",
+        "stats": {
+            "replies": "Mga Tugon",
+            "retweets": "Mga Retweet",
+            "likes": "Mga Like",
+            "views": "Mga View"
+        },
+        "processingNote": "🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."
+    }
+}

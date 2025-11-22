@@ -152,4 +152,34 @@ export const tools: Tool[] = [
         category: 'utilities',
         icon: '⚖️',
     },
+    {
+        id: 'stopwatch',
+        slug: 'stopwatch',
+        category: 'productivity',
+        icon: '⏱️',
+    },
+    {
+        id: 'compound-interest-calculator',
+        slug: 'compound-interest-calculator',
+        category: 'finance',
+        icon: '📈',
+    },
+    {
+        id: 'meta-tag-generator',
+        slug: 'meta-tag-generator',
+        category: 'web',
+        icon: '🏷️',
+    },
+    {
+        id: 'tweet-preview',
+        slug: 'tweet-preview',
+        category: 'social',
+        icon: '🐦',
+    },
+    {
+        id: 'youtube-timestamp-link-generator',
+        slug: 'youtube-timestamp-link-generator',
+        category: 'media',
+        icon: '▶️',
+    },
 ];

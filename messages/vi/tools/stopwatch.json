@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "Đồng hồ bấm giờ - Hẹn giờ trực tuyến với các vòng",
+        "description": "Công cụ đồng hồ bấm giờ trực tuyến miễn phí. Đo thời gian với chức năng bắt đầu, dừng và vòng. Hoàn hảo cho thể thao, nấu ăn hoặc năng suất."
+    },
+    "title": "Đồng hồ bấm giờ",
+    "description": "Đo thời gian chính xác với chức năng vòng.",
+    "ui": {
+        "start": "Bắt đầu",
+        "stop": "Dừng",
+        "reset": "Đặt lại",
+        "lap": "Vòng",
+        "laps": "Các vòng",
+        "lapHeader": "Vòng",
+        "timeHeader": "Thời gian",
+        "totalHeader": "Tổng cộng",
+        "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."
+    }
+}

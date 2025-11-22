@@ -1,0 +1,20 @@
+{
+    "meta": {
+        "title": "メタタグジェネレーター - SEO用メタタグを作成",
+        "description": "無料のオンラインメタタグジェネレーター。WebサイトのSEO向上のためのHTMLメタタグを作成します。タイトル、説明、キーワードなどを生成できます。"
+    },
+    "title": "メタタグジェネレーター",
+    "description": "WebサイトのSEO用HTMLメタタグを生成します。",
+    "ui": {
+        "siteTitle": "サイトのタイトル",
+        "siteDescription": "サイトの説明 (Description)",
+        "keywords": "キーワード (カンマ区切り)",
+        "author": "著者 (Author)",
+        "viewport": "ビューポート設定",
+        "generate": "メタタグを生成",
+        "result": "生成されたHTML",
+        "copy": "HTMLをコピー",
+        "copied": "コピーしました！",
+        "processingNote": "🔒 すべての処理はブラウザ上で行われます。"
+    }
+}

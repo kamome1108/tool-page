@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "title": "YouTubeタイムスタンプリンク生成 - 特定の時間からのリンクを作成",
+        "description": "無料のオンラインYouTubeタイムスタンプリンク生成ツール。YouTube動画の特定の部分へのリンクを作成します。見せたい瞬間から始まる動画を共有できます。"
+    },
+    "title": "YouTubeタイムスタンプリンク生成",
+    "description": "特定の時間から始まるYouTubeリンクを作成します。",
+    "ui": {
+        "url": "YouTube動画URL",
+        "time": "開始時間",
+        "hours": "時間",
+        "minutes": "分",
+        "seconds": "秒",
+        "generate": "リンクを生成",
+        "result": "生成されたリンク",
+        "copy": "リンクをコピー",
+        "open": "リンクを開く",
+        "copied": "コピーしました！",
+        "processingNote": "🔒 すべての処理はブラウザ上で行われます。"
+    }
+}

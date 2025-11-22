@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "title": "Trình tạo liên kết dấu thời gian YouTube - Tạo liên kết theo thời gian cụ thể",
+        "description": "Công cụ tạo liên kết dấu thời gian YouTube trực tuyến miễn phí. Tạo liên kết đến các phần cụ thể của video YouTube. Chia sẻ video bắt đầu từ chính xác thời điểm bạn muốn."
+    },
+    "title": "Trình tạo liên kết dấu thời gian YouTube",
+    "description": "Tạo liên kết YouTube bắt đầu tại một thời điểm cụ thể.",
+    "ui": {
+        "url": "URL video YouTube",
+        "time": "Thời gian bắt đầu",
+        "hours": "Giờ",
+        "minutes": "Phút",
+        "seconds": "Giây",
+        "generate": "Tạo liên kết",
+        "result": "Liên kết đã tạo",
+        "copy": "Sao chép liên kết",
+        "open": "Mở liên kết",
+        "copied": "Đã sao chép!",
+        "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."
+    }
+}
