@@ -1,19 +1,19 @@
 {
     "meta": {
-        "title": "Image Resizer - Resize Images Online for Free",
-        "description": "Resize your images to exact pixel dimensions online. Free, fast, and secure image resizing tool that runs in your browser."
+        "title": "画像リサイズ - オンラインで画像を無料でリサイズ",
+        "description": "オンラインで画像を正確なピクセルサイズにリサイズします。ブラウザ上で動作する、無料、高速、かつ安全な画像リサイズツールです。"
     },
-    "title": "Image Resizer",
-    "description": "Resize images to specific dimensions while maintaining aspect ratio.",
+    "title": "画像リサイズ",
+    "description": "アスペクト比を維持しながら画像を特定の寸法にリサイズします。",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "画像をここにドロップ、またはクリックして選択"
     },
-    "width": "Width (px)",
-    "height": "Height (px)",
-    "maintainAspectRatio": "Maintain aspect ratio",
-    "resize": "Resize Image",
-    "download": "Download Resized Image",
-    "reset": "Reset",
-    "original": "Original: {width} x {height}",
-    "new": "New: {width} x {height}"
+    "width": "幅 (px)",
+    "height": "高さ (px)",
+    "maintainAspectRatio": "アスペクト比を維持",
+    "resize": "画像をリサイズ",
+    "download": "リサイズされた画像をダウンロード",
+    "reset": "リセット",
+    "original": "元画像: {width} x {height}",
+    "new": "変更後: {width} x {height}"
 }

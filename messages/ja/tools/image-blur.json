@@ -1,15 +1,16 @@
 {
     "meta": {
-        "title": "Image Blur - Blur Images Online for Free",
-        "description": "Blur your images online. Adjust blur intensity and download the result. Free, fast, and secure image blurring tool."
+        "title": "画像ぼかし - オンラインで画像をぼかす",
+        "description": "オンラインで画像にぼかし効果を適用します。ぼかしの強さを調整して、プライバシー保護や芸術的な効果に使用できます。"
     },
-    "title": "Image Blur",
-    "description": "Apply blur effect to your images with adjustable intensity.",
+    "title": "画像ぼかし",
+    "description": "画像全体にぼかし効果を適用します。",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "画像をここにドロップ、またはクリックして選択"
     },
-    "intensity": "Blur Intensity",
-    "apply": "Apply Blur",
-    "download": "Download Blurred Image",
-    "reset": "Reset"
+    "intensity": "ぼかしの強さ",
+    "apply": "ぼかしを適用",
+    "download": "ぼかした画像をダウンロード",
+    "reset": "リセット",
+    "processing": "処理中..."
 }

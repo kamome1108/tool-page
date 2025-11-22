@@ -1,18 +1,18 @@
 {
     "meta": {
-        "title": "Image Converter - Convert Images Online for Free",
-        "description": "Convert images between PNG, JPG, WebP, and GIF formats online. Free, fast, and secure image converter tool."
+        "title": "画像変換 - オンラインで画像を無料で変換",
+        "description": "PNG、JPG、WebP、GIF形式の間で画像をオンライン変換します。無料、高速、かつ安全な画像変換ツールです。"
     },
-    "title": "Image Converter",
-    "description": "Convert images to different formats (PNG, JPG, WebP, GIF).",
+    "title": "画像変換",
+    "description": "画像を異なる形式（PNG、JPG、WebP、GIF）に変換します。",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "画像をここにドロップ、またはクリックして選択"
     },
-    "format": "Target Format",
-    "quality": "Quality (0-100, for JPG/WebP)",
-    "convert": "Convert Image",
-    "download": "Download Converted Image",
-    "reset": "Reset",
+    "format": "変換後の形式",
+    "quality": "画質 (0-100, JPG/WebP用)",
+    "convert": "画像を変換",
+    "download": "変換された画像をダウンロード",
+    "reset": "リセット",
     "formats": {
         "png": "PNG",
         "jpeg": "JPG",

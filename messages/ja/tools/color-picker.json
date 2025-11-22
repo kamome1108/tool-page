@@ -1,19 +1,19 @@
 {
     "meta": {
-        "title": "Image Color Picker - Extract Colors from Images Online",
-        "description": "Pick colors from images online. Upload an image and get HEX, RGB, and HSL color codes from any pixel. Free and easy to use."
+        "title": "カラーピッカー - 画像から色を抽出",
+        "description": "画像から色を抽出し、HEX、RGB、HSLコードを取得します。無料のオンラインカラーピッカーツールです。"
     },
-    "title": "Image Color Picker",
-    "description": "Extract colors from your images. Get HEX, RGB, and HSL codes.",
+    "title": "カラーピッカー",
+    "description": "画像から色を抽出し、カラーコード（HEX, RGB, HSL）を取得します。",
     "dropzone": {
-        "label": "Drop an image here, or click to select"
+        "label": "画像をここにドロップ、またはクリックして選択"
     },
-    "pickedColor": "Picked Color",
+    "pick": "画像をクリックして色を選択",
+    "selected": "選択された色",
     "hex": "HEX",
     "rgb": "RGB",
     "hsl": "HSL",
-    "copy": "Copy",
-    "copied": "Copied!",
-    "reset": "Reset",
-    "clickToPick": "Click on the image to pick a color"
+    "copy": "コピー",
+    "copied": "コピーしました！",
+    "reset": "リセット"
 }
