@@ -5,7 +5,7 @@ import { tools } from '@/app/config/tools';
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://tool-page-29b.pages.dev';
+    const baseUrl = 'https://tool-page-3v8.pages.dev';
     // Hardcoded locales to avoid import issues during build
     const locales = ['en', 'ja', 'tl', 'hi', 'id', 'vi', 'th'];
 
