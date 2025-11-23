@@ -1,0 +1,17 @@
+{
+    "meta": {
+        "title": "Microphone Tester - Suriin ang Iyong Mic Online",
+        "description": "Libreng online na Microphone Tester. Suriin kung gumagana nang maayos ang iyong mikropono, ilarawan ang mga antas ng audio, at i-troubleshoot ang mga isyu sa audio."
+    },
+    "title": "Microphone Tester",
+    "description": "Subukan ang iyong mikropono at ilarawan ang mga antas ng input ng audio.",
+    "ui": {
+        "start": "Simulan ang Pagsubok",
+        "stop": "Itigil ang Pagsubok",
+        "permissionDenied": "Tinanggihan ang pag-access sa mikropono. Mangyaring payagan ang pag-access upang magamit ang tool na ito.",
+        "notSupported": "Hindi sinusuportahan ng iyong browser ang audio input.",
+        "instructions": "I-click ang 'Simulan ang Pagsubok' at magsalita sa iyong mikropono upang makita ang visualizer.",
+        "listening": "Nakikinig...",
+        "processingNote": "🔒 Ang audio ay lokal na pinoproseso sa iyong browser. Hindi namin nire-record o iniimbak ang iyong boses."
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "title": "Text Decorator - Fancy Font Generator",
+        "description": "Free online Text Decorator. Convert normal text into fancy, stylish fonts for Instagram, Twitter, Facebook, and other social media."
+    },
+    "title": "Text Decorator",
+    "description": "Convert text into stylish fonts for social media.",
+    "ui": {
+        "inputPlaceholder": "Type your text here...",
+        "copy": "Copy",
+        "copied": "Copied!",
+        "styles": {
+            "bold": "Bold",
+            "italic": "Italic",
+            "boldItalic": "Bold Italic",
+            "script": "Script",
+            "boldScript": "Bold Script",
+            "fraktur": "Fraktur",
+            "boldFraktur": "Bold Fraktur",
+            "doubleStruck": "Double Struck",
+            "sansSerif": "Sans Serif",
+            "sansSerifBold": "Sans Serif Bold",
+            "sansSerifItalic": "Sans Serif Italic",
+            "sansSerifBoldItalic": "Sans Serif Bold Italic",
+            "monospace": "Monospace",
+            "bubble": "Bubble",
+            "square": "Square",
+            "upsideDown": "Upside Down"
+        }
+    }
+}

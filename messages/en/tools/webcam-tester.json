@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "Webcam Tester - Check Camera Online",
+        "description": "Free online Webcam Tester. Check if your camera is working, view resolution, and take a snapshot."
+    },
+    "title": "Webcam Tester",
+    "description": "Test your webcam and check video resolution.",
+    "ui": {
+        "start": "Start Camera",
+        "stop": "Stop Camera",
+        "permissionDenied": "Camera access denied. Please allow access to use this tool.",
+        "notSupported": "Your browser does not support video input.",
+        "instructions": "Click 'Start Camera' to check your webcam feed.",
+        "resolution": "Resolution: {width}x{height}",
+        "takePhoto": "Take Photo",
+        "download": "Download Photo",
+        "processingNote": "🔒 Video is processed locally in your browser. We do not record or store your video."
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "Screen Recorder - I-record ang Screen Online",
+        "description": "Libreng online na Screen Recorder. I-capture ang iyong screen, window, o tab ng browser nang direkta mula sa iyong browser. Walang kinakailangang pag-install."
+    },
+    "title": "Screen Recorder",
+    "description": "I-record ang iyong screen nang direkta mula sa iyong browser.",
+    "ui": {
+        "start": "Simulan ang Pag-record",
+        "stop": "Itigil ang Pag-record",
+        "download": "I-download ang Video",
+        "permissionDenied": "Tinanggihan ang pag-access sa screen. Mangyaring payagan ang pag-access upang magamit ang tool na ito.",
+        "notSupported": "Hindi sinusuportahan ng iyong browser ang pag-record ng screen.",
+        "instructions": "I-click ang 'Simulan ang Pag-record' at piliin ang screen, window, o tab na gusto mong i-capture.",
+        "recording": "Nagre-record...",
+        "recorded": "Tapos na ang pag-record!",
+        "processingNote": "🔒 Ang pag-record ay lokal na nangyayari sa iyong browser. Walang data ng video na ipinapadala sa aming mga server."
+    }
+}

@@ -308,4 +308,40 @@ export const tools: Tool[] = [
         category: 'utilities',
         icon: '↔️',
     },
+    {
+        id: 'text-decorator',
+        slug: 'text-decorator',
+        category: 'social',
+        icon: '✨',
+    },
+    {
+        id: 'microphone-tester',
+        slug: 'microphone-tester',
+        category: 'utilities',
+        icon: '🎤',
+    },
+    {
+        id: 'webcam-tester',
+        slug: 'webcam-tester',
+        category: 'utilities',
+        icon: '📷',
+    },
+    {
+        id: 'screen-recorder',
+        slug: 'screen-recorder',
+        category: 'media',
+        icon: '🎥',
+    },
+    {
+        id: 'jwt-decoder',
+        slug: 'jwt-decoder',
+        category: 'dev',
+        icon: '🔑',
+    },
+    {
+        id: 'markdown-to-html',
+        slug: 'markdown-to-html',
+        category: 'web',
+        icon: '📝',
+    },
 ];

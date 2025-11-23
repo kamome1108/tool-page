@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@types/file-saver": "^2.0.7",
+    "@types/marked": "^5.0.2",
     "crypto-js": "^4.2.0",
     "file-saver": "^2.0.5",
     "jszip": "^3.10.1",
+    "marked": "^17.0.1",
     "next": "16.0.3",
     "next-intl": "^4.5.5",
     "qrcode": "^1.5.4",

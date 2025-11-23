@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "title": "Dekorator Teks - Generator Font Mewah",
+        "description": "Dekorator Teks online gratis. Ubah teks normal menjadi font mewah dan bergaya untuk Instagram, Twitter, Facebook, dan media sosial lainnya."
+    },
+    "title": "Dekorator Teks",
+    "description": "Ubah teks menjadi font bergaya untuk media sosial.",
+    "ui": {
+        "inputPlaceholder": "Ketik teks Anda di sini...",
+        "copy": "Salin",
+        "copied": "Disalin!",
+        "styles": {
+            "bold": "Tebal",
+            "italic": "Miring",
+            "boldItalic": "Tebal Miring",
+            "script": "Script",
+            "boldScript": "Script Tebal",
+            "fraktur": "Fraktur",
+            "boldFraktur": "Fraktur Tebal",
+            "doubleStruck": "Double Struck",
+            "sansSerif": "Sans Serif",
+            "sansSerifBold": "Sans Serif Tebal",
+            "sansSerifItalic": "Sans Serif Miring",
+            "sansSerifBoldItalic": "Sans Serif Tebal Miring",
+            "monospace": "Monospace",
+            "bubble": "Gelembung",
+            "square": "Kotak",
+            "upsideDown": "Terbalik"
+        }
+    }
+}

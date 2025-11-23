@@ -1,0 +1,16 @@
+{
+    "meta": {
+        "title": "Markdown sang HTML - Chuyển đổi Markdown trực tuyến",
+        "description": "Công cụ chuyển đổi Markdown sang HTML trực tuyến miễn phí. Nhập Markdown và xem đầu ra HTML và bản xem trước trực tiếp ngay lập tức."
+    },
+    "title": "Markdown sang HTML",
+    "description": "Chuyển đổi văn bản Markdown sang HTML với bản xem trước trực tiếp.",
+    "ui": {
+        "inputPlaceholder": "# Chào thế giới\n\nĐây là **Markdown**.",
+        "htmlOutput": "Đầu ra HTML",
+        "preview": "Xem trước",
+        "copyHtml": "Sao chép HTML",
+        "copied": "Đã sao chép!",
+        "processingNote": "🔒 Việc chuyển đổi diễn ra cục bộ trong trình duyệt của bạn."
+    }
+}

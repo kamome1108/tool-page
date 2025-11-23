@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "Penguji Webcam - Cek Kamera Online",
+        "description": "Penguji Webcam online gratis. Periksa apakah kamera Anda berfungsi, lihat resolusi, dan ambil foto."
+    },
+    "title": "Penguji Webcam",
+    "description": "Uji webcam Anda dan periksa resolusi video.",
+    "ui": {
+        "start": "Mulai Kamera",
+        "stop": "Hentikan Kamera",
+        "permissionDenied": "Akses kamera ditolak. Harap izinkan akses untuk menggunakan alat ini.",
+        "notSupported": "Browser Anda tidak mendukung input video.",
+        "instructions": "Klik 'Mulai Kamera' untuk memeriksa feed webcam Anda.",
+        "resolution": "Resolusi: {width}x{height}",
+        "takePhoto": "Ambil Foto",
+        "download": "Unduh Foto",
+        "processingNote": "🔒 Video diproses secara lokal di browser Anda. Kami tidak merekam atau menyimpan video Anda."
+    }
+}

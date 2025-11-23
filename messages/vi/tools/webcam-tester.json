@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "Kiểm tra Webcam - Kiểm tra máy ảnh trực tuyến",
+        "description": "Công cụ kiểm tra Webcam trực tuyến miễn phí. Kiểm tra xem máy ảnh của bạn có hoạt động không, xem độ phân giải và chụp ảnh."
+    },
+    "title": "Kiểm tra Webcam",
+    "description": "Kiểm tra webcam của bạn và kiểm tra độ phân giải video.",
+    "ui": {
+        "start": "Bắt đầu máy ảnh",
+        "stop": "Dừng máy ảnh",
+        "permissionDenied": "Quyền truy cập máy ảnh bị từ chối. Vui lòng cho phép truy cập để sử dụng công cụ này.",
+        "notSupported": "Trình duyệt của bạn không hỗ trợ đầu vào video.",
+        "instructions": "Nhấp vào 'Bắt đầu máy ảnh' để kiểm tra nguồn cấp dữ liệu webcam của bạn.",
+        "resolution": "Độ phân giải: {width}x{height}",
+        "takePhoto": "Chụp ảnh",
+        "download": "Tải ảnh xuống",
+        "processingNote": "🔒 Video được xử lý cục bộ trong trình duyệt của bạn. Chúng tôi không ghi hoặc lưu trữ video của bạn."
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "title": "Trang trí văn bản - Tạo phông chữ đẹp",
+        "description": "Công cụ trang trí văn bản trực tuyến miễn phí. Chuyển đổi văn bản bình thường thành phông chữ đẹp, phong cách cho Instagram, Twitter, Facebook và các mạng xã hội khác."
+    },
+    "title": "Trang trí văn bản",
+    "description": "Chuyển đổi văn bản thành phông chữ phong cách cho mạng xã hội.",
+    "ui": {
+        "inputPlaceholder": "Nhập văn bản của bạn vào đây...",
+        "copy": "Sao chép",
+        "copied": "Đã sao chép!",
+        "styles": {
+            "bold": "Đậm",
+            "italic": "Nghiêng",
+            "boldItalic": "Đậm Nghiêng",
+            "script": "Script",
+            "boldScript": "Script Đậm",
+            "fraktur": "Fraktur",
+            "boldFraktur": "Fraktur Đậm",
+            "doubleStruck": "Nét đôi",
+            "sansSerif": "Sans Serif",
+            "sansSerifBold": "Sans Serif Đậm",
+            "sansSerifItalic": "Sans Serif Nghiêng",
+            "sansSerifBoldItalic": "Sans Serif Đậm Nghiêng",
+            "monospace": "Đơn không gian",
+            "bubble": "Bong bóng",
+            "square": "Vuông",
+            "upsideDown": "Lộn ngược"
+        }
+    }
+}

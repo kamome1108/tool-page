@@ -1,0 +1,17 @@
+{
+    "meta": {
+        "title": "Kiểm tra micrô - Kiểm tra micrô trực tuyến",
+        "description": "Công cụ kiểm tra micrô trực tuyến miễn phí. Kiểm tra xem micrô của bạn có hoạt động bình thường không, trực quan hóa mức âm thanh và khắc phục sự cố âm thanh."
+    },
+    "title": "Kiểm tra micrô",
+    "description": "Kiểm tra micrô của bạn và trực quan hóa mức đầu vào âm thanh.",
+    "ui": {
+        "start": "Bắt đầu kiểm tra",
+        "stop": "Dừng kiểm tra",
+        "permissionDenied": "Quyền truy cập micrô bị từ chối. Vui lòng cho phép truy cập để sử dụng công cụ này.",
+        "notSupported": "Trình duyệt của bạn không hỗ trợ đầu vào âm thanh.",
+        "instructions": "Nhấp vào 'Bắt đầu kiểm tra' và nói vào micrô của bạn để xem trình trực quan hóa.",
+        "listening": "Đang nghe...",
+        "processingNote": "🔒 Âm thanh được xử lý cục bộ trong trình duyệt của bạn. Chúng tôi không ghi âm hoặc lưu trữ giọng nói của bạn."
+    }
+}
