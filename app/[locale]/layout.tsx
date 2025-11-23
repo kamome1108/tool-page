@@ -23,7 +23,7 @@ import { routing } from '@/i18n/routing';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Common.meta' });
-  const baseUrl = 'https://tool-page-29b.pages.dev';
+  const baseUrl = 'https://tool-page-3v8.pages.dev';
 
   // Generate alternates for all supported locales
   const languages: Record<string, string> = {};
@@ -98,10 +98,10 @@ export default async function LocaleLayout({
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Tool Suite",
-    "url": "https://tool-page-29b.pages.dev",
+    "url": "https://tool-page-3v8.pages.dev",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://tool-page-29b.pages.dev/search?q={search_term_string}",
+      "target": "https://tool-page-3v8.pages.dev/search?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   };
