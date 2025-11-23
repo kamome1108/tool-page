@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "title": "User Agent Parser - Phân tích thông tin trình duyệt",
+        "description": "Trình phân tích User Agent trực tuyến miễn phí. Phân tích chuỗi tác nhân người dùng để xác định chi tiết trình duyệt, hệ điều hành, thiết bị và công cụ. Hữu ích cho các nhà phát triển và gỡ lỗi."
+    },
+    "title": "User Agent Parser",
+    "description": "Phân tích chuỗi Tác nhân người dùng để xác định chi tiết trình duyệt, hệ điều hành và thiết bị.",
+    "ui": {
+        "inputLabel": "Chuỗi Tác nhân người dùng",
+        "parse": "Phân tích Tác nhân người dùng",
+        "useMyUA": "Sử dụng Tác nhân người dùng của tôi",
+        "result": "Kết quả phân tích",
+        "browser": "Trình duyệt",
+        "os": "Hệ điều hành",
+        "device": "Thiết bị",
+        "engine": "Công cụ",
+        "cpu": "CPU",
+        "ua": "Tác nhân người dùng",
+        "copy": "Sao chép",
+        "copied": "Đã sao chép!",
+        "processingNote": "🔒 Tất cả quá trình phân tích được thực hiện cục bộ trong trình duyệt của bạn."
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "meta": {
+        "title": "Instagram Caption Spacer - Ngắt dòng sạch sẽ",
+        "description": "Công cụ tạo khoảng cách chú thích Instagram trực tuyến miễn phí. Thêm khoảng trắng vô hình vào chú thích Instagram của bạn để tạo ngắt dòng sạch sẽ và cải thiện khả năng đọc."
+    },
+    "title": "Instagram Caption Spacer",
+    "description": "Thêm khoảng trắng vô hình để tạo ngắt dòng sạch sẽ cho chú thích Instagram.",
+    "ui": {
+        "inputLabel": "Nhập chú thích",
+        "convert": "Chuyển đổi & Sao chép",
+        "converted": "Đã chuyển đổi & Sao chép!",
+        "clear": "Xóa",
+        "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."
+    }
+}

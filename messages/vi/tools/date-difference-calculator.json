@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "Máy tính chênh lệch ngày - Số ngày giữa các ngày",
+        "description": "Máy tính chênh lệch ngày trực tuyến miễn phí. Tính số năm, tháng và ngày giữa hai ngày. Hữu ích cho việc lập kế hoạch sự kiện, theo dõi các mốc quan trọng và hơn thế nữa."
+    },
+    "title": "Máy tính chênh lệch ngày",
+    "description": "Tính khoảng thời gian giữa hai ngày theo năm, tháng và ngày.",
+    "ui": {
+        "startDate": "Ngày bắt đầu",
+        "endDate": "Ngày kết thúc",
+        "calculate": "Tính chênh lệch",
+        "result": "Kết quả",
+        "years": "Năm",
+        "months": "Tháng",
+        "days": "Ngày",
+        "totalDays": "Tổng số ngày",
+        "processingNote": "🔒 Tất cả các tính toán được thực hiện trong trình duyệt của bạn."
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "meta": {
+        "title": "Trình tạo Hash - MD5, SHA-1, SHA-256",
+        "description": "Trình tạo Hash trực tuyến miễn phí. Tạo mã băm MD5, SHA-1, SHA-256 và SHA-512 từ văn bản. Xử lý phía máy khách an toàn bằng Web Crypto API."
+    },
+    "title": "Trình tạo Hash",
+    "description": "Tạo mã băm mật mã (MD5, SHA-1, SHA-256, SHA-512) từ văn bản đầu vào.",
+    "ui": {
+        "inputLabel": "Văn bản đầu vào",
+        "generate": "Tạo Hash",
+        "result": "Mã băm",
+        "copy": "Sao chép",
+        "copied": "Đã sao chép!",
+        "processingNote": "🔒 Tất cả quá trình băm được thực hiện cục bộ trong trình duyệt của bạn bằng Web Crypto API. Dữ liệu của bạn không bao giờ được gửi đến bất kỳ máy chủ nào."
+    }
+}

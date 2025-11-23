@@ -260,4 +260,34 @@ export const tools: Tool[] = [
         category: 'finance',
         icon: '🏷️',
     },
+    {
+        id: 'instagram-caption-spacer',
+        slug: 'instagram-caption-spacer',
+        category: 'social',
+        icon: '📝',
+    },
+    {
+        id: 'date-difference-calculator',
+        slug: 'date-difference-calculator',
+        category: 'utilities',
+        icon: '📅',
+    },
+    {
+        id: 'user-agent-parser',
+        slug: 'user-agent-parser',
+        category: 'web',
+        icon: '🕵️',
+    },
+    {
+        id: 'bpm-tapper',
+        slug: 'bpm-tapper',
+        category: 'media',
+        icon: '🥁',
+    },
+    {
+        id: 'hash-generator',
+        slug: 'hash-generator',
+        category: 'security',
+        icon: '#️⃣',
+    },
 ];
