@@ -344,4 +344,40 @@ export const tools: Tool[] = [
         category: 'web',
         icon: '📝',
     },
+    {
+        id: 'pdf-merger',
+        slug: 'pdf-merger',
+        category: 'productivity',
+        icon: '📄',
+    },
+    {
+        id: 'image-compressor',
+        slug: 'image-compressor',
+        category: 'image',
+        icon: '📉',
+    },
+    {
+        id: 'audio-cutter',
+        slug: 'audio-cutter',
+        category: 'media',
+        icon: '✂️',
+    },
+    {
+        id: 'text-to-speech',
+        slug: 'text-to-speech',
+        category: 'utilities',
+        icon: '🗣️',
+    },
+    {
+        id: 'exif-remover',
+        slug: 'exif-remover',
+        category: 'utilities',
+        icon: '🚫',
+    },
+    {
+        id: 'signature-generator',
+        slug: 'signature-generator',
+        category: 'social',
+        icon: '✍️',
+    },
 ];

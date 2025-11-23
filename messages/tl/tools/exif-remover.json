@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "title": "Exif Remover - Alisin ang Metadata mula sa mga Larawan",
+        "description": "Libreng online na Exif Remover. Alisin ang lokasyon ng GPS, mga detalye ng camera, at iba pang metadata mula sa iyong mga larawan upang protektahan ang iyong privacy. Hindi kailangan mag-upload sa server."
+    },
+    "title": "Exif Remover",
+    "description": "Alisin ang metadata (Exif) mula sa mga larawan upang protektahan ang iyong privacy.",
+    "ui": {
+        "selectImage": "Pumili ng Larawan",
+        "remove": "Alisin ang Exif Data",
+        "download": "I-download ang Malinis na Larawan",
+        "noFile": "Walang napiling file",
+        "dragDrop": "o i-drag at i-drop ang isang larawan dito",
+        "metadataFound": "Natagpuang metadata: {count} na tag",
+        "noMetadata": "Walang natagpuang metadata",
+        "processing": "Tinatanggal...",
+        "success": "Matagumpay na naalis ang metadata!",
+        "error": "Error sa pag-alis ng metadata",
+        "processingNote": "🔒 Ang pagproseso ay lokal na nangyayari sa iyong browser. Ang iyong mga larawan ay hindi kailanman ipinapadala sa aming mga server."
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "meta": {
+        "title": "Text to Speech - Online TTS Reader",
+        "description": "Libreng online na Text to Speech converter. I-convert ang text sa natural na tunog na pagsasalita. Sinusuportahan ang maraming wika at boses. Hindi kailangan mag-upload sa server."
+    },
+    "title": "Text to Speech",
+    "description": "I-convert ang text sa pagsasalita gamit ang mga built-in na boses ng browser.",
+    "ui": {
+        "inputPlaceholder": "I-type o i-paste ang iyong text dito...",
+        "play": "I-play",
+        "pause": "I-pause",
+        "stop": "Itigil",
+        "voice": "Boses",
+        "rate": "Bilis",
+        "pitch": "Pitch",
+        "volume": "Volume",
+        "noVoices": "Walang magagamit na mga boses",
+        "processingNote": "🔒 Ang speech synthesis ay lokal na nangyayari sa iyong browser."
+    }
+}

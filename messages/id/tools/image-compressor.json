@@ -1,19 +1,23 @@
 {
     "meta": {
-        "title": "Image Compressor - Kompres Gambar Online Gratis",
-        "description": "Kompres gambar JPG, PNG, dan WebP secara online untuk mengurangi ukuran file tanpa kehilangan kualitas. Alat kompresi gambar gratis, cepat, dan aman.",
-        "keywords": "image compressor, compress image, reduce size, optimize image"
+        "title": "Kompresor Gambar - Kompres Gambar Online",
+        "description": "Kompresor Gambar online gratis. Kurangi ukuran file gambar tanpa kehilangan kualitas. Mendukung JPG, PNG, dan WebP. Tidak perlu unggah ke server."
     },
-    "title": "Image Compressor",
+    "title": "Kompresor Gambar",
     "description": "Kurangi ukuran file gambar sambil mempertahankan kualitas.",
-    "dropzone": {
-        "label": "Jatuhkan gambar di sini, atau klik untuk memilih"
-    },
-    "quality": "Tingkat Kompresi (0-100)",
-    "compress": "Kompres Gambar",
-    "download": "Unduh Gambar Terkompresi",
-    "reset": "Atur Ulang",
-    "originalSize": "Ukuran Asli: {size}",
-    "compressedSize": "Ukuran Terkompresi: {size}",
-    "savings": "Hemat: {percent}%"
+    "ui": {
+        "selectImage": "Pilih Gambar",
+        "compress": "Kompres Gambar",
+        "download": "Unduh Gambar Terkompresi",
+        "noFile": "Tidak ada file yang dipilih",
+        "dragDrop": "atau seret dan lepas gambar di sini",
+        "originalSize": "Ukuran Asli: {size}",
+        "compressedSize": "Ukuran Terkompresi: {size}",
+        "reduction": "Pengurangan: {percent}%",
+        "quality": "Kualitas: {value}%",
+        "processing": "Mengompresi...",
+        "success": "Berhasil dikompresi!",
+        "error": "Kesalahan saat mengompresi gambar",
+        "processingNote": "🔒 Kompresi terjadi secara lokal di browser Anda. Gambar Anda tidak pernah dikirim ke server kami."
+    }
 }

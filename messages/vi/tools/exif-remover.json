@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "title": "Xóa Exif - Xóa siêu dữ liệu khỏi ảnh",
+        "description": "Công cụ xóa Exif trực tuyến miễn phí. Xóa vị trí GPS, chi tiết máy ảnh và các siêu dữ liệu khác khỏi ảnh của bạn để bảo vệ quyền riêng tư. Không cần tải lên máy chủ."
+    },
+    "title": "Xóa Exif",
+    "description": "Xóa siêu dữ liệu (Exif) khỏi hình ảnh để bảo vệ quyền riêng tư của bạn.",
+    "ui": {
+        "selectImage": "Chọn ảnh",
+        "remove": "Xóa dữ liệu Exif",
+        "download": "Tải xuống ảnh sạch",
+        "noFile": "Chưa chọn tệp nào",
+        "dragDrop": "hoặc kéo và thả ảnh vào đây",
+        "metadataFound": "Đã tìm thấy siêu dữ liệu: {count} thẻ",
+        "noMetadata": "Không tìm thấy siêu dữ liệu",
+        "processing": "Đang xóa...",
+        "success": "Đã xóa siêu dữ liệu thành công!",
+        "error": "Lỗi khi xóa siêu dữ liệu",
+        "processingNote": "🔒 Việc xử lý diễn ra cục bộ trong trình duyệt của bạn. Ảnh của bạn không bao giờ được gửi đến máy chủ của chúng tôi."
+    }
+}

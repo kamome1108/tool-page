@@ -1,19 +1,23 @@
 {
     "meta": {
-        "title": "Image Compressor - Nén hình ảnh trực tuyến miễn phí",
-        "description": "Nén hình ảnh JPG, PNG và WebP trực tuyến để giảm kích thước tệp mà không làm giảm chất lượng. Công cụ nén hình ảnh miễn phí, nhanh chóng và an toàn.",
-        "keywords": "image compressor, compress image, reduce size, optimize image"
+        "title": "Trình nén ảnh - Nén ảnh trực tuyến",
+        "description": "Trình nén ảnh trực tuyến miễn phí. Giảm kích thước tệp hình ảnh mà không làm giảm chất lượng. Hỗ trợ JPG, PNG và WebP. Không cần tải lên máy chủ."
     },
-    "title": "Image Compressor",
+    "title": "Trình nén ảnh",
     "description": "Giảm kích thước tệp hình ảnh trong khi vẫn duy trì chất lượng.",
-    "dropzone": {
-        "label": "Thả hình ảnh vào đây hoặc nhấp để chọn"
-    },
-    "quality": "Mức nén (0-100)",
-    "compress": "Nén hình ảnh",
-    "download": "Tải xuống hình ảnh đã nén",
-    "reset": "Đặt lại",
-    "originalSize": "Kích thước gốc: {size}",
-    "compressedSize": "Kích thước đã nén: {size}",
-    "savings": "Tiết kiệm: {percent}%"
+    "ui": {
+        "selectImage": "Chọn ảnh",
+        "compress": "Nén ảnh",
+        "download": "Tải xuống ảnh đã nén",
+        "noFile": "Chưa chọn tệp nào",
+        "dragDrop": "hoặc kéo và thả ảnh vào đây",
+        "originalSize": "Kích thước gốc: {size}",
+        "compressedSize": "Kích thước đã nén: {size}",
+        "reduction": "Giảm: {percent}%",
+        "quality": "Chất lượng: {value}%",
+        "processing": "Đang nén...",
+        "success": "Đã nén thành công!",
+        "error": "Lỗi khi nén ảnh",
+        "processingNote": "🔒 Việc nén diễn ra cục bộ trong trình duyệt của bạn. Ảnh của bạn không bao giờ được gửi đến máy chủ của chúng tôi."
+    }
 }

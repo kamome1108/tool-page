@@ -1,18 +1,23 @@
 {
     "meta": {
-        "title": "Image Compressor - I-compress ang mga Larawan Online nang Libre",
-        "description": "I-compress ang mga larawang JPG, PNG, at WebP online upang bawasan ang laki ng file nang hindi nawawala ang kalidad. Libre, mabilis, at secure na tool sa pag-compress ng larawan."
+        "title": "Image Compressor - I-compress ang mga Larawan Online",
+        "description": "Libreng online na Image Compressor. Bawasan ang laki ng file ng larawan nang hindi nawawala ang kalidad. Sinusuportahan ang JPG, PNG, at WebP. Hindi kailangan mag-upload sa server."
     },
     "title": "Image Compressor",
     "description": "Bawasan ang laki ng file ng larawan habang pinapanatili ang kalidad.",
-    "dropzone": {
-        "label": "I-drop ang isang larawan dito, o mag-click upang pumili"
-    },
-    "quality": "Antas ng Compression (0-100)",
-    "compress": "I-compress ang Larawan",
-    "download": "I-download ang Naka-compress na Larawan",
-    "reset": "I-reset",
-    "originalSize": "Orihinal na Laki: {size}",
-    "compressedSize": "Naka-compress na Laki: {size}",
-    "savings": "Natipid: {percent}%"
+    "ui": {
+        "selectImage": "Pumili ng Larawan",
+        "compress": "I-compress ang Larawan",
+        "download": "I-download ang Compressed na Larawan",
+        "noFile": "Walang napiling file",
+        "dragDrop": "o i-drag at i-drop ang isang larawan dito",
+        "originalSize": "Orihinal na Laki: {size}",
+        "compressedSize": "Compressed na Laki: {size}",
+        "reduction": "Pagbawas: {percent}%",
+        "quality": "Kalidad: {value}%",
+        "processing": "Nagko-compress...",
+        "success": "Matagumpay na na-compress!",
+        "error": "Error sa pag-compress ng larawan",
+        "processingNote": "🔒 Ang compression ay lokal na nangyayari sa iyong browser. Ang iyong mga larawan ay hindi kailanman ipinapadala sa aming mga server."
+    }
 }

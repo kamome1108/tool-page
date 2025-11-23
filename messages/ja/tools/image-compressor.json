@@ -1,17 +1,23 @@
 {
     "meta": {
-        "title": "画像圧縮 - オンラインで画像を無料で圧縮",
-        "description": "画質を保ちながら画像ファイルサイズを削減します。JPG、PNG、WebPに対応した無料のオンライン画像圧縮ツールです。"
+        "title": "画像圧縮 - オンラインで画像を圧縮",
+        "description": "無料のオンライン画像圧縮ツール。画質を落とさずに画像ファイルのサイズを削減します。JPG、PNG、WebPに対応。サーバーへのアップロードは不要です。"
     },
     "title": "画像圧縮",
-    "description": "画質を維持しながら画像ファイルサイズを削減します。",
-    "dropzone": {
-        "label": "画像をここにドロップ、またはクリックして選択"
-    },
-    "quality": "圧縮品質 (0-100)",
-    "compress": "画像を圧縮",
-    "download": "圧縮された画像をダウンロード",
-    "reset": "リセット",
-    "original": "元画像: {size}",
-    "compressed": "圧縮後: {size} ({savings}% 削減)"
+    "description": "画質を維持しながら画像ファイルのサイズを削減します。",
+    "ui": {
+        "selectImage": "画像を選択",
+        "compress": "画像を圧縮",
+        "download": "圧縮された画像をダウンロード",
+        "noFile": "ファイルが選択されていません",
+        "dragDrop": "またはここに画像をドラッグ＆ドロップ",
+        "originalSize": "元のサイズ: {size}",
+        "compressedSize": "圧縮後のサイズ: {size}",
+        "reduction": "削減率: {percent}%",
+        "quality": "画質: {value}%",
+        "processing": "圧縮中...",
+        "success": "圧縮が完了しました！",
+        "error": "画像の圧縮中にエラーが発生しました",
+        "processingNote": "🔒 圧縮はブラウザ内でローカルに行われます。画像がサーバーに送信されることはありません。"
+    }
 }

@@ -1,0 +1,20 @@
+{
+    "meta": {
+        "title": "PDF Merger - Merge PDF Files Online",
+        "description": "Free online PDF Merger. Combine multiple PDF files into a single document directly in your browser. No upload to server required."
+    },
+    "title": "PDF Merger",
+    "description": "Combine multiple PDF files into one document.",
+    "ui": {
+        "selectFiles": "Select PDF Files",
+        "merge": "Merge PDFs",
+        "download": "Download Merged PDF",
+        "noFiles": "No files selected",
+        "filesSelected": "{count} files selected",
+        "dragDrop": "or drag and drop PDFs here",
+        "processing": "Merging...",
+        "success": "Merged successfully!",
+        "error": "Error merging files",
+        "processingNote": "🔒 Merging happens locally in your browser. Your files are never sent to our servers."
+    }
+}

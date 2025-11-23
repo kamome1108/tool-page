@@ -1,0 +1,20 @@
+{
+    "meta": {
+        "title": "Teks ke Suara - Pembaca TTS Online",
+        "description": "Konverter Teks ke Suara online gratis. Ubah teks menjadi suara yang terdengar alami. Mendukung berbagai bahasa dan suara. Tidak perlu unggah ke server."
+    },
+    "title": "Teks ke Suara",
+    "description": "Ubah teks menjadi suara menggunakan suara bawaan browser.",
+    "ui": {
+        "inputPlaceholder": "Ketik atau tempel teks Anda di sini...",
+        "play": "Putar",
+        "pause": "Jeda",
+        "stop": "Berhenti",
+        "voice": "Suara",
+        "rate": "Kecepatan",
+        "pitch": "Nada",
+        "volume": "Volume",
+        "noVoices": "Tidak ada suara yang tersedia",
+        "processingNote": "🔒 Sintesis suara terjadi secara lokal di browser Anda."
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "meta": {
+        "title": "Penggabung PDF - Gabungkan File PDF Online",
+        "description": "Penggabung PDF online gratis. Gabungkan beberapa file PDF menjadi satu dokumen langsung di browser Anda. Tidak perlu unggah ke server."
+    },
+    "title": "Penggabung PDF",
+    "description": "Gabungkan beberapa file PDF menjadi satu dokumen.",
+    "ui": {
+        "selectFiles": "Pilih File PDF",
+        "merge": "Gabungkan PDF",
+        "download": "Unduh PDF Gabungan",
+        "noFiles": "Tidak ada file yang dipilih",
+        "filesSelected": "{count} file dipilih",
+        "dragDrop": "atau seret dan lepas PDF di sini",
+        "processing": "Menggabungkan...",
+        "success": "Berhasil digabungkan!",
+        "error": "Kesalahan saat menggabungkan file",
+        "processingNote": "🔒 Penggabungan terjadi secara lokal di browser Anda. File Anda tidak pernah dikirim ke server kami."
+    }
+}

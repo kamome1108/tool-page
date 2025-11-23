@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "title": "Pemotong Audio - Potong Audio Online",
+        "description": "Pemotong Audio online gratis. Potong file audio MP3, WAV, dan lainnya langsung di browser Anda. Editor bentuk gelombang visual. Tidak perlu unggah ke server."
+    },
+    "title": "Pemotong Audio",
+    "description": "Potong file audio dengan editor bentuk gelombang visual.",
+    "ui": {
+        "selectAudio": "Pilih File Audio",
+        "trim": "Potong Audio",
+        "download": "Unduh Audio yang Dipotong",
+        "noFile": "Tidak ada file yang dipilih",
+        "dragDrop": "atau seret dan lepas file audio di sini",
+        "play": "Putar",
+        "pause": "Jeda",
+        "duration": "Durasi: {seconds}d",
+        "selection": "Pilihan: {start}d - {end}d",
+        "processing": "Memproses...",
+        "success": "Berhasil dipotong!",
+        "error": "Kesalahan saat memotong audio",
+        "processingNote": "🔒 Pemrosesan terjadi secara lokal di browser Anda. File audio Anda tidak pernah dikirim ke server kami."
+    }
+}

@@ -4,66 +4,85 @@ import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Button } from '@/app/components/ui/Button';
 import { Card } from '@/app/components/ui/Card';
-import imageCompression from 'browser-image-compression';
+import * as piexif from 'piexifjs';
 import { Toaster, toast } from 'react-hot-toast';
 
-export default function ImageCompressorClient() {
-    const t = useTranslations('Tools.image-compressor.ui');
+export default function ExifRemoverClient() {
+    const t = useTranslations('Tools.exif-remover.ui');
     const [file, setFile] = useState<File | null>(null);
-    const [compressedFile, setCompressedFile] = useState<File | null>(null);
+    const [cleanedFile, setCleanedFile] = useState<string | null>(null);
+    const [metadataCount, setMetadataCount] = useState<number | null>(null);
     const [isProcessing, setIsProcessing] = useState(false);
-    const [quality, setQuality] = useState(80);
 
     const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         if (e.target.files && e.target.files[0]) {
-            setFile(e.target.files[0]);
-            setCompressedFile(null);
+            const selectedFile = e.target.files[0];
+            setFile(selectedFile);
+            setCleanedFile(null);
+            setMetadataCount(null);
+
+            // Check for metadata
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                if (e.target?.result && typeof e.target.result === 'string') {
+                    try {
+                        const exifObj = piexif.load(e.target.result);
+                        let count = 0;
+                        for (const ifd in exifObj) {
+                            if (ifd === 'thumbnail') continue;
+                            // @ts-ignore
+                            for (const tag in exifObj[ifd]) {
+                                count++;
+                            }
+                        }
+                        setMetadataCount(count);
+                    } catch (error) {
+                        console.error('Error reading Exif:', error);
+                        setMetadataCount(0);
+                    }
+                }
+            };
+            reader.readAsDataURL(selectedFile);
         }
     };
 
-    const compressImage = async () => {
+    const removeExif = async () => {
         if (!file) return;
 
         setIsProcessing(true);
         const loadingToast = toast.loading(t('processing'));
 
         try {
-            const options = {
-                maxSizeMB: 1,
-                maxWidthOrHeight: 1920,
-                useWebWorker: true,
-                initialQuality: quality / 100,
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                if (e.target?.result && typeof e.target.result === 'string') {
+                    try {
+                        const cleanData = piexif.remove(e.target.result);
+                        setCleanedFile(cleanData);
+                        toast.success(t('success'), { id: loadingToast });
+                    } catch (error) {
+                        console.error(error);
+                        toast.error(t('error'), { id: loadingToast });
+                    } finally {
+                        setIsProcessing(false);
+                    }
+                }
             };
-
-            const compressed = await imageCompression(file, options);
-            setCompressedFile(compressed);
-
-            toast.success(t('success'), { id: loadingToast });
+            reader.readAsDataURL(file);
         } catch (error) {
             console.error(error);
             toast.error(t('error'), { id: loadingToast });
-        } finally {
             setIsProcessing(false);
         }
     };
 
     const downloadImage = () => {
-        if (!compressedFile) return;
+        if (!cleanedFile || !file) return;
 
-        const url = URL.createObjectURL(compressedFile);
         const link = document.createElement('a');
-        link.href = url;
-        link.download = `compressed-${file?.name}`;
+        link.href = cleanedFile;
+        link.download = `clean-${file.name}`;
         link.click();
-        URL.revokeObjectURL(url);
-    };
-
-    const formatSize = (bytes: number) => {
-        if (bytes === 0) return '0 Bytes';
-        const k = 1024;
-        const sizes = ['Bytes', 'KB', 'MB', 'GB'];
-        const i = Math.floor(Math.log(bytes) / Math.log(k));
-        return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
     };
 
     return (
@@ -73,7 +92,7 @@ export default function ImageCompressorClient() {
                 <div className="border-2 border-dashed border-gray-300 rounded-lg p-12 text-center hover:border-blue-500 transition-colors">
                     <input
                         type="file"
-                        accept="image/*"
+                        accept="image/jpeg,image/jpg"
                         onChange={handleFileChange}
                         className="hidden"
                         id="image-upload"
@@ -100,37 +119,27 @@ export default function ImageCompressorClient() {
 
                 {file && (
                     <div className="mt-8 space-y-6">
-                        <div className="bg-gray-50 p-6 rounded-lg space-y-4">
-                            <div className="flex items-center justify-between">
+                        <div className="bg-gray-50 p-6 rounded-lg">
+                            <div className="flex items-center justify-between mb-4">
                                 <span className="font-medium text-gray-700">{file.name}</span>
-                                <span className="text-sm text-gray-500">{t('originalSize', { size: formatSize(file.size) })}</span>
-                            </div>
-
-                            <div className="space-y-2">
-                                <div className="flex justify-between text-sm text-gray-600">
-                                    <span>{t('quality', { value: quality })}</span>
-                                </div>
-                                <input
-                                    type="range"
-                                    min="10"
-                                    max="100"
-                                    value={quality}
-                                    onChange={(e) => setQuality(Number(e.target.value))}
-                                    className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-blue-600"
-                                />
+                                {metadataCount !== null && (
+                                    <span className={`text-sm font-medium px-2 py-1 rounded ${metadataCount > 0 ? 'bg-yellow-100 text-yellow-800' : 'bg-green-100 text-green-800'}`}>
+                                        {metadataCount > 0 ? t('metadataFound', { count: metadataCount }) : t('noMetadata')}
+                                    </span>
+                                )}
                             </div>
                         </div>
 
                         <div className="flex gap-4">
                             <Button
-                                onClick={compressImage}
+                                onClick={removeExif}
                                 disabled={isProcessing}
-                                className="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-3"
+                                className="flex-1 bg-red-600 hover:bg-red-700 text-white py-3"
                             >
-                                {isProcessing ? t('processing') : t('compress')}
+                                {isProcessing ? t('processing') : t('remove')}
                             </Button>
 
-                            {compressedFile && (
+                            {cleanedFile && (
                                 <Button
                                     onClick={downloadImage}
                                     className="flex-1 bg-green-600 hover:bg-green-700 text-white py-3"
@@ -139,19 +148,6 @@ export default function ImageCompressorClient() {
                                 </Button>
                             )}
                         </div>
-
-                        {compressedFile && (
-                            <div className="bg-green-50 border border-green-200 p-4 rounded-lg">
-                                <div className="flex justify-between items-center">
-                                    <span className="text-green-700 font-medium">
-                                        {t('compressedSize', { size: formatSize(compressedFile.size) })}
-                                    </span>
-                                    <span className="text-green-600 text-sm font-bold bg-green-100 px-2 py-1 rounded">
-                                        {t('reduction', { percent: Math.round((1 - compressedFile.size / file.size) * 100) })}
-                                    </span>
-                                </div>
-                            </div>
-                        )}
                     </div>
                 )}
             </Card>

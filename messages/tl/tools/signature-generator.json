@@ -1,0 +1,18 @@
+{
+    "meta": {
+        "title": "Signature Generator - Gumawa ng Digital Signatures",
+        "description": "Libreng online na Signature Generator. Gumawa ng digital signatures para sa iyong mga dokumento. Gumuhit gamit ang iyong mouse o touch screen. I-download bilang transparent PNG."
+    },
+    "title": "Signature Generator",
+    "description": "Gumawa ng digital signatures at i-download bilang transparent PNG.",
+    "ui": {
+        "clear": "I-clear",
+        "download": "I-download ang Lagda",
+        "penColor": "Kulay ng Panulat",
+        "penWidth": "Lapad ng Panulat",
+        "backgroundColor": "Kulay ng Background",
+        "transparent": "Transparent",
+        "white": "Puti",
+        "processingNote": "🔒 Ang iyong lagda ay lokal na ginagawa sa iyong browser at hindi kailanman ipinapadala sa aming mga server."
+    }
+}
