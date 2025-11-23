@@ -1,23 +1,17 @@
 {
     "meta": {
-        "title": "Base64 Encoder/Decoder - Online Base64 Converter",
-        "description": "I-encode ang teksto sa Base64 o i-decode ang Base64 sa teksto online. Libre, mabilis, at ligtas na Base64 converter tool."
+        "title": "Base64 Encoder/Decoder - I-encode at I-decode ang Teksto",
+        "description": "Libreng online na Base64 encoder at decoder. I-convert ang teksto sa Base64 format at i-decode ang mga Base64 string pabalik sa teksto. Ligtas at madaling gamitin."
     },
     "title": "Base64 Encoder/Decoder",
-    "description": "I-encode ang teksto sa Base64 o i-decode ang Base64 strings pabalik sa teksto.",
+    "description": "I-encode ang teksto sa Base64 o i-decode ang Base64 sa teksto.",
     "ui": {
-        "mode": "Mode",
-        "encode": "Encode",
-        "decode": "Decode",
-        "input": "Input",
-        "output": "Output",
+        "inputLabel": "Ilagay ang Teksto",
+        "encode": "I-encode",
+        "decode": "I-decode",
+        "result": "Resulta",
         "copy": "Kopyahin",
         "copied": "Nakopya na!",
-        "clear": "I-clear",
-        "paste": "I-paste",
-        "error": "Error",
-        "invalidBase64": "Hindi wastong Base64 string",
-        "inputPlaceholder": "Ilagay ang teksto dito...",
-        "processingNote": "🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser. Walang data na ipinapadala sa anumang server."
+        "processingNote": "🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."
     }
 }

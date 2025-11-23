@@ -1,17 +1,19 @@
 {
     "meta": {
-        "title": "Aspect Ratio Calculator",
-        "description": "Calculate aspect ratios and image dimensions easily.",
-        "keywords": "aspect ratio, calculator, image dimensions, resize"
+        "title": "Aspect Ratio Calculator - Calculate Dimensions & Ratios",
+        "description": "Free online aspect ratio calculator. Calculate aspect ratios, resize dimensions while maintaining ratio, and find common aspect ratios for screens and images."
     },
+    "title": "Aspect Ratio Calculator",
+    "description": "Calculate aspect ratios and resize dimensions.",
     "ui": {
-        "commonPresets": "Common Presets",
-        "dimensions": "Dimensions (px)",
         "width": "Width",
         "height": "Height",
-        "ratio": "Ratio",
-        "w": "W",
-        "h": "H",
-        "visualPreview": "📐 Visual preview updates in real-time. All calculations happen in your browser."
+        "ratio": "Aspect Ratio",
+        "calculate": "Calculate",
+        "newWidth": "New Width",
+        "newHeight": "New Height",
+        "commonRatios": "Common Ratios",
+        "result": "Result",
+        "processingNote": "🔒 All processing is done in your browser."
     }
 }

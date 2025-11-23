@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "title": "Bộ chuyển đổi chữ hoa/thường - Chữ hoa, Chữ thường, Tiêu đề",
+        "description": "Bộ chuyển đổi chữ hoa/thường văn bản trực tuyến miễn phí. Chuyển đổi văn bản sang chữ hoa, chữ thường, chữ tiêu đề, camelCase, snake_case và hơn thế nữa. Định dạng văn bản của bạn ngay lập tức."
+    },
+    "title": "Bộ chuyển đổi chữ hoa/thường",
+    "description": "Chuyển đổi văn bản sang các kiểu chữ khác nhau (chữ hoa, chữ thường, v.v.).",
+    "ui": {
+        "inputLabel": "Nhập văn bản",
+        "uppercase": "CHỮ HOA",
+        "lowercase": "chữ thường",
+        "titleCase": "Chữ Tiêu Đề",
+        "sentenceCase": "Chữ câu",
+        "camelCase": "camelCase",
+        "snakeCase": "snake_case",
+        "kebabCase": "kebab-case",
+        "copy": "Sao chép",
+        "copied": "Đã sao chép!",
+        "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."
+    }
+}

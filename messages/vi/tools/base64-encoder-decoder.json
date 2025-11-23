@@ -1,23 +1,17 @@
 {
     "meta": {
-        "title": "Base64 Encoder/Decoder - Chuyển đổi Base64 Trực tuyến",
-        "description": "Mã hóa văn bản sang Base64 hoặc giải mã Base64 sang văn bản trực tuyến. Công cụ chuyển đổi Base64 miễn phí, nhanh chóng và an toàn."
+        "title": "Bộ mã hóa/giải mã Base64 - Mã hóa & Giải mã văn bản",
+        "description": "Bộ mã hóa và giải mã Base64 trực tuyến miễn phí. Chuyển đổi văn bản sang định dạng Base64 và giải mã chuỗi Base64 trở lại văn bản. An toàn và dễ sử dụng."
     },
-    "title": "Base64 Encoder/Decoder",
-    "description": "Mã hóa văn bản sang Base64 hoặc giải mã chuỗi Base64 trở lại văn bản.",
+    "title": "Bộ mã hóa/giải mã Base64",
+    "description": "Mã hóa văn bản sang Base64 hoặc giải mã Base64 sang văn bản.",
     "ui": {
-        "mode": "Chế độ",
+        "inputLabel": "Nhập văn bản",
         "encode": "Mã hóa",
         "decode": "Giải mã",
-        "input": "Đầu vào",
-        "output": "Đầu ra",
+        "result": "Kết quả",
         "copy": "Sao chép",
         "copied": "Đã sao chép!",
-        "clear": "Xóa",
-        "paste": "Dán",
-        "error": "Lỗi",
-        "invalidBase64": "Chuỗi Base64 không hợp lệ",
-        "inputPlaceholder": "Nhập văn bản tại đây...",
-        "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn. Không có dữ liệu nào được gửi đến bất kỳ máy chủ nào."
+        "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."
     }
 }

@@ -1,17 +1,19 @@
 {
     "meta": {
-        "title": "Aspect Ratio Calculator",
-        "description": "Hitung rasio aspek dan dimensi gambar dengan mudah.",
-        "keywords": "aspect ratio, calculator, image dimensions, resize"
+        "title": "Kalkulator Rasio Aspek - Hitung Dimensi & Rasio",
+        "description": "Kalkulator rasio aspek online gratis. Hitung rasio aspek, ubah ukuran dimensi sambil mempertahankan rasio, dan temukan rasio aspek umum untuk layar dan gambar."
     },
+    "title": "Kalkulator Rasio Aspek",
+    "description": "Hitung rasio aspek dan ubah ukuran dimensi.",
     "ui": {
-        "commonPresets": "Preset Umum",
-        "dimensions": "Dimensi (px)",
         "width": "Lebar",
         "height": "Tinggi",
-        "ratio": "Rasio",
-        "w": "W",
-        "h": "H",
-        "visualPreview": "📐 Pratinjau visual diperbarui secara real-time. Semua perhitungan terjadi di browser Anda."
+        "ratio": "Rasio Aspek",
+        "calculate": "Hitung",
+        "newWidth": "Lebar Baru",
+        "newHeight": "Tinggi Baru",
+        "commonRatios": "Rasio Umum",
+        "result": "Hasil",
+        "processingNote": "🔒 Semua pemrosesan dilakukan di browser Anda."
     }
 }

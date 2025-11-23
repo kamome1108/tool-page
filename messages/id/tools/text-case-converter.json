@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "title": "Konverter Huruf Teks - Huruf Besar, Huruf Kecil, Judul",
+        "description": "Konverter huruf teks online gratis. Konversi teks ke huruf besar, huruf kecil, huruf judul, camelCase, snake_case, dan banyak lagi. Format teks Anda secara instan."
+    },
+    "title": "Konverter Huruf Teks",
+    "description": "Konversi teks ke berbagai huruf (huruf besar, huruf kecil, dll.).",
+    "ui": {
+        "inputLabel": "Masukkan Teks",
+        "uppercase": "HURUF BESAR",
+        "lowercase": "huruf kecil",
+        "titleCase": "Huruf Judul",
+        "sentenceCase": "Huruf kalimat",
+        "camelCase": "camelCase",
+        "snakeCase": "snake_case",
+        "kebabCase": "kebab-case",
+        "copy": "Salin",
+        "copied": "Disalin!",
+        "processingNote": "🔒 Semua pemrosesan dilakukan di browser Anda."
+    }
+}

@@ -230,4 +230,34 @@ export const tools: Tool[] = [
         category: 'web',
         icon: 'code',
     },
+    {
+        id: 'aspect-ratio-calculator',
+        slug: 'aspect-ratio-calculator',
+        category: 'design',
+        icon: '📐',
+    },
+    {
+        id: 'unix-timestamp-converter',
+        slug: 'unix-timestamp-converter',
+        category: 'dev',
+        icon: '⌚',
+    },
+    {
+        id: 'base64-encoder-decoder',
+        slug: 'base64-encoder-decoder',
+        category: 'dev',
+        icon: '🔤',
+    },
+    {
+        id: 'text-case-converter',
+        slug: 'text-case-converter',
+        category: 'writing',
+        icon: 'Aa',
+    },
+    {
+        id: 'discount-calculator',
+        slug: 'discount-calculator',
+        category: 'finance',
+        icon: '🏷️',
+    },
 ];
