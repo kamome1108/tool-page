@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "YouTube Tag Extractor - Get Video Tags",
+        "description": "Free online YouTube Tag Extractor. Extract tags and keywords from any YouTube video. Improve your video SEO by analyzing competitor tags."
+    },
+    "title": "YouTube Tag Extractor",
+    "description": "Extract tags and keywords from YouTube videos to analyze SEO strategy.",
+    "ui": {
+        "inputLabel": "YouTube Video URL",
+        "extract": "Extract Tags",
+        "result": "Extracted Tags",
+        "copy": "Copy",
+        "copyAll": "Copy All Tags",
+        "copied": "Copied!",
+        "noTagsFound": "No tags found for this video.",
+        "error": "Failed to fetch video data. Please check the URL.",
+        "processingNote": "🔒 We use a public proxy to fetch video data. No personal data is stored."
+    }
+}

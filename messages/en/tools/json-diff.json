@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "title": "JSON Diff - Compare JSON Files",
+        "description": "Free online JSON Diff tool. Compare two JSON objects and highlight the differences (added, removed, or modified keys)."
+    },
+    "title": "JSON Diff",
+    "description": "Compare two JSON objects and find the differences.",
+    "ui": {
+        "leftLabel": "Original JSON",
+        "rightLabel": "Modified JSON",
+        "compare": "Compare",
+        "result": "Differences",
+        "noDiff": "No differences found. The JSON objects are identical.",
+        "invalidJson": "Invalid JSON in {side}",
+        "diffTypes": {
+            "added": "Added",
+            "removed": "Removed",
+            "modified": "Modified"
+        },
+        "processingNote": "🔒 Comparison is done locally in your browser."
+    }
+}

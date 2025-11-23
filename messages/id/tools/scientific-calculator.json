@@ -1,0 +1,16 @@
+{
+    "meta": {
+        "title": "Kalkulator Ilmiah - Kalkulator Online Canggih",
+        "description": "Kalkulator Ilmiah online gratis. Lakukan perhitungan matematika tingkat lanjut termasuk trigonometri, logaritma, dan eksponen."
+    },
+    "title": "Kalkulator Ilmiah",
+    "description": "Kalkulator canggih untuk perhitungan ilmiah dan teknik.",
+    "ui": {
+        "clear": "AC",
+        "backspace": "⌫",
+        "equals": "=",
+        "error": "Kesalahan",
+        "deg": "DEG",
+        "rad": "RAD"
+    }
+}

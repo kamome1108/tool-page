@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "title": "IP Address Lookup - Suriin ang Aking IP",
+        "description": "Libreng online na IP Address Lookup. Suriin ang iyong pampublikong IP address, lokasyon, ISP, at iba pang mga detalye ng network kaagad."
+    },
+    "title": "IP Address Lookup",
+    "description": "Suriin ang iyong pampublikong IP address at impormasyon ng lokasyon.",
+    "ui": {
+        "yourIp": "Ang Iyong IP Address",
+        "location": "Lokasyon",
+        "isp": "ISP",
+        "country": "Bansa",
+        "city": "Lungsod",
+        "region": "Rehiyon",
+        "timezone": "Timezone",
+        "refresh": "I-refresh",
+        "copy": "Kopyahin ang IP",
+        "copied": "Nakopya na!",
+        "loading": "Dine-detect ang IP...",
+        "error": "Nabigong i-detect ang IP address.",
+        "processingNote": "🔒 Gumagamit kami ng pampublikong API upang i-detect ang iyong IP. Ang iyong IP ay hindi nakaimbak sa aming mga server."
+    }
+}

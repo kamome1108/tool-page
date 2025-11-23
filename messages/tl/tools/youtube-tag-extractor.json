@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "YouTube Tag Extractor - Kumuha ng Mga Tag ng Video",
+        "description": "Libreng online na YouTube Tag Extractor. I-extract ang mga tag at keyword mula sa anumang video sa YouTube. Pagbutihin ang iyong video SEO sa pamamagitan ng pagsusuri sa mga tag ng kakumpitensya."
+    },
+    "title": "YouTube Tag Extractor",
+    "description": "I-extract ang mga tag at keyword mula sa mga video sa YouTube upang suriin ang diskarte sa SEO.",
+    "ui": {
+        "inputLabel": "URL ng Video sa YouTube",
+        "extract": "I-extract ang Mga Tag",
+        "result": "Mga Na-extract na Tag",
+        "copy": "Kopyahin",
+        "copyAll": "Kopyahin ang Lahat ng Tag",
+        "copied": "Nakopya na!",
+        "noTagsFound": "Walang nahanap na mga tag para sa video na ito.",
+        "error": "Nabigong kunin ang data ng video. Pakisuri ang URL.",
+        "processingNote": "🔒 Gumagamit kami ng pampublikong proxy upang kunin ang data ng video. Walang personal na data ang nakaimbak."
+    }
+}

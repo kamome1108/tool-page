@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "title": "JSON Diff - JSON差分比較ツール",
+        "description": "無料のオンラインJSON Diffツール。2つのJSONオブジェクトを比較し、違い（追加、削除、変更されたキー）をハイライト表示します。"
+    },
+    "title": "JSON Diff",
+    "description": "2つのJSONオブジェクトを比較し、差分を検出します。",
+    "ui": {
+        "leftLabel": "元のJSON",
+        "rightLabel": "変更後のJSON",
+        "compare": "比較する",
+        "result": "差分結果",
+        "noDiff": "差分はありません。2つのJSONは完全に一致しています。",
+        "invalidJson": "{side} のJSONが無効です",
+        "diffTypes": {
+            "added": "追加",
+            "removed": "削除",
+            "modified": "変更"
+        },
+        "processingNote": "🔒 比較処理はブラウザ内でローカルに行われます。"
+    }
+}

@@ -231,34 +231,16 @@ export const tools: Tool[] = [
         icon: 'code',
     },
     {
-        id: 'aspect-ratio-calculator',
-        slug: 'aspect-ratio-calculator',
-        category: 'design',
-        icon: '📐',
-    },
-    {
         id: 'unix-timestamp-converter',
         slug: 'unix-timestamp-converter',
         category: 'dev',
         icon: '⌚',
     },
     {
-        id: 'base64-encoder-decoder',
-        slug: 'base64-encoder-decoder',
-        category: 'dev',
-        icon: '🔤',
-    },
-    {
         id: 'text-case-converter',
         slug: 'text-case-converter',
         category: 'writing',
         icon: 'Aa',
-    },
-    {
-        id: 'discount-calculator',
-        slug: 'discount-calculator',
-        category: 'finance',
-        icon: '🏷️',
     },
     {
         id: 'instagram-caption-spacer',
@@ -289,5 +271,41 @@ export const tools: Tool[] = [
         slug: 'hash-generator',
         category: 'security',
         icon: '#️⃣',
+    },
+    {
+        id: 'youtube-tag-extractor',
+        slug: 'youtube-tag-extractor',
+        category: 'social',
+        icon: '🏷️',
+    },
+    {
+        id: 'ip-address-lookup',
+        slug: 'ip-address-lookup',
+        category: 'web',
+        icon: '🌐',
+    },
+    {
+        id: 'loan-calculator',
+        slug: 'loan-calculator',
+        category: 'finance',
+        icon: '💰',
+    },
+    {
+        id: 'todo-list',
+        slug: 'todo-list',
+        category: 'productivity',
+        icon: '✅',
+    },
+    {
+        id: 'scientific-calculator',
+        slug: 'scientific-calculator',
+        category: 'education',
+        icon: '🧮',
+    },
+    {
+        id: 'json-diff',
+        slug: 'json-diff',
+        category: 'utilities',
+        icon: '↔️',
     },
 ];

@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "Trình trích xuất thẻ YouTube - Nhận thẻ video",
+        "description": "Trình trích xuất thẻ YouTube trực tuyến miễn phí. Trích xuất thẻ và từ khóa từ bất kỳ video YouTube nào. Cải thiện SEO video của bạn bằng cách phân tích thẻ của đối thủ cạnh tranh."
+    },
+    "title": "Trình trích xuất thẻ YouTube",
+    "description": "Trích xuất thẻ và từ khóa từ video YouTube để phân tích chiến lược SEO.",
+    "ui": {
+        "inputLabel": "URL video YouTube",
+        "extract": "Trích xuất thẻ",
+        "result": "Thẻ đã trích xuất",
+        "copy": "Sao chép",
+        "copyAll": "Sao chép tất cả các thẻ",
+        "copied": "Đã sao chép!",
+        "noTagsFound": "Không tìm thấy thẻ nào cho video này.",
+        "error": "Không thể lấy dữ liệu video. Vui lòng kiểm tra URL.",
+        "processingNote": "🔒 Chúng tôi sử dụng proxy công cộng để lấy dữ liệu video. Không có dữ liệu cá nhân nào được lưu trữ."
+    }
+}
