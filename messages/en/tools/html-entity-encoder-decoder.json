@@ -1,0 +1,17 @@
+{
+    "meta": {
+        "title": "HTML Entity Encoder/Decoder - Convert Text to HTML Entities",
+        "description": "Free online HTML entity encoder and decoder. Convert special characters to HTML entities and vice versa. Securely encode text for web use."
+    },
+    "title": "HTML Entity Encoder/Decoder",
+    "description": "Encode or decode text to/from HTML entities.",
+    "ui": {
+        "inputLabel": "Enter Text",
+        "encode": "Encode",
+        "decode": "Decode",
+        "result": "Result",
+        "copy": "Copy",
+        "copied": "Copied!",
+        "processingNote": "🔒 All processing is done in your browser."
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "meta": {
+        "title": "ROI Calculator - Calculate Return on Investment",
+        "description": "Free online ROI calculator. Calculate your Return on Investment easily. Determine the profitability of your investments with this simple tool."
+    },
+    "title": "ROI Calculator",
+    "description": "Calculate the Return on Investment (ROI) for your investments.",
+    "ui": {
+        "invested": "Amount Invested",
+        "returned": "Amount Returned",
+        "duration": "Investment Duration (Years)",
+        "calculate": "Calculate ROI",
+        "result": "ROI",
+        "annualized": "Annualized ROI",
+        "gain": "Total Gain/Loss",
+        "processingNote": "🔒 All processing is done in your browser."
+    }
+}

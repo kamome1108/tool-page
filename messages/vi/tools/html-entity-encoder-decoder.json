@@ -1,0 +1,17 @@
+{
+    "meta": {
+        "title": "Bộ mã hóa/giải mã thực thể HTML - Chuyển đổi văn bản sang thực thể HTML",
+        "description": "Bộ mã hóa và giải mã thực thể HTML trực tuyến miễn phí. Chuyển đổi các ký tự đặc biệt sang thực thể HTML và ngược lại. Mã hóa văn bản an toàn để sử dụng trên web."
+    },
+    "title": "Bộ mã hóa/giải mã thực thể HTML",
+    "description": "Mã hóa hoặc giải mã văn bản sang/từ thực thể HTML.",
+    "ui": {
+        "inputLabel": "Nhập văn bản",
+        "encode": "Mã hóa",
+        "decode": "Giải mã",
+        "result": "Kết quả",
+        "copy": "Sao chép",
+        "copied": "Đã sao chép!",
+        "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."
+    }
+}

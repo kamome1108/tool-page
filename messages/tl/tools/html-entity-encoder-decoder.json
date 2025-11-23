@@ -1,0 +1,17 @@
+{
+    "meta": {
+        "title": "HTML Entity Encoder/Decoder - I-convert ang Teksto sa HTML Entities",
+        "description": "Libreng online na HTML entity encoder at decoder. I-convert ang mga espesyal na character sa HTML entities at vice versa. Ligtas na i-encode ang teksto para sa paggamit sa web."
+    },
+    "title": "HTML Entity Encoder/Decoder",
+    "description": "I-encode o i-decode ang teksto sa/mula sa HTML entities.",
+    "ui": {
+        "inputLabel": "Ilagay ang Teksto",
+        "encode": "I-encode",
+        "decode": "I-decode",
+        "result": "Resulta",
+        "copy": "Kopyahin",
+        "copied": "Nakopya na!",
+        "processingNote": "🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."
+    }
+}

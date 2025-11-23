@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "Percentage Calculator - Kalkulahin ang mga Porsyento nang Madali",
+        "description": "Libreng online na percentage calculator. Kalkulahin ang porsyento ng isang numero, pagbabago sa porsyento, at iba pa. Lutasin ang mga karaniwang problema sa porsyento agad."
+    },
+    "title": "Percentage Calculator",
+    "description": "Lutasin ang mga karaniwang problema sa porsyento nang madali.",
+    "ui": {
+        "mode": "Mode ng Pagkalkula",
+        "mode1": "Ano ang X% ng Y?",
+        "mode2": "Ang X ay ilang % ng Y?",
+        "mode3": "Pagbabago sa porsyento mula X hanggang Y",
+        "inputX": "Halaga X",
+        "inputY": "Halaga Y",
+        "calculate": "Kalkulahin",
+        "result": "Resulta",
+        "processingNote": "🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."
+    }
+}

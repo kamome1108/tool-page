@@ -1,0 +1,18 @@
+{
+    "meta": {
+        "title": "Máy tính ROI - Tính lợi tức đầu tư",
+        "description": "Máy tính ROI trực tuyến miễn phí. Tính lợi tức đầu tư của bạn một cách dễ dàng. Xác định khả năng sinh lời của các khoản đầu tư của bạn với công cụ đơn giản này."
+    },
+    "title": "Máy tính ROI",
+    "description": "Tính lợi tức đầu tư (ROI) cho các khoản đầu tư của bạn.",
+    "ui": {
+        "invested": "Số tiền đã đầu tư",
+        "returned": "Số tiền thu về",
+        "duration": "Thời gian đầu tư (Năm)",
+        "calculate": "Tính ROI",
+        "result": "ROI",
+        "annualized": "ROI hàng năm",
+        "gain": "Tổng Lãi/Lỗ",
+        "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."
+    }
+}

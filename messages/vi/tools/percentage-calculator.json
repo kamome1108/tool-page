@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "Máy tính phần trăm - Tính phần trăm dễ dàng",
+        "description": "Máy tính phần trăm trực tuyến miễn phí. Tính phần trăm của một số, thay đổi phần trăm và hơn thế nữa. Giải quyết các vấn đề phần trăm phổ biến ngay lập tức."
+    },
+    "title": "Máy tính phần trăm",
+    "description": "Giải quyết các vấn đề phần trăm phổ biến một cách dễ dàng.",
+    "ui": {
+        "mode": "Chế độ tính toán",
+        "mode1": "X% của Y là bao nhiêu?",
+        "mode2": "X là bao nhiêu % của Y?",
+        "mode3": "Phần trăm thay đổi từ X sang Y",
+        "inputX": "Giá trị X",
+        "inputY": "Giá trị Y",
+        "calculate": "Tính toán",
+        "result": "Kết quả",
+        "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."
+    }
+}

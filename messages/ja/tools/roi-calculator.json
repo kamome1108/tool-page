@@ -1,0 +1,18 @@
+{
+    "meta": {
+        "title": "ROI計算機 - 投資収益率を計算",
+        "description": "無料のオンラインROI計算機。投資収益率（ROI）を簡単に計算できます。このシンプルなツールで投資の収益性を判断しましょう。"
+    },
+    "title": "ROI計算機",
+    "description": "投資の投資収益率（ROI）を計算します。",
+    "ui": {
+        "invested": "投資額",
+        "returned": "回収額",
+        "duration": "投資期間（年）",
+        "calculate": "ROIを計算",
+        "result": "ROI（投資収益率）",
+        "annualized": "年率ROI",
+        "gain": "総利益/損失",
+        "processingNote": "🔒 すべての処理はブラウザ上で行われます。"
+    }
+}

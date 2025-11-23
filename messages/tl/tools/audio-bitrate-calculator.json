@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "title": "Audio Bitrate Calculator - Kalkulahin ang Laki ng File at Bitrate",
+        "description": "Libreng online na audio bitrate calculator. Kalkulahin ang laki ng audio file batay sa bitrate at tagal, o kalkulahin ang kinakailangang bitrate para sa target na laki ng file."
+    },
+    "title": "Audio Bitrate Calculator",
+    "description": "Kalkulahin ang laki ng audio file o kinakailangang bitrate.",
+    "ui": {
+        "mode": "Mode ng Pagkalkula",
+        "modeSize": "Kalkulahin ang Laki ng File",
+        "modeBitrate": "Kalkulahin ang Bitrate",
+        "duration": "Tagal (Minuto:Segundo)",
+        "bitrate": "Bitrate (kbps)",
+        "fileSize": "Target na Laki ng File (MB)",
+        "calculate": "Kalkulahin",
+        "result": "Resulta",
+        "estimatedSize": "Tinatayang Laki ng File",
+        "requiredBitrate": "Kinakailangang Bitrate",
+        "processingNote": "🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "title": "Audio Bitrate Calculator - Calculate File Size & Bitrate",
+        "description": "Free online audio bitrate calculator. Calculate audio file size based on bitrate and duration, or calculate required bitrate for a target file size."
+    },
+    "title": "Audio Bitrate Calculator",
+    "description": "Calculate audio file size or required bitrate.",
+    "ui": {
+        "mode": "Calculation Mode",
+        "modeSize": "Calculate File Size",
+        "modeBitrate": "Calculate Bitrate",
+        "duration": "Duration (Minutes:Seconds)",
+        "bitrate": "Bitrate (kbps)",
+        "fileSize": "Target File Size (MB)",
+        "calculate": "Calculate",
+        "result": "Result",
+        "estimatedSize": "Estimated File Size",
+        "requiredBitrate": "Required Bitrate",
+        "processingNote": "🔒 All processing is done in your browser."
+    }
+}
