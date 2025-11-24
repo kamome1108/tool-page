@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/[locale]/layout,_N_T_/[locale]/tools/layout,_N_T_/[locale]/tools/jwt-decoder/layout,_N_T_/[locale]/tools/jwt-decoder/page,_N_T_/ja/tools/jwt-decoder"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/$d$locale/tools/jwt-decoder/__PAGE__",
+    "/$d$locale/tools/jwt-decoder",
+    "/$d$locale/tools",
+    "/$d$locale",
+    "/_index",
+    "/_head"
+  ]
+}

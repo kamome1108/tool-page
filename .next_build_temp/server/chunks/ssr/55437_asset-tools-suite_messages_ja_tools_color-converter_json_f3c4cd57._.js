@@ -1,0 +1,3 @@
+module.exports=[37529,a=>{a.v({meta:{title:"カラーコンバーター - HEX, RGB, HSL 変換",description:"無料のオンラインカラーコンバーター。HEX、RGB、HSL形式間で色を変換します。色をプレビューし、値を瞬時にコピーできます。"},title:"カラーコンバーター",description:"HEX、RGB、HSL形式間で色を変換します。",ui:{inputLabel:"色を入力 (HEX, RGB, または HSL)",preview:"プレビュー",hex:"HEX",rgb:"RGB",hsl:"HSL",copy:"コピー",copied:"コピーしました！",invalidColor:"無効な色形式です",processingNote:"🔒 すべての処理はブラウザ上で行われます。"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_color-converter_json_f3c4cd57._.js.map

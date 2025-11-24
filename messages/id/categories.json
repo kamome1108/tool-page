@@ -46,5 +46,9 @@
     "utilities": {
         "name": "Utilitas",
         "description": "Utilitas dan alat tujuan umum."
+    },
+    "converter": {
+        "name": "Konverter",
+        "description": "Konversi data antar format yang berbeda."
     }
 }

@@ -1,0 +1,3 @@
+module.exports=[96490,a=>{a.v({meta:{title:"JWT Decoder - Decode JSON Web Tokens",description:"Free online JWT Decoder. Decode and inspect JSON Web Tokens (JWT) header and payload without sending data to a server."},title:"JWT Decoder",description:"Decode and inspect JSON Web Tokens.",ui:{inputPlaceholder:"Paste your JWT here...",header:"Header",payload:"Payload",invalidToken:"Invalid JWT format",processingNote:"🔒 Decoding happens locally in your browser. Your tokens are never sent to our servers."}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_en_tools_jwt-decoder_json_b003a498._.js.map

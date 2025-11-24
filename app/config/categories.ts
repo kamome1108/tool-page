@@ -59,6 +59,11 @@ export const categories = [
         icon: '🔧',
         color: 'utilities',
     },
+    {
+        id: 'converter',
+        icon: '🔄',
+        color: 'converter',
+    },
 ] as const;
 
 export type CategoryId = typeof categories[number]['id'];

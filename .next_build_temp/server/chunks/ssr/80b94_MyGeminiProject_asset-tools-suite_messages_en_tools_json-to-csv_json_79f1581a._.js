@@ -1,0 +1,3 @@
+module.exports=[2841,a=>{a.v({meta:{title:"JSON to CSV - Convert JSON to CSV Online",description:"Free online JSON to CSV converter. Convert your JSON data to CSV format for Excel or Google Sheets. Fast, secure, and client-side processing."},title:"JSON to CSV",description:"Convert JSON data to CSV format.",ui:{inputPlaceholder:"Paste your JSON here...",convert:"Convert to CSV",download:"Download CSV",copy:"Copy CSV",copied:"Copied!",clear:"Clear",error:"Invalid JSON",outputPlaceholder:"CSV output will appear here..."}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_en_tools_json-to-csv_json_79f1581a._.js.map

@@ -1,0 +1,3 @@
+module.exports=[46207,a=>{a.v({meta:{title:"เครื่องคำนวณเงินกู้ - คำนวณการชำระเงินรายเดือน",description:"เครื่องคำนวณเงินกู้ออนไลน์ฟรี คำนวณการชำระเงินกู้รายเดือน ดอกเบี้ยรวม และยอดชำระคืนทั้งหมดของคุณได้อย่างง่ายดาย"},title:"เครื่องคำนวณเงินกู้",description:"คำนวณการชำระเงินรายเดือนและดอกเบี้ยรวมสำหรับเงินกู้",ui:{amount:"วงเงินกู้",interestRate:"อัตราดอกเบี้ย (%)",term:"ระยะเวลาเงินกู้ (ปี)",calculate:"คำนวณ",result:"ผลการคำนวณ",monthlyPayment:"การชำระเงินรายเดือน",totalPayment:"ยอดชำระทั้งหมด",totalInterest:"ดอกเบี้ยรวม",currency:"฿"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_th_tools_loan-calculator_json_953d1612._.js.map

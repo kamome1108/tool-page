@@ -1,0 +1,3 @@
+module.exports=[72396,a=>{a.v({meta:{title:"Image Color Picker - Extract Colors from Images Online",description:"Pick colors from images online. Upload an image and get HEX, RGB, and HSL color codes from any pixel. Free and easy to use."},title:"Image Color Picker",description:"Extract colors from your images. Get HEX, RGB, and HSL codes.",dropzone:{label:"Drop an image here, or click to select"},pickedColor:"Picked Color",hex:"HEX",rgb:"RGB",hsl:"HSL",copy:"Copy",copied:"Copied!",reset:"Reset",clickToPick:"Click on the image to pick a color"})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_en_tools_color-picker_json_7d2a3f52._.js.map

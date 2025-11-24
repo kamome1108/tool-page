@@ -1,0 +1,3 @@
+module.exports=[4590,a=>{a.v({meta:{title:"Image Rotate & Flip - छवियों को घुमाएं ऑनलाइन मुफ्त में",description:"अपनी छवियों को ऑनलाइन घुमाएं और पलटें। 90 डिग्री घुमाएं, क्षैतिज या लंबवत पलटें। मुफ़्त, तेज़ और सुरक्षित छवि रोटेशन उपकरण।",keywords:"rotate image, flip image, rotate 90 degrees, mirror image"},title:"Image Rotate & Flip",description:"छवियों को 90 डिग्री घुमाएं या उन्हें क्षैतिज/लंबवत पलटें।",dropzone:{label:"यहाँ एक छवि छोड़ें, या चुनने के लिए क्लिक करें"},rotateLeft:"बाएं घुमाएं",rotateRight:"दाएं घुमाएं",flipHorizontal:"क्षैतिज पलटें",flipVertical:"लंबवत पलटें",download:"छवि डाउनलोड करें",reset:"रीसेट करें"})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_hi_tools_image-rotate_json_30c2635e._.js.map

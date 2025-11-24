@@ -1,0 +1,3 @@
+module.exports=[12542,a=>{a.v({meta:{title:"Character & Line Counter",description:"Hitung karakter, baris, dan paragraf secara real-time.",keywords:"character, counter, writing, text"},ui:{inputPlaceholder:"Ketik atau tempel teks Anda di sini...",characters:"Karakter",lines:"Baris",paragraphs:"Paragraf",words:"Kata",bytes:"Byte",clear:"Hapus",statistics:"Statistik",withoutSpaces:"Tanpa Spasi"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_id_tools_character-counter_json_520c85f3._.js.map

@@ -1,0 +1,3 @@
+module.exports=[76351,a=>{a.v({meta:{title:"Daftar Tugas - Manajer Tugas Sederhana",description:"Daftar Tugas online gratis. Kelola tugas harian Anda, tandai sebagai selesai, dan tetap teratur. Tugas disimpan di browser Anda."},title:"Daftar Tugas",description:"Manajer tugas sederhana untuk mengatur pekerjaan harian Anda.",ui:{inputPlaceholder:"Tambahkan tugas baru...",add:"Tambah",all:"Semua",active:"Aktif",completed:"Selesai",clearCompleted:"Hapus yang Selesai",noTasks:"Belum ada tugas. Tambahkan satu di atas!",itemsLeft:"{count} item tersisa",processingNote:"🔒 Tugas Anda disimpan secara lokal di browser Anda."}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_id_tools_todo-list_json_4b21a412._.js.map

@@ -1,0 +1,3 @@
+module.exports=[25802,a=>{a.v({meta:{title:"Stopwatch - Online Timer with Laps",description:"Free online stopwatch tool. Measure time with start, stop, and lap functionality. Perfect for sports, cooking, or productivity."},title:"Stopwatch",description:"Measure time accurately with lap functionality.",ui:{start:"Start",stop:"Stop",reset:"Reset",lap:"Lap",laps:"Laps",lapHeader:"Lap",timeHeader:"Time",totalHeader:"Total",processingNote:"🔒 All processing is done in your browser."}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_en_tools_stopwatch_json_1fe142d1._.js.map

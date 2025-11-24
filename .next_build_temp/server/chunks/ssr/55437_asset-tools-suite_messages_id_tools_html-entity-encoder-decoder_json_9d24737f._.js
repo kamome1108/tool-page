@@ -1,0 +1,3 @@
+module.exports=[76688,a=>{a.v({meta:{title:"Encoder/Decoder Entitas HTML - Konversi Teks ke Entitas HTML",description:"Encoder dan decoder entitas HTML online gratis. Konversi karakter khusus ke entitas HTML dan sebaliknya. Enkode teks dengan aman untuk penggunaan web."},title:"Encoder/Decoder Entitas HTML",description:"Enkode atau dekode teks ke/dari entitas HTML.",ui:{inputLabel:"Masukkan Teks",encode:"Enkode",decode:"Dekode",result:"Hasil",copy:"Salin",copied:"Disalin!",processingNote:"🔒 Semua pemrosesan dilakukan di browser Anda."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_id_tools_html-entity-encoder-decoder_json_9d24737f._.js.map

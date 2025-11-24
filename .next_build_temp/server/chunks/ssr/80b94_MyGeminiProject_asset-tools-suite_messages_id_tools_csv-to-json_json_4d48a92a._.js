@@ -1,0 +1,3 @@
+module.exports=[37188,a=>{a.v({meta:{title:"CSV ke JSON - Konversi CSV ke JSON Online",description:"Konverter CSV ke JSON online gratis. Konversi data CSV Anda ke format JSON untuk pengembangan web atau analisis data. Cepat, aman, dan pemrosesan sisi klien."},title:"CSV ke JSON",description:"Konversi data CSV ke format JSON.",ui:{inputPlaceholder:"Tempel CSV Anda di sini...",convert:"Konversi ke JSON",download:"Unduh JSON",copy:"Salin JSON",copied:"Disalin!",clear:"Hapus",error:"CSV tidak valid",outputPlaceholder:"Output JSON akan muncul di sini...",options:"Opsi",header:"Baris pertama adalah header",skipEmptyLines:"Lewati baris kosong"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_id_tools_csv-to-json_json_4d48a92a._.js.map

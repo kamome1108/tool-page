@@ -1,0 +1,17 @@
+{
+    "meta": {
+        "title": "Chuyển đổi JPG sang WebP - Chuyển đổi ảnh trực tuyến",
+        "description": "Trình chuyển đổi JPG sang WebP trực tuyến miễn phí. Chuyển đổi hình ảnh JPEG sang định dạng WebP hiện đại để nén tốt hơn. Chuyển đổi nhanh chóng, an toàn và phía máy khách."
+    },
+    "title": "Chuyển đổi JPG sang WebP",
+    "description": "Chuyển đổi hình ảnh JPG sang định dạng WebP ngay lập tức.",
+    "ui": {
+        "upload": "Tải JPG lên",
+        "uploadHelp": "Kéo và thả JPG vào đây hoặc nhấp để chọn",
+        "convert": "Chuyển đổi sang WebP",
+        "download": "Tải xuống WebP",
+        "clear": "Xóa",
+        "converting": "Đang chuyển đổi...",
+        "noFile": "Chưa chọn hình ảnh nào"
+    }
+}

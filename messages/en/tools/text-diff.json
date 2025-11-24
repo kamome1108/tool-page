@@ -1,0 +1,20 @@
+{
+    "meta": {
+        "title": "Text Diff Checker - Compare Two Texts Online",
+        "description": "Free online Text Diff Checker. Compare two texts and find differences instantly. Highlights additions, deletions, and changes. Useful for code, documents, and lists."
+    },
+    "title": "Text Diff Checker",
+    "description": "Compare two texts and highlight the differences.",
+    "ui": {
+        "original": "Original Text",
+        "modified": "Modified Text",
+        "compare": "Compare",
+        "clear": "Clear",
+        "diff": "Differences",
+        "noDiff": "The texts are identical.",
+        "legend": "Legend",
+        "removed": "Removed",
+        "added": "Added",
+        "unchanged": "Unchanged"
+    }
+}

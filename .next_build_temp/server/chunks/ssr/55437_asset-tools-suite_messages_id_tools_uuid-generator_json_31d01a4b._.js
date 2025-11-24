@@ -1,0 +1,3 @@
+module.exports=[92474,a=>{a.v({meta:{title:"Pembuat UUID - Hasilkan UUID Acak Online",description:"Pembuat UUID online gratis. Hasilkan UUID acak (v4) secara instan. Hasilkan satu atau beberapa UUID, salin ke papan klip, dan unduh sebagai teks."},title:"Pembuat UUID",description:"Hasilkan UUID (Universally Unique Identifier) acak versi 4.",ui:{generate:"Hasilkan UUID",quantity:"Jumlah",version:"Versi",v4:"Versi 4 (Acak)",copy:"Salin Semua",copied:"Disalin!",download:"Unduh Daftar",clear:"Hapus",generated:"UUID yang Dihasilkan"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_id_tools_uuid-generator_json_31d01a4b._.js.map

@@ -1,0 +1,3 @@
+module.exports=[23173,a=>{a.v({meta:{title:"画像ぼかし - オンラインで画像をぼかす",description:"オンラインで画像にぼかし効果を適用します。ぼかしの強さを調整して、プライバシー保護や芸術的な効果に使用できます。"},title:"画像ぼかし",description:"画像全体にぼかし効果を適用します。",dropzone:{label:"画像をここにドロップ、またはクリックして選択"},intensity:"ぼかしの強さ",apply:"ぼかしを適用",download:"ぼかした画像をダウンロード",reset:"リセット",processing:"処理中..."})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_ja_tools_image-blur_json_23b245c5._.js.map

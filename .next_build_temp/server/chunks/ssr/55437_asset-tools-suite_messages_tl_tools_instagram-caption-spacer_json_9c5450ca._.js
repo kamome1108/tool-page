@@ -1,0 +1,3 @@
+module.exports=[44092,a=>{a.v({meta:{title:"Instagram Caption Spacer - Malinis na Line Breaks",description:"Libreng online na Instagram caption spacer. Magdagdag ng mga invisible na espasyo sa iyong mga Instagram caption para gumawa ng malinis na line breaks at mapabuti ang pagiging madaling basahin."},title:"Instagram Caption Spacer",description:"Magdagdag ng mga invisible na espasyo para gumawa ng malinis na line breaks para sa mga Instagram caption.",ui:{inputLabel:"Ilagay ang Caption",convert:"I-convert at Kopyahin",converted:"Na-convert at Nakopya na!",clear:"I-clear",processingNote:"🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_tl_tools_instagram-caption-spacer_json_9c5450ca._.js.map

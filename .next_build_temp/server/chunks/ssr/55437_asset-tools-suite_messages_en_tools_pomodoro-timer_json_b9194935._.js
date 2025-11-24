@@ -1,0 +1,3 @@
+module.exports=[1242,a=>{a.v({meta:{title:"Pomodoro Timer - Boost Productivity Online",description:"Boost your productivity with our free online Pomodoro Timer. Customize work and break intervals. Stay focused and get more done."},title:"Pomodoro Timer",description:"Stay focused and productive with the Pomodoro Technique.",ui:{work:"Work",break:"Break",start:"Start",pause:"Pause",reset:"Reset",status:{work:"Focus Time!",break:"Take a Break!"},settings:"Settings",workDuration:"Work Duration (min)",breakDuration:"Break Duration (min)",processingNote:"🔒 Timer runs locally in your browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_en_tools_pomodoro-timer_json_b9194935._.js.map

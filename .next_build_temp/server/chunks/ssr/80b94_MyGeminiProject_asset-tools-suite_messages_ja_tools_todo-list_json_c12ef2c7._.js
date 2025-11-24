@@ -1,0 +1,3 @@
+module.exports=[50828,a=>{a.v({meta:{title:"To-Doリスト - シンプルなタスク管理",description:"無料のオンラインTo-Doリスト。日々のタスクを管理し、完了マークを付けて整理整頓しましょう。タスクはブラウザに保存されます。"},title:"To-Doリスト",description:"日々の作業を整理するためのシンプルなタスク管理ツール。",ui:{inputPlaceholder:"新しいタスクを追加...",add:"追加",all:"すべて",active:"未完了",completed:"完了済み",clearCompleted:"完了済みを削除",noTasks:"タスクはまだありません。追加しましょう！",itemsLeft:"残り {count} 件",processingNote:"🔒 タスクはブラウザ内にローカル保存されます。"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_ja_tools_todo-list_json_c12ef2c7._.js.map

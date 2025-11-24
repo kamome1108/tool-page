@@ -1,0 +1,3 @@
+module.exports=[24922,a=>{a.v({meta:{title:"Multi Image Cropper",description:"Cắt nhiều vùng từ một hình ảnh và tải xuống riêng lẻ hoặc dưới dạng ZIP.",keywords:"crop, image, multi crop, zip, download"},ui:{uploadImage:"Nhấp để tải lên hình ảnh",supports:"Hỗ trợ JPG, PNG, WebP",reset:"Đặt lại hình ảnh",downloadZip:"Tải xuống ZIP",crops:"Vùng cắt",noCrops:"Chưa chọn vùng cắt nào.",dragInstruction:"✂️ Nhấp và kéo để tạo vùng cắt",processingNote:"✂️ Tất cả quá trình xử lý diễn ra trong trình duyệt của bạn. Hình ảnh của bạn không bao giờ rời khỏi thiết bị của bạn.",download:"Tải xuống",delete:"Xóa"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_vi_tools_multi-cropper_json_40c08458._.js.map

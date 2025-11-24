@@ -1,0 +1,3 @@
+module.exports=[5058,a=>{a.v({meta:{title:"日付計算（日数計算） - 期間計算ツール",description:"無料のオンライン日付計算ツール。2つの日付の間の年数、月数、日数を計算します。イベントの計画やマイルストーンの追跡に便利です。"},title:"日付計算（日数計算）",description:"2つの日付の間の期間を年、月、日で計算します。",ui:{startDate:"開始日",endDate:"終了日",calculate:"期間を計算",result:"計算結果",years:"年",months:"ヶ月",days:"日",totalDays:"総日数",processingNote:"🔒 すべての計算はブラウザ上で行われます。"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_date-difference-calculator_json_79aa7888._.js.map

@@ -1,0 +1,3 @@
+module.exports=[25431,a=>{a.v({meta:{title:"Image Resizer - Resize Images Online for Free",description:"Resize your images to exact pixel dimensions online. Free, fast, and secure image resizing tool that runs in your browser."},title:"Image Resizer",description:"Resize images to specific dimensions while maintaining aspect ratio.",dropzone:{label:"Drop an image here, or click to select"},width:"Width (px)",height:"Height (px)",maintainAspectRatio:"Maintain aspect ratio",resize:"Resize Image",download:"Download Resized Image",reset:"Reset",original:"Original: {width} x {height}",new:"New: {width} x {height}"})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_en_tools_image-resizer_json_44602b5e._.js.map

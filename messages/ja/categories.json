@@ -46,5 +46,9 @@
     "utilities": {
         "name": "ユーティリティ",
         "description": "多目的ユーティリティとツール。"
+    },
+    "converter": {
+        "name": "コンバーター",
+        "description": "データ形式を変換するツール。"
     }
 }

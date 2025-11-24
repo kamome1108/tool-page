@@ -1,0 +1,3 @@
+module.exports=[13793,a=>{a.v({meta:{title:"Pratinjau Tweet - Pembuat Mockup",description:"Alat pratinjau Tweet online gratis. Buat mockup tweet untuk melihat tampilannya sebelum memposting. Uji panjang teks, gambar, dan tata letak."},title:"Pratinjau Tweet",description:"Pratinjau tampilan tweet Anda sebelum mempostingnya.",ui:{name:"Nama",handle:"Handle (@username)",text:"Teks Tweet",image:"URL Gambar (opsional)",uploadImage:"Atau Unggah Gambar",preview:"Pratinjau",verified:"Akun Terverifikasi",stats:{replies:"Balasan",retweets:"Retweet",likes:"Suka",views:"Tayangan"},processingNote:"🔒 Semua pemrosesan dilakukan di browser Anda."}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_id_tools_tweet-preview_json_cad20c41._.js.map

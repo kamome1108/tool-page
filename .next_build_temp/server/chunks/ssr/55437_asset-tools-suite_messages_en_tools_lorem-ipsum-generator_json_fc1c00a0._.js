@@ -1,0 +1,3 @@
+module.exports=[3213,a=>{a.v({meta:{title:"Lorem Ipsum Generator - Dummy Text Generator",description:"Free online Lorem Ipsum generator. Generate dummy text for your designs and layouts. Customize the number of paragraphs, sentences, or words."},title:"Lorem Ipsum Generator",description:"Generate placeholder text for your designs.",ui:{count:"Count",type:"Type",paragraphs:"Paragraphs",sentences:"Sentences",words:"Words",generate:"Generate Text",result:"Generated Text",copy:"Copy Text",copied:"Copied!",processingNote:"🔒 All processing is done in your browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_en_tools_lorem-ipsum-generator_json_fc1c00a0._.js.map

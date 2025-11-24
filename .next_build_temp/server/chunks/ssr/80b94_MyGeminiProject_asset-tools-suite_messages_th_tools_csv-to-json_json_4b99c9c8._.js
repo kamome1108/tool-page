@@ -1,0 +1,3 @@
+module.exports=[95467,a=>{a.v({meta:{title:"CSV เป็น JSON - แปลง CSV เป็น JSON ออนไลน์",description:"ตัวแปลง CSV เป็น JSON ออนไลน์ฟรี แปลงข้อมูล CSV ของคุณเป็นรูปแบบ JSON สำหรับการพัฒนาเว็บหรือการวิเคราะห์ข้อมูล รวดเร็ว ปลอดภัย และประมวลผลฝั่งไคลเอนต์"},title:"CSV เป็น JSON",description:"แปลงข้อมูล CSV เป็นรูปแบบ JSON",ui:{inputPlaceholder:"วาง CSV ของคุณที่นี่...",convert:"แปลงเป็น JSON",download:"ดาวน์โหลด JSON",copy:"คัดลอก JSON",copied:"คัดลอกแล้ว!",clear:"ล้าง",error:"CSV ไม่ถูกต้อง",outputPlaceholder:"ผลลัพธ์ JSON จะปรากฏที่นี่...",options:"ตัวเลือก",header:"แถวแรกคือส่วนหัว",skipEmptyLines:"ข้ามบรรทัดว่าง"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_th_tools_csv-to-json_json_4b99c9c8._.js.map

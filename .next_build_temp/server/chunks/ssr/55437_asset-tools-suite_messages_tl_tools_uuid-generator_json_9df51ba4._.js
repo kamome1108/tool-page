@@ -1,0 +1,3 @@
+module.exports=[60226,a=>{a.v({meta:{title:"UUID Generator - Gumawa ng Random na UUIDs Online",description:"Libreng online na UUID Generator. Gumawa ng random na UUIDs (v4) agad. Gumawa ng isa o maraming UUIDs, kopyahin sa clipboard, at i-download bilang text."},title:"UUID Generator",description:"Gumawa ng random na UUIDs (Universally Unique Identifiers) version 4.",ui:{generate:"Gumawa ng UUIDs",quantity:"Dami",version:"Bersyon",v4:"Bersyon 4 (Random)",copy:"Kopyahin Lahat",copied:"Nakopya na!",download:"I-download ang Listahan",clear:"I-clear",generated:"Nagawa na UUIDs"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_tl_tools_uuid-generator_json_9df51ba4._.js.map

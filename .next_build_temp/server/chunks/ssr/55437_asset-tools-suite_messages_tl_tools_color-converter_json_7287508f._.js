@@ -1,0 +1,3 @@
+module.exports=[96453,a=>{a.v({meta:{title:"Color Converter - HEX, RGB, HSL Converter",description:"Libreng online na color converter. I-convert ang mga kulay sa pagitan ng mga format na HEX, RGB, at HSL. I-preview ang mga kulay at kopyahin ang mga halaga agad."},title:"Color Converter",description:"I-convert ang mga kulay sa pagitan ng mga format na HEX, RGB, at HSL.",ui:{inputLabel:"Ilagay ang Kulay (HEX, RGB, o HSL)",preview:"Preview",hex:"HEX",rgb:"RGB",hsl:"HSL",copy:"Kopyahin",copied:"Nakopya na!",invalidColor:"Hindi wastong format ng kulay",processingNote:"🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_tl_tools_color-converter_json_7287508f._.js.map

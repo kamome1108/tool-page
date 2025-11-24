@@ -1,0 +1,3 @@
+module.exports=[73433,a=>{a.v({meta:{title:"แปลง WebP เป็น JPG - แปลงรูปภาพออนไลน์",description:"ตัวแปลง WebP เป็น JPG ออนไลน์ฟรี แปลงรูปภาพ WebP เป็นรูปแบบ JPEG คุณภาพสูง แปลงรวดเร็ว ปลอดภัย และทำที่ฝั่งไคลเอนต์"},title:"แปลง WebP เป็น JPG",description:"แปลงรูปภาพ WebP เป็นรูปแบบ JPG ได้ทันที",ui:{upload:"อัปโหลด WebP",uploadHelp:"ลากและวาง WebP ที่นี่ หรือคลิกเพื่อเลือก",convert:"แปลงเป็น JPG",download:"ดาวน์โหลด JPG",clear:"ล้าง",converting:"กำลังแปลง...",noFile:"ไม่ได้เลือกรูปภาพ"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_th_tools_webp-to-jpg_json_9b870dff._.js.map

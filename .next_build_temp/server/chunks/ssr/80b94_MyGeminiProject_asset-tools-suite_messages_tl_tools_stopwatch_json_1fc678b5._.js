@@ -1,0 +1,3 @@
+module.exports=[82983,a=>{a.v({meta:{title:"Stopwatch - Online na Timer na may Laps",description:"Libreng online na stopwatch tool. Sukatin ang oras gamit ang start, stop, at lap functionality. Perpekto para sa sports, pagluluto, o pagiging produktibo."},title:"Stopwatch",description:"Sukatin ang oras nang tumpak gamit ang lap functionality.",ui:{start:"Simulan",stop:"Ihinto",reset:"I-reset",lap:"Lap",laps:"Mga Lap",lapHeader:"Lap",timeHeader:"Oras",totalHeader:"Kabuuan",processingNote:"🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_tl_tools_stopwatch_json_1fc678b5._.js.map

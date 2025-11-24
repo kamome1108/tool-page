@@ -1,0 +1,3 @@
+module.exports=[60600,a=>{a.v({meta:{title:"Text Case Converter - Uppercase, Lowercase, Title Case",description:"Free online text case converter. Convert text to uppercase, lowercase, title case, camelCase, snake_case, and more. Instantly format your text."},title:"Text Case Converter",description:"Convert text to different cases (uppercase, lowercase, etc.).",ui:{inputLabel:"Enter Text",uppercase:"UPPERCASE",lowercase:"lowercase",titleCase:"Title Case",sentenceCase:"Sentence case",camelCase:"camelCase",snakeCase:"snake_case",kebabCase:"kebab-case",copy:"Copy",copied:"Copied!",processingNote:"🔒 All processing is done in your browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_en_tools_text-case-converter_json_f9e95f27._.js.map

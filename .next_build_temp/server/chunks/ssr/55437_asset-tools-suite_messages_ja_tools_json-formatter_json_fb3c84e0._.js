@@ -1,0 +1,3 @@
+module.exports=[16292,a=>{a.v({meta:{title:"JSON整形・検証ツール",description:"JSONデータの整形、検証、圧縮を行います。",keywords:"json, 整形, バリデーション, 圧縮, フォーマット"},ui:{inputJson:"入力JSON",outputJson:"出力",format:"整形",minify:"圧縮",copy:"コピー",clear:"クリア",pastePlaceholder:'JSONをここに貼り付け... {"key": "value"}',spaces:"スペース",errorParsing:"❌ JSONの解析エラー:",invalidJson:"無効なJSONです",processingNote:"💻 すべての処理はブラウザ上で行われます。JSONデータが外部に送信されることはありません。"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_json-formatter_json_fb3c84e0._.js.map

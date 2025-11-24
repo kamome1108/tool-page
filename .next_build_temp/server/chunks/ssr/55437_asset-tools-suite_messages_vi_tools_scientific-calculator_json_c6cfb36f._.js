@@ -1,0 +1,3 @@
+module.exports=[48447,a=>{a.v({meta:{title:"Máy tính khoa học - Máy tính trực tuyến nâng cao",description:"Máy tính khoa học trực tuyến miễn phí. Thực hiện các phép tính toán học nâng cao bao gồm lượng giác, logarit và số mũ."},title:"Máy tính khoa học",description:"Máy tính nâng cao cho các tính toán khoa học và kỹ thuật.",ui:{clear:"AC",backspace:"⌫",equals:"=",error:"Lỗi",deg:"DEG",rad:"RAD"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_vi_tools_scientific-calculator_json_c6cfb36f._.js.map

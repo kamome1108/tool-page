@@ -1,0 +1,3 @@
+module.exports=[85029,a=>{a.v({meta:{title:"音声ビットレート計算機 - ファイルサイズとビットレート計算",description:"無料のオンライン音声ビットレート計算機。ビットレートと再生時間からファイルサイズを計算、または目標ファイルサイズから必要なビットレートを計算します。"},title:"音声ビットレート計算機",description:"音声ファイルのサイズまたは必要なビットレートを計算します。",ui:{mode:"計算モード",modeSize:"ファイルサイズを計算",modeBitrate:"ビットレートを計算",duration:"再生時間（分:秒）",bitrate:"ビットレート (kbps)",fileSize:"目標ファイルサイズ (MB)",calculate:"計算する",result:"結果",estimatedSize:"推定ファイルサイズ",requiredBitrate:"必要なビットレート",processingNote:"🔒 すべての処理はブラウザ上で行われます。"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_audio-bitrate-calculator_json_a2904c86._.js.map

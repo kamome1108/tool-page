@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/[locale]/layout,_N_T_/[locale]/tools/layout,_N_T_/[locale]/tools/png-to-jpg/layout,_N_T_/[locale]/tools/png-to-jpg/page,_N_T_/tl/tools/png-to-jpg"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/$d$locale/tools/png-to-jpg/__PAGE__",
+    "/$d$locale/tools/png-to-jpg",
+    "/$d$locale/tools",
+    "/$d$locale",
+    "/_index",
+    "/_head"
+  ]
+}

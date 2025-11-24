@@ -1,0 +1,3 @@
+module.exports=[3382,a=>{a.v({meta:{title:"SQL Formatter - Pagandahin ang SQL Online",description:"Libreng online na SQL Formatter. Pagandahin at i-format ang iyong mga SQL query para sa mas madaling pagbasa. Sinusuportahan ang Standard SQL, MySQL, PostgreSQL, at iba pa."},title:"SQL Formatter",description:"I-format at pagandahin ang iyong mga SQL query.",ui:{inputPlaceholder:"I-paste ang iyong SQL query dito...",format:"I-format ang SQL",copy:"Kopyahin",copied:"Nakopya na!",dialect:"Dialect",indent:"Indentation",spaces:"{count} Spaces",tabs:"Tabs",error:"Error sa pag-format ng SQL"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_tl_tools_sql-formatter_json_ff07281a._.js.map

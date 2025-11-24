@@ -1,0 +1,3 @@
+module.exports=[37668,a=>{a.v({meta:{title:"テキスト読み上げ - オンラインTTSリーダー",description:"無料のオンラインテキスト読み上げツール。テキストを自然な音声に変換します。多言語と複数の音声に対応。サーバーへのアップロードは不要です。"},title:"テキスト読み上げ",description:"ブラウザ内蔵の音声を使ってテキストを読み上げます。",ui:{inputPlaceholder:"ここにテキストを入力または貼り付けてください...",play:"再生",pause:"一時停止",stop:"停止",voice:"音声",rate:"速度",pitch:"ピッチ",volume:"音量",noVoices:"利用可能な音声がありません",processingNote:"🔒 音声合成はブラウザ内でローカルに行われます。"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_text-to-speech_json_725ae53b._.js.map

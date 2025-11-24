@@ -1,0 +1,3 @@
+module.exports=[40338,a=>{a.v({meta:{title:"JSON Diff - Bandingkan File JSON",description:"Alat JSON Diff online gratis. Bandingkan dua objek JSON dan sorot perbedaannya (kunci yang ditambahkan, dihapus, atau diubah)."},title:"JSON Diff",description:"Bandingkan dua objek JSON dan temukan perbedaannya.",ui:{leftLabel:"JSON Asli",rightLabel:"JSON yang Dimodifikasi",compare:"Bandingkan",result:"Perbedaan",noDiff:"Tidak ada perbedaan ditemukan. Objek JSON identik.",invalidJson:"JSON tidak valid di {side}",diffTypes:{added:"Ditambahkan",removed:"Dihapus",modified:"Diubah"},processingNote:"🔒 Perbandingan dilakukan secara lokal di browser Anda."}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_id_tools_json-diff_json_7f0d0ef0._.js.map

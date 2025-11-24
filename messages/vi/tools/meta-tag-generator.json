@@ -1,20 +1,21 @@
 {
     "meta": {
-        "title": "Trình tạo thẻ Meta - Tạo thẻ Meta SEO",
-        "description": "Công cụ tạo thẻ meta trực tuyến miễn phí. Tạo thẻ meta HTML cho trang web của bạn để cải thiện SEO. Tạo tiêu đề, mô tả, từ khóa và hơn thế nữa."
+        "title": "Trình tạo thẻ Meta - Tạo thẻ Meta SEO trực tuyến",
+        "description": "Trình tạo thẻ Meta trực tuyến miễn phí. Tạo thẻ meta thân thiện với SEO cho trang web của bạn. Tạo thẻ tiêu đề, mô tả, từ khóa, tác giả và khung nhìn ngay lập tức."
     },
     "title": "Trình tạo thẻ Meta",
-    "description": "Tạo thẻ meta HTML cho SEO trang web của bạn.",
+    "description": "Tạo thẻ meta thân thiện với SEO cho trang web của bạn.",
     "ui": {
         "siteTitle": "Tiêu đề trang web",
         "siteDescription": "Mô tả trang web",
         "keywords": "Từ khóa (phân cách bằng dấu phẩy)",
         "author": "Tác giả",
-        "viewport": "Cài đặt Viewport",
+        "viewport": "Cài đặt khung nhìn",
+        "charset": "Bảng mã",
         "generate": "Tạo thẻ Meta",
-        "result": "HTML đã tạo",
-        "copy": "Sao chép HTML",
+        "preview": "Xem trước",
+        "copy": "Sao chép mã",
         "copied": "Đã sao chép!",
-        "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."
+        "clear": "Xóa"
     }
 }

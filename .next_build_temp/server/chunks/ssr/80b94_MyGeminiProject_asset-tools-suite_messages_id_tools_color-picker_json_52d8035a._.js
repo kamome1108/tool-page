@@ -1,0 +1,3 @@
+module.exports=[1451,a=>{a.v({meta:{title:"Image Color Picker - Ekstrak Warna dari Gambar Online",description:"Pilih warna dari gambar online. Unggah gambar dan dapatkan kode warna HEX, RGB, dan HSL dari piksel mana pun. Gratis dan mudah digunakan.",keywords:"color picker, image color, hex code, rgb code, hsl code"},title:"Image Color Picker",description:"Ekstrak warna dari gambar Anda. Dapatkan kode HEX, RGB, dan HSL.",dropzone:{label:"Jatuhkan gambar di sini, atau klik untuk memilih"},pickedColor:"Warna Terpilih",hex:"HEX",rgb:"RGB",hsl:"HSL",copy:"Salin",copied:"Disalin!",reset:"Atur Ulang",clickToPick:"Klik pada gambar untuk memilih warna"})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_id_tools_color-picker_json_52d8035a._.js.map

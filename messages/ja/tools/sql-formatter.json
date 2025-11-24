@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "SQLフォーマッター - SQLをオンラインで整形",
+        "description": "無料のオンラインSQLフォーマッター。SQLクエリを整形して読みやすくします。標準SQL、MySQL、PostgreSQLなどに対応しています。"
+    },
+    "title": "SQLフォーマッター",
+    "description": "SQLクエリを整形して美しくします。",
+    "ui": {
+        "inputPlaceholder": "ここにSQLクエリを貼り付けてください...",
+        "format": "SQLを整形",
+        "copy": "コピー",
+        "copied": "コピーしました！",
+        "dialect": "ダイアレクト",
+        "indent": "インデント",
+        "spaces": "スペース {count}個",
+        "tabs": "タブ",
+        "error": "SQLの整形中にエラーが発生しました"
+    }
+}

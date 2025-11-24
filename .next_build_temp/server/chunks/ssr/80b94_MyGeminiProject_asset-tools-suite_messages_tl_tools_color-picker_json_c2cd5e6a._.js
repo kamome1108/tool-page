@@ -1,0 +1,3 @@
+module.exports=[95649,a=>{a.v({meta:{title:"Image Color Picker - Kumuha ng mga Kulay mula sa mga Larawan Online",description:"Pumili ng mga kulay mula sa mga larawan online. Mag-upload ng larawan at kunin ang HEX, RGB, at HSL color codes mula sa anumang pixel. Libre at madaling gamitin."},title:"Image Color Picker",description:"Kumuha ng mga kulay mula sa iyong mga larawan. Kunin ang HEX, RGB, at HSL codes.",dropzone:{label:"I-drop ang isang larawan dito, o mag-click upang pumili"},pickedColor:"Napiling Kulay",hex:"HEX",rgb:"RGB",hsl:"HSL",copy:"Kopyahin",copied:"Nakopya!",reset:"I-reset",clickToPick:"Mag-click sa larawan upang pumili ng kulay"})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_tl_tools_color-picker_json_c2cd5e6a._.js.map

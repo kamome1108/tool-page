@@ -1,0 +1,3 @@
+module.exports=[23029,a=>{a.v({meta:{title:"QRコード作成 - 無料QRコード生成ツール",description:"無料のオンラインQRコード作成ツール。URL、テキスト、メールなどのQRコードを作成します。作成したQRコードはすぐに画像としてダウンロードできます。"},title:"QRコード作成",description:"URLやテキストなどからQRコードを生成します。",ui:{inputLabel:"テキストまたはURLを入力",generate:"QRコードを生成",download:"画像をダウンロード",processingNote:"🔒 すべての処理はブラウザ上で行われます。"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_qr-code-generator_json_268acf80._.js.map

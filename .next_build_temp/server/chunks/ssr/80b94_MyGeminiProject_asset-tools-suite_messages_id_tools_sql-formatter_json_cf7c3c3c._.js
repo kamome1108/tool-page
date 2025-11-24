@@ -1,0 +1,3 @@
+module.exports=[21970,a=>{a.v({meta:{title:"Pemformat SQL - Percantik SQL Online",description:"Pemformat SQL online gratis. Percantik dan format kueri SQL Anda agar lebih mudah dibaca. Mendukung SQL Standar, MySQL, PostgreSQL, dan lainnya."},title:"Pemformat SQL",description:"Format dan percantik kueri SQL Anda.",ui:{inputPlaceholder:"Tempel kueri SQL Anda di sini...",format:"Format SQL",copy:"Salin",copied:"Disalin!",dialect:"Dialek",indent:"Indentasi",spaces:"{count} Spasi",tabs:"Tab",error:"Kesalahan saat memformat SQL"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_id_tools_sql-formatter_json_cf7c3c3c._.js.map

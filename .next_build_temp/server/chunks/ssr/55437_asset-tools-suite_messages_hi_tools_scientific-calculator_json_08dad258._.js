@@ -1,0 +1,3 @@
+module.exports=[69307,a=>{a.v({meta:{title:"वैज्ञानिक कैलकुलेटर - उन्नत ऑनलाइन कैलकुलेटर",description:"मुफ्त ऑनलाइन वैज्ञानिक कैलकुलेटर। त्रिकोणमिति, लघुगणक और घातांक सहित उन्नत गणितीय गणना करें।"},title:"वैज्ञानिक कैलकुलेटर",description:"वैज्ञानिक और इंजीनियरिंग गणनाओं के लिए उन्नत कैलकुलेटर।",ui:{clear:"AC",backspace:"⌫",equals:"=",error:"त्रुटि",deg:"DEG",rad:"RAD"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_hi_tools_scientific-calculator_json_08dad258._.js.map

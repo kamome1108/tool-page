@@ -1,0 +1,3 @@
+module.exports=[75083,a=>{a.v({meta:{title:"Word Counter - Bilangin ang mga Salita, Character, at Pangungusap",description:"Libreng online na tool sa pagbibilang ng salita. Bilangin ang mga salita, character, pangungusap, at talata sa iyong teksto nang real-time."},title:"Word Counter",description:"Bilangin ang mga salita, character, pangungusap, at talata nang real-time.",ui:{input:"I-type o i-paste ang iyong teksto dito...",stats:{words:"Mga Salita",characters:"Mga Character",sentences:"Mga Pangungusap",paragraphs:"Mga Talata"},clear:"I-clear ang Teksto",processingNote:"🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_tl_tools_word-counter_json_afae4279._.js.map

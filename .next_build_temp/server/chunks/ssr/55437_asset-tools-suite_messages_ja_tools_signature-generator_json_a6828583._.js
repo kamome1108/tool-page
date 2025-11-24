@@ -1,0 +1,3 @@
+module.exports=[32727,a=>{a.v({meta:{title:"署名作成 - デジタル署名を作成",description:"無料のオンライン署名作成ツール。ドキュメント用のデジタル署名を作成します。マウスやタッチスクリーンで描画し、透過PNGとしてダウンロードできます。"},title:"署名作成",description:"デジタル署名を作成し、透過PNGとしてダウンロードします。",ui:{clear:"クリア",download:"署名をダウンロード",penColor:"ペンの色",penWidth:"ペンの太さ",backgroundColor:"背景色",transparent:"透明",white:"白",processingNote:"🔒 署名はブラウザ内でローカルに作成され、サーバーに送信されることはありません。"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_signature-generator_json_a6828583._.js.map

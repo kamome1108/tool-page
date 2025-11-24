@@ -1,0 +1,3 @@
+module.exports=[16098,a=>{a.v({meta:{title:"แปลง JPG เป็น PNG - แปลงรูปภาพออนไลน์",description:"ตัวแปลง JPG เป็น PNG ออนไลน์ฟรี แปลงรูปภาพ JPEG เป็นรูปแบบ PNG คุณภาพสูง แปลงรวดเร็ว ปลอดภัย และทำที่ฝั่งไคลเอนต์"},title:"แปลง JPG เป็น PNG",description:"แปลงรูปภาพ JPG เป็นรูปแบบ PNG ได้ทันที",ui:{upload:"อัปโหลด JPG",uploadHelp:"ลากและวาง JPG ที่นี่ หรือคลิกเพื่อเลือก",convert:"แปลงเป็น PNG",download:"ดาวน์โหลด PNG",clear:"ล้าง",converting:"กำลังแปลง...",noFile:"ไม่ได้เลือกรูปภาพ"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_th_tools_jpg-to-png_json_9a0aca35._.js.map

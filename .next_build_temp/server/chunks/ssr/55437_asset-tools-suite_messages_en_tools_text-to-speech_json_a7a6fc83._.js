@@ -1,0 +1,3 @@
+module.exports=[30725,a=>{a.v({meta:{title:"Text to Speech - Online TTS Reader",description:"Free online Text to Speech converter. Convert text to natural sounding speech. Supports multiple languages and voices. No upload to server required."},title:"Text to Speech",description:"Convert text to speech using browser's built-in voices.",ui:{inputPlaceholder:"Type or paste your text here...",play:"Play",pause:"Pause",stop:"Stop",voice:"Voice",rate:"Speed",pitch:"Pitch",volume:"Volume",noVoices:"No voices available",processingNote:"🔒 Speech synthesis happens locally in your browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_en_tools_text-to-speech_json_a7a6fc83._.js.map

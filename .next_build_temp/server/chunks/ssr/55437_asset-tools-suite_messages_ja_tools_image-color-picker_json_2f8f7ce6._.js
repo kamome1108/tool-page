@@ -1,0 +1,3 @@
+module.exports=[44352,a=>{a.v({meta:{title:"画像カラーピッカー - 画像から色を抽出",description:"無料のオンライン画像カラーピッカー。画像をアップロードして、そこから色を抽出します。Hex、RGB、HSLカラーコードを瞬時に取得できます。デザイナーや開発者に便利です。"},title:"画像カラーピッカー",description:"画像から色を選択し、Hex、RGB、HSLコードを取得します。",ui:{selectImage:"画像を選択",dragDrop:"またはここに画像をドラッグ＆ドロップ",pickedColor:"選択した色",hex:"Hex",rgb:"RGB",hsl:"HSL",copy:"コピー",copied:"コピーしました！",instructions:"画像をクリックして色を選択してください。"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_image-color-picker_json_2f8f7ce6._.js.map

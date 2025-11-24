@@ -1,0 +1,29 @@
+{
+    "meta": {
+        "title": "Trình tạo sơ đồ trang web - Tạo XML Sitemap trực tuyến",
+        "description": "Trình tạo sơ đồ trang web trực tuyến miễn phí. Tạo sơ đồ trang web XML cho trang web của bạn. Thêm URL, đặt tần suất thay đổi, mức độ ưu tiên và ngày sửa đổi cuối cùng. Tải xuống sitemap.xml ngay lập tức."
+    },
+    "title": "Trình tạo sơ đồ trang web",
+    "description": "Tạo sơ đồ trang web XML để giúp các công cụ tìm kiếm lập chỉ mục nội dung trang web của bạn.",
+    "ui": {
+        "urls": "URL (mỗi dòng một URL)",
+        "frequency": "Tần suất thay đổi",
+        "priority": "Mức độ ưu tiên (0.0 - 1.0)",
+        "lastmod": "Ngày sửa đổi cuối cùng",
+        "generate": "Tạo sơ đồ trang web",
+        "preview": "Xem trước",
+        "copy": "Sao chép mã",
+        "copied": "Đã sao chép!",
+        "clear": "Xóa",
+        "download": "Tải xuống sitemap.xml",
+        "frequencies": {
+            "always": "Luôn luôn",
+            "hourly": "Hàng giờ",
+            "daily": "Hàng ngày",
+            "weekly": "Hàng tuần",
+            "monthly": "Hàng tháng",
+            "yearly": "Hàng năm",
+            "never": "Không bao giờ"
+        }
+    }
+}

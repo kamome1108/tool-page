@@ -1,0 +1,3 @@
+module.exports=[20866,a=>{a.v({meta:{title:"इमेज कलर पिकर - इमेज से रंग चुनें ऑनलाइन",description:"मुफ्त ऑनलाइन इमेज कलर पिकर। एक छवि अपलोड करें और उससे रंग चुनें। तुरंत Hex, RGB और HSL रंग कोड प्राप्त करें। डिजाइनरों और डेवलपर्स के लिए उपयोगी।"},title:"इमेज कलर पिकर",description:"एक छवि से रंग चुनें और Hex, RGB और HSL कोड प्राप्त करें।",ui:{selectImage:"छवि चुनें",dragDrop:"या छवि को यहाँ खींचें और छोड़ें",pickedColor:"चुना गया रंग",hex:"Hex",rgb:"RGB",hsl:"HSL",copy:"कॉपी करें",copied:"कॉपी हो गया!",instructions:"रंग चुनने के लिए छवि पर क्लिक करें।"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_hi_tools_image-color-picker_json_d2723c3f._.js.map

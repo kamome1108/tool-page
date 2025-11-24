@@ -1,0 +1,3 @@
+module.exports=[65692,a=>{a.v({meta:{title:"WebP to JPG Converter - I-convert ang mga Larawan Online",description:"Libreng online na WebP to JPG converter. I-convert ang WebP images sa mataas na kalidad na JPEG format. Mabilis, ligtas, at client-side conversion."},title:"WebP to JPG Converter",description:"I-convert ang WebP images sa JPG format agad.",ui:{upload:"Mag-upload ng WebP",uploadHelp:"I-drag at i-drop ang WebP dito, o i-click upang pumili",convert:"I-convert sa JPG",download:"I-download ang JPG",clear:"I-clear",converting:"Nagko-convert...",noFile:"Walang napiling larawan"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_tl_tools_webp-to-jpg_json_0da7201b._.js.map

@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "title": "Trình tạo Favicon - Tạo Favicon trang web trực tuyến",
+        "description": "Trình tạo Favicon trực tuyến miễn phí. Tạo favicon cho trang web của bạn từ bất kỳ hình ảnh nào. Tạo ICO, PNG và Biểu tượng Apple Touch ở mọi kích thước tiêu chuẩn (16x16, 32x32, 180x180, v.v.)."
+    },
+    "title": "Trình tạo Favicon",
+    "description": "Tạo favicon cho trang web của bạn từ bất kỳ hình ảnh nào. Hỗ trợ tất cả các kích thước tiêu chuẩn.",
+    "ui": {
+        "upload": "Tải ảnh lên",
+        "uploadHelp": "Kích thước khuyến nghị: 512x512px hoặc lớn hơn. Hỗ trợ PNG, JPG, SVG.",
+        "preview": "Xem trước",
+        "download": "Tải xuống tất cả (ZIP)",
+        "generating": "Đang tạo...",
+        "sizes": {
+            "favicon16": "16x16 (Favicon)",
+            "favicon32": "32x32 (Favicon)",
+            "appleTouch": "180x180 (Biểu tượng Apple Touch)",
+            "android192": "192x192 (Android Chrome)",
+            "android512": "512x512 (Android Chrome)"
+        }
+    }
+}

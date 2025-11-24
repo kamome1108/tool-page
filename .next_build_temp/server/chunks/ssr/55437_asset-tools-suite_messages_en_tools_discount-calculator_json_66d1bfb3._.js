@@ -1,0 +1,3 @@
+module.exports=[99562,a=>{a.v({meta:{title:"Discount Calculator - Calculate Sale Price & Savings",description:"Free online discount calculator. Calculate the final price after discount and tax. Find out how much you save on sales and special offers."},title:"Discount Calculator",description:"Calculate final price after discount and tax.",ui:{originalPrice:"Original Price",discount:"Discount (%)",tax:"Tax (%)",calculate:"Calculate",finalPrice:"Final Price",youSave:"You Save",taxAmount:"Tax Amount",processingNote:"🔒 All processing is done in your browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_en_tools_discount-calculator_json_66d1bfb3._.js.map

@@ -1,0 +1,3 @@
+module.exports=[14111,a=>{a.v({meta:{title:"Date Difference Calculator - Days Between Dates",description:"Free online date difference calculator. Calculate the number of years, months, and days between two dates. Useful for planning events, tracking milestones, and more."},title:"Date Difference Calculator",description:"Calculate the duration between two dates in years, months, and days.",ui:{startDate:"Start Date",endDate:"End Date",calculate:"Calculate Difference",result:"Result",years:"Years",months:"Months",days:"Days",totalDays:"Total Days",processingNote:"🔒 All calculations are performed in your browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_en_tools_date-difference-calculator_json_00847462._.js.map

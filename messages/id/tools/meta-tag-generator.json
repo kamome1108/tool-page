@@ -1,20 +1,21 @@
 {
     "meta": {
-        "title": "Pembuat Tag Meta - Buat Tag Meta SEO",
-        "description": "Alat pembuat tag meta online gratis. Buat tag meta HTML untuk situs web Anda guna meningkatkan SEO. Hasilkan judul, deskripsi, kata kunci, dan lainnya."
+        "title": "Pembuat Tag Meta - Buat Tag Meta SEO Online",
+        "description": "Pembuat Tag Meta online gratis. Buat tag meta ramah SEO untuk situs web Anda. Hasilkan tag judul, deskripsi, kata kunci, penulis, dan viewport secara instan."
     },
     "title": "Pembuat Tag Meta",
-    "description": "Hasilkan tag meta HTML untuk SEO situs web Anda.",
+    "description": "Hasilkan tag meta ramah SEO untuk situs web Anda.",
     "ui": {
         "siteTitle": "Judul Situs",
         "siteDescription": "Deskripsi Situs",
         "keywords": "Kata Kunci (dipisahkan koma)",
         "author": "Penulis",
         "viewport": "Pengaturan Viewport",
+        "charset": "Charset",
         "generate": "Hasilkan Tag Meta",
-        "result": "HTML yang Dihasilkan",
-        "copy": "Salin HTML",
+        "preview": "Pratinjau",
+        "copy": "Salin Kode",
         "copied": "Disalin!",
-        "processingNote": "🔒 Semua pemrosesan dilakukan di browser Anda."
+        "clear": "Hapus"
     }
 }

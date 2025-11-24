@@ -1,0 +1,3 @@
+module.exports=[69574,a=>{a.v({meta:{title:"画像リサイズ - オンラインで画像を無料でリサイズ",description:"オンラインで画像を正確なピクセルサイズにリサイズします。ブラウザ上で動作する、無料、高速、かつ安全な画像リサイズツールです。"},title:"画像リサイズ",description:"アスペクト比を維持しながら画像を特定の寸法にリサイズします。",dropzone:{label:"画像をここにドロップ、またはクリックして選択"},width:"幅 (px)",height:"高さ (px)",maintainAspectRatio:"アスペクト比を維持",resize:"画像をリサイズ",download:"リサイズされた画像をダウンロード",reset:"リセット",original:"元画像: {width} x {height}",new:"変更後: {width} x {height}"})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_ja_tools_image-resizer_json_008bd54a._.js.map

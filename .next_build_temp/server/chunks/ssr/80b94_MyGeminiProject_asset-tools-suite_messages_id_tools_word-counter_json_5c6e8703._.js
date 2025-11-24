@@ -1,0 +1,3 @@
+module.exports=[55829,a=>{a.v({meta:{title:"Penghitung Kata - Hitung Kata, Karakter, dan Kalimat",description:"Alat penghitung kata online gratis. Hitung kata, karakter, kalimat, dan paragraf dalam teks Anda secara real-time."},title:"Penghitung Kata",description:"Hitung kata, karakter, kalimat, dan paragraf secara real-time.",ui:{input:"Ketik atau tempel teks Anda di sini...",stats:{words:"Kata",characters:"Karakter",sentences:"Kalimat",paragraphs:"Paragraf"},clear:"Hapus Teks",processingNote:"🔒 Semua pemrosesan dilakukan di browser Anda."}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_id_tools_word-counter_json_5c6e8703._.js.map

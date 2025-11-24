@@ -1,0 +1,3 @@
+module.exports=[6365,a=>{a.v({meta:{title:"Kalkulator Selisih Tanggal - Hari Antara Tanggal",description:"Kalkulator selisih tanggal online gratis. Hitung jumlah tahun, bulan, dan hari antara dua tanggal. Berguna untuk merencanakan acara, melacak pencapaian, dan banyak lagi."},title:"Kalkulator Selisih Tanggal",description:"Hitung durasi antara dua tanggal dalam tahun, bulan, dan hari.",ui:{startDate:"Tanggal Mulai",endDate:"Tanggal Akhir",calculate:"Hitung Selisih",result:"Hasil",years:"Tahun",months:"Bulan",days:"Hari",totalDays:"Total Hari",processingNote:"🔒 Semua perhitungan dilakukan di browser Anda."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_id_tools_date-difference-calculator_json_dd9911d1._.js.map

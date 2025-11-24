@@ -1,0 +1,20 @@
+{
+    "meta": {
+        "title": "Kiểm tra khác biệt văn bản - So sánh hai văn bản trực tuyến",
+        "description": "Công cụ kiểm tra khác biệt văn bản trực tuyến miễn phí. So sánh hai văn bản và tìm sự khác biệt ngay lập tức. Làm nổi bật các phần thêm, xóa và thay đổi. Hữu ích cho mã, tài liệu và danh sách."
+    },
+    "title": "Kiểm tra khác biệt văn bản",
+    "description": "So sánh hai văn bản và làm nổi bật sự khác biệt.",
+    "ui": {
+        "original": "Văn bản gốc",
+        "modified": "Văn bản đã sửa đổi",
+        "compare": "So sánh",
+        "clear": "Xóa",
+        "diff": "Sự khác biệt",
+        "noDiff": "Các văn bản giống hệt nhau.",
+        "legend": "Chú giải",
+        "removed": "Đã xóa",
+        "added": "Đã thêm",
+        "unchanged": "Không thay đổi"
+    }
+}

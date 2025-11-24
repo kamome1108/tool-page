@@ -1,0 +1,3 @@
+module.exports=[44864,a=>{a.v({meta:{title:"WebP टू JPG कन्वर्टर - छवियों को ऑनलाइन बदलें",description:"मुफ्त ऑनलाइन WebP टू JPG कन्वर्टर। WebP छवियों को उच्च गुणवत्ता वाले JPEG प्रारूप में बदलें। तेज, सुरक्षित और क्लाइंट-साइड रूपांतरण।"},title:"WebP टू JPG कन्वर्टर",description:"WebP छवियों को तुरंत JPG प्रारूप में बदलें।",ui:{upload:"WebP अपलोड करें",uploadHelp:"WebP को यहां खींचें और छोड़ें, या चुनने के लिए क्लिक करें",convert:"JPG में बदलें",download:"JPG डाउनलोड करें",clear:"साफ़ करें",converting:"बदल रहा है...",noFile:"कोई छवि नहीं चुनी गई"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_hi_tools_webp-to-jpg_json_80e1b4ad._.js.map

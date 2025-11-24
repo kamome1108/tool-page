@@ -1,0 +1,3 @@
+module.exports=[16506,a=>{a.v({meta:{title:"Encoder/Decoder Base64 - Enkode & Dekode Teks",description:"Encoder dan decoder Base64 online gratis. Konversi teks ke format Base64 dan dekode string Base64 kembali ke teks. Aman dan mudah digunakan."},title:"Encoder/Decoder Base64",description:"Enkode teks ke Base64 atau dekode Base64 ke teks.",ui:{inputLabel:"Masukkan Teks",encode:"Enkode",decode:"Dekode",result:"Hasil",copy:"Salin",copied:"Disalin!",processingNote:"🔒 Semua pemrosesan dilakukan di browser Anda."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_id_tools_base64-encoder-decoder_json_56f58b16._.js.map

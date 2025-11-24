@@ -1,0 +1,3 @@
+module.exports=[41884,a=>{a.v({meta:{title:"Percentage Calculator - Calculate Percentages Easily",description:"Free online percentage calculator. Calculate percentage of a number, percentage change, and more. Solve common percentage problems instantly."},title:"Percentage Calculator",description:"Solve common percentage problems easily.",ui:{mode:"Calculation Mode",mode1:"What is X% of Y?",mode2:"X is what % of Y?",mode3:"Percentage change from X to Y",inputX:"Value X",inputY:"Value Y",calculate:"Calculate",result:"Result",processingNote:"🔒 All processing is done in your browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_en_tools_percentage-calculator_json_e6e7aff8._.js.map

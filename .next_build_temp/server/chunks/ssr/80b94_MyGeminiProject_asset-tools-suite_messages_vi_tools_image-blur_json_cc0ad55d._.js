@@ -1,0 +1,3 @@
+module.exports=[59756,a=>{a.v({meta:{title:"Image Blur - Làm mờ hình ảnh trực tuyến miễn phí",description:"Làm mờ hình ảnh của bạn trực tuyến. Điều chỉnh cường độ làm mờ và tải xuống kết quả. Công cụ làm mờ hình ảnh miễn phí, nhanh chóng và an toàn.",keywords:"image blur, blur tool, privacy, obfuscate"},title:"Image Blur",description:"Áp dụng hiệu ứng làm mờ cho hình ảnh của bạn với cường độ có thể điều chỉnh.",dropzone:{label:"Thả hình ảnh vào đây hoặc nhấp để chọn"},intensity:"Cường độ làm mờ",apply:"Áp dụng làm mờ",download:"Tải xuống hình ảnh đã làm mờ",reset:"Đặt lại"})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_vi_tools_image-blur_json_cc0ad55d._.js.map

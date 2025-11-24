@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../../../Documents/MyGeminiProject/asset-tools-suite/app/layout.tsx"],"sourcesContent":["export default function RootLayout({\r\n    children,\r\n}: {\r\n    children: React.ReactNode;\r\n}) {\r\n    return children;\r\n}\r\n"],"names":[],"mappings":"uCAAe,SAAS,EAAW,UAC/B,CAAQ,CAGX,EACG,OAAO,CACX"}

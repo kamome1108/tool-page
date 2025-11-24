@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/[locale]/layout,_N_T_/[locale]/tools/layout,_N_T_/[locale]/tools/image-resizer/layout,_N_T_/[locale]/tools/image-resizer/page,_N_T_/ja/tools/image-resizer"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/$d$locale/tools/image-resizer/__PAGE__",
+    "/$d$locale/tools/image-resizer",
+    "/$d$locale/tools",
+    "/$d$locale",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1,0 +1,3 @@
+module.exports=[41325,a=>{a.v({meta:{title:"ファビコンジェネレーター - Webサイト用ファビコン作成",description:"無料のオンラインファビコンジェネレーター。画像からWebサイト用のファビコンを作成します。ICO、PNG、Apple Touch Iconなど、標準的な全サイズ（16x16, 32x32, 180x180など）を一括生成します。"},title:"ファビコンジェネレーター",description:"画像からWebサイト用のファビコンを生成します。すべての標準サイズに対応しています。",ui:{upload:"画像をアップロード",uploadHelp:"推奨サイズ: 512x512px以上。PNG, JPG, SVGに対応。",preview:"プレビュー",download:"すべてダウンロード (ZIP)",generating:"生成中...",sizes:{favicon16:"16x16 (Favicon)",favicon32:"32x32 (Favicon)",appleTouch:"180x180 (Apple Touch Icon)",android192:"192x192 (Android Chrome)",android512:"512x512 (Android Chrome)"}}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_favicon-generator_json_90e5efd0._.js.map

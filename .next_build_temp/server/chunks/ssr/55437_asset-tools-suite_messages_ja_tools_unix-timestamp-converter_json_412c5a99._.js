@@ -1,0 +1,3 @@
+module.exports=[65534,a=>{a.v({meta:{title:"Unixタイムスタンプ変換 - エポック秒変換ツール",description:"無料のオンラインUnixタイムスタンプ変換ツール。Unixタイムスタンプを人間が読める日時に変換、またはその逆を行います。秒とミリ秒の両方に対応。"},title:"Unixタイムスタンプ変換",description:"Unixタイムスタンプと日時を相互に変換します。",ui:{currentTimestamp:"現在のUnixタイムスタンプ",convertTimestamp:"タイムスタンプを日時に変換",convertDate:"日時をタイムスタンプに変換",timestampInput:"Unixタイムスタンプ",dateInput:"日時",convert:"変換",result:"結果",copy:"コピー",copied:"コピーしました！",processingNote:"🔒 すべての処理はブラウザ上で行われます。"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_unix-timestamp-converter_json_412c5a99._.js.map

@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/[locale]/layout,_N_T_/[locale]/tools/layout,_N_T_/[locale]/tools/loan-calculator/layout,_N_T_/[locale]/tools/loan-calculator/page,_N_T_/id/tools/loan-calculator"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/$d$locale/tools/loan-calculator/__PAGE__",
+    "/$d$locale/tools/loan-calculator",
+    "/$d$locale/tools",
+    "/$d$locale",
+    "/_index",
+    "/_head"
+  ]
+}

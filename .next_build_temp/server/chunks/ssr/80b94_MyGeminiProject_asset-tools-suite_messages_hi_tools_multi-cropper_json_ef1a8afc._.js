@@ -1,0 +1,3 @@
+module.exports=[14957,a=>{a.v({meta:{title:"Multi Image Cropper",description:"एक छवि से कई क्षेत्रों को क्रॉप करें और उन्हें अलग-अलग या ZIP के रूप में डाउनलोड करें।",keywords:"crop, image, multi crop, zip, download"},ui:{uploadImage:"छवि अपलोड करने के लिए क्लिक करें",supports:"JPG, PNG, WebP का समर्थन करता है",reset:"छवि रीसेट करें",downloadZip:"ZIP डाउनलोड करें",crops:"क्रॉप्स",noCrops:"अभी तक कोई क्रॉप नहीं चुना गया है।",dragInstruction:"✂️ क्रॉप क्षेत्र बनाने के लिए क्लिक करें और खींचें",processingNote:"✂️ सभी प्रोसेसिंग आपके ब्राउज़र में होती है। आपकी छवियां कभी भी आपके डिवाइस को नहीं छोड़ती हैं।",download:"डाउनलोड करें",delete:"हटाएं"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_hi_tools_multi-cropper_json_ef1a8afc._.js.map

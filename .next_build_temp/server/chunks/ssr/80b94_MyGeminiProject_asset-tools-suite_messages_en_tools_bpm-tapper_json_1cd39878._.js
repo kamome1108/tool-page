@@ -1,0 +1,3 @@
+module.exports=[82617,a=>{a.v({meta:{title:"BPM Tapper - Calculate Beats Per Minute",description:"Free online BPM Tapper. Tap any key or click to calculate the Beats Per Minute (BPM) of a song. Perfect for musicians, DJs, and producers."},title:"BPM Tapper",description:"Calculate Beats Per Minute (BPM) by tapping to the rhythm.",ui:{tapHere:"TAP HERE",tapInstruction:"Tap spacebar or click to the beat",reset:"Reset",bpm:"BPM",nearestWhole:"Nearest Whole",count:"Taps",processingNote:"🔒 All processing is done in your browser."}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_en_tools_bpm-tapper_json_1cd39878._.js.map

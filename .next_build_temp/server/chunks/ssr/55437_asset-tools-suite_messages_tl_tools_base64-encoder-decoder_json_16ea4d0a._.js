@@ -1,0 +1,3 @@
+module.exports=[40342,a=>{a.v({meta:{title:"Base64 Encoder/Decoder - I-encode at I-decode ang Teksto",description:"Libreng online na Base64 encoder at decoder. I-convert ang teksto sa Base64 format at i-decode ang mga Base64 string pabalik sa teksto. Ligtas at madaling gamitin."},title:"Base64 Encoder/Decoder",description:"I-encode ang teksto sa Base64 o i-decode ang Base64 sa teksto.",ui:{inputLabel:"Ilagay ang Teksto",encode:"I-encode",decode:"I-decode",result:"Resulta",copy:"Kopyahin",copied:"Nakopya na!",processingNote:"🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_tl_tools_base64-encoder-decoder_json_16ea4d0a._.js.map

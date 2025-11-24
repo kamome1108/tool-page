@@ -1,0 +1,3 @@
+module.exports=[47862,a=>{a.v({meta:{title:"Pencarian Alamat IP - Cek IP Saya",description:"Pencarian Alamat IP online gratis. Periksa alamat IP publik, lokasi, ISP, dan detail jaringan lainnya secara instan."},title:"Pencarian Alamat IP",description:"Periksa alamat IP publik dan informasi lokasi Anda.",ui:{yourIp:"Alamat IP Anda",location:"Lokasi",isp:"ISP",country:"Negara",city:"Kota",region:"Wilayah",timezone:"Zona Waktu",refresh:"Segarkan",copy:"Salin IP",copied:"Disalin!",loading:"Mendeteksi IP...",error:"Gagal mendeteksi alamat IP.",processingNote:"🔒 Kami menggunakan API publik untuk mendeteksi IP Anda. IP Anda tidak disimpan di server kami."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_id_tools_ip-address-lookup_json_30541563._.js.map

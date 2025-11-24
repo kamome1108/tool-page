@@ -1,0 +1,3 @@
+module.exports=[30318,a=>{a.v({meta:{title:"URLエンコード/デコード - 無料オンラインツール",description:"無料のオンラインツールでURLを簡単にエンコードまたはデコードできます。特殊文字を対応するパーセントエンコード値に変換、またはその逆を行います。"},title:"URLエンコード/デコード",description:"特殊文字を処理するためにURL文字列をエンコードまたはデコードします。",ui:{input:"入力URL",output:"出力",encode:"エンコード",decode:"デコード",copy:"コピー",copied:"コピーしました！",clear:"クリア",error:"無効なURLエンコーディングです",processingNote:"🔒 すべての処理はブラウザ上で行われます。"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_url-encoder-decoder_json_cf60b2ed._.js.map

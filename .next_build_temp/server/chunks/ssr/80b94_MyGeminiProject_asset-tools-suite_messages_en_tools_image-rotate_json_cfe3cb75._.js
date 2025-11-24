@@ -1,0 +1,3 @@
+module.exports=[53795,a=>{a.v({meta:{title:"Image Rotate & Flip - Rotate Images Online for Free",description:"Rotate and flip your images online. Rotate 90 degrees, flip horizontally or vertically. Free, fast, and secure image rotation tool."},title:"Image Rotate & Flip",description:"Rotate images 90 degrees or flip them horizontally/vertically.",dropzone:{label:"Drop an image here, or click to select"},rotateLeft:"Rotate Left",rotateRight:"Rotate Right",flipHorizontal:"Flip Horizontal",flipVertical:"Flip Vertical",download:"Download Image",reset:"Reset"})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_en_tools_image-rotate_json_cfe3cb75._.js.map

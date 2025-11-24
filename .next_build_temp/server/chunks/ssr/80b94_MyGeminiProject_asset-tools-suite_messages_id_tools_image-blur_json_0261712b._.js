@@ -1,0 +1,3 @@
+module.exports=[72927,a=>{a.v({meta:{title:"Image Blur - Buramkan Gambar Online Gratis",description:"Buramkan gambar Anda secara online. Sesuaikan intensitas buram dan unduh hasilnya. Alat pemburaman gambar gratis, cepat, dan aman.",keywords:"image blur, blur tool, privacy, obfuscate"},title:"Image Blur",description:"Terapkan efek buram pada gambar Anda dengan intensitas yang dapat disesuaikan.",dropzone:{label:"Jatuhkan gambar di sini, atau klik untuk memilih"},intensity:"Intensitas Buram",apply:"Terapkan Buram",download:"Unduh Gambar Buram",reset:"Atur Ulang"})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_id_tools_image-blur_json_0261712b._.js.map

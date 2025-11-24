@@ -1,0 +1,3 @@
+module.exports=[27384,a=>{a.v({meta:{title:"Loan Calculator - Calculate Monthly Payments",description:"Free online Loan Calculator. Calculate your monthly loan payments, total interest, and total repayment amount easily."},title:"Loan Calculator",description:"Calculate monthly payments and total interest for loans.",ui:{amount:"Loan Amount",interestRate:"Interest Rate (%)",term:"Loan Term (Years)",calculate:"Calculate",result:"Calculation Result",monthlyPayment:"Monthly Payment",totalPayment:"Total Payment",totalInterest:"Total Interest",currency:"$"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_en_tools_loan-calculator_json_3e3c6047._.js.map

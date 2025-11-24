@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "title": "Generator Robots.txt - Buat robots.txt Online",
+        "description": "Generator Robots.txt online gratis. Buat file robots.txt untuk situs web Anda. Kontrol crawler mesin pencari, tentukan jalur yang diizinkan/dilarang, dan tentukan lokasi sitemap."
+    },
+    "title": "Generator Robots.txt",
+    "description": "Hasilkan file robots.txt untuk mengontrol bagaimana mesin pencari merayapi situs web Anda.",
+    "ui": {
+        "userAgent": "User Agent",
+        "allow": "Jalur yang Diizinkan (satu per baris)",
+        "disallow": "Jalur yang Dilarang (satu per baris)",
+        "sitemap": "URL Sitemap",
+        "crawlDelay": "Penundaan Perayapan (detik)",
+        "generate": "Hasilkan robots.txt",
+        "preview": "Pratinjau",
+        "copy": "Salin Kode",
+        "copied": "Disalin!",
+        "clear": "Hapus",
+        "download": "Unduh robots.txt"
+    }
+}

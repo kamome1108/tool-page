@@ -1,0 +1,3 @@
+module.exports=[60671,a=>{a.v({meta:{title:"Image Converter - I-convert ang mga Larawan Online nang Libre",description:"I-convert ang mga larawan sa pagitan ng PNG, JPG, WebP, at GIF format online. Libre, mabilis, at secure na tool sa pag-convert ng larawan."},title:"Image Converter",description:"I-convert ang mga larawan sa iba't ibang format (PNG, JPG, WebP, GIF).",dropzone:{label:"I-drop ang isang larawan dito, o mag-click upang pumili"},format:"Target na Format",quality:"Kalidad (0-100, para sa JPG/WebP)",convert:"I-convert ang Larawan",download:"I-download ang Na-convert na Larawan",reset:"I-reset",formats:{png:"PNG",jpeg:"JPG",webp:"WebP",gif:"GIF"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_tl_tools_image-converter_json_94cb7261._.js.map

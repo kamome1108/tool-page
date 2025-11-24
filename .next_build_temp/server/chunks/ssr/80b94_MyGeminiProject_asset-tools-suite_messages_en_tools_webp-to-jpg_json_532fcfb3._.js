@@ -1,0 +1,3 @@
+module.exports=[59902,a=>{a.v({meta:{title:"WebP to JPG Converter - Convert Images Online",description:"Free online WebP to JPG converter. Convert WebP images to high-quality JPEG format. Fast, secure, and client-side conversion."},title:"WebP to JPG Converter",description:"Convert WebP images to JPG format instantly.",ui:{upload:"Upload WebP",uploadHelp:"Drag & drop WebP here, or click to select",convert:"Convert to JPG",download:"Download JPG",clear:"Clear",converting:"Converting...",noFile:"No image selected"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_en_tools_webp-to-jpg_json_532fcfb3._.js.map

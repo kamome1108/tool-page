@@ -1,0 +1,3 @@
+module.exports=[28556,a=>{a.v({meta:{title:"Scientific Calculator - Advanced Online Calculator",description:"Free online Scientific Calculator. Perform advanced mathematical calculations including trigonometry, logarithms, and exponents."},title:"Scientific Calculator",description:"Advanced calculator for scientific and engineering calculations.",ui:{clear:"AC",backspace:"⌫",equals:"=",error:"Error",deg:"DEG",rad:"RAD"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_en_tools_scientific-calculator_json_1a38cbce._.js.map

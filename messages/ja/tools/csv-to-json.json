@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "title": "CSV to JSON - CSVをJSONに変換",
+        "description": "無料のオンラインCSV to JSONコンバーター。CSVデータをWeb開発やデータ分析用のJSON形式に変換します。高速、安全、クライアントサイド処理。"
+    },
+    "title": "CSV to JSON",
+    "description": "CSVデータをJSON形式に変換します。",
+    "ui": {
+        "inputPlaceholder": "ここにCSVを貼り付けてください...",
+        "convert": "JSONに変換",
+        "download": "JSONをダウンロード",
+        "copy": "JSONをコピー",
+        "copied": "コピーしました！",
+        "clear": "クリア",
+        "error": "無効なCSVです",
+        "outputPlaceholder": "JSON出力がここに表示されます...",
+        "options": "オプション",
+        "header": "最初の行をヘッダーとする",
+        "skipEmptyLines": "空行をスキップ"
+    }
+}

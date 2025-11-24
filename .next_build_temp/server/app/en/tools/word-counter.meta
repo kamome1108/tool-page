@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/[locale]/layout,_N_T_/[locale]/tools/layout,_N_T_/[locale]/tools/word-counter/layout,_N_T_/[locale]/tools/word-counter/page,_N_T_/en/tools/word-counter"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/$d$locale/tools/word-counter/__PAGE__",
+    "/$d$locale/tools/word-counter",
+    "/$d$locale/tools",
+    "/$d$locale",
+    "/_index",
+    "/_head"
+  ]
+}

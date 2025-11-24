@@ -1,0 +1,3 @@
+module.exports=[28142,a=>{a.v({meta:{title:"Image Converter - แปลงรูปภาพออนไลน์ฟรี",description:"แปลงรูปภาพระหว่างรูปแบบ PNG, JPG, WebP และ GIF ออนไลน์ เครื่องมือแปลงรูปภาพฟรี รวดเร็ว และปลอดภัย",keywords:"image converter, convert image, png to jpg, jpg to png, webp converter"},title:"Image Converter",description:"แปลงรูปภาพเป็นรูปแบบต่างๆ (PNG, JPG, WebP, GIF)",dropzone:{label:"วางรูปภาพที่นี่ หรือคลิกเพื่อเลือก"},format:"รูปแบบเป้าหมาย",quality:"คุณภาพ (0-100 สำหรับ JPG/WebP)",convert:"แปลงรูปภาพ",download:"ดาวน์โหลดรูปภาพที่แปลงแล้ว",reset:"รีเซ็ต",formats:{png:"PNG",jpeg:"JPG",webp:"WebP",gif:"GIF"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_th_tools_image-converter_json_68a53e71._.js.map

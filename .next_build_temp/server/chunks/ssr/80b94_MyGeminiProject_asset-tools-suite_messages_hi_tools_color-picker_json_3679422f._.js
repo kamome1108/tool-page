@@ -1,0 +1,3 @@
+module.exports=[86057,a=>{a.v({meta:{title:"Image Color Picker - छवियों से रंग निकालें ऑनलाइन",description:"ऑनलाइन छवियों से रंग चुनें। एक छवि अपलोड करें और किसी भी पिक्सेल से HEX, RGB और HSL रंग कोड प्राप्त करें। मुफ़्त और उपयोग में आसान।",keywords:"color picker, image color, hex code, rgb code, hsl code"},title:"Image Color Picker",description:"अपनी छवियों से रंग निकालें। HEX, RGB और HSL कोड प्राप्त करें।",dropzone:{label:"यहाँ एक छवि छोड़ें, या चुनने के लिए क्लिक करें"},pickedColor:"चुना गया रंग",hex:"HEX",rgb:"RGB",hsl:"HSL",copy:"कॉपी करें",copied:"कॉपी किया गया!",reset:"रीसेट करें",clickToPick:"रंग चुनने के लिए छवि पर क्लिक करें"})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_hi_tools_color-picker_json_3679422f._.js.map

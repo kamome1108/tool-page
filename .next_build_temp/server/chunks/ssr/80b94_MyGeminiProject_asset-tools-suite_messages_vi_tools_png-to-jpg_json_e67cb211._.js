@@ -1,0 +1,3 @@
+module.exports=[62916,a=>{a.v({meta:{title:"Chuyển đổi PNG sang JPG - Chuyển đổi ảnh trực tuyến",description:"Trình chuyển đổi PNG sang JPG trực tuyến miễn phí. Chuyển đổi hình ảnh PNG sang định dạng JPEG chất lượng cao. Chuyển đổi nhanh chóng, an toàn và phía máy khách."},title:"Chuyển đổi PNG sang JPG",description:"Chuyển đổi hình ảnh PNG sang định dạng JPG ngay lập tức.",ui:{upload:"Tải PNG lên",uploadHelp:"Kéo và thả PNG vào đây hoặc nhấp để chọn",convert:"Chuyển đổi sang JPG",download:"Tải xuống JPG",clear:"Xóa",converting:"Đang chuyển đổi...",noFile:"Chưa chọn hình ảnh nào"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_vi_tools_png-to-jpg_json_e67cb211._.js.map

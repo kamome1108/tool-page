@@ -1,0 +1,3 @@
+module.exports=[87800,a=>{a.v({meta:{title:"CSV to JSON - Convert CSV to JSON Online",description:"Free online CSV to JSON converter. Convert your CSV data to JSON format for web development or data analysis. Fast, secure, and client-side processing."},title:"CSV to JSON",description:"Convert CSV data to JSON format.",ui:{inputPlaceholder:"Paste your CSV here...",convert:"Convert to JSON",download:"Download JSON",copy:"Copy JSON",copied:"Copied!",clear:"Clear",error:"Invalid CSV",outputPlaceholder:"JSON output will appear here...",options:"Options",header:"First row is header",skipEmptyLines:"Skip empty lines"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_en_tools_csv-to-json_json_7d593efa._.js.map

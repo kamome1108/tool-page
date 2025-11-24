@@ -1,0 +1,3 @@
+module.exports=[26316,a=>{a.v({meta:{title:"JSON Formatter & Validator",description:"I-format, i-validate, at i-minify ang JSON data.",keywords:"json, formatter, validator, minify, beautify"},ui:{inputJson:"Input JSON",outputJson:"Output",format:"I-format",minify:"I-minify",copy:"Kopyahin",clear:"I-clear",pastePlaceholder:'I-paste ang JSON dito... {"key": "value"}',spaces:"Mga Puwang",errorParsing:"❌ Error sa pag-parse ng JSON:",invalidJson:"Hindi wastong JSON",processingNote:"💻 Ang lahat ng pagproseso ay nangyayari sa iyong browser. Ang iyong JSON data ay hindi kailanman umaalis sa iyong device."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_tl_tools_json-formatter_json_170544b0._.js.map

@@ -1,0 +1,18 @@
+{
+    "meta": {
+        "title": "JSON ke CSV - Konversi JSON ke CSV Online",
+        "description": "Konverter JSON ke CSV online gratis. Konversi data JSON Anda ke format CSV untuk Excel atau Google Sheets. Cepat, aman, dan pemrosesan sisi klien."
+    },
+    "title": "JSON ke CSV",
+    "description": "Konversi data JSON ke format CSV.",
+    "ui": {
+        "inputPlaceholder": "Tempel JSON Anda di sini...",
+        "convert": "Konversi ke CSV",
+        "download": "Unduh CSV",
+        "copy": "Salin CSV",
+        "copied": "Disalin!",
+        "clear": "Hapus",
+        "error": "JSON tidak valid",
+        "outputPlaceholder": "Output CSV akan muncul di sini..."
+    }
+}

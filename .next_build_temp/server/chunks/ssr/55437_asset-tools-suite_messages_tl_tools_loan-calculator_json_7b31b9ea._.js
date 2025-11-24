@@ -1,0 +1,3 @@
+module.exports=[12076,a=>{a.v({meta:{title:"Loan Calculator - Kalkulahin ang Buwanang Pagbabayad",description:"Libreng online na Loan Calculator. Kalkulahin ang iyong buwanang pagbabayad sa utang, kabuuang interes, at kabuuang halaga ng pagbabayad nang madali."},title:"Loan Calculator",description:"Kalkulahin ang buwanang pagbabayad at kabuuang interes para sa mga pautang.",ui:{amount:"Halaga ng Pautang",interestRate:"Rate ng Interes (%)",term:"Termino ng Pautang (Taon)",calculate:"Kalkulahin",result:"Resulta ng Pagkalkula",monthlyPayment:"Buwanang Pagbabayad",totalPayment:"Kabuuang Pagbabayad",totalInterest:"Kabuuang Interes",currency:"₱"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_tl_tools_loan-calculator_json_7b31b9ea._.js.map

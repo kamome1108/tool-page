@@ -1,0 +1,3 @@
+module.exports=[28084,a=>{a.v({meta:{title:"Signature Generator - Create Digital Signatures",description:"Free online Signature Generator. Create digital signatures for your documents. Draw with your mouse or touch screen. Download as transparent PNG."},title:"Signature Generator",description:"Create digital signatures and download as transparent PNG.",ui:{clear:"Clear",download:"Download Signature",penColor:"Pen Color",penWidth:"Pen Width",backgroundColor:"Background Color",transparent:"Transparent",white:"White",processingNote:"🔒 Your signature is created locally in your browser and never sent to our servers."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_en_tools_signature-generator_json_4772e83c._.js.map

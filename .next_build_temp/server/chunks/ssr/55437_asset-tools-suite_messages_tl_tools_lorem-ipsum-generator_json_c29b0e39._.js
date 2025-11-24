@@ -1,0 +1,3 @@
+module.exports=[41188,a=>{a.v({meta:{title:"Lorem Ipsum Generator - Dummy Text Generator",description:"Libreng online na Lorem Ipsum generator. Gumawa ng dummy text para sa iyong mga disenyo at layout. I-customize ang bilang ng mga talata, pangungusap, o salita."},title:"Lorem Ipsum Generator",description:"Gumawa ng placeholder text para sa iyong mga disenyo.",ui:{count:"Bilang",type:"Uri",paragraphs:"Mga Talata",sentences:"Mga Pangungusap",words:"Mga Salita",generate:"Bumuo ng Teksto",result:"Nabuong Teksto",copy:"Kopyahin ang Teksto",copied:"Nakopya na!",processingNote:"🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_tl_tools_lorem-ipsum-generator_json_c29b0e39._.js.map

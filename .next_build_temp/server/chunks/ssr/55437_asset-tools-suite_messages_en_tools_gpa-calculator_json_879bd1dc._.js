@@ -1,0 +1,3 @@
+module.exports=[31972,a=>{a.v({meta:{title:"GPA Calculator - Calculate Your Grade Point Average",description:"Calculate your college or high school GPA easily. Add courses, credits, and grades to see your semester and cumulative GPA."},title:"GPA Calculator",description:"Calculate your Grade Point Average (GPA) based on your grades and credits.",ui:{course:"Course Name",grade:"Grade",credits:"Credits",addCourse:"Add Course",remove:"Remove",calculate:"Calculate GPA",reset:"Reset",semesterGPA:"Semester GPA",totalCredits:"Total Credits",processingNote:"🔒 All calculations are done in your browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_en_tools_gpa-calculator_json_879bd1dc._.js.map

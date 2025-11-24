@@ -1,0 +1,3 @@
+module.exports=[64730,a=>{a.v({meta:{title:"URL Encoder/Decoder - Free Online Tool",description:"Encode or decode URLs easily with our free online tool. Convert special characters to their corresponding percent-encoded values and vice versa."},title:"URL Encoder/Decoder",description:"Encode or decode URL strings to handle special characters.",ui:{input:"Input URL",output:"Output",encode:"Encode",decode:"Decode",copy:"Copy",copied:"Copied!",clear:"Clear",error:"Invalid URL encoding",processingNote:"🔒 All processing is done in your browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_en_tools_url-encoder-decoder_json_ab28e96d._.js.map

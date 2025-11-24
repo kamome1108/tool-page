@@ -1,0 +1,3 @@
+module.exports=[17572,a=>{a.v({meta:{title:"Age Calculator - Calculate Your Exact Age",description:"Free online age calculator. Calculate your exact age in years, months, and days. Find out how many days until your next birthday."},title:"Age Calculator",description:"Calculate your exact age and see upcoming birthdays.",ui:{dob:"Date of Birth",calculate:"Calculate Age",result:"Your Age",years:"Years",months:"Months",days:"Days",nextBirthday:"Next Birthday",daysUntil:"Days until next birthday",totalDays:"Total days lived",processingNote:"🔒 All processing is done in your browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_en_tools_age-calculator_json_0fa68e36._.js.map

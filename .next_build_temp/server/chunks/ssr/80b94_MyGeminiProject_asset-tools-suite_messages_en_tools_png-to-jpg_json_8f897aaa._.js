@@ -1,0 +1,3 @@
+module.exports=[49665,a=>{a.v({meta:{title:"PNG to JPG Converter - Convert Images Online",description:"Free online PNG to JPG converter. Convert PNG images to high-quality JPEG format. Fast, secure, and client-side conversion."},title:"PNG to JPG Converter",description:"Convert PNG images to JPG format instantly.",ui:{upload:"Upload PNG",uploadHelp:"Drag & drop PNG here, or click to select",convert:"Convert to JPG",download:"Download JPG",clear:"Clear",converting:"Converting...",noFile:"No image selected"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_en_tools_png-to-jpg_json_8f897aaa._.js.map

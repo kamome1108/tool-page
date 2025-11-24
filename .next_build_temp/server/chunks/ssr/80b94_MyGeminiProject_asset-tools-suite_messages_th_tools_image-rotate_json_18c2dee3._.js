@@ -1,0 +1,3 @@
+module.exports=[14105,a=>{a.v({meta:{title:"Image Rotate & Flip - หมุนรูปภาพออนไลน์ฟรี",description:"หมุนและพลิกรูปภาพของคุณออนไลน์ หมุน 90 องศา พลิกแนวนอนหรือแนวตั้ง เครื่องมือหมุนรูปภาพฟรี รวดเร็ว และปลอดภัย",keywords:"rotate image, flip image, rotate 90 degrees, mirror image"},title:"Image Rotate & Flip",description:"หมุนรูปภาพ 90 องศาหรือพลิกแนวนอน/แนวตั้ง",dropzone:{label:"วางรูปภาพที่นี่ หรือคลิกเพื่อเลือก"},rotateLeft:"หมุนซ้าย",rotateRight:"หมุนขวา",flipHorizontal:"พลิกแนวนอน",flipVertical:"พลิกแนวตั้ง",download:"ดาวน์โหลดรูปภาพ",reset:"รีเซ็ต"})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_th_tools_image-rotate_json_18c2dee3._.js.map

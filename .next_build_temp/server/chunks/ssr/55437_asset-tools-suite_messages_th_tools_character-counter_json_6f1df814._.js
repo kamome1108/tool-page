@@ -1,0 +1,3 @@
+module.exports=[25764,a=>{a.v({meta:{title:"Character & Line Counter",description:"นับตัวอักษร บรรทัด และย่อหน้าแบบเรียลไทม์",keywords:"character, counter, writing, text"},ui:{inputPlaceholder:"พิมพ์หรือวางข้อความของคุณที่นี่...",characters:"ตัวอักษร",lines:"บรรทัด",paragraphs:"ย่อหน้า",words:"คำ",bytes:"ไบต์",clear:"ล้าง",statistics:"สถิติ",withoutSpaces:"ไม่รวมช่องว่าง"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_th_tools_character-counter_json_6f1df814._.js.map

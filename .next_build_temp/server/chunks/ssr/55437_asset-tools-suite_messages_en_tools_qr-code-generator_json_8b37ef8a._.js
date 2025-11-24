@@ -1,0 +1,3 @@
+module.exports=[89777,a=>{a.v({meta:{title:"QR Code Generator - Create Free QR Codes",description:"Free online QR Code generator. Create QR codes for URLs, text, email, and more. Download your QR code as an image instantly."},title:"QR Code Generator",description:"Generate QR codes for URLs, text, and more.",ui:{inputLabel:"Enter Text or URL",generate:"Generate QR Code",download:"Download Image",processingNote:"🔒 All processing is done in your browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_en_tools_qr-code-generator_json_8b37ef8a._.js.map

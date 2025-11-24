@@ -1,0 +1,3 @@
+module.exports=[63656,a=>{a.v({meta:{title:"SQLフォーマッター - SQLをオンラインで整形",description:"無料のオンラインSQLフォーマッター。SQLクエリを整形して読みやすくします。標準SQL、MySQL、PostgreSQLなどに対応しています。"},title:"SQLフォーマッター",description:"SQLクエリを整形して美しくします。",ui:{inputPlaceholder:"ここにSQLクエリを貼り付けてください...",format:"SQLを整形",copy:"コピー",copied:"コピーしました！",dialect:"ダイアレクト",indent:"インデント",spaces:"スペース {count}個",tabs:"タブ",error:"SQLの整形中にエラーが発生しました"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_ja_tools_sql-formatter_json_54bfbc0f._.js.map

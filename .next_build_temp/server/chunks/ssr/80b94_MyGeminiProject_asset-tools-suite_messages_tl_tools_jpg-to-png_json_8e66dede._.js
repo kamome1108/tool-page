@@ -1,0 +1,3 @@
+module.exports=[53108,a=>{a.v({meta:{title:"JPG to PNG Converter - I-convert ang mga Larawan Online",description:"Libreng online na JPG to PNG converter. I-convert ang JPEG images sa mataas na kalidad na PNG format. Mabilis, ligtas, at client-side conversion."},title:"JPG to PNG Converter",description:"I-convert ang JPG images sa PNG format agad.",ui:{upload:"Mag-upload ng JPG",uploadHelp:"I-drag at i-drop ang JPG dito, o i-click upang pumili",convert:"I-convert sa PNG",download:"I-download ang PNG",clear:"I-clear",converting:"Nagko-convert...",noFile:"Walang napiling larawan"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_tl_tools_jpg-to-png_json_8e66dede._.js.map

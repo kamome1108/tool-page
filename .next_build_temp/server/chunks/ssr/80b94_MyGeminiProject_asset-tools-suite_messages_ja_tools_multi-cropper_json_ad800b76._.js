@@ -1,0 +1,3 @@
+module.exports=[217,a=>{a.v({meta:{title:"マルチ画像クロッパー",description:"画像から複数の領域を切り抜き、個別またはZIPとしてダウンロード。",keywords:"切り抜き, 画像, マルチクロップ, zip, ダウンロード"},ui:{uploadImage:"クリックして画像をアップロード",supports:"JPG, PNG, WebPに対応",reset:"画像をリセット",downloadZip:"ZIPでダウンロード",crops:"切り抜き",noCrops:"切り抜き範囲が選択されていません。",dragInstruction:"✂️ クリック＆ドラッグで切り抜き範囲を作成",processingNote:"✂️ すべての処理はブラウザ上で行われます。画像が外部に送信されることはありません。",download:"ダウンロード",delete:"削除"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_ja_tools_multi-cropper_json_ad800b76._.js.map

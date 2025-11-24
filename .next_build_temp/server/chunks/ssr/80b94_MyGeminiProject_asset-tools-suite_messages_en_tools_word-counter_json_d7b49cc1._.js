@@ -1,0 +1,3 @@
+module.exports=[36280,a=>{a.v({meta:{title:"Word Counter - Count Words, Characters, and Sentences",description:"Free online word counter tool. Count words, characters, sentences, and paragraphs in your text in real-time."},title:"Word Counter",description:"Count words, characters, sentences, and paragraphs in real-time.",ui:{input:"Type or paste your text here...",stats:{words:"Words",characters:"Characters",sentences:"Sentences",paragraphs:"Paragraphs"},clear:"Clear Text",processingNote:"🔒 All processing is done in your browser."}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_en_tools_word-counter_json_d7b49cc1._.js.map

@@ -1,0 +1,3 @@
+module.exports=[83830,a=>{a.v({meta:{title:"Trình tạo mã QR - Tạo mã QR miễn phí",description:"Trình tạo mã QR trực tuyến miễn phí. Tạo mã QR cho URL, văn bản, email và hơn thế nữa. Tải xuống mã QR của bạn dưới dạng hình ảnh ngay lập tức."},title:"Trình tạo mã QR",description:"Tạo mã QR cho URL, văn bản và hơn thế nữa.",ui:{inputLabel:"Nhập văn bản hoặc URL",generate:"Tạo mã QR",download:"Tải xuống hình ảnh",processingNote:"🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_vi_tools_qr-code-generator_json_d44d75d3._.js.map

@@ -1,0 +1,3 @@
+module.exports=[6564,a=>{a.v({meta:{title:"Character & Line Counter",description:"Đếm ký tự, dòng và đoạn văn trong thời gian thực.",keywords:"character, counter, writing, text"},ui:{inputPlaceholder:"Nhập hoặc dán văn bản của bạn vào đây...",characters:"Ký tự",lines:"Dòng",paragraphs:"Đoạn văn",words:"Từ",bytes:"Byte",clear:"Xóa",statistics:"Thống kê",withoutSpaces:"Không có khoảng trắng"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_vi_tools_character-counter_json_c1e4c686._.js.map

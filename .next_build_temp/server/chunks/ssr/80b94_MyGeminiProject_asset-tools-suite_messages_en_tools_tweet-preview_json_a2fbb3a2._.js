@@ -1,0 +1,3 @@
+module.exports=[27775,a=>{a.v({meta:{title:"Tweet Preview - Mockup Generator",description:"Free online Tweet preview tool. Create mockups of tweets to see how they will look before posting. Test text length, images, and layout."},title:"Tweet Preview",description:"Preview how your tweet will look before you post it.",ui:{name:"Name",handle:"Handle (@username)",text:"Tweet Text",image:"Image URL (optional)",uploadImage:"Or Upload Image",preview:"Preview",verified:"Verified Account",stats:{replies:"Replies",retweets:"Retweets",likes:"Likes",views:"Views"},processingNote:"🔒 All processing is done in your browser."}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_en_tools_tweet-preview_json_a2fbb3a2._.js.map

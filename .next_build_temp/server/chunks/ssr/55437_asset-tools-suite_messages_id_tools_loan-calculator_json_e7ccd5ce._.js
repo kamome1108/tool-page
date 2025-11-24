@@ -1,0 +1,3 @@
+module.exports=[4458,a=>{a.v({meta:{title:"Kalkulator Pinjaman - Hitung Pembayaran Bulanan",description:"Kalkulator Pinjaman online gratis. Hitung pembayaran pinjaman bulanan Anda, total bunga, dan jumlah total pembayaran dengan mudah."},title:"Kalkulator Pinjaman",description:"Hitung pembayaran bulanan dan total bunga untuk pinjaman.",ui:{amount:"Jumlah Pinjaman",interestRate:"Suku Bunga (%)",term:"Jangka Waktu Pinjaman (Tahun)",calculate:"Hitung",result:"Hasil Perhitungan",monthlyPayment:"Pembayaran Bulanan",totalPayment:"Total Pembayaran",totalInterest:"Total Bunga",currency:"Rp"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_id_tools_loan-calculator_json_e7ccd5ce._.js.map

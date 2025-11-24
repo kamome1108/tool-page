@@ -1,0 +1,24 @@
+{
+    "meta": {
+        "title": "PDF to Image Converter - Convert PDF to JPG, PNG Online",
+        "description": "Free online PDF to Image converter. Convert PDF pages to high-quality JPG or PNG images. Extract all pages or select specific ones. Download as ZIP."
+    },
+    "title": "PDF to Image Converter",
+    "description": "Convert PDF pages to images. Supports JPG and PNG output.",
+    "ui": {
+        "upload": "Upload PDF",
+        "uploadHelp": "Drag & drop PDF here, or click to select",
+        "convert": "Convert to Images",
+        "download": "Download Images (ZIP)",
+        "clear": "Clear",
+        "converting": "Converting...",
+        "noFile": "No PDF selected",
+        "format": "Output Format",
+        "formats": {
+            "jpg": "JPG (JPEG)",
+            "png": "PNG"
+        },
+        "pages": "Pages: {count}",
+        "allPages": "All Pages"
+    }
+}

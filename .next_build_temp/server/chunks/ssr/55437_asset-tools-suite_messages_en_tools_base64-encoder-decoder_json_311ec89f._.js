@@ -1,0 +1,3 @@
+module.exports=[18998,a=>{a.v({meta:{title:"Base64 Encoder/Decoder - Encode & Decode Text",description:"Free online Base64 encoder and decoder. Convert text to Base64 format and decode Base64 strings back to text. Secure and easy to use."},title:"Base64 Encoder/Decoder",description:"Encode text to Base64 or decode Base64 to text.",ui:{inputLabel:"Enter Text",encode:"Encode",decode:"Decode",result:"Result",copy:"Copy",copied:"Copied!",processingNote:"🔒 All processing is done in your browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_en_tools_base64-encoder-decoder_json_311ec89f._.js.map

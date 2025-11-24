@@ -1,0 +1,3 @@
+module.exports=[80761,a=>{a.v({meta:{title:"Stopwatch - Timer Online dengan Putaran",description:"Alat stopwatch online gratis. Ukur waktu dengan fungsi mulai, berhenti, dan putaran. Sempurna untuk olahraga, memasak, atau produktivitas."},title:"Stopwatch",description:"Ukur waktu secara akurat dengan fungsi putaran.",ui:{start:"Mulai",stop:"Berhenti",reset:"Atur Ulang",lap:"Putaran",laps:"Putaran",lapHeader:"Putaran",timeHeader:"Waktu",totalHeader:"Total",processingNote:"🔒 Semua pemrosesan dilakukan di browser Anda."}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_id_tools_stopwatch_json_316528f0._.js.map

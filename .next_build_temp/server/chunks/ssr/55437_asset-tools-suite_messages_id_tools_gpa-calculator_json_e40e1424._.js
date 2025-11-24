@@ -1,0 +1,3 @@
+module.exports=[24229,a=>{a.v({meta:{title:"Kalkulator GPA - Hitung Rata-rata Nilai Anda",description:"Hitung GPA kuliah atau sekolah menengah Anda dengan mudah. Tambahkan kursus, kredit, dan nilai untuk melihat GPA semester dan kumulatif Anda."},title:"Kalkulator GPA",description:"Hitung Rata-rata Nilai (GPA) Anda berdasarkan nilai dan kredit Anda.",ui:{course:"Nama Kursus",grade:"Nilai",credits:"Kredit",addCourse:"Tambah Kursus",remove:"Hapus",calculate:"Hitung GPA",reset:"Atur Ulang",semesterGPA:"GPA Semester",totalCredits:"Total Kredit",processingNote:"🔒 Semua perhitungan dilakukan di browser Anda."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_id_tools_gpa-calculator_json_e40e1424._.js.map

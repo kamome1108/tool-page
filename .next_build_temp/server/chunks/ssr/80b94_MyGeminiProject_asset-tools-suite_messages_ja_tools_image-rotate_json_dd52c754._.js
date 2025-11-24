@@ -1,0 +1,3 @@
+module.exports=[64378,a=>{a.v({meta:{title:"画像回転・反転 - オンラインで画像を編集",description:"画像をオンラインで回転または反転させます。90度回転、水平・垂直反転が簡単にできます。"},title:"画像回転・反転",description:"画像を回転（90度単位）または反転（水平/垂直）させます。",dropzone:{label:"画像をここにドロップ、またはクリックして選択"},rotateLeft:"左に回転",rotateRight:"右に回転",flipHorizontal:"水平反転",flipVertical:"垂直反転",download:"画像をダウンロード",reset:"リセット",preview:"プレビュー"})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_ja_tools_image-rotate_json_dd52c754._.js.map

@@ -1,0 +1,3 @@
+module.exports=[8890,a=>{a.v({meta:{title:"JSON sang CSV - Chuyển đổi JSON sang CSV trực tuyến",description:"Công cụ chuyển đổi JSON sang CSV trực tuyến miễn phí. Chuyển đổi dữ liệu JSON của bạn sang định dạng CSV cho Excel hoặc Google Sheets. Nhanh chóng, an toàn và xử lý phía máy khách."},title:"JSON sang CSV",description:"Chuyển đổi dữ liệu JSON sang định dạng CSV.",ui:{inputPlaceholder:"Dán JSON của bạn vào đây...",convert:"Chuyển đổi sang CSV",download:"Tải xuống CSV",copy:"Sao chép CSV",copied:"Đã sao chép!",clear:"Xóa",error:"JSON không hợp lệ",outputPlaceholder:"Đầu ra CSV sẽ xuất hiện ở đây..."}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_vi_tools_json-to-csv_json_49167144._.js.map

@@ -1,0 +1,3 @@
+module.exports=[62585,a=>{a.v({meta:{title:"SQL Formatter - Beautify SQL Online",description:"Free online SQL Formatter. Beautify and format your SQL queries for better readability. Supports Standard SQL, MySQL, PostgreSQL, and more."},title:"SQL Formatter",description:"Format and beautify your SQL queries.",ui:{inputPlaceholder:"Paste your SQL query here...",format:"Format SQL",copy:"Copy",copied:"Copied!",dialect:"Dialect",indent:"Indentation",spaces:"{count} Spaces",tabs:"Tabs",error:"Error formatting SQL"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_en_tools_sql-formatter_json_54b2f041._.js.map

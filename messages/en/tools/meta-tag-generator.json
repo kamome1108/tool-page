@@ -1,20 +1,21 @@
 {
     "meta": {
-        "title": "Meta Tag Generator - Create SEO Meta Tags",
-        "description": "Free online meta tag generator. Create HTML meta tags for your website to improve SEO. Generate title, description, keywords, and more."
+        "title": "Meta Tag Generator - Generate SEO Meta Tags Online",
+        "description": "Free online Meta Tag Generator. Create SEO-friendly meta tags for your website. Generate title, description, keywords, author, and viewport tags instantly."
     },
     "title": "Meta Tag Generator",
-    "description": "Generate HTML meta tags for your website's SEO.",
+    "description": "Generate SEO-friendly meta tags for your website.",
     "ui": {
         "siteTitle": "Site Title",
         "siteDescription": "Site Description",
         "keywords": "Keywords (comma separated)",
         "author": "Author",
-        "viewport": "Viewport Setting",
+        "viewport": "Viewport Settings",
+        "charset": "Charset",
         "generate": "Generate Meta Tags",
-        "result": "Generated HTML",
-        "copy": "Copy HTML",
+        "preview": "Preview",
+        "copy": "Copy Code",
         "copied": "Copied!",
-        "processingNote": "🔒 All processing is done in your browser."
+        "clear": "Clear"
     }
 }

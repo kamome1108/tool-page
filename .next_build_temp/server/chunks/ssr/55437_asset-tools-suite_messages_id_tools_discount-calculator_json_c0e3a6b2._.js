@@ -1,0 +1,3 @@
+module.exports=[67243,a=>{a.v({meta:{title:"Kalkulator Diskon - Hitung Harga Jual & Penghematan",description:"Kalkulator diskon online gratis. Hitung harga akhir setelah diskon dan pajak. Cari tahu berapa banyak yang Anda hemat untuk penjualan dan penawaran khusus."},title:"Kalkulator Diskon",description:"Hitung harga akhir setelah diskon dan pajak.",ui:{originalPrice:"Harga Asli",discount:"Diskon (%)",tax:"Pajak (%)",calculate:"Hitung",finalPrice:"Harga Akhir",youSave:"Anda Hemat",taxAmount:"Jumlah Pajak",processingNote:"🔒 Semua pemrosesan dilakukan di browser Anda."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_id_tools_discount-calculator_json_c0e3a6b2._.js.map

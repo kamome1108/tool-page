@@ -1,0 +1,3 @@
+module.exports=[40370,a=>{a.v({meta:{title:"ユーザーエージェント解析 - ブラウザ情報確認",description:"無料のオンラインユーザーエージェント解析ツール。ユーザーエージェント文字列を解析して、ブラウザ、OS、デバイス、エンジンの詳細を特定します。開発やデバッグに便利です。"},title:"ユーザーエージェント解析",description:"ユーザーエージェント文字列を解析し、ブラウザ、OS、デバイスの詳細を表示します。",ui:{inputLabel:"ユーザーエージェント文字列",parse:"解析する",useMyUA:"自分のUAを使用",result:"解析結果",browser:"ブラウザ",os:"オペレーティングシステム",device:"デバイス",engine:"エンジン",cpu:"CPU",ua:"ユーザーエージェント",copy:"コピー",copied:"コピーしました！",processingNote:"🔒 すべての解析はブラウザ上で行われます。"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_user-agent-parser_json_23cd36dd._.js.map

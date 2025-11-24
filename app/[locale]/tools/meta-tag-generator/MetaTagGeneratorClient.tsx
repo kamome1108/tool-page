@@ -1,128 +1,166 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { Button } from '@/app/components/ui/Button';
 import { Card } from '@/app/components/ui/Card';
+import { Toaster, toast } from 'react-hot-toast';
 
-interface MetaTagGeneratorClientProps {
-    locale: string;
-}
+export default function MetaTagGeneratorClient() {
+    const t = useTranslations('Tools.meta-tag-generator.ui');
+    const [values, setValues] = useState({
+        title: '',
+        description: '',
+        keywords: '',
+        author: '',
+        viewport: 'width=device-width, initial-scale=1.0',
+        charset: 'UTF-8',
+    });
+    const [generatedCode, setGeneratedCode] = useState('');
 
-export default function MetaTagGeneratorClient({ locale }: MetaTagGeneratorClientProps) {
-    const t = useTranslations('Tools.meta-tag-generator');
-    const [siteTitle, setSiteTitle] = useState('');
-    const [siteDescription, setSiteDescription] = useState('');
-    const [keywords, setKeywords] = useState('');
-    const [author, setAuthor] = useState('');
-    const [viewport, setViewport] = useState('width=device-width, initial-scale=1.0');
-    const [generatedHtml, setGeneratedHtml] = useState('');
-    const [copied, setCopied] = useState(false);
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+        const { name, value } = e.target;
+        setValues((prev) => ({ ...prev, [name]: value }));
+    };
 
     const generateTags = () => {
-        let tags = '';
-
-        if (siteTitle) tags += `<title>${siteTitle}</title>\n`;
-        if (siteDescription) tags += `<meta name="description" content="${siteDescription}">\n`;
-        if (keywords) tags += `<meta name="keywords" content="${keywords}">\n`;
-        if (author) tags += `<meta name="author" content="${author}">\n`;
-        if (viewport) tags += `<meta name="viewport" content="${viewport}">\n`;
-
-        tags += `<meta charset="UTF-8">`;
-
-        setGeneratedHtml(tags);
+        let code = '';
+        if (values.charset) code += `<meta charset="${values.charset}">\n`;
+        if (values.viewport) code += `<meta name="viewport" content="${values.viewport}">\n`;
+        if (values.title) code += `<title>${values.title}</title>\n`;
+        if (values.description) code += `<meta name="description" content="${values.description}">\n`;
+        if (values.keywords) code += `<meta name="keywords" content="${values.keywords}">\n`;
+        if (values.author) code += `<meta name="author" content="${values.author}">\n`;
+        setGeneratedCode(code.trim());
     };
 
     const handleCopy = () => {
-        navigator.clipboard.writeText(generatedHtml);
-        setCopied(true);
-        setTimeout(() => setCopied(false), 2000);
+        navigator.clipboard.writeText(generatedCode);
+        toast.success(t('copied'));
+    };
+
+    const handleClear = () => {
+        setValues({
+            title: '',
+            description: '',
+            keywords: '',
+            author: '',
+            viewport: 'width=device-width, initial-scale=1.0',
+            charset: 'UTF-8',
+        });
+        setGeneratedCode('');
     };
 
     return (
-        <div className="space-y-6 max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto space-y-6">
+            <Toaster position="bottom-right" />
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <Card padding="lg" className="space-y-4">
-                    <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
-                            {t('ui.siteTitle')}
-                        </label>
+                <Card className="p-6 space-y-4">
+                    <div className="space-y-2">
+                        <label className="text-sm font-medium text-gray-700">{t('siteTitle')}</label>
                         <input
                             type="text"
-                            value={siteTitle}
-                            onChange={(e) => setSiteTitle(e.target.value)}
-                            className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                            name="title"
+                            value={values.title}
+                            onChange={handleChange}
+                            className="w-full p-2 border border-gray-300 rounded-md"
+                            placeholder="My Awesome Website"
                         />
                     </div>
-                    <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
-                            {t('ui.siteDescription')}
-                        </label>
+
+                    <div className="space-y-2">
+                        <label className="text-sm font-medium text-gray-700">{t('siteDescription')}</label>
                         <textarea
-                            value={siteDescription}
-                            onChange={(e) => setSiteDescription(e.target.value)}
-                            className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent h-24 resize-none"
+                            name="description"
+                            value={values.description}
+                            onChange={handleChange}
+                            className="w-full p-2 border border-gray-300 rounded-md h-24 resize-none"
+                            placeholder="A brief description of your website..."
                         />
                     </div>
-                    <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
-                            {t('ui.keywords')}
-                        </label>
+
+                    <div className="space-y-2">
+                        <label className="text-sm font-medium text-gray-700">{t('keywords')}</label>
                         <input
                             type="text"
-                            value={keywords}
-                            onChange={(e) => setKeywords(e.target.value)}
-                            className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                            name="keywords"
+                            value={values.keywords}
+                            onChange={handleChange}
+                            className="w-full p-2 border border-gray-300 rounded-md"
+                            placeholder="seo, tools, generator"
                         />
                     </div>
+
+                    <div className="space-y-2">
+                        <label className="text-sm font-medium text-gray-700">{t('author')}</label>
+                        <input
+                            type="text"
+                            name="author"
+                            value={values.author}
+                            onChange={handleChange}
+                            className="w-full p-2 border border-gray-300 rounded-md"
+                            placeholder="John Doe"
+                        />
+                    </div>
+
                     <div className="grid grid-cols-2 gap-4">
-                        <div>
-                            <label className="block text-sm font-medium text-gray-700 mb-2">
-                                {t('ui.author')}
-                            </label>
+                        <div className="space-y-2">
+                            <label className="text-sm font-medium text-gray-700">{t('viewport')}</label>
                             <input
                                 type="text"
-                                value={author}
-                                onChange={(e) => setAuthor(e.target.value)}
-                                className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                                name="viewport"
+                                value={values.viewport}
+                                onChange={handleChange}
+                                className="w-full p-2 border border-gray-300 rounded-md"
                             />
                         </div>
-                        <div>
-                            <label className="block text-sm font-medium text-gray-700 mb-2">
-                                {t('ui.viewport')}
-                            </label>
+                        <div className="space-y-2">
+                            <label className="text-sm font-medium text-gray-700">{t('charset')}</label>
                             <input
                                 type="text"
-                                value={viewport}
-                                onChange={(e) => setViewport(e.target.value)}
-                                className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                                name="charset"
+                                value={values.charset}
+                                onChange={handleChange}
+                                className="w-full p-2 border border-gray-300 rounded-md"
                             />
                         </div>
                     </div>
-                    <Button onClick={generateTags} className="w-full">
-                        {t('ui.generate')}
-                    </Button>
-                </Card>
 
-                <Card padding="lg" className="flex flex-col h-full">
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
-                        {t('ui.result')}
-                    </label>
-                    <div className="flex-1 bg-gray-50 border border-gray-200 rounded-md p-4 font-mono text-sm overflow-x-auto whitespace-pre-wrap break-all">
-                        {generatedHtml || <span className="text-gray-400 italic">...</span>}
+                    <div className="flex gap-4 pt-4">
+                        <Button
+                            onClick={handleClear}
+                            variant="outline"
+                            className="w-1/3"
+                        >
+                            {t('clear')}
+                        </Button>
+                        <Button
+                            onClick={generateTags}
+                            className="w-2/3 bg-blue-600 hover:bg-blue-700 text-white"
+                        >
+                            {t('generate')}
+                        </Button>
                     </div>
-                    <Button
-                        onClick={handleCopy}
-                        className={`mt-4 w-full ${copied ? "bg-green-600 hover:bg-green-700" : ""}`}
-                        disabled={!generatedHtml}
-                    >
-                        {copied ? t('ui.copied') : t('ui.copy')}
-                    </Button>
                 </Card>
-            </div>
 
-            <div className="text-center text-sm text-gray-500">
-                {t('ui.processingNote')}
+                <Card className="p-6 space-y-4 h-fit">
+                    <div className="flex justify-between items-center border-b pb-2">
+                        <h3 className="font-medium text-gray-700">{t('preview')}</h3>
+                        <Button
+                            onClick={handleCopy}
+                            disabled={!generatedCode}
+                            size="sm"
+                            variant="outline"
+                        >
+                            {t('copy')}
+                        </Button>
+                    </div>
+
+                    <div className="bg-gray-800 text-gray-100 p-4 rounded-lg font-mono text-sm overflow-x-auto min-h-[300px] whitespace-pre">
+                        {generatedCode || '<!-- Meta tags will appear here -->'}
+                    </div>
+                </Card>
             </div>
         </div>
     );

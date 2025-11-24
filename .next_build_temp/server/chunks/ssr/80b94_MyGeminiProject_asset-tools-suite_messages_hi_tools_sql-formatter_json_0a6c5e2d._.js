@@ -1,0 +1,3 @@
+module.exports=[46821,a=>{a.v({meta:{title:"SQL फॉर्मेटर - SQL को ऑनलाइन सुंदर बनाएं",description:"मुफ्त ऑनलाइन SQL फॉर्मेटर। बेहतर पठनीयता के लिए अपनी SQL क्वेरी को सुंदर और फॉर्मेट करें। स्टैंडर्ड SQL, MySQL, PostgreSQL और बहुत कुछ का समर्थन करता है।"},title:"SQL फॉर्मेटर",description:"अपनी SQL क्वेरी को फॉर्मेट और सुंदर बनाएं।",ui:{inputPlaceholder:"अपनी SQL क्वेरी यहाँ पेस्ट करें...",format:"SQL फॉर्मेट करें",copy:"कॉपी करें",copied:"कॉपी हो गया!",dialect:"बोली (Dialect)",indent:"इंडेंटेशन",spaces:"{count} रिक्त स्थान",tabs:"टैब्स",error:"SQL फॉर्मेट करने में त्रुटि"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_hi_tools_sql-formatter_json_0a6c5e2d._.js.map

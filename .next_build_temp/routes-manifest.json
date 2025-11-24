@@ -1,0 +1,730 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/[locale]",
+      "regex": "^/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/[locale]/category/[id]",
+      "regex": "^/([^/]+?)/category/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale",
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/category/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/[locale]/search",
+      "regex": "^/([^/]+?)/search(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/search(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/age-calculator",
+      "regex": "^/([^/]+?)/tools/age\\-calculator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/age\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/aspect-ratio-calculator",
+      "regex": "^/([^/]+?)/tools/aspect\\-ratio\\-calculator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/aspect\\-ratio\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/audio-bitrate-calculator",
+      "regex": "^/([^/]+?)/tools/audio\\-bitrate\\-calculator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/audio\\-bitrate\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/audio-cutter",
+      "regex": "^/([^/]+?)/tools/audio\\-cutter(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/audio\\-cutter(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/base64-encoder-decoder",
+      "regex": "^/([^/]+?)/tools/base64\\-encoder\\-decoder(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/base64\\-encoder\\-decoder(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/bpm-tapper",
+      "regex": "^/([^/]+?)/tools/bpm\\-tapper(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/bpm\\-tapper(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/character-counter",
+      "regex": "^/([^/]+?)/tools/character\\-counter(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/character\\-counter(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/color-converter",
+      "regex": "^/([^/]+?)/tools/color\\-converter(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/color\\-converter(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/color-picker",
+      "regex": "^/([^/]+?)/tools/color\\-picker(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/color\\-picker(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/compound-interest-calculator",
+      "regex": "^/([^/]+?)/tools/compound\\-interest\\-calculator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/compound\\-interest\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/css-gradient-generator",
+      "regex": "^/([^/]+?)/tools/css\\-gradient\\-generator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/css\\-gradient\\-generator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/csv-to-json",
+      "regex": "^/([^/]+?)/tools/csv\\-to\\-json(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/csv\\-to\\-json(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/date-difference-calculator",
+      "regex": "^/([^/]+?)/tools/date\\-difference\\-calculator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/date\\-difference\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/discount-calculator",
+      "regex": "^/([^/]+?)/tools/discount\\-calculator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/discount\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/exif-remover",
+      "regex": "^/([^/]+?)/tools/exif\\-remover(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/exif\\-remover(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/favicon-generator",
+      "regex": "^/([^/]+?)/tools/favicon\\-generator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/favicon\\-generator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/gpa-calculator",
+      "regex": "^/([^/]+?)/tools/gpa\\-calculator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/gpa\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/grade-calculator",
+      "regex": "^/([^/]+?)/tools/grade\\-calculator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/grade\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/hash-generator",
+      "regex": "^/([^/]+?)/tools/hash\\-generator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/hash\\-generator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/hashtag-generator",
+      "regex": "^/([^/]+?)/tools/hashtag\\-generator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/hashtag\\-generator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/html-entity-encoder-decoder",
+      "regex": "^/([^/]+?)/tools/html\\-entity\\-encoder\\-decoder(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/html\\-entity\\-encoder\\-decoder(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/image-blur",
+      "regex": "^/([^/]+?)/tools/image\\-blur(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/image\\-blur(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/image-color-picker",
+      "regex": "^/([^/]+?)/tools/image\\-color\\-picker(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/image\\-color\\-picker(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/image-compressor",
+      "regex": "^/([^/]+?)/tools/image\\-compressor(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/image\\-compressor(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/image-converter",
+      "regex": "^/([^/]+?)/tools/image\\-converter(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/image\\-converter(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/image-resizer",
+      "regex": "^/([^/]+?)/tools/image\\-resizer(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/image\\-resizer(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/image-rotate",
+      "regex": "^/([^/]+?)/tools/image\\-rotate(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/image\\-rotate(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/image-to-pdf",
+      "regex": "^/([^/]+?)/tools/image\\-to\\-pdf(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/image\\-to\\-pdf(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/instagram-caption-spacer",
+      "regex": "^/([^/]+?)/tools/instagram\\-caption\\-spacer(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/instagram\\-caption\\-spacer(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/ip-address-lookup",
+      "regex": "^/([^/]+?)/tools/ip\\-address\\-lookup(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/ip\\-address\\-lookup(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/jpg-to-png",
+      "regex": "^/([^/]+?)/tools/jpg\\-to\\-png(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/jpg\\-to\\-png(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/jpg-to-webp",
+      "regex": "^/([^/]+?)/tools/jpg\\-to\\-webp(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/jpg\\-to\\-webp(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/json-diff",
+      "regex": "^/([^/]+?)/tools/json\\-diff(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/json\\-diff(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/json-formatter",
+      "regex": "^/([^/]+?)/tools/json\\-formatter(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/json\\-formatter(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/json-to-csv",
+      "regex": "^/([^/]+?)/tools/json\\-to\\-csv(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/json\\-to\\-csv(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/jwt-decoder",
+      "regex": "^/([^/]+?)/tools/jwt\\-decoder(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/jwt\\-decoder(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/loan-calculator",
+      "regex": "^/([^/]+?)/tools/loan\\-calculator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/loan\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/lorem-ipsum-generator",
+      "regex": "^/([^/]+?)/tools/lorem\\-ipsum\\-generator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/lorem\\-ipsum\\-generator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/markdown-to-html",
+      "regex": "^/([^/]+?)/tools/markdown\\-to\\-html(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/markdown\\-to\\-html(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/meta-tag-generator",
+      "regex": "^/([^/]+?)/tools/meta\\-tag\\-generator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/meta\\-tag\\-generator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/microphone-tester",
+      "regex": "^/([^/]+?)/tools/microphone\\-tester(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/microphone\\-tester(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/multi-cropper",
+      "regex": "^/([^/]+?)/tools/multi\\-cropper(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/multi\\-cropper(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/open-graph-generator",
+      "regex": "^/([^/]+?)/tools/open\\-graph\\-generator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/open\\-graph\\-generator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/password-generator",
+      "regex": "^/([^/]+?)/tools/password\\-generator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/password\\-generator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/password-strength-checker",
+      "regex": "^/([^/]+?)/tools/password\\-strength\\-checker(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/password\\-strength\\-checker(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/pdf-merger",
+      "regex": "^/([^/]+?)/tools/pdf\\-merger(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/pdf\\-merger(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/pdf-to-image",
+      "regex": "^/([^/]+?)/tools/pdf\\-to\\-image(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/pdf\\-to\\-image(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/percentage-calculator",
+      "regex": "^/([^/]+?)/tools/percentage\\-calculator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/percentage\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/png-to-jpg",
+      "regex": "^/([^/]+?)/tools/png\\-to\\-jpg(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/png\\-to\\-jpg(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/pomodoro-timer",
+      "regex": "^/([^/]+?)/tools/pomodoro\\-timer(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/pomodoro\\-timer(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/qr-code-generator",
+      "regex": "^/([^/]+?)/tools/qr\\-code\\-generator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/qr\\-code\\-generator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/random-password-generator",
+      "regex": "^/([^/]+?)/tools/random\\-password\\-generator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/random\\-password\\-generator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/robots-txt-generator",
+      "regex": "^/([^/]+?)/tools/robots\\-txt\\-generator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/robots\\-txt\\-generator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/roi-calculator",
+      "regex": "^/([^/]+?)/tools/roi\\-calculator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/roi\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/scientific-calculator",
+      "regex": "^/([^/]+?)/tools/scientific\\-calculator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/scientific\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/screen-recorder",
+      "regex": "^/([^/]+?)/tools/screen\\-recorder(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/screen\\-recorder(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/signature-generator",
+      "regex": "^/([^/]+?)/tools/signature\\-generator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/signature\\-generator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/sitemap-generator",
+      "regex": "^/([^/]+?)/tools/sitemap\\-generator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/sitemap\\-generator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/sql-formatter",
+      "regex": "^/([^/]+?)/tools/sql\\-formatter(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/sql\\-formatter(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/stopwatch",
+      "regex": "^/([^/]+?)/tools/stopwatch(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/stopwatch(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/text-case-converter",
+      "regex": "^/([^/]+?)/tools/text\\-case\\-converter(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/text\\-case\\-converter(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/text-decorator",
+      "regex": "^/([^/]+?)/tools/text\\-decorator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/text\\-decorator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/text-diff",
+      "regex": "^/([^/]+?)/tools/text\\-diff(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/text\\-diff(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/text-to-speech",
+      "regex": "^/([^/]+?)/tools/text\\-to\\-speech(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/text\\-to\\-speech(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/todo-list",
+      "regex": "^/([^/]+?)/tools/todo\\-list(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/todo\\-list(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/tweet-preview",
+      "regex": "^/([^/]+?)/tools/tweet\\-preview(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/tweet\\-preview(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/twitter-card-generator",
+      "regex": "^/([^/]+?)/tools/twitter\\-card\\-generator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/twitter\\-card\\-generator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/unit-converter",
+      "regex": "^/([^/]+?)/tools/unit\\-converter(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/unit\\-converter(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/unix-timestamp-converter",
+      "regex": "^/([^/]+?)/tools/unix\\-timestamp\\-converter(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/unix\\-timestamp\\-converter(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/url-encoder-decoder",
+      "regex": "^/([^/]+?)/tools/url\\-encoder\\-decoder(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/url\\-encoder\\-decoder(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/user-agent-parser",
+      "regex": "^/([^/]+?)/tools/user\\-agent\\-parser(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/user\\-agent\\-parser(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/uuid-generator",
+      "regex": "^/([^/]+?)/tools/uuid\\-generator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/uuid\\-generator(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/webcam-tester",
+      "regex": "^/([^/]+?)/tools/webcam\\-tester(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/webcam\\-tester(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/webp-to-jpg",
+      "regex": "^/([^/]+?)/tools/webp\\-to\\-jpg(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/webp\\-to\\-jpg(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/word-counter",
+      "regex": "^/([^/]+?)/tools/word\\-counter(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/word\\-counter(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/youtube-tag-extractor",
+      "regex": "^/([^/]+?)/tools/youtube\\-tag\\-extractor(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/youtube\\-tag\\-extractor(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/youtube-thumbnail-downloader",
+      "regex": "^/([^/]+?)/tools/youtube\\-thumbnail\\-downloader(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/youtube\\-thumbnail\\-downloader(?:/)?$"
+    },
+    {
+      "page": "/[locale]/tools/youtube-timestamp-link-generator",
+      "regex": "^/([^/]+?)/tools/youtube\\-timestamp\\-link\\-generator(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/tools/youtube\\-timestamp\\-link\\-generator(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/robots.txt",
+      "regex": "^/robots\\.txt(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/robots\\.txt(?:/)?$"
+    },
+    {
+      "page": "/sitemap.xml",
+      "regex": "^/sitemap\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

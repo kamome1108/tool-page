@@ -1,0 +1,28 @@
+{
+    "meta": {
+        "title": "Chuyển đổi ảnh sang PDF - Chuyển đổi JPG, PNG sang PDF trực tuyến",
+        "description": "Trình chuyển đổi ảnh sang PDF trực tuyến miễn phí. Chuyển đổi hình ảnh JPG, PNG, WebP thành một tệp PDF duy nhất. Kéo và thả nhiều hình ảnh, sắp xếp lại chúng và tải xuống ngay lập tức."
+    },
+    "title": "Chuyển đổi ảnh sang PDF",
+    "description": "Chuyển đổi hình ảnh của bạn thành một tệp PDF duy nhất. Hỗ trợ JPG, PNG và WebP.",
+    "ui": {
+        "upload": "Tải ảnh lên",
+        "uploadHelp": "Kéo và thả hình ảnh vào đây hoặc nhấp để chọn",
+        "convert": "Chuyển đổi sang PDF",
+        "download": "Tải xuống PDF",
+        "clear": "Xóa tất cả",
+        "converting": "Đang chuyển đổi...",
+        "noImages": "Chưa chọn hình ảnh nào",
+        "pageSize": "Kích thước trang",
+        "orientation": "Hướng",
+        "sizes": {
+            "a4": "A4",
+            "letter": "Letter",
+            "fit": "Vừa với hình ảnh"
+        },
+        "orientations": {
+            "portrait": "Dọc",
+            "landscape": "Ngang"
+        }
+    }
+}

@@ -1,0 +1,3 @@
+module.exports=[83711,a=>{a.v({meta:{title:"Text Diff Checker - Compare Two Texts Online",description:"Free online Text Diff Checker. Compare two texts and find differences instantly. Highlights additions, deletions, and changes. Useful for code, documents, and lists."},title:"Text Diff Checker",description:"Compare two texts and highlight the differences.",ui:{original:"Original Text",modified:"Modified Text",compare:"Compare",clear:"Clear",diff:"Differences",noDiff:"The texts are identical.",legend:"Legend",removed:"Removed",added:"Added",unchanged:"Unchanged"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_en_tools_text-diff_json_87a2a946._.js.map

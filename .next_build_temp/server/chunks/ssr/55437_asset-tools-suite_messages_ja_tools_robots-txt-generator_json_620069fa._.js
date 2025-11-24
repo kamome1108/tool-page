@@ -1,0 +1,3 @@
+module.exports=[19958,a=>{a.v({meta:{title:"Robots.txtジェネレーター - robots.txtをオンライン作成",description:"無料のオンラインRobots.txtジェネレーター。Webサイト用のrobots.txtファイルを作成します。検索エンジンのクローラー制御、許可/拒否パスの定義、サイトマップの場所を指定できます。"},title:"Robots.txtジェネレーター",description:"検索エンジンがWebサイトをクロールする方法を制御するrobots.txtファイルを生成します。",ui:{userAgent:"ユーザーエージェント",allow:"許可するパス (1行に1つ)",disallow:"拒否するパス (1行に1つ)",sitemap:"サイトマップURL",crawlDelay:"クロール遅延 (秒)",generate:"robots.txtを生成",preview:"プレビュー",copy:"コードをコピー",copied:"コピーしました！",clear:"クリア",download:"robots.txtをダウンロード"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_robots-txt-generator_json_620069fa._.js.map

@@ -1,0 +1,3 @@
+module.exports=[33422,a=>{a.v({meta:{title:"画像変換 - オンラインで画像を無料で変換",description:"PNG、JPG、WebP、GIF形式の間で画像をオンライン変換します。無料、高速、かつ安全な画像変換ツールです。"},title:"画像変換",description:"画像を異なる形式（PNG、JPG、WebP、GIF）に変換します。",dropzone:{label:"画像をここにドロップ、またはクリックして選択"},format:"変換後の形式",quality:"画質 (0-100, JPG/WebP用)",convert:"画像を変換",download:"変換された画像をダウンロード",reset:"リセット",formats:{png:"PNG",jpeg:"JPG",webp:"WebP",gif:"GIF"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_image-converter_json_1ca706e1._.js.map

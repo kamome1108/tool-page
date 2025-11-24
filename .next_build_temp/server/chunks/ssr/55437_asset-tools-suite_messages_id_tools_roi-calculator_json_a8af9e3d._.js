@@ -1,0 +1,3 @@
+module.exports=[1973,a=>{a.v({meta:{title:"Kalkulator ROI - Hitung Pengembalian Investasi",description:"Kalkulator ROI online gratis. Hitung Pengembalian Investasi Anda dengan mudah. Tentukan profitabilitas investasi Anda dengan alat sederhana ini."},title:"Kalkulator ROI",description:"Hitung Pengembalian Investasi (ROI) untuk investasi Anda.",ui:{invested:"Jumlah yang Diinvestasikan",returned:"Jumlah yang Dikembalikan",duration:"Durasi Investasi (Tahun)",calculate:"Hitung ROI",result:"ROI",annualized:"ROI Tahunan",gain:"Total Keuntungan/Kerugian",processingNote:"🔒 Semua pemrosesan dilakukan di browser Anda."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_id_tools_roi-calculator_json_a8af9e3d._.js.map

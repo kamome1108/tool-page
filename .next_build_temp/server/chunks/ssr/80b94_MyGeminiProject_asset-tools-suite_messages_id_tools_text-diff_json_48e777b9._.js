@@ -1,0 +1,3 @@
+module.exports=[43011,a=>{a.v({meta:{title:"Pemeriksa Perbedaan Teks - Bandingkan Dua Teks Online",description:"Pemeriksa Perbedaan Teks online gratis. Bandingkan dua teks dan temukan perbedaannya secara instan. Menyoroti penambahan, penghapusan, dan perubahan. Berguna untuk kode, dokumen, dan daftar."},title:"Pemeriksa Perbedaan Teks",description:"Bandingkan dua teks dan soroti perbedaannya.",ui:{original:"Teks Asli",modified:"Teks yang Diubah",compare:"Bandingkan",clear:"Hapus",diff:"Perbedaan",noDiff:"Teks identik.",legend:"Legenda",removed:"Dihapus",added:"Ditambahkan",unchanged:"Tidak Berubah"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_id_tools_text-diff_json_48e777b9._.js.map

@@ -1,0 +1,3 @@
+module.exports=[33577,a=>{a.v({meta:{title:"画像PDF変換 - JPG, PNGをPDFにオンライン変換",description:"無料のオンライン画像PDF変換ツール。JPG, PNG, WebP画像を1つのPDFファイルに変換します。複数の画像をドラッグ＆ドロップし、並べ替えて即座にダウンロードできます。"},title:"画像PDF変換",description:"画像を1つのPDFファイルに変換します。JPG, PNG, WebPに対応しています。",ui:{upload:"画像をアップロード",uploadHelp:"画像をここにドラッグ＆ドロップ、またはクリックして選択",convert:"PDFに変換",download:"PDFをダウンロード",clear:"すべてクリア",converting:"変換中...",noImages:"画像が選択されていません",pageSize:"ページサイズ",orientation:"向き",sizes:{a4:"A4",letter:"レター",fit:"画像に合わせる"},orientations:{portrait:"縦",landscape:"横"}}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_ja_tools_image-to-pdf_json_b4a0d3ee._.js.map

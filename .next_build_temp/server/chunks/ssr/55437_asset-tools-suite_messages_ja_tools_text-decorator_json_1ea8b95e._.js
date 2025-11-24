@@ -1,0 +1,3 @@
+module.exports=[14469,a=>{a.v({meta:{title:"文字装飾ツール - おしゃれなフォント変換",description:"無料のオンライン文字装飾ツール。普通のテキストをInstagram、Twitter、Facebookなどで使えるおしゃれなフォントに変換します。"},title:"文字装飾ツール",description:"SNSで使えるおしゃれなフォントにテキストを変換します。",ui:{inputPlaceholder:"ここにテキストを入力...",copy:"コピー",copied:"コピーしました！",styles:{bold:"太字 (Bold)",italic:"斜体 (Italic)",boldItalic:"太字斜体",script:"筆記体 (Script)",boldScript:"太筆記体",fraktur:"フラクトゥール",boldFraktur:"太フラクトゥール",doubleStruck:"袋文字",sansSerif:"サンセリフ",sansSerifBold:"太サンセリフ",sansSerifItalic:"斜体サンセリフ",sansSerifBoldItalic:"太斜体サンセリフ",monospace:"等幅 (Monospace)",bubble:"丸囲み",square:"四角囲み",upsideDown:"逆さま"}}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_text-decorator_json_1ea8b95e._.js.map

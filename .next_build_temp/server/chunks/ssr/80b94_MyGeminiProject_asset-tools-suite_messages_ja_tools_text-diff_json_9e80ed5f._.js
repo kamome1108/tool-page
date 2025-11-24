@@ -1,0 +1,3 @@
+module.exports=[88285,a=>{a.v({meta:{title:"テキスト差分チェッカー - 2つのテキストを比較",description:"無料のオンラインテキスト差分チェッカー。2つのテキストを比較し、違いを瞬時に見つけます。追加、削除、変更箇所をハイライト表示します。コード、ドキュメント、リストの比較に便利です。"},title:"テキスト差分チェッカー",description:"2つのテキストを比較し、違いをハイライト表示します。",ui:{original:"元のテキスト",modified:"変更後のテキスト",compare:"比較する",clear:"クリア",diff:"差分",noDiff:"テキストは完全に一致しています。",legend:"凡例",removed:"削除された部分",added:"追加された部分",unchanged:"変更なし"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_ja_tools_text-diff_json_9e80ed5f._.js.map

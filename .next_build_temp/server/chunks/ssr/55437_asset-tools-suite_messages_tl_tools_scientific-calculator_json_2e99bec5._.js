@@ -1,0 +1,3 @@
+module.exports=[61433,a=>{a.v({meta:{title:"Scientific Calculator - Advanced Online Calculator",description:"Libreng online na Scientific Calculator. Magsagawa ng mga advanced na mathematical na kalkulasyon kabilang ang trigonometry, logarithms, at exponents."},title:"Scientific Calculator",description:"Advanced na calculator para sa mga kalkulasyong siyentipiko at engineering.",ui:{clear:"AC",backspace:"⌫",equals:"=",error:"Error",deg:"DEG",rad:"RAD"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_tl_tools_scientific-calculator_json_2e99bec5._.js.map

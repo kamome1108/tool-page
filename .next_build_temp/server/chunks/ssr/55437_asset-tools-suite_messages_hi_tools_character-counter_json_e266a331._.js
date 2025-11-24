@@ -1,0 +1,3 @@
+module.exports=[42693,a=>{a.v({meta:{title:"Character & Line Counter",description:"रीयल-टाइम में वर्ण, पंक्तियाँ और पैराग्राफ गिनें।",keywords:"character, counter, writing, text"},ui:{inputPlaceholder:"अपना टेक्स्ट यहाँ टाइप या पेस्ट करें...",characters:"वर्ण",lines:"पंक्तियाँ",paragraphs:"पैराग्राफ",words:"शब्द",bytes:"बाइट्स",clear:"साफ़ करें",statistics:"सांख्यिकी",withoutSpaces:"रिक्त स्थान के बिना"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_hi_tools_character-counter_json_e266a331._.js.map

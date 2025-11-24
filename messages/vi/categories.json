@@ -46,5 +46,9 @@
     "utilities": {
         "name": "Tiện ích",
         "description": "Các tiện ích và công cụ đa năng."
+    },
+    "converter": {
+        "name": "Công cụ chuyển đổi",
+        "description": "Chuyển đổi dữ liệu giữa các định dạng khác nhau."
     }
 }

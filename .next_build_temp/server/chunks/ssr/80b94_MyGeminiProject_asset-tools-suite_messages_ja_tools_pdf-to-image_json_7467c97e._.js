@@ -1,0 +1,3 @@
+module.exports=[68747,a=>{a.v({meta:{title:"PDF画像変換 - PDFをJPG, PNGにオンライン変換",description:"無料のオンラインPDF画像変換ツール。PDFのページを高品質なJPGまたはPNG画像に変換します。全ページを一括抽出または特定ページを選択可能。ZIPでダウンロード。"},title:"PDF画像変換",description:"PDFのページを画像に変換します。JPGとPNG出力に対応しています。",ui:{upload:"PDFをアップロード",uploadHelp:"PDFをここにドラッグ＆ドロップ、またはクリックして選択",convert:"画像に変換",download:"画像をダウンロード (ZIP)",clear:"クリア",converting:"変換中...",noFile:"PDFが選択されていません",format:"出力形式",formats:{jpg:"JPG (JPEG)",png:"PNG"},pages:"ページ数: {count}",allPages:"全ページ"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_ja_tools_pdf-to-image_json_7467c97e._.js.map

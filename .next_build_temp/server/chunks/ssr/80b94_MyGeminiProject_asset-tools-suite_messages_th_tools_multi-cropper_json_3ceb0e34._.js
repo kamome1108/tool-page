@@ -1,0 +1,3 @@
+module.exports=[93622,a=>{a.v({meta:{title:"Multi Image Cropper",description:"ตัดหลายพื้นที่จากรูปภาพเดียวและดาวน์โหลดแยกกันหรือเป็นไฟล์ ZIP",keywords:"crop, image, multi crop, zip, download"},ui:{uploadImage:"คลิกเพื่ออัปโหลดรูปภาพ",supports:"รองรับ JPG, PNG, WebP",reset:"รีเซ็ตรูปภาพ",downloadZip:"ดาวน์โหลด ZIP",crops:"การตัด",noCrops:"ยังไม่ได้เลือกการตัด",dragInstruction:"✂️ คลิกและลากเพื่อสร้างพื้นที่ตัด",processingNote:"✂️ การประมวลผลทั้งหมดเกิดขึ้นในเบราว์เซอร์ของคุณ รูปภาพของคุณจะไม่ถูกส่งออกจากอุปกรณ์ของคุณ",download:"ดาวน์โหลด",delete:"ลบ"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_th_tools_multi-cropper_json_3ceb0e34._.js.map

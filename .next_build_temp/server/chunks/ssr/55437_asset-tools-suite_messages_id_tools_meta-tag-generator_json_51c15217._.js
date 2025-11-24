@@ -1,0 +1,3 @@
+module.exports=[22779,a=>{a.v({meta:{title:"Pembuat Tag Meta - Buat Tag Meta SEO Online",description:"Pembuat Tag Meta online gratis. Buat tag meta ramah SEO untuk situs web Anda. Hasilkan tag judul, deskripsi, kata kunci, penulis, dan viewport secara instan."},title:"Pembuat Tag Meta",description:"Hasilkan tag meta ramah SEO untuk situs web Anda.",ui:{siteTitle:"Judul Situs",siteDescription:"Deskripsi Situs",keywords:"Kata Kunci (dipisahkan koma)",author:"Penulis",viewport:"Pengaturan Viewport",charset:"Charset",generate:"Hasilkan Tag Meta",preview:"Pratinjau",copy:"Salin Kode",copied:"Disalin!",clear:"Hapus"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_id_tools_meta-tag-generator_json_51c15217._.js.map

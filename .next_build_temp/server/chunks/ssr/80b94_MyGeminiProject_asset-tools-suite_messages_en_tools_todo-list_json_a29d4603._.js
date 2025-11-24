@@ -1,0 +1,3 @@
+module.exports=[61286,a=>{a.v({meta:{title:"To-Do List - Simple Task Manager",description:"Free online To-Do List. Manage your daily tasks, mark them as complete, and stay organized. Tasks are saved in your browser."},title:"To-Do List",description:"Simple task manager to organize your daily work.",ui:{inputPlaceholder:"Add a new task...",add:"Add",all:"All",active:"Active",completed:"Completed",clearCompleted:"Clear Completed",noTasks:"No tasks yet. Add one above!",itemsLeft:"{count} items left",processingNote:"🔒 Your tasks are saved locally in your browser."}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_en_tools_todo-list_json_a29d4603._.js.map

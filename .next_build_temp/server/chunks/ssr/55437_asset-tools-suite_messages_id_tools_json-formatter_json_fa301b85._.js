@@ -1,0 +1,3 @@
+module.exports=[14129,a=>{a.v({meta:{title:"JSON Formatter & Validator",description:"Format, validasi, dan perkecil data JSON.",keywords:"json, formatter, validator, minify, beautify"},ui:{inputJson:"Input JSON",outputJson:"Output",format:"Format",minify:"Perkecil",copy:"Salin",clear:"Hapus",pastePlaceholder:'Tempel JSON di sini... {"key": "value"}',spaces:"Spasi",errorParsing:"❌ Kesalahan mengurai JSON:",invalidJson:"JSON Tidak Valid",processingNote:"💻 Semua pemrosesan terjadi di browser Anda. Data JSON Anda tidak pernah meninggalkan perangkat Anda."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_id_tools_json-formatter_json_fa301b85._.js.map

@@ -1,0 +1,3 @@
+module.exports=[61402,a=>{a.v({meta:{title:"ストップウォッチ - ラップ機能付きオンラインタイマー",description:"無料のオンラインストップウォッチツール。スタート、ストップ、ラップ機能で時間を計測します。スポーツ、料理、生産性向上に最適です。"},title:"ストップウォッチ",description:"ラップ機能を使って正確に時間を計測します。",ui:{start:"スタート",stop:"ストップ",reset:"リセット",lap:"ラップ",laps:"ラップタイム",lapHeader:"ラップ",timeHeader:"タイム",totalHeader:"合計",processingNote:"🔒 すべての処理はブラウザ上で行われます。"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_ja_tools_stopwatch_json_0e1f8f50._.js.map

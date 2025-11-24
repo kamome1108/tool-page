@@ -1,0 +1,3 @@
+module.exports=[7823,a=>{a.v({meta:{title:"Chuyển đổi WebP sang JPG - Chuyển đổi ảnh trực tuyến",description:"Trình chuyển đổi WebP sang JPG trực tuyến miễn phí. Chuyển đổi hình ảnh WebP sang định dạng JPEG chất lượng cao. Chuyển đổi nhanh chóng, an toàn và phía máy khách."},title:"Chuyển đổi WebP sang JPG",description:"Chuyển đổi hình ảnh WebP sang định dạng JPG ngay lập tức.",ui:{upload:"Tải WebP lên",uploadHelp:"Kéo và thả WebP vào đây hoặc nhấp để chọn",convert:"Chuyển đổi sang JPG",download:"Tải xuống JPG",clear:"Xóa",converting:"Đang chuyển đổi...",noFile:"Chưa chọn hình ảnh nào"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_vi_tools_webp-to-jpg_json_b157ddf3._.js.map

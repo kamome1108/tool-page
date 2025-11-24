@@ -1,0 +1,3 @@
+module.exports=[83166,a=>{a.v({meta:{title:"Máy tính khoản vay - Tính toán khoản thanh toán hàng tháng",description:"Máy tính khoản vay trực tuyến miễn phí. Tính toán khoản thanh toán khoản vay hàng tháng, tổng lãi suất và tổng số tiền trả nợ một cách dễ dàng."},title:"Máy tính khoản vay",description:"Tính toán khoản thanh toán hàng tháng và tổng lãi suất cho các khoản vay.",ui:{amount:"Số tiền vay",interestRate:"Lãi suất (%)",term:"Thời hạn vay (Năm)",calculate:"Tính toán",result:"Kết quả tính toán",monthlyPayment:"Thanh toán hàng tháng",totalPayment:"Tổng thanh toán",totalInterest:"Tổng lãi suất",currency:"₫"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_vi_tools_loan-calculator_json_f91eef22._.js.map

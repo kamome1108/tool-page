@@ -1,0 +1,3 @@
+module.exports=[11372,a=>{a.v({meta:{title:"Trình tạo thẻ Meta - Tạo thẻ Meta SEO trực tuyến",description:"Trình tạo thẻ Meta trực tuyến miễn phí. Tạo thẻ meta thân thiện với SEO cho trang web của bạn. Tạo thẻ tiêu đề, mô tả, từ khóa, tác giả và khung nhìn ngay lập tức."},title:"Trình tạo thẻ Meta",description:"Tạo thẻ meta thân thiện với SEO cho trang web của bạn.",ui:{siteTitle:"Tiêu đề trang web",siteDescription:"Mô tả trang web",keywords:"Từ khóa (phân cách bằng dấu phẩy)",author:"Tác giả",viewport:"Cài đặt khung nhìn",charset:"Bảng mã",generate:"Tạo thẻ Meta",preview:"Xem trước",copy:"Sao chép mã",copied:"Đã sao chép!",clear:"Xóa"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_vi_tools_meta-tag-generator_json_57797bcf._.js.map

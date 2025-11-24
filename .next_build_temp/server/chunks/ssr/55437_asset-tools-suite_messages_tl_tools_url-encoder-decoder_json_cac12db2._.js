@@ -1,0 +1,3 @@
+module.exports=[70954,a=>{a.v({meta:{title:"URL Encoder/Decoder - Libreng Online Tool",description:"Madaling i-encode o i-decode ang mga URL gamit ang aming libreng online tool. I-convert ang mga espesyal na character sa kanilang katumbas na percent-encoded values at vice versa."},title:"URL Encoder/Decoder",description:"I-encode o i-decode ang mga URL string upang mahawakan ang mga espesyal na character.",ui:{input:"Input URL",output:"Output",encode:"I-encode",decode:"I-decode",copy:"Kopyahin",copied:"Nakopya na!",clear:"I-clear",error:"Hindi wastong URL encoding",processingNote:"🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_tl_tools_url-encoder-decoder_json_cac12db2._.js.map

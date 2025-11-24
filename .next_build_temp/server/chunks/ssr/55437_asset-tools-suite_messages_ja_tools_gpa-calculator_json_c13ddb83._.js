@@ -1,0 +1,3 @@
+module.exports=[21534,a=>{a.v({meta:{title:"GPA計算機 - 成績平均値を計算",description:"大学や高校のGPAを簡単に計算できます。科目、単位、成績を追加して、学期および累積GPAを確認しましょう。"},title:"GPA計算機",description:"成績と単位に基づいてGPA（成績平均値）を計算します。",ui:{course:"科目名",grade:"成績",credits:"単位数",addCourse:"科目を追加",remove:"削除",calculate:"GPAを計算",reset:"リセット",semesterGPA:"学期GPA",totalCredits:"総単位数",processingNote:"🔒 すべての計算はブラウザ上で行われます。"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_gpa-calculator_json_c13ddb83._.js.map

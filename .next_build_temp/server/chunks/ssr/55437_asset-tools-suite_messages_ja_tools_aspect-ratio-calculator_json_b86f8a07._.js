@@ -1,0 +1,3 @@
+module.exports=[35335,a=>{a.v({meta:{title:"アスペクト比計算機 - 比率とサイズを計算",description:"無料のオンラインアスペクト比計算機。アスペクト比（縦横比）の計算、比率を維持したままのリサイズ計算、一般的な画面や画像の比率を確認できます。"},title:"アスペクト比計算機",description:"アスペクト比やリサイズ後の寸法を計算します。",ui:{width:"幅 (Width)",height:"高さ (Height)",ratio:"アスペクト比",calculate:"計算する",newWidth:"新しい幅",newHeight:"新しい高さ",commonRatios:"一般的な比率",result:"結果",processingNote:"🔒 すべての処理はブラウザ上で行われます。"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_aspect-ratio-calculator_json_b86f8a07._.js.map

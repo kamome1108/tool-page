@@ -1,0 +1,3 @@
+module.exports=[32548,a=>{a.v({meta:{title:"Unix Timestamp Converter - Epoch Time Tool",description:"Free online Unix timestamp converter. Convert Unix timestamps to human-readable dates and vice versa. Supports both seconds and milliseconds."},title:"Unix Timestamp Converter",description:"Convert between Unix timestamps and human-readable dates.",ui:{currentTimestamp:"Current Unix Timestamp",convertTimestamp:"Convert Timestamp to Date",convertDate:"Convert Date to Timestamp",timestampInput:"Unix Timestamp",dateInput:"Date & Time",convert:"Convert",result:"Result",copy:"Copy",copied:"Copied!",processingNote:"🔒 All processing is done in your browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_en_tools_unix-timestamp-converter_json_66fb4cb0._.js.map

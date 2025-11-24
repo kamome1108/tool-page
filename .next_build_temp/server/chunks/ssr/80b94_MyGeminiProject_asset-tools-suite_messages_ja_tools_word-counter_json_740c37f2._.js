@@ -1,0 +1,3 @@
+module.exports=[78636,a=>{a.v({meta:{title:"文字数カウンター - 単語、文字、文章をカウント",description:"無料のオンライン文字数カウントツール。テキスト内の単語数、文字数、文の数、段落数をリアルタイムでカウントします。"},title:"文字数カウンター",description:"単語数、文字数、文の数、段落数をリアルタイムでカウントします。",ui:{input:"ここにテキストを入力または貼り付け...",stats:{words:"単語数",characters:"文字数",sentences:"文の数",paragraphs:"段落数"},clear:"テキストをクリア",processingNote:"🔒 すべての処理はブラウザ上で行われます。"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_ja_tools_word-counter_json_740c37f2._.js.map

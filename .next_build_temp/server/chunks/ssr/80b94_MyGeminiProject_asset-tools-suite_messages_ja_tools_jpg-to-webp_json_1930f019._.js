@@ -1,0 +1,3 @@
+module.exports=[70448,a=>{a.v({meta:{title:"JPG WebP変換 - 画像をオンラインで変換",description:"無料のオンラインJPG WebP変換ツール。JPEG画像を圧縮率の高いWebP形式に変換します。高速、安全、クライアントサイドで処理されます。"},title:"JPG WebP変換",description:"JPG画像をWebP形式に即座に変換します。",ui:{upload:"JPGをアップロード",uploadHelp:"JPGをここにドラッグ＆ドロップ、またはクリックして選択",convert:"WebPに変換",download:"WebPをダウンロード",clear:"クリア",converting:"変換中...",noFile:"画像が選択されていません"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_ja_tools_jpg-to-webp_json_1930f019._.js.map

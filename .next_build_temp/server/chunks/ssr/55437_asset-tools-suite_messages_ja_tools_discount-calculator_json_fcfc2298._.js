@@ -1,0 +1,3 @@
+module.exports=[95100,a=>{a.v({meta:{title:"割引計算機 - セール価格と節約額を計算",description:"無料のオンライン割引計算機。割引と税金を考慮した最終価格を計算します。セールや特別オファーでどれくらい節約できるかを確認できます。"},title:"割引計算機",description:"割引と税金を考慮した最終価格を計算します。",ui:{originalPrice:"元の価格",discount:"割引率 (%)",tax:"税率 (%)",calculate:"計算する",finalPrice:"最終価格",youSave:"節約額",taxAmount:"税額",processingNote:"🔒 すべての処理はブラウザ上で行われます。"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_discount-calculator_json_fcfc2298._.js.map

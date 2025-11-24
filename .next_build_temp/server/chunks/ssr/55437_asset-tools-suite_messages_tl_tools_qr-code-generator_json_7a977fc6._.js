@@ -1,0 +1,3 @@
+module.exports=[52921,a=>{a.v({meta:{title:"QR Code Generator - Gumawa ng Libreng QR Code",description:"Libreng online na QR Code generator. Gumawa ng mga QR code para sa mga URL, text, email, at iba pa. I-download ang iyong QR code bilang isang imahe agad."},title:"QR Code Generator",description:"Bumuo ng mga QR code para sa mga URL, text, at iba pa.",ui:{inputLabel:"Ilagay ang Text o URL",generate:"Bumuo ng QR Code",download:"I-download ang Imahe",processingNote:"🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_tl_tools_qr-code-generator_json_7a977fc6._.js.map

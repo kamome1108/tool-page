@@ -1,0 +1,3 @@
+module.exports=[39266,a=>{a.v({meta:{title:"Kalkulator Usia - Hitung Usia Tepat Anda",description:"Kalkulator usia online gratis. Hitung usia tepat Anda dalam tahun, bulan, dan hari. Cari tahu berapa hari lagi sampai ulang tahun Anda berikutnya."},title:"Kalkulator Usia",description:"Hitung usia tepat Anda dan lihat ulang tahun mendatang.",ui:{dob:"Tanggal Lahir",calculate:"Hitung Usia",result:"Usia Anda",years:"Tahun",months:"Bulan",days:"Hari",nextBirthday:"Ulang Tahun Berikutnya",daysUntil:"Hari sampai ulang tahun berikutnya",totalDays:"Total hari hidup",processingNote:"🔒 Semua pemrosesan dilakukan di browser Anda."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_id_tools_age-calculator_json_a596d2e6._.js.map

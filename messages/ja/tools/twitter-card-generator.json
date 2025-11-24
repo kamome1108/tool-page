@@ -1,0 +1,27 @@
+{
+    "meta": {
+        "title": "Twitterカードジェネレーター - Twitterカードをオンライン作成",
+        "description": "無料のオンラインTwitterカードジェネレーター。Webサイト用のTwitterカードを作成します。Summary、Summary Large Image、App、Playerカードをプレビュー付きで生成します。"
+    },
+    "title": "Twitterカードジェネレーター",
+    "description": "Twitterでのコンテンツ表示を最適化するTwitterカードタグを生成します。",
+    "ui": {
+        "cardType": "カードタイプ",
+        "siteHandle": "サイトハンドル (@username)",
+        "creatorHandle": "作成者ハンドル (@username)",
+        "title": "タイトル",
+        "description": "説明",
+        "image": "画像URL",
+        "generate": "Twitterカードを生成",
+        "preview": "プレビュー",
+        "copy": "コードをコピー",
+        "copied": "コピーしました！",
+        "clear": "クリア",
+        "types": {
+            "summary": "Summary (概要)",
+            "summary_large_image": "Summary with Large Image (大きな画像付き概要)",
+            "app": "App (アプリ)",
+            "player": "Player (プレイヤー)"
+        }
+    }
+}

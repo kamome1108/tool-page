@@ -1,0 +1,3 @@
+module.exports=[97495,a=>{a.v({meta:{title:"Exif削除 - 写真のメタデータを削除",description:"無料のオンラインExif削除ツール。写真からGPS位置情報やカメラの詳細などのメタデータを削除してプライバシーを保護します。サーバーへのアップロードは不要です。"},title:"Exif削除",description:"画像からメタデータ（Exif）を削除してプライバシーを保護します。",ui:{selectImage:"画像を選択",remove:"Exifデータを削除",download:"クリーンな画像をダウンロード",noFile:"ファイルが選択されていません",dragDrop:"またはここに画像をドラッグ＆ドロップ",metadataFound:"メタデータが見つかりました: {count}個のタグ",noMetadata:"メタデータは見つかりませんでした",processing:"削除中...",success:"メタデータの削除が完了しました！",error:"メタデータの削除中にエラーが発生しました",processingNote:"🔒 処理はブラウザ内でローカルに行われます。写真がサーバーに送信されることはありません。"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_ja_tools_exif-remover_json_e9a77b01._.js.map

@@ -1,0 +1,3 @@
+module.exports=[5813,a=>{a.v({meta:{title:"Pembuat Tanda Tangan - Buat Tanda Tangan Digital",description:"Pembuat Tanda Tangan online gratis. Buat tanda tangan digital untuk dokumen Anda. Gambar dengan mouse atau layar sentuh Anda. Unduh sebagai PNG transparan."},title:"Pembuat Tanda Tangan",description:"Buat tanda tangan digital dan unduh sebagai PNG transparan.",ui:{clear:"Hapus",download:"Unduh Tanda Tangan",penColor:"Warna Pena",penWidth:"Lebar Pena",backgroundColor:"Warna Latar Belakang",transparent:"Transparan",white:"Putih",processingNote:"🔒 Tanda tangan Anda dibuat secara lokal di browser Anda dan tidak pernah dikirim ke server kami."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_id_tools_signature-generator_json_fca81daf._.js.map

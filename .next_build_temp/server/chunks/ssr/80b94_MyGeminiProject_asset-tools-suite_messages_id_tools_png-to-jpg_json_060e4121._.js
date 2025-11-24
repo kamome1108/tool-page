@@ -1,0 +1,3 @@
+module.exports=[3706,a=>{a.v({meta:{title:"Konverter PNG ke JPG - Ubah Gambar Online",description:"Konverter PNG ke JPG online gratis. Ubah gambar PNG menjadi format JPEG berkualitas tinggi. Konversi cepat, aman, dan sisi klien."},title:"Konverter PNG ke JPG",description:"Ubah gambar PNG menjadi format JPG secara instan.",ui:{upload:"Unggah PNG",uploadHelp:"Seret & lepas PNG di sini, atau klik untuk memilih",convert:"Konversi ke JPG",download:"Unduh JPG",clear:"Hapus",converting:"Mengonversi...",noFile:"Tidak ada gambar yang dipilih"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_id_tools_png-to-jpg_json_060e4121._.js.map

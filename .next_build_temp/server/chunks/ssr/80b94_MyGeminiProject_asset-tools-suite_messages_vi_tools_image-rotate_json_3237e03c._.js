@@ -1,0 +1,3 @@
+module.exports=[45514,a=>{a.v({meta:{title:"Image Rotate & Flip - Xoay hình ảnh trực tuyến miễn phí",description:"Xoay và lật hình ảnh của bạn trực tuyến. Xoay 90 độ, lật ngang hoặc dọc. Công cụ xoay hình ảnh miễn phí, nhanh chóng và an toàn.",keywords:"rotate image, flip image, rotate 90 degrees, mirror image"},title:"Image Rotate & Flip",description:"Xoay hình ảnh 90 độ hoặc lật ngang/dọc.",dropzone:{label:"Thả hình ảnh vào đây hoặc nhấp để chọn"},rotateLeft:"Xoay trái",rotateRight:"Xoay phải",flipHorizontal:"Lật ngang",flipVertical:"Lật dọc",download:"Tải xuống hình ảnh",reset:"Đặt lại"})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_vi_tools_image-rotate_json_3237e03c._.js.map

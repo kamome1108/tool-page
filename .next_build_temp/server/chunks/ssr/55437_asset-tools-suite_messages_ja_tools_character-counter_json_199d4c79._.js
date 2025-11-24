@@ -1,0 +1,3 @@
+module.exports=[3474,a=>{a.v({meta:{title:"文字数・行数カウンター",description:"文字数、行数、段落数をリアルタイムでカウント。",keywords:"文字数, カウント, ライティング, 行数"},ui:{inputPlaceholder:"ここにテキストを入力または貼り付け...",characters:"文字数",lines:"行数",paragraphs:"段落数",words:"単語数",bytes:"バイト数",clear:"クリア",statistics:"統計",withoutSpaces:"空白なし"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_character-counter_json_199d4c79._.js.map

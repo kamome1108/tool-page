@@ -1,0 +1,3 @@
+module.exports=[47996,a=>{a.v({meta:{title:"Định dạng SQL - Làm đẹp SQL trực tuyến",description:"Công cụ định dạng SQL trực tuyến miễn phí. Làm đẹp và định dạng các truy vấn SQL của bạn để dễ đọc hơn. Hỗ trợ Standard SQL, MySQL, PostgreSQL và nhiều hơn nữa."},title:"Định dạng SQL",description:"Định dạng và làm đẹp các truy vấn SQL của bạn.",ui:{inputPlaceholder:"Dán truy vấn SQL của bạn vào đây...",format:"Định dạng SQL",copy:"Sao chép",copied:"Đã sao chép!",dialect:"Phương ngữ",indent:"Thụt lề",spaces:"{count} Khoảng trắng",tabs:"Tab",error:"Lỗi khi định dạng SQL"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_vi_tools_sql-formatter_json_b42b48fa._.js.map

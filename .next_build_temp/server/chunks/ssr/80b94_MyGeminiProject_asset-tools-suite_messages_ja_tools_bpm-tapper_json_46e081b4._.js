@@ -1,0 +1,3 @@
+module.exports=[67158,a=>{a.v({meta:{title:"BPM測定ツール（BPM Tapper） - テンポ計測",description:"無料のオンラインBPM測定ツール。キーをタップまたはクリックして、曲のBPM（テンポ）を測定します。ミュージシャン、DJ、プロデューサーに最適です。"},title:"BPM測定ツール",description:"リズムに合わせてタップしてBPM（テンポ）を測定します。",ui:{tapHere:"ここをタップ",tapInstruction:"スペースキーまたはクリックでリズムを刻んでください",reset:"リセット",bpm:"BPM",nearestWhole:"整数値",count:"タップ数",processingNote:"🔒 すべての処理はブラウザ上で行われます。"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_ja_tools_bpm-tapper_json_46e081b4._.js.map

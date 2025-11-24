@@ -1,0 +1,3 @@
+module.exports=[59167,a=>{a.v({meta:{title:"ตัวสร้าง Meta Tag - สร้าง SEO Meta Tags ออนไลน์",description:"ตัวสร้าง Meta Tag ออนไลน์ฟรี สร้าง meta tags ที่เป็นมิตรกับ SEO สำหรับเว็บไซต์ของคุณ สร้างแท็กชื่อเรื่อง คำอธิบาย คำหลัก ผู้เขียน และ viewport ได้ทันที"},title:"ตัวสร้าง Meta Tag",description:"สร้าง meta tags ที่เป็นมิตรกับ SEO สำหรับเว็บไซต์ของคุณ",ui:{siteTitle:"ชื่อเว็บไซต์",siteDescription:"คำอธิบายเว็บไซต์",keywords:"คำหลัก (คั่นด้วยเครื่องหมายจุลภาค)",author:"ผู้เขียน",viewport:"การตั้งค่า Viewport",charset:"ชุดอักขระ",generate:"สร้าง Meta Tags",preview:"ดูตัวอย่าง",copy:"คัดลอกโค้ด",copied:"คัดลอกแล้ว!",clear:"ล้าง"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_th_tools_meta-tag-generator_json_59507d3a._.js.map

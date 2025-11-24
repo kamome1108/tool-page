@@ -1,0 +1,3 @@
+module.exports=[93483,a=>{a.v({meta:{title:"HTML Entity Encoder/Decoder - Convert Text to HTML Entities",description:"Free online HTML entity encoder and decoder. Convert special characters to HTML entities and vice versa. Securely encode text for web use."},title:"HTML Entity Encoder/Decoder",description:"Encode or decode text to/from HTML entities.",ui:{inputLabel:"Enter Text",encode:"Encode",decode:"Decode",result:"Result",copy:"Copy",copied:"Copied!",processingNote:"🔒 All processing is done in your browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_en_tools_html-entity-encoder-decoder_json_c4a43851._.js.map

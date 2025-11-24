@@ -1,0 +1,3 @@
+module.exports=[64790,a=>{a.v({meta:{title:"Markdown to HTML - オンラインMarkdown変換",description:"無料のオンラインMarkdown to HTMLコンバーター。Markdownを入力すると、HTML出力とライブプレビューが瞬時に表示されます。"},title:"Markdown to HTML",description:"MarkdownテキストをHTMLに変換し、ライブプレビューを表示します。",ui:{inputPlaceholder:"# Hello World\n\nこれは **Markdown** です。",htmlOutput:"HTML出力",preview:"プレビュー",copyHtml:"HTMLをコピー",copied:"コピーしました！",processingNote:"🔒 変換はブラウザ内でローカルに行われます。"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_markdown-to-html_json_00dd78d8._.js.map

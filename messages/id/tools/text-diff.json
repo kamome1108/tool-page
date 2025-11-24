@@ -1,0 +1,20 @@
+{
+    "meta": {
+        "title": "Pemeriksa Perbedaan Teks - Bandingkan Dua Teks Online",
+        "description": "Pemeriksa Perbedaan Teks online gratis. Bandingkan dua teks dan temukan perbedaannya secara instan. Menyoroti penambahan, penghapusan, dan perubahan. Berguna untuk kode, dokumen, dan daftar."
+    },
+    "title": "Pemeriksa Perbedaan Teks",
+    "description": "Bandingkan dua teks dan soroti perbedaannya.",
+    "ui": {
+        "original": "Teks Asli",
+        "modified": "Teks yang Diubah",
+        "compare": "Bandingkan",
+        "clear": "Hapus",
+        "diff": "Perbedaan",
+        "noDiff": "Teks identik.",
+        "legend": "Legenda",
+        "removed": "Dihapus",
+        "added": "Ditambahkan",
+        "unchanged": "Tidak Berubah"
+    }
+}

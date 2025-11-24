@@ -1,0 +1,3 @@
+module.exports=[22114,a=>{a.v({title:"Tool Suite",description:"開発者とクリエイターのための無料・プライバシー重視のオンラインツール。",backToHome:"ホームに戻る",openTool:"ツールを開く",explore:"探索する",tools:"ツール",tool:"ツール",language:"言語",footer:{copyright:"© {year} Tool Suite. All rights reserved.",privacy:"プライバシーポリシー",terms:"利用規約"},search:{placeholder:"ツールを検索...",noResults:"「{query}」に一致するツールは見つかりませんでした",resultsTitle:"「{query}」の検索結果",clear:"検索をクリア"},meta:{title:"Tool Suite - 開発者とクリエイターのための無料オンラインツール",description:"パスワード生成、フォーマッター、計算機など、プライバシー重視の無料オンラインツール集。登録不要、すべてブラウザ上で動作します。"}})}];
+
+//# sourceMappingURL=Documents_MyGeminiProject_asset-tools-suite_messages_ja_common_json_490b2a39._.js.map

@@ -1,0 +1,3 @@
+module.exports=[52398,a=>{a.v({meta:{title:"ตัวเลือกสีจากรูปภาพ - เลือกสีจากรูปภาพออนไลน์",description:"ตัวเลือกสีจากรูปภาพออนไลน์ฟรี อัปโหลดรูปภาพและเลือกสีจากรูปภาพ รับรหัสสี Hex, RGB และ HSL ได้ทันที มีประโยชน์สำหรับนักออกแบบและนักพัฒนา"},title:"ตัวเลือกสีจากรูปภาพ",description:"เลือกสีจากรูปภาพและรับรหัส Hex, RGB และ HSL",ui:{selectImage:"เลือกรูปภาพ",dragDrop:"หรือลากและวางรูปภาพที่นี่",pickedColor:"สีที่เลือก",hex:"Hex",rgb:"RGB",hsl:"HSL",copy:"คัดลอก",copied:"คัดลอกแล้ว!",instructions:"คลิกที่รูปภาพเพื่อเลือกสี"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_th_tools_image-color-picker_json_034a6063._.js.map

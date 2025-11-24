@@ -1,0 +1,3 @@
+module.exports=[54354,a=>{a.v({meta:{title:"Markdown ke HTML - Konversi Markdown Online",description:"Konverter Markdown ke HTML online gratis. Ketik Markdown dan lihat output HTML serta pratinjau langsung secara instan."},title:"Markdown ke HTML",description:"Konversi teks Markdown ke HTML dengan pratinjau langsung.",ui:{inputPlaceholder:"# Halo Dunia\n\nIni adalah **Markdown**.",htmlOutput:"Output HTML",preview:"Pratinjau",copyHtml:"Salin HTML",copied:"Disalin!",processingNote:"🔒 Konversi terjadi secara lokal di browser Anda."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_id_tools_markdown-to-html_json_3390a527._.js.map

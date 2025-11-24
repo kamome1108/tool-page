@@ -1,0 +1,3 @@
+module.exports=[26551,a=>{a.v({meta:{title:"Character & Line Counter",description:"Count characters, lines, and paragraphs in real-time.",keywords:"character, counter, writing, text"},ui:{inputPlaceholder:"Type or paste your text here...",characters:"Characters",lines:"Lines",paragraphs:"Paragraphs",words:"Words",bytes:"Bytes",clear:"Clear",statistics:"Statistics",withoutSpaces:"Without Spaces"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_en_tools_character-counter_json_994e88d8._.js.map

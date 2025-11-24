@@ -1,0 +1,3 @@
+module.exports=[72284,a=>{a.v({meta:{title:"Instagram改行くん - キャプションの改行を保持",description:"無料のInstagram改行ツール。Instagramのキャプションに空白行（改行）を追加して、読みやすく整形します。コピーして貼り付けるだけで改行が反映されます。"},title:"Instagram改行くん",description:"Instagramのキャプション用に、きれいな改行（空白行）を追加します。",ui:{inputLabel:"キャプションを入力",convert:"変換してコピー",converted:"変換・コピー完了！",clear:"クリア",processingNote:"🔒 すべての処理はブラウザ上で行われます。"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_instagram-caption-spacer_json_bee1adeb._.js.map

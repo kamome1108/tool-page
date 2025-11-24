@@ -1,0 +1,3 @@
+module.exports=[8082,a=>{a.v({meta:{title:"Kalkulator Ilmiah - Kalkulator Online Canggih",description:"Kalkulator Ilmiah online gratis. Lakukan perhitungan matematika tingkat lanjut termasuk trigonometri, logaritma, dan eksponen."},title:"Kalkulator Ilmiah",description:"Kalkulator canggih untuk perhitungan ilmiah dan teknik.",ui:{clear:"AC",backspace:"⌫",equals:"=",error:"Kesalahan",deg:"DEG",rad:"RAD"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_id_tools_scientific-calculator_json_4c8b420e._.js.map

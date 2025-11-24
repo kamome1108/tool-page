@@ -1,0 +1,3 @@
+module.exports=[20166,a=>{a.v({meta:{title:"画面録画ツール - オンラインでスクリーンレコード",description:"無料のオンライン画面録画ツール。ブラウザから直接、画面全体、ウィンドウ、またはタブを録画できます。インストール不要です。"},title:"画面録画ツール",description:"ブラウザから直接画面を録画します。",ui:{start:"録画を開始",stop:"録画を停止",download:"動画をダウンロード",permissionDenied:"画面へのアクセスが拒否されました。このツールを使用するにはアクセスを許可してください。",notSupported:"お使いのブラウザは画面録画に対応していません。",instructions:"「録画を開始」をクリックし、キャプチャしたい画面、ウィンドウ、またはタブを選択してください。",recording:"録画中...",recorded:"録画完了！",processingNote:"🔒 録画はブラウザ内でローカルに行われます。動画データがサーバーに送信されることはありません。"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_screen-recorder_json_92dbbabc._.js.map

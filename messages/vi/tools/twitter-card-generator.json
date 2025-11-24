@@ -1,0 +1,27 @@
+{
+    "meta": {
+        "title": "Trình tạo thẻ Twitter - Tạo thẻ Twitter trực tuyến",
+        "description": "Trình tạo thẻ Twitter trực tuyến miễn phí. Tạo thẻ Twitter cho trang web của bạn. Tạo thẻ tóm tắt, tóm tắt với hình ảnh lớn, ứng dụng và trình phát với bản xem trước."
+    },
+    "title": "Trình tạo thẻ Twitter",
+    "description": "Tạo thẻ Twitter Card để tối ưu hóa cách nội dung của bạn hiển thị trên Twitter.",
+    "ui": {
+        "cardType": "Loại thẻ",
+        "siteHandle": "Tên người dùng trang web (@username)",
+        "creatorHandle": "Tên người dùng tác giả (@username)",
+        "title": "Tiêu đề",
+        "description": "Mô tả",
+        "image": "URL hình ảnh",
+        "generate": "Tạo thẻ Twitter",
+        "preview": "Xem trước",
+        "copy": "Sao chép mã",
+        "copied": "Đã sao chép!",
+        "clear": "Xóa",
+        "types": {
+            "summary": "Tóm tắt",
+            "summary_large_image": "Tóm tắt với hình ảnh lớn",
+            "app": "Ứng dụng",
+            "player": "Trình phát"
+        }
+    }
+}

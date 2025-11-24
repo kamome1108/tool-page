@@ -1,0 +1,3 @@
+module.exports=[14183,a=>{a.v({meta:{title:"Image Rotate & Flip - Putar Gambar Online Gratis",description:"Putar dan balik gambar Anda secara online. Putar 90 derajat, balik secara horizontal atau vertikal. Alat pemutar gambar gratis, cepat, dan aman.",keywords:"rotate image, flip image, rotate 90 degrees, mirror image"},title:"Image Rotate & Flip",description:"Putar gambar 90 derajat atau balik secara horizontal/vertikal.",dropzone:{label:"Jatuhkan gambar di sini, atau klik untuk memilih"},rotateLeft:"Putar Kiri",rotateRight:"Putar Kanan",flipHorizontal:"Balik Horizontal",flipVertical:"Balik Vertikal",download:"Unduh Gambar",reset:"Atur Ulang"})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_id_tools_image-rotate_json_24e4e67a._.js.map

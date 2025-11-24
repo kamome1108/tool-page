@@ -1,0 +1,3 @@
+module.exports=[43031,a=>{a.v({meta:{title:"Bộ chọn màu hình ảnh - Chọn màu từ hình ảnh trực tuyến",description:"Bộ chọn màu hình ảnh trực tuyến miễn phí. Tải lên một hình ảnh và chọn màu từ đó. Nhận mã màu Hex, RGB và HSL ngay lập tức. Hữu ích cho các nhà thiết kế và nhà phát triển."},title:"Bộ chọn màu hình ảnh",description:"Chọn màu từ hình ảnh và nhận mã Hex, RGB và HSL.",ui:{selectImage:"Chọn ảnh",dragDrop:"hoặc kéo và thả ảnh vào đây",pickedColor:"Màu đã chọn",hex:"Hex",rgb:"RGB",hsl:"HSL",copy:"Sao chép",copied:"Đã sao chép!",instructions:"Nhấp vào hình ảnh để chọn màu."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_vi_tools_image-color-picker_json_9ae854fa._.js.map

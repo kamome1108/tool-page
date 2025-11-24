@@ -1,0 +1,3 @@
+module.exports=[32388,a=>{a.v({meta:{title:"Markdown to HTML - Convert Markdown Online",description:"Free online Markdown to HTML converter. Type Markdown and see the HTML output and live preview instantly."},title:"Markdown to HTML",description:"Convert Markdown text to HTML with live preview.",ui:{inputPlaceholder:"# Hello World\n\nThis is **Markdown**.",htmlOutput:"HTML Output",preview:"Preview",copyHtml:"Copy HTML",copied:"Copied!",processingNote:"🔒 Conversion happens locally in your browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_en_tools_markdown-to-html_json_2af39d05._.js.map

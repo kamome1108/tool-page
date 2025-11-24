@@ -1,0 +1,3 @@
+module.exports=[19543,a=>{a.v({meta:{title:"Pemilih Warna Gambar - Pilih Warna dari Gambar Online",description:"Pemilih Warna Gambar online gratis. Unggah gambar dan pilih warna darinya. Dapatkan kode warna Hex, RGB, dan HSL secara instan. Berguna untuk desainer dan pengembang."},title:"Pemilih Warna Gambar",description:"Pilih warna dari gambar dan dapatkan kode Hex, RGB, dan HSL.",ui:{selectImage:"Pilih Gambar",dragDrop:"atau seret dan lepas gambar di sini",pickedColor:"Warna yang Dipilih",hex:"Hex",rgb:"RGB",hsl:"HSL",copy:"Salin",copied:"Disalin!",instructions:"Klik pada gambar untuk memilih warna."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_id_tools_image-color-picker_json_ea4a2792._.js.map

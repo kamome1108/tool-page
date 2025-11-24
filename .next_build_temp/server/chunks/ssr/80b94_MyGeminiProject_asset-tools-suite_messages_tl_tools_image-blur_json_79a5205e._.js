@@ -1,0 +1,3 @@
+module.exports=[92604,a=>{a.v({meta:{title:"Image Blur - I-blur ang mga Larawan Online nang Libre",description:"I-blur ang iyong mga larawan online. Ayusin ang tindi ng blur at i-download ang resulta. Libre, mabilis, at secure na tool sa pag-blur ng larawan."},title:"Image Blur",description:"Ilapat ang blur effect sa iyong mga larawan na may adjustable na tindi.",dropzone:{label:"I-drop ang isang larawan dito, o mag-click upang pumili"},intensity:"Tindi ng Blur",apply:"Ilapat ang Blur",download:"I-download ang Naka-blur na Larawan",reset:"I-reset"})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_tl_tools_image-blur_json_79a5205e._.js.map

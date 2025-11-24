@@ -1,0 +1,3 @@
+module.exports=[7736,a=>{a.v({meta:{title:"Kalkulator Persentase - Hitung Persentase dengan Mudah",description:"Kalkulator persentase online gratis. Hitung persentase angka, perubahan persentase, dan lainnya. Selesaikan masalah persentase umum secara instan."},title:"Kalkulator Persentase",description:"Selesaikan masalah persentase umum dengan mudah.",ui:{mode:"Mode Perhitungan",mode1:"Berapa X% dari Y?",mode2:"X adalah berapa % dari Y?",mode3:"Perubahan persentase dari X ke Y",inputX:"Nilai X",inputY:"Nilai Y",calculate:"Hitung",result:"Hasil",processingNote:"🔒 Semua pemrosesan dilakukan di browser Anda."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_id_tools_percentage-calculator_json_7fd893ab._.js.map

@@ -1,0 +1,3 @@
+module.exports=[24553,a=>{a.v({meta:{title:"Kalkulator Rasio Aspek - Hitung Dimensi & Rasio",description:"Kalkulator rasio aspek online gratis. Hitung rasio aspek, ubah ukuran dimensi sambil mempertahankan rasio, dan temukan rasio aspek umum untuk layar dan gambar."},title:"Kalkulator Rasio Aspek",description:"Hitung rasio aspek dan ubah ukuran dimensi.",ui:{width:"Lebar",height:"Tinggi",ratio:"Rasio Aspek",calculate:"Hitung",newWidth:"Lebar Baru",newHeight:"Tinggi Baru",commonRatios:"Rasio Umum",result:"Hasil",processingNote:"🔒 Semua pemrosesan dilakukan di browser Anda."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_id_tools_aspect-ratio-calculator_json_505d78a0._.js.map

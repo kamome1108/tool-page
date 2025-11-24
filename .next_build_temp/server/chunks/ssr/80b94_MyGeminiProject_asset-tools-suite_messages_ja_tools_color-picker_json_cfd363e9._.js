@@ -1,0 +1,3 @@
+module.exports=[7226,a=>{a.v({meta:{title:"カラーピッカー - 画像から色を抽出",description:"画像から色を抽出し、HEX、RGB、HSLコードを取得します。無料のオンラインカラーピッカーツールです。"},title:"カラーピッカー",description:"画像から色を抽出し、カラーコード（HEX, RGB, HSL）を取得します。",dropzone:{label:"画像をここにドロップ、またはクリックして選択"},pick:"画像をクリックして色を選択",selected:"選択された色",hex:"HEX",rgb:"RGB",hsl:"HSL",copy:"コピー",copied:"コピーしました！",reset:"リセット"})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_ja_tools_color-picker_json_cfd363e9._.js.map

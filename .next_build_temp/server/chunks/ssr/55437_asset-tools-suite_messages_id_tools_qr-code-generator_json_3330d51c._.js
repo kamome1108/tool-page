@@ -1,0 +1,3 @@
+module.exports=[56725,a=>{a.v({meta:{title:"Pembuat Kode QR - Buat Kode QR Gratis",description:"Pembuat Kode QR online gratis. Buat kode QR untuk URL, teks, email, dan lainnya. Unduh kode QR Anda sebagai gambar secara instan."},title:"Pembuat Kode QR",description:"Hasilkan kode QR untuk URL, teks, dan lainnya.",ui:{inputLabel:"Masukkan Teks atau URL",generate:"Hasilkan Kode QR",download:"Unduh Gambar",processingNote:"🔒 Semua pemrosesan dilakukan di browser Anda."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_id_tools_qr-code-generator_json_3330d51c._.js.map

@@ -1,0 +1,3 @@
+module.exports=[76421,a=>{a.v({meta:{title:"ตัวจัดรูปแบบ SQL - ทำให้ SQL สวยงามออนไลน์",description:"ตัวจัดรูปแบบ SQL ออนไลน์ฟรี ทำให้คำสั่ง SQL ของคุณสวยงามและจัดรูปแบบเพื่อให้อ่านง่ายขึ้น รองรับ Standard SQL, MySQL, PostgreSQL และอื่นๆ"},title:"ตัวจัดรูปแบบ SQL",description:"จัดรูปแบบและทำให้คำสั่ง SQL ของคุณสวยงาม",ui:{inputPlaceholder:"วางคำสั่ง SQL ของคุณที่นี่...",format:"จัดรูปแบบ SQL",copy:"คัดลอก",copied:"คัดลอกแล้ว!",dialect:"ภาษาถิ่น",indent:"การย่อหน้า",spaces:"{count} ช่องว่าง",tabs:"แท็บ",error:"เกิดข้อผิดพลาดในการจัดรูปแบบ SQL"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_th_tools_sql-formatter_json_3d1c0779._.js.map

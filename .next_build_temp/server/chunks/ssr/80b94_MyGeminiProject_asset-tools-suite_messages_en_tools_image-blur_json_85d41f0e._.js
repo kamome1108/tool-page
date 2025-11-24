@@ -1,0 +1,3 @@
+module.exports=[20765,a=>{a.v({meta:{title:"Image Blur - Blur Images Online for Free",description:"Blur your images online. Adjust blur intensity and download the result. Free, fast, and secure image blurring tool."},title:"Image Blur",description:"Apply blur effect to your images with adjustable intensity.",dropzone:{label:"Drop an image here, or click to select"},intensity:"Blur Intensity",apply:"Apply Blur",download:"Download Blurred Image",reset:"Reset"})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_en_tools_image-blur_json_85d41f0e._.js.map

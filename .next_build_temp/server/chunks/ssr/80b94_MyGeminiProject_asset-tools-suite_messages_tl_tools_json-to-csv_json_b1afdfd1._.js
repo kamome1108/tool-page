@@ -1,0 +1,3 @@
+module.exports=[45208,a=>{a.v({meta:{title:"JSON to CSV - I-convert ang JSON sa CSV Online",description:"Libreng online na JSON to CSV converter. I-convert ang iyong JSON data sa CSV format para sa Excel o Google Sheets. Mabilis, ligtas, at client-side processing."},title:"JSON to CSV",description:"I-convert ang JSON data sa CSV format.",ui:{inputPlaceholder:"I-paste ang iyong JSON dito...",convert:"I-convert sa CSV",download:"I-download ang CSV",copy:"Kopyahin ang CSV",copied:"Nakopya na!",clear:"I-clear",error:"Hindi wastong JSON",outputPlaceholder:"Ang CSV output ay lilitaw dito..."}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_tl_tools_json-to-csv_json_b1afdfd1._.js.map

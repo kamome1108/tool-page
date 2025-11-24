@@ -1,0 +1,3 @@
+module.exports=[11631,a=>{a.v({meta:{title:"Dekoder JWT - Dekode Token Web JSON",description:"Dekoder JWT online gratis. Dekode dan periksa header dan payload Token Web JSON (JWT) tanpa mengirim data ke server."},title:"Dekoder JWT",description:"Dekode dan periksa Token Web JSON.",ui:{inputPlaceholder:"Tempel JWT Anda di sini...",header:"Header",payload:"Payload",invalidToken:"Format JWT tidak valid",processingNote:"🔒 Penguraian kode terjadi secara lokal di browser Anda. Token Anda tidak pernah dikirim ke server kami."}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_id_tools_jwt-decoder_json_fb63f13b._.js.map

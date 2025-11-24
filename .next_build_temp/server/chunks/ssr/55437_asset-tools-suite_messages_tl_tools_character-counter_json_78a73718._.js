@@ -1,0 +1,3 @@
+module.exports=[465,a=>{a.v({meta:{title:"Character & Line Counter",description:"Bilangin ang mga character, linya, at talata nang real-time.",keywords:"character, counter, pagsusulat, teksto"},ui:{inputPlaceholder:"I-type o i-paste ang iyong teksto dito...",characters:"Mga Character",lines:"Mga Linya",paragraphs:"Mga Talata",words:"Mga Salita",bytes:"Bytes",clear:"I-clear",statistics:"Mga Istatistika",withoutSpaces:"Walang Puwang"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_tl_tools_character-counter_json_78a73718._.js.map

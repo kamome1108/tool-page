@@ -1,0 +1,3 @@
+module.exports=[52991,a=>{a.v({meta:{title:"Multi Image Cropper",description:"Pangkas beberapa area dari satu gambar dan unduh secara individual atau sebagai ZIP.",keywords:"crop, image, multi crop, zip, download"},ui:{uploadImage:"Klik untuk Mengunggah Gambar",supports:"Mendukung JPG, PNG, WebP",reset:"Atur Ulang Gambar",downloadZip:"Unduh ZIP",crops:"Pangkasan",noCrops:"Belum ada pangkasan yang dipilih.",dragInstruction:"✂️ Klik dan seret untuk membuat area pangkas",processingNote:"✂️ Semua pemrosesan terjadi di browser Anda. Gambar Anda tidak pernah meninggalkan perangkat Anda.",download:"Unduh",delete:"Hapus"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_id_tools_multi-cropper_json_4fedb298._.js.map

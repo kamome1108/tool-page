@@ -1,0 +1,3 @@
+module.exports=[65432,a=>{a.v({meta:{title:"YouTubeタグ抽出ツール - 動画のタグを取得",description:"無料のオンラインYouTubeタグ抽出ツール。YouTube動画からタグやキーワードを抽出します。競合動画のタグを分析してSEOを改善しましょう。"},title:"YouTubeタグ抽出ツール",description:"YouTube動画からタグとキーワードを抽出し、SEO戦略を分析します。",ui:{inputLabel:"YouTube動画のURL",extract:"タグを抽出",result:"抽出されたタグ",copy:"コピー",copyAll:"すべてのタグをコピー",copied:"コピーしました！",noTagsFound:"この動画にはタグが見つかりませんでした。",error:"動画データの取得に失敗しました。URLを確認してください。",processingNote:"🔒 公開プロキシを使用して動画データを取得しています。個人情報は保存されません。"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_youtube-tag-extractor_json_6b8f3064._.js.map

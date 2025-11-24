@@ -1,0 +1,3 @@
+module.exports=[52282,a=>{a.v({meta:{title:"Base64エンコーダー/デコーダー - テキスト変換ツール",description:"無料のオンラインBase64エンコーダー/デコーダー。テキストをBase64形式に変換（エンコード）、またはBase64文字列をテキストに復元（デコード）します。安全で使いやすいツールです。"},title:"Base64エンコーダー/デコーダー",description:"テキストをBase64にエンコード、またはBase64をテキストにデコードします。",ui:{inputLabel:"テキストを入力",encode:"エンコード",decode:"デコード",result:"結果",copy:"コピー",copied:"コピーしました！",processingNote:"🔒 すべての処理はブラウザ上で行われます。"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_base64-encoder-decoder_json_3a92c375._.js.map

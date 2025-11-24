@@ -1,0 +1,3 @@
+module.exports=[19678,a=>{a.v({meta:{title:"เครื่องคิดเลขวิทยาศาสตร์ - เครื่องคิดเลขออนไลน์ขั้นสูง",description:"เครื่องคิดเลขวิทยาศาสตร์ออนไลน์ฟรี ทำการคำนวณทางคณิตศาสตร์ขั้นสูงรวมถึงตรีโกณมิติ ลอการิทึม และเลขยกกำลัง"},title:"เครื่องคิดเลขวิทยาศาสตร์",description:"เครื่องคิดเลขขั้นสูงสำหรับการคำนวณทางวิทยาศาสตร์และวิศวกรรม",ui:{clear:"AC",backspace:"⌫",equals:"=",error:"ข้อผิดพลาด",deg:"DEG",rad:"RAD"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_th_tools_scientific-calculator_json_ed2e07d7._.js.map

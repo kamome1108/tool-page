@@ -1,0 +1,35 @@
+{
+    "meta": {
+        "title": "Trình tạo Open Graph - Tạo thẻ OG cho Mạng xã hội",
+        "description": "Trình tạo Open Graph trực tuyến miễn phí. Tạo thẻ OG cho Facebook, LinkedIn và các nền tảng mạng xã hội khác. Tạo og:title, og:image, og:description và nhiều hơn nữa."
+    },
+    "title": "Trình tạo Open Graph",
+    "description": "Tạo thẻ Open Graph để kiểm soát cách nội dung của bạn hiển thị trên mạng xã hội.",
+    "ui": {
+        "ogTitle": "Tiêu đề",
+        "ogType": "Loại",
+        "ogUrl": "URL",
+        "ogImage": "URL hình ảnh",
+        "ogDescription": "Mô tả",
+        "ogSiteName": "Tên trang web",
+        "generate": "Tạo thẻ OG",
+        "preview": "Xem trước",
+        "copy": "Sao chép mã",
+        "copied": "Đã sao chép!",
+        "clear": "Xóa",
+        "types": {
+            "website": "Trang web",
+            "article": "Bài viết",
+            "book": "Sách",
+            "profile": "Hồ sơ",
+            "music": {
+                "song": "Âm nhạc (Bài hát)",
+                "album": "Âm nhạc (Album)"
+            },
+            "video": {
+                "movie": "Video (Phim)",
+                "episode": "Video (Tập)"
+            }
+        }
+    }
+}

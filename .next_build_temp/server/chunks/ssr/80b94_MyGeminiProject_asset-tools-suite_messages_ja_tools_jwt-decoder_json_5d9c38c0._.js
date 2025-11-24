@@ -1,0 +1,3 @@
+module.exports=[98556,a=>{a.v({meta:{title:"JWTデコーダー - JSON Web Tokenのデコード",description:"無料のオンラインJWTデコーダー。JSON Web Token (JWT) のヘッダーとペイロードを、サーバーにデータを送信することなくデコードして検査します。"},title:"JWTデコーダー",description:"JSON Web Tokenをデコードして内容を確認します。",ui:{inputPlaceholder:"ここにJWTを貼り付けてください...",header:"ヘッダー (Header)",payload:"ペイロード (Payload)",invalidToken:"無効なJWT形式です",processingNote:"🔒 デコードはブラウザ内でローカルに行われます。トークンがサーバーに送信されることはありません。"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_ja_tools_jwt-decoder_json_5d9c38c0._.js.map

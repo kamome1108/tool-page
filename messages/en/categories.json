@@ -46,5 +46,9 @@
     "utilities": {
         "name": "Utilities",
         "description": "General purpose utilities and tools."
+    },
+    "converter": {
+        "name": "Converters",
+        "description": "Convert data between different formats."
     }
 }

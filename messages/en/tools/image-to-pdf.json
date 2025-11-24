@@ -1,0 +1,28 @@
+{
+    "meta": {
+        "title": "Image to PDF Converter - Convert JPG, PNG to PDF Online",
+        "description": "Free online Image to PDF converter. Convert JPG, PNG, WebP images to a single PDF file. Drag and drop multiple images, reorder them, and download instantly."
+    },
+    "title": "Image to PDF Converter",
+    "description": "Convert your images to a single PDF file. Supports JPG, PNG, and WebP.",
+    "ui": {
+        "upload": "Upload Images",
+        "uploadHelp": "Drag & drop images here, or click to select",
+        "convert": "Convert to PDF",
+        "download": "Download PDF",
+        "clear": "Clear All",
+        "converting": "Converting...",
+        "noImages": "No images selected",
+        "pageSize": "Page Size",
+        "orientation": "Orientation",
+        "sizes": {
+            "a4": "A4",
+            "letter": "Letter",
+            "fit": "Fit to Image"
+        },
+        "orientations": {
+            "portrait": "Portrait",
+            "landscape": "Landscape"
+        }
+    }
+}

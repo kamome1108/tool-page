@@ -1,0 +1,3 @@
+module.exports=[11753,a=>{a.v({meta:{title:"PNG JPG変換 - 画像をオンラインで変換",description:"無料のオンラインPNG JPG変換ツール。PNG画像を高品質なJPEG形式に変換します。高速、安全、クライアントサイドで処理されます。"},title:"PNG JPG変換",description:"PNG画像をJPG形式に即座に変換します。",ui:{upload:"PNGをアップロード",uploadHelp:"PNGをここにドラッグ＆ドロップ、またはクリックして選択",convert:"JPGに変換",download:"JPGをダウンロード",clear:"クリア",converting:"変換中...",noFile:"画像が選択されていません"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_ja_tools_png-to-jpg_json_7e29f5a6._.js.map

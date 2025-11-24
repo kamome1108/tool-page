@@ -1,0 +1,3 @@
+module.exports=[87668,a=>{a.v({meta:{title:"BPM Tapper - Kalkulahin ang Beats Per Minute",description:"Libreng online na BPM Tapper. I-tap ang anumang key o mag-click upang kalkulahin ang Beats Per Minute (BPM) ng isang kanta. Perpekto para sa mga musikero, DJ, at producer."},title:"BPM Tapper",description:"Kalkulahin ang Beats Per Minute (BPM) sa pamamagitan ng pag-tap sa ritmo.",ui:{tapHere:"I-TAP DITO",tapInstruction:"I-tap ang spacebar o mag-click sa beat",reset:"I-reset",bpm:"BPM",nearestWhole:"Pinakamalapit na Buo",count:"Mga Tap",processingNote:"🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_tl_tools_bpm-tapper_json_1b79f41b._.js.map

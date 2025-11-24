@@ -1,0 +1,3 @@
+module.exports=[48629,a=>{a.v({meta:{title:"Instagram Caption Spacer - Jeda Baris Bersih",description:"Instagram caption spacer online gratis. Tambahkan spasi tak terlihat ke keterangan Instagram Anda untuk membuat jeda baris yang bersih dan meningkatkan keterbacaan."},title:"Instagram Caption Spacer",description:"Tambahkan spasi tak terlihat untuk membuat jeda baris yang bersih untuk keterangan Instagram.",ui:{inputLabel:"Masukkan Keterangan",convert:"Konversi & Salin",converted:"Dikonversi & Disalin!",clear:"Bersihkan",processingNote:"🔒 Semua pemrosesan dilakukan di browser Anda."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_id_tools_instagram-caption-spacer_json_13121c93._.js.map

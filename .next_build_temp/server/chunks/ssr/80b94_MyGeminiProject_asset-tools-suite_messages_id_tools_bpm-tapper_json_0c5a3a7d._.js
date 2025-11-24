@@ -1,0 +1,3 @@
+module.exports=[73346,a=>{a.v({meta:{title:"BPM Tapper - Hitung Detak Per Menit",description:"BPM Tapper online gratis. Ketuk tombol apa saja atau klik untuk menghitung Detak Per Menit (BPM) sebuah lagu. Sempurna untuk musisi, DJ, dan produser."},title:"BPM Tapper",description:"Hitung Detak Per Menit (BPM) dengan mengetuk mengikuti irama.",ui:{tapHere:"KETUK DI SINI",tapInstruction:"Ketuk spasi atau klik mengikuti irama",reset:"Atur Ulang",bpm:"BPM",nearestWhole:"Bulat Terdekat",count:"Ketukan",processingNote:"🔒 Semua pemrosesan dilakukan di browser Anda."}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_id_tools_bpm-tapper_json_0c5a3a7d._.js.map

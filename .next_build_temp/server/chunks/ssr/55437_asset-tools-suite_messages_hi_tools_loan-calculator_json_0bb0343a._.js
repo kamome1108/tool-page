@@ -1,0 +1,3 @@
+module.exports=[53399,a=>{a.v({meta:{title:"ऋण कैलकुलेटर - मासिक भुगतान की गणना करें",description:"मुफ्त ऑनलाइन ऋण कैलकुलेटर। अपने मासिक ऋण भुगतान, कुल ब्याज और कुल पुनर्भुगतान राशि की गणना आसानी से करें।"},title:"ऋण कैलकुलेटर",description:"ऋण के लिए मासिक भुगतान और कुल ब्याज की गणना करें।",ui:{amount:"ऋण राशि",interestRate:"ब्याज दर (%)",term:"ऋण अवधि (वर्ष)",calculate:"गणना करें",result:"गणना परिणाम",monthlyPayment:"मासिक भुगतान",totalPayment:"कुल भुगतान",totalInterest:"कुल ब्याज",currency:"₹"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_hi_tools_loan-calculator_json_0bb0343a._.js.map

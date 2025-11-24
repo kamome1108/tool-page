@@ -1,0 +1,3 @@
+module.exports=[47318,a=>{a.v({meta:{title:"UUID生成 - ランダムなUUIDをオンラインで生成",description:"無料のオンラインUUID生成ツール。ランダムなUUID（v4）を瞬時に生成します。単一または複数のUUIDを生成し、クリップボードにコピーしたり、テキストとしてダウンロードしたりできます。"},title:"UUID生成",description:"ランダムなUUID（Universally Unique Identifier）バージョン4を生成します。",ui:{generate:"UUIDを生成",quantity:"数量",version:"バージョン",v4:"バージョン4 (ランダム)",copy:"すべてコピー",copied:"コピーしました！",download:"リストをダウンロード",clear:"クリア",generated:"生成されたUUID"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_uuid-generator_json_7d0b5f2e._.js.map

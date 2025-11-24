@@ -1,0 +1,18 @@
+{
+    "meta": {
+        "title": "JSON เป็น CSV - แปลง JSON เป็น CSV ออนไลน์",
+        "description": "ตัวแปลง JSON เป็น CSV ออนไลน์ฟรี แปลงข้อมูล JSON ของคุณเป็นรูปแบบ CSV สำหรับ Excel หรือ Google Sheets รวดเร็ว ปลอดภัย และประมวลผลฝั่งไคลเอนต์"
+    },
+    "title": "JSON เป็น CSV",
+    "description": "แปลงข้อมูล JSON เป็นรูปแบบ CSV",
+    "ui": {
+        "inputPlaceholder": "วาง JSON ของคุณที่นี่...",
+        "convert": "แปลงเป็น CSV",
+        "download": "ดาวน์โหลด CSV",
+        "copy": "คัดลอก CSV",
+        "copied": "คัดลอกแล้ว!",
+        "clear": "ล้าง",
+        "error": "JSON ไม่ถูกต้อง",
+        "outputPlaceholder": "ผลลัพธ์ CSV จะปรากฏที่นี่..."
+    }
+}

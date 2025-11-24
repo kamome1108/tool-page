@@ -1,0 +1,3 @@
+module.exports=[63013,a=>{a.v({meta:{title:"Image Blur - छवियों को ऑनलाइन धुंधला करें मुफ्त में",description:"अपनी छवियों को ऑनलाइन धुंधला करें। धुंधलापन की तीव्रता समायोजित करें और परिणाम डाउनलोड करें। मुफ़्त, तेज़ और सुरक्षित छवि धुंधला करने वाला उपकरण।",keywords:"image blur, blur tool, privacy, obfuscate"},title:"Image Blur",description:"समायोज्य तीव्रता के साथ अपनी छवियों पर धुंधला प्रभाव लागू करें।",dropzone:{label:"यहाँ एक छवि छोड़ें, या चुनने के लिए क्लिक करें"},intensity:"धुंधलापन तीव्रता",apply:"धुंधला लागू करें",download:"धुंधली छवि डाउनलोड करें",reset:"रीसेट करें"})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_hi_tools_image-blur_json_ebbee154._.js.map

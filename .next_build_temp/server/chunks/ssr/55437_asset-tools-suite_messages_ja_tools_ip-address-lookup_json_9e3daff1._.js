@@ -1,0 +1,3 @@
+module.exports=[32414,a=>{a.v({meta:{title:"IPアドレス確認 - 自分のIPを調べる",description:"無料のオンラインIPアドレス確認ツール。あなたのパブリックIPアドレス、現在地、プロバイダー（ISP）などのネットワーク情報を瞬時に確認できます。"},title:"IPアドレス確認",description:"あなたのパブリックIPアドレスと位置情報を確認します。",ui:{yourIp:"あなたのIPアドレス",location:"位置情報",isp:"プロバイダー (ISP)",country:"国",city:"都市",region:"地域",timezone:"タイムゾーン",refresh:"更新",copy:"IPをコピー",copied:"コピーしました！",loading:"IPを検出中...",error:"IPアドレスの検出に失敗しました。",processingNote:"🔒 公開APIを使用してIPを検出しています。IPアドレスが当サイトのサーバーに保存されることはありません。"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_ip-address-lookup_json_9e3daff1._.js.map

@@ -1,0 +1,3 @@
+module.exports=[77129,a=>{a.v({meta:{title:"ローン計算機 - 月々の返済額を計算",description:"無料のオンラインローン計算機。ローンの月々の返済額、総利息、総返済額を簡単に計算できます。"},title:"ローン計算機",description:"ローンの月々の返済額と総利息を計算します。",ui:{amount:"借入金額",interestRate:"金利 (年率 %)",term:"返済期間 (年)",calculate:"計算する",result:"計算結果",monthlyPayment:"月々の返済額",totalPayment:"総返済額",totalInterest:"総利息",currency:"¥"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_loan-calculator_json_349f4912._.js.map

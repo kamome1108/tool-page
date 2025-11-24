@@ -1,0 +1,3 @@
+module.exports=[74755,a=>{a.v({meta:{title:"Image Color Picker - Trích xuất màu từ hình ảnh trực tuyến",description:"Chọn màu từ hình ảnh trực tuyến. Tải lên hình ảnh và nhận mã màu HEX, RGB và HSL từ bất kỳ pixel nào. Miễn phí và dễ sử dụng.",keywords:"color picker, image color, hex code, rgb code, hsl code"},title:"Image Color Picker",description:"Trích xuất màu từ hình ảnh của bạn. Nhận mã HEX, RGB và HSL.",dropzone:{label:"Thả hình ảnh vào đây hoặc nhấp để chọn"},pickedColor:"Màu đã chọn",hex:"HEX",rgb:"RGB",hsl:"HSL",copy:"Sao chép",copied:"Đã sao chép!",reset:"Đặt lại",clickToPick:"Nhấp vào hình ảnh để chọn màu"})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_vi_tools_color-picker_json_35667d94._.js.map

@@ -1,0 +1,3 @@
+module.exports=[33688,a=>{a.v({meta:{title:"JSON से CSV - JSON को CSV में ऑनलाइन बदलें",description:"मुफ्त ऑनलाइन JSON से CSV कनवर्टर। अपने JSON डेटा को Excel या Google Sheets के लिए CSV प्रारूप में बदलें। तेज़, सुरक्षित और क्लाइंट-साइड प्रोसेसिंग।"},title:"JSON से CSV",description:"JSON डेटा को CSV प्रारूप में बदलें।",ui:{inputPlaceholder:"अपना JSON यहाँ पेस्ट करें...",convert:"CSV में बदलें",download:"CSV डाउनलोड करें",copy:"CSV कॉपी करें",copied:"कॉपी हो गया!",clear:"साफ़ करें",error:"अमान्य JSON",outputPlaceholder:"CSV आउटपुट यहाँ दिखाई देगा..."}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_hi_tools_json-to-csv_json_476b543e._.js.map

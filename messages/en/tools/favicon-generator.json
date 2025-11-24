@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "title": "Favicon Generator - Create Website Favicons Online",
+        "description": "Free online Favicon Generator. Create favicons for your website from any image. Generate ICO, PNG, and Apple Touch Icons in all standard sizes (16x16, 32x32, 180x180, etc.)."
+    },
+    "title": "Favicon Generator",
+    "description": "Generate favicons for your website from any image. Supports all standard sizes.",
+    "ui": {
+        "upload": "Upload Image",
+        "uploadHelp": "Recommended size: 512x512px or larger. Supports PNG, JPG, SVG.",
+        "preview": "Preview",
+        "download": "Download All (ZIP)",
+        "generating": "Generating...",
+        "sizes": {
+            "favicon16": "16x16 (Favicon)",
+            "favicon32": "32x32 (Favicon)",
+            "appleTouch": "180x180 (Apple Touch Icon)",
+            "android192": "192x192 (Android Chrome)",
+            "android512": "512x512 (Android Chrome)"
+        }
+    }
+}

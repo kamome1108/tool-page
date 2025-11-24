@@ -1,0 +1,3 @@
+module.exports=[35730,a=>{a.v({meta:{title:"Trình tạo UUID - Tạo UUID ngẫu nhiên trực tuyến",description:"Trình tạo UUID trực tuyến miễn phí. Tạo UUID ngẫu nhiên (v4) ngay lập tức. Tạo một hoặc nhiều UUID, sao chép vào bảng nhớ tạm và tải xuống dưới dạng văn bản."},title:"Trình tạo UUID",description:"Tạo UUID (Mã định danh duy nhất toàn cầu) ngẫu nhiên phiên bản 4.",ui:{generate:"Tạo UUID",quantity:"Số lượng",version:"Phiên bản",v4:"Phiên bản 4 (Ngẫu nhiên)",copy:"Sao chép tất cả",copied:"Đã sao chép!",download:"Tải xuống danh sách",clear:"Xóa",generated:"UUID đã tạo"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_vi_tools_uuid-generator_json_02bfac57._.js.map

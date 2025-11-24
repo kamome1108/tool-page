@@ -1,0 +1,3 @@
+module.exports=[58552,a=>{a.v({meta:{title:"YouTube Timestamp Link Generator - Create Time-Specific Links",description:"Free online YouTube timestamp link generator. Create links to specific parts of YouTube videos. Share videos starting at the exact moment you want."},title:"YouTube Timestamp Link Generator",description:"Create a YouTube link that starts at a specific time.",ui:{url:"YouTube Video URL",time:"Start Time",hours:"Hours",minutes:"Minutes",seconds:"Seconds",generate:"Generate Link",result:"Generated Link",copy:"Copy Link",open:"Open Link",copied:"Copied!",processingNote:"🔒 All processing is done in your browser."}})}];
+
+//# sourceMappingURL=574c9_messages_en_tools_youtube-timestamp-link-generator_json_c5a02e67._.js.map

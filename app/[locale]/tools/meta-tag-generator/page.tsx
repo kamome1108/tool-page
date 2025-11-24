@@ -1,28 +1,18 @@
-import { setRequestLocale, getTranslations } from 'next-intl/server';
-import ToolLayout from '@/app/components/ToolLayout';
+import { Metadata } from 'next';
+import { getTranslations } from 'next-intl/server';
 import MetaTagGeneratorClient from './MetaTagGeneratorClient';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
     const { locale } = await params;
-    const t = await getTranslations({ locale, namespace: 'Tools.meta-tag-generator' });
+    const t = await getTranslations({ locale, namespace: 'Tools.meta-tag-generator.meta' });
 
     return {
-        title: t('meta.title'),
-        description: t('meta.description'),
+        title: t('title'),
+        description: t('description'),
     };
 }
 
 export default async function MetaTagGeneratorPage({ params }: { params: Promise<{ locale: string }> }) {
     const { locale } = await params;
-    setRequestLocale(locale);
-    const t = await getTranslations({ locale, namespace: 'Tools.meta-tag-generator' });
-
-    return (
-        <ToolLayout
-            title={t('title')}
-            description={t('description')}
-        >
-            <MetaTagGeneratorClient locale={locale} />
-        </ToolLayout>
-    );
+    return <MetaTagGeneratorClient />;
 }

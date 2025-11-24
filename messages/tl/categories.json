@@ -46,5 +46,9 @@
     "utilities": {
         "name": "Mga Utility",
         "description": "Pangkalahatang layunin na mga utility at tool."
+    },
+    "converter": {
+        "name": "Mga Converter",
+        "description": "I-convert ang data sa iba't ibang format."
     }
 }

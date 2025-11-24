@@ -1,0 +1,3 @@
+module.exports=[24500,a=>{a.v({meta:{title:"Bộ đếm từ - Đếm từ, ký tự và câu",description:"Công cụ đếm từ trực tuyến miễn phí. Đếm từ, ký tự, câu và đoạn văn trong văn bản của bạn theo thời gian thực."},title:"Bộ đếm từ",description:"Đếm từ, ký tự, câu và đoạn văn theo thời gian thực.",ui:{input:"Nhập hoặc dán văn bản của bạn vào đây...",stats:{words:"Từ",characters:"Ký tự",sentences:"Câu",paragraphs:"Đoạn văn"},clear:"Xóa văn bản",processingNote:"🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_vi_tools_word-counter_json_14c33e63._.js.map

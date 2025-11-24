@@ -1,0 +1,3 @@
+module.exports=[95194,a=>{a.v({meta:{title:"URL Encoder/Decoder - Alat Online Gratis",description:"Enkode atau dekode URL dengan mudah menggunakan alat online gratis kami. Konversi karakter khusus ke nilai persen-terenkode yang sesuai dan sebaliknya."},title:"URL Encoder/Decoder",description:"Enkode atau dekode string URL untuk menangani karakter khusus.",ui:{input:"Input URL",output:"Output",encode:"Enkode",decode:"Dekode",copy:"Salin",copied:"Disalin!",clear:"Bersihkan",error:"Pengkodean URL tidak valid",processingNote:"🔒 Semua pemrosesan dilakukan di browser Anda."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_id_tools_url-encoder-decoder_json_694c28e9._.js.map

@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "Pemformat SQL - Percantik SQL Online",
+        "description": "Pemformat SQL online gratis. Percantik dan format kueri SQL Anda agar lebih mudah dibaca. Mendukung SQL Standar, MySQL, PostgreSQL, dan lainnya."
+    },
+    "title": "Pemformat SQL",
+    "description": "Format dan percantik kueri SQL Anda.",
+    "ui": {
+        "inputPlaceholder": "Tempel kueri SQL Anda di sini...",
+        "format": "Format SQL",
+        "copy": "Salin",
+        "copied": "Disalin!",
+        "dialect": "Dialek",
+        "indent": "Indentasi",
+        "spaces": "{count} Spasi",
+        "tabs": "Tab",
+        "error": "Kesalahan saat memformat SQL"
+    }
+}

@@ -1,0 +1,3 @@
+module.exports=[54163,a=>{a.v({meta:{title:"ROI Calculator - Kalkulahin ang Return on Investment",description:"Libreng online na ROI calculator. Kalkulahin ang iyong Return on Investment nang madali. Alamin ang kakayahang kumita ng iyong mga pamumuhunan gamit ang simpleng tool na ito."},title:"ROI Calculator",description:"Kalkulahin ang Return on Investment (ROI) para sa iyong mga pamumuhunan.",ui:{invested:"Halagang Namuhunan",returned:"Halagang Naibalik",duration:"Tagal ng Pamumuhunan (Taon)",calculate:"Kalkulahin ang ROI",result:"ROI",annualized:"Taunang ROI",gain:"Kabuuang Kita/Lugi",processingNote:"🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_tl_tools_roi-calculator_json_e3bb13e6._.js.map

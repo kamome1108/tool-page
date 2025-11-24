@@ -1,0 +1,17 @@
+{
+    "meta": {
+        "title": "Konverter WebP ke JPG - Ubah Gambar Online",
+        "description": "Konverter WebP ke JPG online gratis. Ubah gambar WebP menjadi format JPEG berkualitas tinggi. Konversi cepat, aman, dan sisi klien."
+    },
+    "title": "Konverter WebP ke JPG",
+    "description": "Ubah gambar WebP menjadi format JPG secara instan.",
+    "ui": {
+        "upload": "Unggah WebP",
+        "uploadHelp": "Seret & lepas WebP di sini, atau klik untuk memilih",
+        "convert": "Konversi ke JPG",
+        "download": "Unduh JPG",
+        "clear": "Hapus",
+        "converting": "Mengonversi...",
+        "noFile": "Tidak ada gambar yang dipilih"
+    }
+}

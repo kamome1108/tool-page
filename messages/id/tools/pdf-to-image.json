@@ -1,0 +1,24 @@
+{
+    "meta": {
+        "title": "Konverter PDF ke Gambar - Ubah PDF ke JPG, PNG Online",
+        "description": "Konverter PDF ke Gambar online gratis. Ubah halaman PDF menjadi gambar JPG atau PNG berkualitas tinggi. Ekstrak semua halaman atau pilih halaman tertentu. Unduh sebagai ZIP."
+    },
+    "title": "Konverter PDF ke Gambar",
+    "description": "Ubah halaman PDF menjadi gambar. Mendukung output JPG dan PNG.",
+    "ui": {
+        "upload": "Unggah PDF",
+        "uploadHelp": "Seret & lepas PDF di sini, atau klik untuk memilih",
+        "convert": "Konversi ke Gambar",
+        "download": "Unduh Gambar (ZIP)",
+        "clear": "Hapus",
+        "converting": "Mengonversi...",
+        "noFile": "Tidak ada PDF yang dipilih",
+        "format": "Format Output",
+        "formats": {
+            "jpg": "JPG (JPEG)",
+            "png": "PNG"
+        },
+        "pages": "Halaman: {count}",
+        "allPages": "Semua Halaman"
+    }
+}

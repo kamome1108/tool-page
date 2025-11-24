@@ -1,0 +1,3 @@
+module.exports=[15846,a=>{a.v({meta:{title:"JWT Decoder - I-decode ang JSON Web Tokens",description:"Libreng online na JWT Decoder. I-decode at suriin ang JSON Web Tokens (JWT) header at payload nang hindi nagpapadala ng data sa isang server."},title:"JWT Decoder",description:"I-decode at suriin ang JSON Web Tokens.",ui:{inputPlaceholder:"I-paste ang iyong JWT dito...",header:"Header",payload:"Payload",invalidToken:"Hindi wastong format ng JWT",processingNote:"🔒 Ang pag-decode ay lokal na nangyayari sa iyong browser. Ang iyong mga token ay hindi kailanman ipinapadala sa aming mga server."}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_tl_tools_jwt-decoder_json_b7fb99e6._.js.map

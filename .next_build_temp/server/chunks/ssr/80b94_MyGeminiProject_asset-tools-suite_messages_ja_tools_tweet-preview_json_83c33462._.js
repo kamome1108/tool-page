@@ -1,0 +1,3 @@
+module.exports=[9466,a=>{a.v({meta:{title:"ツイートプレビュー - モックアップジェネレーター",description:"無料のオンラインツイートプレビューツール。投稿する前にツイートがどのように見えるかを確認するためのモックアップを作成します。テキストの長さ、画像、レイアウトをテストできます。"},title:"ツイートプレビュー",description:"投稿する前にツイートがどのように見えるかをプレビューします。",ui:{name:"名前",handle:"ユーザー名 (@username)",text:"ツイート本文",image:"画像URL (オプション)",uploadImage:"または画像をアップロード",preview:"プレビュー",verified:"認証済みアカウント",stats:{replies:"返信",retweets:"リツイート",likes:"いいね",views:"表示"},processingNote:"🔒 すべての処理はブラウザ上で行われます。"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_ja_tools_tweet-preview_json_83c33462._.js.map

@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/[locale]/layout,_N_T_/[locale]/category/layout,_N_T_/[locale]/category/[id]/layout,_N_T_/[locale]/category/[id]/page,_N_T_/hi/category/image"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/$d$locale/category/$d$id/__PAGE__",
+    "/$d$locale/category/$d$id",
+    "/$d$locale/category",
+    "/$d$locale",
+    "/_index",
+    "/_head"
+  ]
+}

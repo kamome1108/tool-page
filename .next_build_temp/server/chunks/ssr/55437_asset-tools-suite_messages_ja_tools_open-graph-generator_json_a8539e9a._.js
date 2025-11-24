@@ -1,0 +1,3 @@
+module.exports=[57402,a=>{a.v({meta:{title:"OGPジェネレーター - SNS用Open Graphタグ作成",description:"無料のオンラインOGPジェネレーター。FacebookやLinkedInなどのSNS用OGタグを作成します。og:title、og:image、og:descriptionなどを簡単に生成できます。"},title:"OGPジェネレーター",description:"SNSでのコンテンツ表示を制御するOpen Graphタグを生成します。",ui:{ogTitle:"タイトル",ogType:"タイプ",ogUrl:"URL",ogImage:"画像URL",ogDescription:"説明",ogSiteName:"サイト名",generate:"OGタグを生成",preview:"プレビュー",copy:"コードをコピー",copied:"コピーしました！",clear:"クリア",types:{website:"ウェブサイト",article:"記事",book:"本",profile:"プロフィール",music:{song:"音楽 (曲)",album:"音楽 (アルバム)"},video:{movie:"動画 (映画)",episode:"動画 (エピソード)"}}}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_open-graph-generator_json_a8539e9a._.js.map

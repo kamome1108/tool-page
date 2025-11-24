@@ -1,0 +1,3 @@
+module.exports=[50143,a=>{a.v({meta:{title:"Image Color Picker - ดึงสีจากรูปภาพออนไลน์",description:"เลือกสีจากรูปภาพออนไลน์ อัปโหลดรูปภาพและรับรหัสสี HEX, RGB และ HSL จากพิกเซลใดก็ได้ ฟรีและใช้งานง่าย",keywords:"color picker, image color, hex code, rgb code, hsl code"},title:"Image Color Picker",description:"ดึงสีจากรูปภาพของคุณ รับรหัส HEX, RGB และ HSL",dropzone:{label:"วางรูปภาพที่นี่ หรือคลิกเพื่อเลือก"},pickedColor:"สีที่เลือก",hex:"HEX",rgb:"RGB",hsl:"HSL",copy:"คัดลอก",copied:"คัดลอกแล้ว!",reset:"รีเซ็ต",clickToPick:"คลิกที่รูปภาพเพื่อเลือกสี"})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_th_tools_color-picker_json_679e1572._.js.map

@@ -1,0 +1,3 @@
+module.exports=[74675,a=>{a.v({meta:{title:"HTMLエンティティ変換 - エンコード・デコードツール",description:"無料のオンラインHTMLエンティティ変換ツール。特殊文字をHTMLエンティティに変換（エンコード）、またはその逆（デコード）を行います。Web用にテキストを安全に変換します。"},title:"HTMLエンティティ変換",description:"テキストをHTMLエンティティにエンコード、またはデコードします。",ui:{inputLabel:"テキストを入力",encode:"エンコード",decode:"デコード",result:"結果",copy:"コピー",copied:"コピーしました！",processingNote:"🔒 すべての処理はブラウザ上で行われます。"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_html-entity-encoder-decoder_json_27c22cec._.js.map

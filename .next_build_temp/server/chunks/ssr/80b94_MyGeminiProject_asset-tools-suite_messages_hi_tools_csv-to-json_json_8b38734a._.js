@@ -1,0 +1,3 @@
+module.exports=[89222,a=>{a.v({meta:{title:"CSV से JSON - CSV को JSON में ऑनलाइन बदलें",description:"मुफ्त ऑनलाइन CSV से JSON कनवर्टर। अपने CSV डेटा को वेब विकास या डेटा विश्लेषण के लिए JSON प्रारूप में बदलें। तेज़, सुरक्षित और क्लाइंट-साइड प्रोसेसिंग।"},title:"CSV से JSON",description:"CSV डेटा को JSON प्रारूप में बदलें।",ui:{inputPlaceholder:"अपना CSV यहाँ पेस्ट करें...",convert:"JSON में बदलें",download:"JSON डाउनलोड करें",copy:"JSON कॉपी करें",copied:"कॉपी हो गया!",clear:"साफ़ करें",error:"अमान्य CSV",outputPlaceholder:"JSON आउटपुट यहाँ दिखाई देगा...",options:"विकल्प",header:"पहली पंक्ति हेडर है",skipEmptyLines:"खाली पंक्तियों को छोड़ें"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_hi_tools_csv-to-json_json_8b38734a._.js.map

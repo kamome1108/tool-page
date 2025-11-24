@@ -1,0 +1,3 @@
+module.exports=[45471,a=>{a.v({meta:{title:"Pomodoro Timer - Tingkatkan Produktivitas Online",description:"Tingkatkan produktivitas Anda dengan Pomodoro Timer online gratis kami. Sesuaikan interval kerja dan istirahat. Tetap fokus dan selesaikan lebih banyak hal."},title:"Pomodoro Timer",description:"Tetap fokus dan produktif dengan Teknik Pomodoro.",ui:{work:"Kerja",break:"Istirahat",start:"Mulai",pause:"Jeda",reset:"Atur Ulang",status:{work:"Waktu Fokus!",break:"Istirahatlah!"},settings:"Pengaturan",workDuration:"Durasi Kerja (menit)",breakDuration:"Durasi Istirahat (menit)",processingNote:"🔒 Timer berjalan secara lokal di browser Anda."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_id_tools_pomodoro-timer_json_db9b1300._.js.map

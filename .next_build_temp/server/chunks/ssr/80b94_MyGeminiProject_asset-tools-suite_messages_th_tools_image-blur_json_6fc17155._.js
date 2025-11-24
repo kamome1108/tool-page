@@ -1,0 +1,3 @@
+module.exports=[89387,a=>{a.v({meta:{title:"Image Blur - เบลอรูปภาพออนไลน์ฟรี",description:"เบลอรูปภาพของคุณออนไลน์ ปรับความเข้มของการเบลอและดาวน์โหลดผลลัพธ์ เครื่องมือเบลอรูปภาพฟรี รวดเร็ว และปลอดภัย",keywords:"image blur, blur tool, privacy, obfuscate"},title:"Image Blur",description:"ใช้เอฟเฟกต์เบลอกับรูปภาพของคุณด้วยความเข้มที่ปรับได้",dropzone:{label:"วางรูปภาพที่นี่ หรือคลิกเพื่อเลือก"},intensity:"ความเข้มของการเบลอ",apply:"ใช้การเบลอ",download:"ดาวน์โหลดรูปภาพที่เบลอ",reset:"รีเซ็ต"})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_th_tools_image-blur_json_6fc17155._.js.map

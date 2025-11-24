@@ -1,0 +1,3 @@
+module.exports=[25170,a=>{a.v({meta:{title:"PDF結合 - オンラインでPDFを結合",description:"無料のオンラインPDF結合ツール。複数のPDFファイルをブラウザ上で直接1つのドキュメントに結合します。サーバーへのアップロードは不要です。"},title:"PDF結合",description:"複数のPDFファイルを1つのドキュメントに結合します。",ui:{selectFiles:"PDFファイルを選択",merge:"PDFを結合",download:"結合されたPDFをダウンロード",noFiles:"ファイルが選択されていません",filesSelected:"{count} 個のファイルを選択中",dragDrop:"またはここにPDFをドラッグ＆ドロップ",processing:"結合中...",success:"結合が完了しました！",error:"ファイルの結合中にエラーが発生しました",processingNote:"🔒 結合はブラウザ内でローカルに行われます。ファイルがサーバーに送信されることはありません。"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_ja_tools_pdf-merger_json_ba9d2e50._.js.map

@@ -1,0 +1,3 @@
+module.exports=[18479,a=>{a.v({meta:{title:"JSON to CSV - JSONをCSVに変換",description:"無料のオンラインJSON to CSVコンバーター。JSONデータをExcelやGoogleスプレッドシート用のCSV形式に変換します。高速、安全、クライアントサイド処理。"},title:"JSON to CSV",description:"JSONデータをCSV形式に変換します。",ui:{inputPlaceholder:"ここにJSONを貼り付けてください...",convert:"CSVに変換",download:"CSVをダウンロード",copy:"CSVをコピー",copied:"コピーしました！",clear:"クリア",error:"無効なJSONです",outputPlaceholder:"CSV出力がここに表示されます..."}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_ja_tools_json-to-csv_json_a427ed44._.js.map

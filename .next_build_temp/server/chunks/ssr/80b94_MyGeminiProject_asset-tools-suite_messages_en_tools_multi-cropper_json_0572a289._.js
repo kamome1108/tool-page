@@ -1,0 +1,3 @@
+module.exports=[4113,a=>{a.v({meta:{title:"Multi Image Cropper",description:"Crop multiple areas from an image and download them individually or as a ZIP.",keywords:"crop, image, multi crop, zip, download"},ui:{uploadImage:"Click to Upload Image",supports:"Supports JPG, PNG, WebP",reset:"Reset Image",downloadZip:"Download ZIP",crops:"Crops",noCrops:"No crops selected yet.",dragInstruction:"✂️ Click and drag to create crop areas",processingNote:"✂️ All processing happens in your browser. Your images never leave your device.",download:"Download",delete:"Delete"}})}];
+
+//# sourceMappingURL=80b94_MyGeminiProject_asset-tools-suite_messages_en_tools_multi-cropper_json_0572a289._.js.map

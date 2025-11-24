@@ -1,0 +1,3 @@
+module.exports=[84320,a=>{a.v({meta:{title:"Instagram Caption Spacer - Clean Line Breaks",description:"Free online Instagram caption spacer. Add invisible spaces to your Instagram captions to create clean line breaks and improve readability."},title:"Instagram Caption Spacer",description:"Add invisible spaces to create clean line breaks for Instagram captions.",ui:{inputLabel:"Enter Caption",convert:"Convert & Copy",converted:"Converted & Copied!",clear:"Clear",processingNote:"🔒 All processing is done in your browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_en_tools_instagram-caption-spacer_json_117fdc07._.js.map

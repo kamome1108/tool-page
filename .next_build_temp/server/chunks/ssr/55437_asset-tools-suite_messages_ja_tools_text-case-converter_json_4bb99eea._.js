@@ -1,0 +1,3 @@
+module.exports=[40301,a=>{a.v({meta:{title:"テキスト大文字・小文字変換ツール",description:"無料のオンラインテキスト大文字・小文字変換ツール。テキストを大文字、小文字、タイトルケース、キャメルケース、スネークケースなどに瞬時に変換します。"},title:"テキスト大文字・小文字変換",description:"テキストをさまざまなケース（大文字、小文字など）に変換します。",ui:{inputLabel:"テキストを入力",uppercase:"大文字 (UPPERCASE)",lowercase:"小文字 (lowercase)",titleCase:"タイトルケース (Title Case)",sentenceCase:"センテンスケース (Sentence case)",camelCase:"キャメルケース (camelCase)",snakeCase:"スネークケース (snake_case)",kebabCase:"ケバブケース (kebab-case)",copy:"コピー",copied:"コピーしました！",processingNote:"🔒 すべての処理はブラウザ上で行われます。"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_text-case-converter_json_4bb99eea._.js.map

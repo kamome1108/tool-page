@@ -1,0 +1,3 @@
+module.exports=[52552,a=>{a.v({meta:{title:"UUID Generator - Generate Random UUIDs Online",description:"Free online UUID Generator. Generate random UUIDs (v4) instantly. Generate single or multiple UUIDs, copy to clipboard, and download as text."},title:"UUID Generator",description:"Generate random UUIDs (Universally Unique Identifiers) version 4.",ui:{generate:"Generate UUIDs",quantity:"Quantity",version:"Version",v4:"Version 4 (Random)",copy:"Copy All",copied:"Copied!",download:"Download List",clear:"Clear",generated:"Generated UUIDs"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_en_tools_uuid-generator_json_4e75c118._.js.map

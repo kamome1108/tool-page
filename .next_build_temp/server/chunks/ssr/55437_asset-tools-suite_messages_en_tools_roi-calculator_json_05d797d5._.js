@@ -1,0 +1,3 @@
+module.exports=[89048,a=>{a.v({meta:{title:"ROI Calculator - Calculate Return on Investment",description:"Free online ROI calculator. Calculate your Return on Investment easily. Determine the profitability of your investments with this simple tool."},title:"ROI Calculator",description:"Calculate the Return on Investment (ROI) for your investments.",ui:{invested:"Amount Invested",returned:"Amount Returned",duration:"Investment Duration (Years)",calculate:"Calculate ROI",result:"ROI",annualized:"Annualized ROI",gain:"Total Gain/Loss",processingNote:"🔒 All processing is done in your browser."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_en_tools_roi-calculator_json_05d797d5._.js.map

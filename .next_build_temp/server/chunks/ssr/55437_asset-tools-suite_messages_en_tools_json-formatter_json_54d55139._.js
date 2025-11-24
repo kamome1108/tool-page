@@ -1,0 +1,3 @@
+module.exports=[74641,a=>{a.v({meta:{title:"JSON Formatter & Validator",description:"Format, validate, and minify JSON data.",keywords:"json, formatter, validator, minify, beautify"},ui:{inputJson:"Input JSON",outputJson:"Output",format:"Format",minify:"Minify",copy:"Copy",clear:"Clear",pastePlaceholder:'Paste JSON here... {"key": "value"}',spaces:"Spaces",errorParsing:"❌ Error parsing JSON:",invalidJson:"Invalid JSON",processingNote:"💻 All processing happens in your browser. Your JSON data never leaves your device."}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_en_tools_json-formatter_json_54d55139._.js.map

@@ -1,0 +1,3 @@
+module.exports=[32290,a=>{a.v({meta:{title:"年齢計算機 - 正確な年齢を計算",description:"無料のオンライン年齢計算機。あなたの正確な年齢を年、月、日で計算します。次の誕生日までの日数もわかります。"},title:"年齢計算機",description:"正確な年齢と次の誕生日までの日数を計算します。",ui:{dob:"生年月日",calculate:"年齢を計算",result:"あなたの年齢",years:"歳",months:"ヶ月",days:"日",nextBirthday:"次の誕生日",daysUntil:"次の誕生日まで",totalDays:"生まれてからの日数",processingNote:"🔒 すべての処理はブラウザ上で行われます。"}})}];
+
+//# sourceMappingURL=55437_asset-tools-suite_messages_ja_tools_age-calculator_json_018649de._.js.map
