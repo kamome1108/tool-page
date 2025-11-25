@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "title": "XML Formatter - I-format at I-minify ang XML Online",
+        "description": "Libreng online na XML formatter at minifier tool. Gawing maganda o i-compress ang iyong XML code na may wastong indentation."
+    },
+    "ui": {
+        "title": "XML Formatter",
+        "description": "I-format o i-minify ang iyong XML code.",
+        "inputLabel": "Input XML",
+        "inputPlaceholder": "I-paste ang iyong XML dito...",
+        "outputLabel": "Na-format na XML",
+        "format": "I-format ang XML",
+        "minify": "I-minify ang XML",
+        "clear": "I-clear",
+        "copy": "Kopyahin",
+        "success": "Matagumpay na na-format ang XML!",
+        "minifySuccess": "Matagumpay na na-minify ang XML!",
+        "error": "Hindi wastong format ng XML",
+        "copied": "Kinopya sa clipboard!"
+    }
+}

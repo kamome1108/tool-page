@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "JSON Minifier - Perkecil JSON Online",
+        "description": "Alat pengecil JSON online gratis. Kompres kode JSON Anda dengan menghapus spasi dan komentar untuk mengurangi ukuran file."
+    },
+    "ui": {
+        "title": "JSON Minifier",
+        "description": "Perkecil kode JSON Anda untuk menghemat ruang.",
+        "inputLabel": "Input JSON",
+        "inputPlaceholder": "Tempel JSON Anda di sini...",
+        "outputLabel": "JSON yang Diperkecil",
+        "minify": "Perkecil JSON",
+        "clear": "Bersihkan",
+        "copy": "Salin",
+        "success": "JSON berhasil diperkecil!",
+        "error": "Format JSON tidak valid",
+        "copied": "Disalin ke papan klip!"
+    }
+}

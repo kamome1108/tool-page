@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "YAML to JSON Converter - Chuyển đổi YAML sang JSON Trực tuyến",
+        "description": "Công cụ chuyển đổi YAML sang JSON trực tuyến miễn phí. Chuyển đổi dữ liệu YAML của bạn sang định dạng JSON ngay lập tức."
+    },
+    "ui": {
+        "title": "YAML to JSON Converter",
+        "description": "Chuyển đổi dữ liệu YAML sang định dạng JSON.",
+        "inputLabel": "Đầu vào YAML",
+        "inputPlaceholder": "Dán YAML của bạn vào đây...",
+        "outputLabel": "Đầu ra JSON",
+        "convert": "Chuyển đổi sang JSON",
+        "clear": "Xóa",
+        "copy": "Sao chép",
+        "success": "Chuyển đổi sang JSON thành công!",
+        "error": "Định dạng YAML không hợp lệ",
+        "copied": "Đã sao chép vào khay nhớ tạm!"
+    }
+}

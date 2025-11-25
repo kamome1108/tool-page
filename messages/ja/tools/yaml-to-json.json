@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "YAML to JSON 変換 - オンラインYAMLからJSON変換ツール",
+        "description": "無料のオンラインYAML to JSON変換ツール。YAMLデータを即座にJSON形式に変換します。"
+    },
+    "ui": {
+        "title": "YAML to JSON 変換",
+        "description": "YAMLデータをJSON形式に変換します。",
+        "inputLabel": "YAMLを入力",
+        "inputPlaceholder": "ここにYAMLを貼り付けてください...",
+        "outputLabel": "出力JSON",
+        "convert": "JSONに変換",
+        "clear": "クリア",
+        "copy": "コピー",
+        "success": "JSONに変換しました！",
+        "error": "無効なYAML形式です",
+        "copied": "クリップボードにコピーしました！"
+    }
+}

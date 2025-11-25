@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "JSON to YAML Converter - I-convert ang JSON sa YAML Online",
+        "description": "Libreng online na JSON to YAML converter. I-convert ang iyong JSON data sa YAML format kaagad."
+    },
+    "ui": {
+        "title": "JSON to YAML Converter",
+        "description": "I-convert ang JSON data sa YAML format.",
+        "inputLabel": "Input JSON",
+        "inputPlaceholder": "I-paste ang iyong JSON dito...",
+        "outputLabel": "Output YAML",
+        "convert": "I-convert sa YAML",
+        "clear": "I-clear",
+        "copy": "Kopyahin",
+        "success": "Matagumpay na na-convert sa YAML!",
+        "error": "Hindi wastong format ng JSON",
+        "copied": "Kinopya sa clipboard!"
+    }
+}

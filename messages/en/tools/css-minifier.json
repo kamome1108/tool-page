@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "CSS Minifier - Minify CSS Online",
+        "description": "Free online CSS minifier tool. Compress your CSS code by removing whitespace and comments to reduce file size."
+    },
+    "ui": {
+        "title": "CSS Minifier",
+        "description": "Minify your CSS code to reduce file size.",
+        "inputLabel": "Input CSS",
+        "inputPlaceholder": "Paste your CSS here...",
+        "outputLabel": "Minified CSS",
+        "minify": "Minify CSS",
+        "clear": "Clear",
+        "copy": "Copy",
+        "success": "CSS minified successfully!",
+        "error": "Failed to minify CSS",
+        "copied": "Copied to clipboard!"
+    }
+}

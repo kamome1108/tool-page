@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "title": "XML Formatter - จัดรูปแบบและย่อขนาด XML ออนไลน์",
+        "description": "เครื่องมือจัดรูปแบบและย่อขนาด XML ออนไลน์ฟรี ทำให้โค้ด XML ของคุณสวยงามหรือบีบอัดด้วยการเยื้องที่เหมาะสม"
+    },
+    "ui": {
+        "title": "XML Formatter",
+        "description": "จัดรูปแบบหรือย่อขนาดโค้ด XML ของคุณ",
+        "inputLabel": "อินพุต XML",
+        "inputPlaceholder": "วาง XML ของคุณที่นี่...",
+        "outputLabel": "XML ที่จัดรูปแบบแล้ว",
+        "format": "จัดรูปแบบ XML",
+        "minify": "ย่อขนาด XML",
+        "clear": "ล้าง",
+        "copy": "คัดลอก",
+        "success": "จัดรูปแบบ XML สำเร็จ!",
+        "minifySuccess": "ย่อขนาด XML สำเร็จ!",
+        "error": "รูปแบบ XML ไม่ถูกต้อง",
+        "copied": "คัดลอกไปยังคลิปบอร์ดแล้ว!"
+    }
+}

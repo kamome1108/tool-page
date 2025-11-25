@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "CSS Minifier - Perkecil CSS Online",
+        "description": "Alat pengecil CSS online gratis. Kompres kode CSS Anda dengan menghapus spasi dan komentar untuk mengurangi ukuran file."
+    },
+    "ui": {
+        "title": "CSS Minifier",
+        "description": "Perkecil kode CSS Anda untuk mengurangi ukuran file.",
+        "inputLabel": "Input CSS",
+        "inputPlaceholder": "Tempel CSS Anda di sini...",
+        "outputLabel": "CSS yang Diperkecil",
+        "minify": "Perkecil CSS",
+        "clear": "Bersihkan",
+        "copy": "Salin",
+        "success": "CSS berhasil diperkecil!",
+        "error": "Gagal memperkecil CSS",
+        "copied": "Disalin ke papan klip!"
+    }
+}

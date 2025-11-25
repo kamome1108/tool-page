@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "title": "XML Formatter - Định dạng & Thu nhỏ XML Trực tuyến",
+        "description": "Công cụ định dạng và thu nhỏ XML trực tuyến miễn phí. Làm đẹp hoặc nén mã XML của bạn với thụt lề phù hợp."
+    },
+    "ui": {
+        "title": "XML Formatter",
+        "description": "Định dạng hoặc thu nhỏ mã XML của bạn.",
+        "inputLabel": "Đầu vào XML",
+        "inputPlaceholder": "Dán XML của bạn vào đây...",
+        "outputLabel": "XML đã định dạng",
+        "format": "Định dạng XML",
+        "minify": "Thu nhỏ XML",
+        "clear": "Xóa",
+        "copy": "Sao chép",
+        "success": "XML đã được định dạng thành công!",
+        "minifySuccess": "XML đã được thu nhỏ thành công!",
+        "error": "Định dạng XML không hợp lệ",
+        "copied": "Đã sao chép vào khay nhớ tạm!"
+    }
+}

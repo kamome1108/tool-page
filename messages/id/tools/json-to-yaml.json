@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "JSON to YAML Converter - Konversi JSON ke YAML Online",
+        "description": "Konverter JSON ke YAML online gratis. Konversi data JSON Anda ke format YAML secara instan."
+    },
+    "ui": {
+        "title": "JSON to YAML Converter",
+        "description": "Konversi data JSON ke format YAML.",
+        "inputLabel": "Input JSON",
+        "inputPlaceholder": "Tempel JSON Anda di sini...",
+        "outputLabel": "Output YAML",
+        "convert": "Konversi ke YAML",
+        "clear": "Bersihkan",
+        "copy": "Salin",
+        "success": "Berhasil dikonversi ke YAML!",
+        "error": "Format JSON tidak valid",
+        "copied": "Disalin ke papan klip!"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "JSON to YAML Converter - JSON को YAML में ऑनलाइन बदलें",
+        "description": "मुफ्त ऑनलाइन JSON to YAML कनवर्टर। अपने JSON डेटा को तुरंत YAML प्रारूप में बदलें।"
+    },
+    "ui": {
+        "title": "JSON to YAML Converter",
+        "description": "JSON डेटा को YAML प्रारूप में बदलें।",
+        "inputLabel": "इनपुट JSON",
+        "inputPlaceholder": "अपना JSON यहाँ पेस्ट करें...",
+        "outputLabel": "आउटपुट YAML",
+        "convert": "YAML में बदलें",
+        "clear": "साफ़ करें",
+        "copy": "कॉपी करें",
+        "success": "YAML में सफलतापूर्वक बदल गया!",
+        "error": "अमान्य JSON प्रारूप",
+        "copied": "क्लिपबोर्ड पर कॉपी किया गया!"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "YAML to JSON Converter - แปลง YAML เป็น JSON ออนไลน์",
+        "description": "เครื่องมือแปลง YAML เป็น JSON ออนไลน์ฟรี แปลงข้อมูล YAML ของคุณเป็นรูปแบบ JSON ทันที"
+    },
+    "ui": {
+        "title": "YAML to JSON Converter",
+        "description": "แปลงข้อมูล YAML เป็นรูปแบบ JSON",
+        "inputLabel": "อินพุต YAML",
+        "inputPlaceholder": "วาง YAML ของคุณที่นี่...",
+        "outputLabel": "เอาต์พุต JSON",
+        "convert": "แปลงเป็น JSON",
+        "clear": "ล้าง",
+        "copy": "คัดลอก",
+        "success": "แปลงเป็น JSON สำเร็จ!",
+        "error": "รูปแบบ YAML ไม่ถูกต้อง",
+        "copied": "คัดลอกไปยังคลิปบอร์ดแล้ว!"
+    }
+}

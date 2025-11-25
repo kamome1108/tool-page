@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "JSON Minifier - JSON को ऑनलाइन छोटा करें",
+        "description": "मुफ्त ऑनलाइन JSON मिनिफायर टूल। फ़ाइल का आकार कम करने के लिए व्हाइटस्पेस और टिप्पणियों को हटाकर अपने JSON कोड को कंप्रेस करें।"
+    },
+    "ui": {
+        "title": "JSON Minifier",
+        "description": "जगह बचाने के लिए अपने JSON कोड को छोटा करें।",
+        "inputLabel": "इनपुट JSON",
+        "inputPlaceholder": "अपना JSON यहाँ पेस्ट करें...",
+        "outputLabel": "छोटा किया गया JSON",
+        "minify": "JSON को छोटा करें",
+        "clear": "साफ़ करें",
+        "copy": "कॉपी करें",
+        "success": "JSON सफलतापूर्वक छोटा हो गया!",
+        "error": "अमान्य JSON प्रारूप",
+        "copied": "क्लिपबोर्ड पर कॉपी किया गया!"
+    }
+}

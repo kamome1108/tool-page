@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "title": "XMLフォーマッター - オンラインXML整形・圧縮ツール",
+        "description": "無料のオンラインXMLフォーマッターと圧縮ツール。XMLコードを整形または圧縮します。"
+    },
+    "ui": {
+        "title": "XMLフォーマッター",
+        "description": "XMLコードを整形または圧縮します。",
+        "inputLabel": "XMLを入力",
+        "inputPlaceholder": "ここにXMLを貼り付けてください...",
+        "outputLabel": "整形されたXML",
+        "format": "XMLを整形",
+        "minify": "XMLを圧縮",
+        "clear": "クリア",
+        "copy": "コピー",
+        "success": "XMLを整形しました！",
+        "minifySuccess": "XMLを圧縮しました！",
+        "error": "無効なXML形式です",
+        "copied": "クリップボードにコピーしました！"
+    }
+}

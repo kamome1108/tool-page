@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "JSON Minifier - Thu nhỏ JSON Trực tuyến",
+        "description": "Công cụ thu nhỏ JSON trực tuyến miễn phí. Nén mã JSON của bạn bằng cách loại bỏ khoảng trắng và nhận xét để giảm kích thước tệp."
+    },
+    "ui": {
+        "title": "JSON Minifier",
+        "description": "Thu nhỏ mã JSON của bạn để tiết kiệm dung lượng.",
+        "inputLabel": "Đầu vào JSON",
+        "inputPlaceholder": "Dán JSON của bạn vào đây...",
+        "outputLabel": "JSON đã thu nhỏ",
+        "minify": "Thu nhỏ JSON",
+        "clear": "Xóa",
+        "copy": "Sao chép",
+        "success": "JSON đã được thu nhỏ thành công!",
+        "error": "Định dạng JSON không hợp lệ",
+        "copied": "Đã sao chép vào khay nhớ tạm!"
+    }
+}

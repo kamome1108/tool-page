@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "JSON Minifier - ย่อขนาด JSON ออนไลน์",
+        "description": "เครื่องมือย่อขนาด JSON ออนไลน์ฟรี บีบอัดโค้ด JSON ของคุณโดยการลบช่องว่างและความคิดเห็นเพื่อลดขนาดไฟล์"
+    },
+    "ui": {
+        "title": "JSON Minifier",
+        "description": "ย่อขนาดโค้ด JSON ของคุณเพื่อประหยัดพื้นที่",
+        "inputLabel": "อินพุต JSON",
+        "inputPlaceholder": "วาง JSON ของคุณที่นี่...",
+        "outputLabel": "JSON ที่ย่อขนาดแล้ว",
+        "minify": "ย่อขนาด JSON",
+        "clear": "ล้าง",
+        "copy": "คัดลอก",
+        "success": "ย่อขนาด JSON สำเร็จ!",
+        "error": "รูปแบบ JSON ไม่ถูกต้อง",
+        "copied": "คัดลอกไปยังคลิปบอร์ดแล้ว!"
+    }
+}

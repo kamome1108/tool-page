@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "title": "XML Formatter - Format & Perkecil XML Online",
+        "description": "Alat formatter dan minifier XML online gratis. Percantik atau kompres kode XML Anda dengan indentasi yang tepat."
+    },
+    "ui": {
+        "title": "XML Formatter",
+        "description": "Format atau perkecil kode XML Anda.",
+        "inputLabel": "Input XML",
+        "inputPlaceholder": "Tempel XML Anda di sini...",
+        "outputLabel": "XML yang Diformat",
+        "format": "Format XML",
+        "minify": "Perkecil XML",
+        "clear": "Bersihkan",
+        "copy": "Salin",
+        "success": "XML berhasil diformat!",
+        "minifySuccess": "XML berhasil diperkecil!",
+        "error": "Format XML tidak valid",
+        "copied": "Disalin ke papan klip!"
+    }
+}

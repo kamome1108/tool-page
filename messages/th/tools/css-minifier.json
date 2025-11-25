@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "CSS Minifier - ย่อขนาด CSS ออนไลน์",
+        "description": "เครื่องมือย่อขนาด CSS ออนไลน์ฟรี บีบอัดโค้ด CSS ของคุณโดยการลบช่องว่างและความคิดเห็นเพื่อลดขนาดไฟล์"
+    },
+    "ui": {
+        "title": "CSS Minifier",
+        "description": "ย่อขนาดโค้ด CSS ของคุณเพื่อลดขนาดไฟล์",
+        "inputLabel": "อินพุต CSS",
+        "inputPlaceholder": "วาง CSS ของคุณที่นี่...",
+        "outputLabel": "CSS ที่ย่อขนาดแล้ว",
+        "minify": "ย่อขนาด CSS",
+        "clear": "ล้าง",
+        "copy": "คัดลอก",
+        "success": "ย่อขนาด CSS สำเร็จ!",
+        "error": "ไม่สามารถย่อขนาด CSS",
+        "copied": "คัดลอกไปยังคลิปบอร์ดแล้ว!"
+    }
+}

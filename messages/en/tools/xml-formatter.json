@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "title": "XML Formatter - Format & Minify XML Online",
+        "description": "Free online XML formatter and minifier tool. Beautify or compress your XML code with proper indentation."
+    },
+    "ui": {
+        "title": "XML Formatter",
+        "description": "Format or minify your XML code.",
+        "inputLabel": "Input XML",
+        "inputPlaceholder": "Paste your XML here...",
+        "outputLabel": "Formatted XML",
+        "format": "Format XML",
+        "minify": "Minify XML",
+        "clear": "Clear",
+        "copy": "Copy",
+        "success": "XML formatted successfully!",
+        "minifySuccess": "XML minified successfully!",
+        "error": "Invalid XML format",
+        "copied": "Copied to clipboard!"
+    }
+}

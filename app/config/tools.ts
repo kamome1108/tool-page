@@ -488,4 +488,34 @@ export const tools: Tool[] = [
         category: 'converter',
         icon: '🔄',
     },
+    {
+        id: 'json-minifier',
+        slug: 'json-minifier',
+        category: 'dev',
+        icon: '📦',
+    },
+    {
+        id: 'xml-formatter',
+        slug: 'xml-formatter',
+        category: 'dev',
+        icon: '📰',
+    },
+    {
+        id: 'yaml-to-json',
+        slug: 'yaml-to-json',
+        category: 'converter',
+        icon: '📋',
+    },
+    {
+        id: 'json-to-yaml',
+        slug: 'json-to-yaml',
+        category: 'converter',
+        icon: '📝',
+    },
+    {
+        id: 'css-minifier',
+        slug: 'css-minifier',
+        category: 'dev',
+        icon: '🎨',
+    },
 ];

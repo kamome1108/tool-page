@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "CSS圧縮 (Minifier) - オンラインCSS軽量化ツール",
+        "description": "無料のオンラインCSS圧縮ツール。空白やコメントを削除してCSSファイルのサイズを削減します。"
+    },
+    "ui": {
+        "title": "CSS圧縮 (Minifier)",
+        "description": "CSSコードを圧縮してファイルサイズを削減します。",
+        "inputLabel": "CSSを入力",
+        "inputPlaceholder": "ここにCSSを貼り付けてください...",
+        "outputLabel": "圧縮されたCSS",
+        "minify": "CSSを圧縮",
+        "clear": "クリア",
+        "copy": "コピー",
+        "success": "CSSを圧縮しました！",
+        "error": "CSSの圧縮に失敗しました",
+        "copied": "クリップボードにコピーしました！"
+    }
+}

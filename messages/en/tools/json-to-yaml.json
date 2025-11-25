@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "JSON to YAML Converter - Convert JSON to YAML Online",
+        "description": "Free online JSON to YAML converter. Convert your JSON data to YAML format instantly."
+    },
+    "ui": {
+        "title": "JSON to YAML Converter",
+        "description": "Convert JSON data to YAML format.",
+        "inputLabel": "Input JSON",
+        "inputPlaceholder": "Paste your JSON here...",
+        "outputLabel": "Output YAML",
+        "convert": "Convert to YAML",
+        "clear": "Clear",
+        "copy": "Copy",
+        "success": "Converted to YAML successfully!",
+        "error": "Invalid JSON format",
+        "copied": "Copied to clipboard!"
+    }
+}

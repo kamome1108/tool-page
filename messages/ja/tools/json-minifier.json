@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "JSON圧縮 (Minifier) - オンラインJSON軽量化ツール",
+        "description": "無料のオンラインJSON圧縮ツール。空白や改行を削除してJSONファイルのサイズを削減します。"
+    },
+    "ui": {
+        "title": "JSON圧縮 (Minifier)",
+        "description": "JSONコードを圧縮してサイズを削減します。",
+        "inputLabel": "JSONを入力",
+        "inputPlaceholder": "ここにJSONを貼り付けてください...",
+        "outputLabel": "圧縮されたJSON",
+        "minify": "JSONを圧縮",
+        "clear": "クリア",
+        "copy": "コピー",
+        "success": "JSONを圧縮しました！",
+        "error": "無効なJSON形式です",
+        "copied": "クリップボードにコピーしました！"
+    }
+}

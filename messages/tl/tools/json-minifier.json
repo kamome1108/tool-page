@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "JSON Minifier - Paliitin ang JSON Online",
+        "description": "Libreng online na JSON minifier tool. I-compress ang iyong JSON code sa pamamagitan ng pag-alis ng whitespace at mga komento upang mabawasan ang laki ng file."
+    },
+    "ui": {
+        "title": "JSON Minifier",
+        "description": "Paliitin ang iyong JSON code upang makatipid ng espasyo.",
+        "inputLabel": "Input JSON",
+        "inputPlaceholder": "I-paste ang iyong JSON dito...",
+        "outputLabel": "Pinaliit na JSON",
+        "minify": "Paliitin ang JSON",
+        "clear": "I-clear",
+        "copy": "Kopyahin",
+        "success": "Matagumpay na napaliit ang JSON!",
+        "error": "Hindi wastong format ng JSON",
+        "copied": "Kinopya sa clipboard!"
+    }
+}

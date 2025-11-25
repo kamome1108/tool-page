@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "JSON Minifier - Minify JSON Online",
+        "description": "Free online JSON minifier tool. Compress your JSON code by removing whitespace and comments to reduce file size."
+    },
+    "ui": {
+        "title": "JSON Minifier",
+        "description": "Minify your JSON code to save space.",
+        "inputLabel": "Input JSON",
+        "inputPlaceholder": "Paste your JSON here...",
+        "outputLabel": "Minified JSON",
+        "minify": "Minify JSON",
+        "clear": "Clear",
+        "copy": "Copy",
+        "success": "JSON minified successfully!",
+        "error": "Invalid JSON format",
+        "copied": "Copied to clipboard!"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "CSS Minifier - Thu nhỏ CSS Trực tuyến",
+        "description": "Công cụ thu nhỏ CSS trực tuyến miễn phí. Nén mã CSS của bạn bằng cách loại bỏ khoảng trắng và nhận xét để giảm kích thước tệp."
+    },
+    "ui": {
+        "title": "CSS Minifier",
+        "description": "Thu nhỏ mã CSS của bạn để giảm kích thước tệp.",
+        "inputLabel": "Đầu vào CSS",
+        "inputPlaceholder": "Dán CSS của bạn vào đây...",
+        "outputLabel": "CSS đã thu nhỏ",
+        "minify": "Thu nhỏ CSS",
+        "clear": "Xóa",
+        "copy": "Sao chép",
+        "success": "CSS đã được thu nhỏ thành công!",
+        "error": "Không thể thu nhỏ CSS",
+        "copied": "Đã sao chép vào khay nhớ tạm!"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "title": "CSS Minifier - Paliitin ang CSS Online",
+        "description": "Libreng online na CSS minifier tool. I-compress ang iyong CSS code sa pamamagitan ng pag-alis ng whitespace at mga komento upang mabawasan ang laki ng file."
+    },
+    "ui": {
+        "title": "CSS Minifier",
+        "description": "Paliitin ang iyong CSS code upang mabawasan ang laki ng file.",
+        "inputLabel": "Input CSS",
+        "inputPlaceholder": "I-paste ang iyong CSS dito...",
+        "outputLabel": "Pinaliit na CSS",
+        "minify": "Paliitin ang CSS",
+        "clear": "I-clear",
+        "copy": "Kopyahin",
+        "success": "Matagumpay na napaliit ang CSS!",
+        "error": "Nabigo ang pag-minify ng CSS",
+        "copied": "Kinopya sa clipboard!"
+    }
+}
