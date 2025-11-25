@@ -1,22 +1,72 @@
 {
     "meta": {
-        "title": "Image Converter - I-convert ang mga Larawan Online nang Libre",
-        "description": "I-convert ang mga larawan sa pagitan ng PNG, JPG, WebP, at GIF format online. Libre, mabilis, at secure na tool sa pag-convert ng larawan."
+        "title": "Image Converter - Convert Images Online for Free (Tagalog)",
+        "description": "Convert images between PNG, JPG, WebP, and GIF formats online in Tagalog. Free, fast, and secure image converter tool. No upload required.",
+        "keywords": "image converter, png to jpg, webp converter, image format, free tool, tagalog"
     },
-    "title": "Image Converter",
-    "description": "I-convert ang mga larawan sa iba't ibang format (PNG, JPG, WebP, GIF).",
-    "dropzone": {
-        "label": "I-drop ang isang larawan dito, o mag-click upang pumili"
+    "tagline": "I-convert ang mga imahe agad sa iyong browser nang hindi nag-a-upload",
+    "ui": {
+        "dropzone": {
+            "label": "I-drop ang isang imahe dito, o mag-click upang pumili"
+        },
+        "format": "Target na Format",
+        "quality": "Kalidad",
+        "convert": "I-convert ang Imahe",
+        "download": "I-download ang Na-convert na Imahe",
+        "reset": "I-convert ang Isa pang Imahe",
+        "formats": {
+            "png": "PNG",
+            "jpeg": "JPG",
+            "webp": "WebP",
+            "gif": "GIF"
+        },
+        "processingNote": "💻 Ang lahat ng pagpoproseso ay nangyayari sa iyong browser. Ang iyong mga imahe ay hindi kailanman umaalis sa iyong device."
     },
-    "format": "Target na Format",
-    "quality": "Kalidad (0-100, para sa JPG/WebP)",
-    "convert": "I-convert ang Larawan",
-    "download": "I-download ang Na-convert na Larawan",
-    "reset": "I-reset",
-    "formats": {
-        "png": "PNG",
-        "jpeg": "JPG",
-        "webp": "WebP",
-        "gif": "GIF"
+    "content": {
+        "description": {
+            "title": "Ano ang Image Converter?",
+            "text": "Ang Image Converter ay isang libre, ligtas na online tool na nagbibigay-daan sa iyo na i-convert ang mga imahe sa pagitan ng mga sikat na format tulad ng PNG, JPG, WebP, at GIF nang direkta sa iyong browser. Hindi tulad ng ibang mga converter na nangangailangan sa iyo na i-upload ang iyong mga file sa isang server, pinoproseso ng aming tool ang lahat nang lokal sa iyong device gamit ang mga advanced na teknolohiya ng browser. Tinitiyak nito ang maximum na privacy at bilis, dahil ang iyong mga larawan ay hindi kailanman umaalis sa iyong computer o telepono."
+        },
+        "howTo": {
+            "title": "Paano Gamitin ang Image Converter",
+            "steps": [
+                "I-drag at i-drop ang iyong file ng imahe sa kahon o mag-click upang pumili ng isa",
+                "Piliin ang iyong nais na format ng output (PNG, JPG, WebP, atbp.)",
+                "Ayusin ang slider ng kalidad kung nagko-convert ka sa JPG o WebP",
+                "I-click ang 'I-download ang Na-convert na Imahe' upang i-save ang bagong file agad"
+            ]
+        },
+        "features": {
+            "title": "Mga Pangunahing Tampok",
+            "list": [
+                "🔒 100% Pribado: Walang pag-upload sa server, lahat ng pagpoproseso ay lokal",
+                "⚡ Napakabilis: Agarang conversion gamit ang lakas ng iyong device",
+                "📱 Mobile Friendly: Gumagana nang perpekto sa mga telepono at tablet",
+                "🎨 Mataas na Kalidad: Kontrolin ang mga antas ng compression para sa JPG at WebP",
+                "🔄 Multi-Format: Suporta para sa PNG, JPG, WebP, at GIF",
+                "🆓 Ganap na Libre: Walang limitasyon sa laki ng file o paggamit"
+            ]
+        },
+        "faq": {
+            "title": "Mga Madalas Itanong",
+            "questions": [
+                {
+                    "q": "Ligtas bang i-convert ang mga pribadong larawan?",
+                    "a": "Oo, naman. Dahil ang conversion ay nangyayari nang buo sa loob ng iyong browser, ang iyong mga imahe ay hindi kailanman ina-upload sa anumang server. Garantisado ang iyong privacy."
+                },
+                {
+                    "q": "Binabawasan ba nito ang kalidad ng imahe?",
+                    "a": "Depende ito sa format at mga setting na pipiliin mo. Ang pag-convert sa PNG ay lossless (walang pagkawala ng kalidad). Para sa JPG at WebP, maaari mong ayusin ang slider ng kalidad upang balansehin ang laki ng file at kalinawan ng imahe."
+                },
+                {
+                    "q": "Maaari ko bang i-convert ang maraming imahe nang sabay-sabay?",
+                    "a": "Sa kasalukuyan, nakatuon kami sa pag-convert ng isang imahe sa isang pagkakataon nang may maximum na katumpakan. Ang mga tampok ng batch conversion ay binalak para sa mga update sa hinaharap."
+                },
+                {
+                    "q": "Bakit gagamit ng format na WebP?",
+                    "a": "Ang WebP ay isang modernong format ng imahe na nagbibigay ng superior compression para sa mga imahe sa web. Madalas itong lumilikha ng mas maliit na laki ng file kaysa sa JPG o PNG habang pinapanatili ang mataas na kalidad, na ginagawang mas mabilis mag-load ang iyong mga website."
+                }
+            ]
+        }
     }
 }

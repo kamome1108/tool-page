@@ -1,23 +1,72 @@
 {
     "meta": {
-        "title": "Image Converter - Chuyển đổi hình ảnh trực tuyến miễn phí",
-        "description": "Chuyển đổi hình ảnh giữa các định dạng PNG, JPG, WebP và GIF trực tuyến. Công cụ chuyển đổi hình ảnh miễn phí, nhanh chóng và an toàn.",
-        "keywords": "image converter, convert image, png to jpg, jpg to png, webp converter"
+        "title": "Image Converter - Convert Images Online for Free (Vietnamese)",
+        "description": "Convert images between PNG, JPG, WebP, and GIF formats online in Vietnamese. Free, fast, and secure image converter tool. No upload required.",
+        "keywords": "image converter, png to jpg, webp converter, image format, free tool, vietnamese"
     },
-    "title": "Image Converter",
-    "description": "Chuyển đổi hình ảnh sang các định dạng khác nhau (PNG, JPG, WebP, GIF).",
-    "dropzone": {
-        "label": "Thả hình ảnh vào đây hoặc nhấp để chọn"
+    "tagline": "Chuyển đổi hình ảnh ngay lập tức trong trình duyệt của bạn mà không cần tải lên",
+    "ui": {
+        "dropzone": {
+            "label": "Thả hình ảnh vào đây hoặc nhấp để chọn"
+        },
+        "format": "Định dạng đích",
+        "quality": "Chất lượng",
+        "convert": "Chuyển đổi hình ảnh",
+        "download": "Tải xuống hình ảnh đã chuyển đổi",
+        "reset": "Chuyển đổi hình ảnh khác",
+        "formats": {
+            "png": "PNG",
+            "jpeg": "JPG",
+            "webp": "WebP",
+            "gif": "GIF"
+        },
+        "processingNote": "💻 Tất cả quá trình xử lý diễn ra trong trình duyệt của bạn. Hình ảnh của bạn không bao giờ rời khỏi thiết bị của bạn."
     },
-    "format": "Định dạng mục tiêu",
-    "quality": "Chất lượng (0-100, cho JPG/WebP)",
-    "convert": "Chuyển đổi hình ảnh",
-    "download": "Tải xuống hình ảnh đã chuyển đổi",
-    "reset": "Đặt lại",
-    "formats": {
-        "png": "PNG",
-        "jpeg": "JPG",
-        "webp": "WebP",
-        "gif": "GIF"
+    "content": {
+        "description": {
+            "title": "Image Converter là gì?",
+            "text": "Image Converter là một công cụ trực tuyến miễn phí, an toàn cho phép bạn chuyển đổi hình ảnh giữa các định dạng phổ biến như PNG, JPG, WebP và GIF trực tiếp trong trình duyệt của bạn. Không giống như các trình chuyển đổi khác yêu cầu bạn tải tệp của mình lên máy chủ, công cụ của chúng tôi xử lý mọi thứ cục bộ trên thiết bị của bạn bằng cách sử dụng các công nghệ trình duyệt tiên tiến. Điều này đảm bảo quyền riêng tư và tốc độ tối đa, vì ảnh của bạn không bao giờ rời khỏi máy tính hoặc điện thoại của bạn."
+        },
+        "howTo": {
+            "title": "Cách sử dụng Image Converter",
+            "steps": [
+                "Kéo và thả tệp hình ảnh của bạn vào hộp hoặc nhấp để chọn một tệp",
+                "Chọn định dạng đầu ra mong muốn của bạn (PNG, JPG, WebP, v.v.)",
+                "Điều chỉnh thanh trượt chất lượng nếu bạn đang chuyển đổi sang JPG hoặc WebP",
+                "Nhấp vào 'Tải xuống hình ảnh đã chuyển đổi' để lưu tệp mới ngay lập tức"
+            ]
+        },
+        "features": {
+            "title": "Các tính năng chính",
+            "list": [
+                "🔒 Riêng tư 100%: Không tải lên máy chủ, tất cả xử lý là cục bộ",
+                "⚡ Cực nhanh: Chuyển đổi ngay lập tức bằng sức mạnh thiết bị của bạn",
+                "📱 Thân thiện với thiết bị di động: Hoạt động hoàn hảo trên điện thoại và máy tính bảng",
+                "🎨 Chất lượng cao: Kiểm soát mức nén cho JPG và WebP",
+                "🔄 Đa định dạng: Hỗ trợ cho PNG, JPG, WebP và GIF",
+                "🆓 Hoàn toàn miễn phí: Không giới hạn kích thước tệp hoặc mức sử dụng"
+            ]
+        },
+        "faq": {
+            "title": "Câu hỏi thường gặp",
+            "questions": [
+                {
+                    "q": "Chuyển đổi ảnh riêng tư có an toàn không?",
+                    "a": "Có, hoàn toàn. Vì quá trình chuyển đổi diễn ra hoàn toàn trong trình duyệt của bạn, hình ảnh của bạn không bao giờ được tải lên bất kỳ máy chủ nào. Quyền riêng tư của bạn được đảm bảo."
+                },
+                {
+                    "q": "Nó có làm giảm chất lượng hình ảnh không?",
+                    "a": "Nó phụ thuộc vào định dạng và cài đặt bạn chọn. Chuyển đổi sang PNG là không mất dữ liệu (không giảm chất lượng). Đối với JPG và WebP, bạn có thể điều chỉnh thanh trượt chất lượng để cân bằng kích thước tệp và độ rõ nét của hình ảnh."
+                },
+                {
+                    "q": "Tôi có thể chuyển đổi nhiều hình ảnh cùng một lúc không?",
+                    "a": "Hiện tại, chúng tôi tập trung vào việc chuyển đổi từng hình ảnh một với độ chính xác tối đa. Các tính năng chuyển đổi hàng loạt được lên kế hoạch cho các bản cập nhật trong tương lai."
+                },
+                {
+                    "q": "Tại sao nên sử dụng định dạng WebP?",
+                    "a": "WebP là một định dạng hình ảnh hiện đại cung cấp khả năng nén vượt trội cho hình ảnh trên web. Nó thường tạo ra kích thước tệp nhỏ hơn JPG hoặc PNG trong khi vẫn duy trì chất lượng cao, giúp trang web của bạn tải nhanh hơn."
+                }
+            ]
+        }
     }
 }

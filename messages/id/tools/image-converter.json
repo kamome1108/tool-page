@@ -1,23 +1,72 @@
 {
     "meta": {
-        "title": "Image Converter - Konversi Gambar Online Gratis",
-        "description": "Konversi gambar antara format PNG, JPG, WebP, dan GIF secara online. Alat konverter gambar gratis, cepat, dan aman.",
-        "keywords": "image converter, convert image, png to jpg, jpg to png, webp converter"
+        "title": "Image Converter - Convert Images Online for Free (Indonesian)",
+        "description": "Convert images between PNG, JPG, WebP, and GIF formats online in Indonesian. Free, fast, and secure image converter tool. No upload required.",
+        "keywords": "image converter, png to jpg, webp converter, image format, free tool, indonesian"
     },
-    "title": "Image Converter",
-    "description": "Konversi gambar ke format yang berbeda (PNG, JPG, WebP, GIF).",
-    "dropzone": {
-        "label": "Jatuhkan gambar di sini, atau klik untuk memilih"
+    "tagline": "Konversi gambar secara instan di browser Anda tanpa mengunggah",
+    "ui": {
+        "dropzone": {
+            "label": "Jatuhkan gambar di sini, atau klik untuk memilih"
+        },
+        "format": "Format Target",
+        "quality": "Kualitas",
+        "convert": "Konversi Gambar",
+        "download": "Unduh Gambar yang Dikonversi",
+        "reset": "Konversi Gambar Lain",
+        "formats": {
+            "png": "PNG",
+            "jpeg": "JPG",
+            "webp": "WebP",
+            "gif": "GIF"
+        },
+        "processingNote": "💻 Semua pemrosesan terjadi di browser Anda. Gambar Anda tidak pernah meninggalkan perangkat Anda."
     },
-    "format": "Format Target",
-    "quality": "Kualitas (0-100, untuk JPG/WebP)",
-    "convert": "Konversi Gambar",
-    "download": "Unduh Gambar Terkonversi",
-    "reset": "Atur Ulang",
-    "formats": {
-        "png": "PNG",
-        "jpeg": "JPG",
-        "webp": "WebP",
-        "gif": "GIF"
+    "content": {
+        "description": {
+            "title": "Apa itu Image Converter?",
+            "text": "Image Converter adalah alat online gratis dan aman yang memungkinkan Anda mengonversi gambar antara format populer seperti PNG, JPG, WebP, dan GIF langsung di browser Anda. Tidak seperti konverter lain yang mengharuskan Anda mengunggah file ke server, alat kami memproses semuanya secara lokal di perangkat Anda menggunakan teknologi browser canggih. Ini memastikan privasi dan kecepatan maksimum, karena foto Anda tidak pernah meninggalkan komputer atau ponsel Anda."
+        },
+        "howTo": {
+            "title": "Cara Menggunakan Image Converter",
+            "steps": [
+                "Seret dan lepas file gambar Anda ke dalam kotak atau klik untuk memilih satu",
+                "Pilih format keluaran yang Anda inginkan (PNG, JPG, WebP, dll.)",
+                "Sesuaikan penggeser kualitas jika Anda mengonversi ke JPG atau WebP",
+                "Klik 'Unduh Gambar yang Dikonversi' untuk menyimpan file baru secara instan"
+            ]
+        },
+        "features": {
+            "title": "Fitur Utama",
+            "list": [
+                "🔒 100% Pribadi: Tidak ada unggahan server, semua pemrosesan bersifat lokal",
+                "⚡ Sangat Cepat: Konversi instan menggunakan kekuatan perangkat Anda",
+                "📱 Ramah Seluler: Bekerja dengan sempurna di ponsel dan tablet",
+                "🎨 Kualitas Tinggi: Kontrol tingkat kompresi untuk JPG dan WebP",
+                "🔄 Multi-Format: Dukungan untuk PNG, JPG, WebP, dan GIF",
+                "🆓 Sepenuhnya Gratis: Tidak ada batasan ukuran file atau penggunaan"
+            ]
+        },
+        "faq": {
+            "title": "Pertanyaan yang Sering Diajukan",
+            "questions": [
+                {
+                    "q": "Apakah aman untuk mengonversi foto pribadi?",
+                    "a": "Ya, tentu saja. Karena konversi terjadi sepenuhnya di dalam browser Anda, gambar Anda tidak pernah diunggah ke server mana pun. Privasi Anda terjamin."
+                },
+                {
+                    "q": "Apakah kualitas gambar berkurang?",
+                    "a": "Itu tergantung pada format dan pengaturan yang Anda pilih. Mengonversi ke PNG adalah lossless (tidak ada penurunan kualitas). Untuk JPG dan WebP, Anda dapat menyesuaikan penggeser kualitas untuk menyeimbangkan ukuran file dan kejelasan gambar."
+                },
+                {
+                    "q": "Bisakah saya mengonversi beberapa gambar sekaligus?",
+                    "a": "Saat ini, kami fokus pada konversi satu gambar dalam satu waktu dengan presisi maksimum. Fitur konversi batch direncanakan untuk pembaruan di masa mendatang."
+                },
+                {
+                    "q": "Mengapa menggunakan format WebP?",
+                    "a": "WebP adalah format gambar modern yang memberikan kompresi superior untuk gambar di web. Ini sering membuat ukuran file lebih kecil daripada JPG atau PNG sambil mempertahankan kualitas tinggi, membuat situs web Anda memuat lebih cepat."
+                }
+            ]
+        }
     }
 }

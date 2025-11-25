@@ -3,7 +3,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { Button } from '@/app/components/ui/Button';
-import { Card } from '@/app/components/ui/Card';
 import { FileDropzone } from '@/app/components/ui/FileDropzone';
 import { ImagePreview } from '@/app/components/ui/ImagePreview';
 import { saveAs } from 'file-saver';
@@ -65,61 +64,64 @@ export default function ImageConverterClient({ locale }: ImageConverterClientPro
 
     return (
         <div className="max-w-4xl mx-auto">
-            <Card padding="lg">
-                {!file ? (
+            {!file ? (
+                <div className="space-y-4">
                     <FileDropzone
                         onFileSelect={processFile}
-                        label={t('dropzone.label')}
+                        label={t('ui.dropzone.label')}
                     />
-                ) : (
-                    <div className="space-y-8">
-                        <ImagePreview src={previewUrl!} />
+                    <p className="text-sm text-gray-500 text-center">
+                        {t('ui.processingNote')}
+                    </p>
+                </div>
+            ) : (
+                <div className="space-y-8 bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                    <ImagePreview src={previewUrl!} />
 
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label className="block text-sm font-medium text-gray-700 mb-1">
+                                {t('ui.format')}
+                            </label>
+                            <select
+                                value={format}
+                                onChange={(e) => setFormat(e.target.value)}
+                                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+                            >
+                                <option value="image/png">{t('ui.formats.png')}</option>
+                                <option value="image/jpeg">{t('ui.formats.jpeg')}</option>
+                                <option value="image/webp">{t('ui.formats.webp')}</option>
+                            </select>
+                        </div>
+                        {(format === 'image/jpeg' || format === 'image/webp') && (
                             <div>
                                 <label className="block text-sm font-medium text-gray-700 mb-1">
-                                    {t('format')}
+                                    {t('ui.quality')} ({Math.round(quality * 100)}%)
                                 </label>
-                                <select
-                                    value={format}
-                                    onChange={(e) => setFormat(e.target.value)}
-                                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
-                                >
-                                    <option value="image/png">{t('formats.png')}</option>
-                                    <option value="image/jpeg">{t('formats.jpeg')}</option>
-                                    <option value="image/webp">{t('formats.webp')}</option>
-                                </select>
+                                <input
+                                    type="range"
+                                    min="0.1"
+                                    max="1"
+                                    step="0.1"
+                                    value={quality}
+                                    onChange={(e) => setQuality(parseFloat(e.target.value))}
+                                    className="w-full"
+                                />
                             </div>
-                            {(format === 'image/jpeg' || format === 'image/webp') && (
-                                <div>
-                                    <label className="block text-sm font-medium text-gray-700 mb-1">
-                                        {t('quality')} ({Math.round(quality * 100)}%)
-                                    </label>
-                                    <input
-                                        type="range"
-                                        min="0.1"
-                                        max="1"
-                                        step="0.1"
-                                        value={quality}
-                                        onChange={(e) => setQuality(parseFloat(e.target.value))}
-                                        className="w-full"
-                                    />
-                                </div>
-                            )}
-                        </div>
-
-                        <div className="flex flex-col sm:flex-row gap-4">
-                            <Button onClick={handleConvertAndDownload} size="lg" className="flex-1">
-                                {t('download')}
-                            </Button>
-                            <Button onClick={handleReset} variant="outline" size="lg">
-                                {t('reset')}
-                            </Button>
-                        </div>
+                        )}
                     </div>
-                )}
-                <canvas ref={canvasRef} className="hidden" />
-            </Card>
+
+                    <div className="flex flex-col sm:flex-row gap-4">
+                        <Button onClick={handleConvertAndDownload} size="lg" className="flex-1">
+                            {t('ui.download')}
+                        </Button>
+                        <Button onClick={handleReset} variant="outline" size="lg">
+                            {t('ui.reset')}
+                        </Button>
+                    </div>
+                </div>
+            )}
+            <canvas ref={canvasRef} className="hidden" />
         </div>
     );
 }
