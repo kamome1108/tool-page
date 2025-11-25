@@ -1,8 +1,8 @@
 {
     "meta": {
-        "title": "JSON Formatter & Validator",
-        "description": "Format, validate, and minify JSON data.",
-        "keywords": "json, formatter, validator, minify, beautify"
+        "title": "JSON Formatter & Validator - Free Online JSON Beautifier Tool",
+        "description": "Free online JSON formatter and validator. Beautify, minify, and validate JSON data instantly in your browser. No signup required. Perfect for developers working with APIs, configuration files, and JSON debugging.",
+        "keywords": "json, formatter, validator, minify, beautify, json online, json tool, json beautifier"
     },
     "ui": {
         "inputJson": "Input JSON",
@@ -16,5 +16,56 @@
         "errorParsing": "❌ Error parsing JSON:",
         "invalidJson": "Invalid JSON",
         "processingNote": "💻 All processing happens in your browser. Your JSON data never leaves your device."
+    },
+    "content": {
+        "description": {
+            "title": "What is JSON Formatter?",
+            "text": "JSON Formatter is a free online tool that helps developers beautify, validate, and minify JSON data. Whether you're working with APIs, configuration files, or debugging web applications, this tool makes JSON data human-readable with proper indentation and syntax highlighting. All processing happens locally in your browser, ensuring your sensitive data never leaves your device."
+        },
+        "howTo": {
+            "title": "How to Use JSON Formatter",
+            "steps": [
+                "Paste your JSON code into the input field",
+                "Click 'Format' to beautify or 'Minify' to compress",
+                "Copy the formatted result with one click",
+                "Adjust indentation spacing if needed"
+            ]
+        },
+        "features": {
+            "title": "Key Features",
+            "list": [
+                "🆓 Completely free, no registration required",
+                "⚡ Instant formatting and validation",
+                "🔒 Privacy-focused: All processing in browser",
+                "🎨 Syntax highlighting for better readability",
+                "📱 Works on mobile and desktop",
+                "♾️ No file size limits"
+            ]
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "questions": [
+                {
+                    "q": "Is JSON Formatter free to use?",
+                    "a": "Yes, this tool is completely free with no limitations on usage or file size. You can format and validate as much JSON data as you need without any registration or payment."
+                },
+                {
+                    "q": "Is my JSON data safe?",
+                    "a": "Absolutely. All processing happens locally in your browser using JavaScript. Your JSON data is never sent to any server, stored, or shared. It's completely private and secure."
+                },
+                {
+                    "q": "What's the difference between Format and Minify?",
+                    "a": "Format (beautify) adds indentation, line breaks, and spacing to make JSON human-readable. Minify removes all whitespace and formatting to reduce file size, which is useful for production environments."
+                },
+                {
+                    "q": "Can I validate JSON syntax?",
+                    "a": "Yes! The tool automatically validates your JSON syntax when you click Format or Minify. If there are any syntax errors, you'll see a detailed error message indicating the problem."
+                },
+                {
+                    "q": "What is the maximum JSON file size?",
+                    "a": "There's no hard limit on file size. However, very large JSON files (>10MB) may slow down your browser. For best performance, we recommend using files under 5MB."
+                }
+            ]
+        }
     }
 }
