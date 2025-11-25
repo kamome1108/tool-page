@@ -125,7 +125,7 @@ export default async function LocaleLayout({
         />
       </head>
       <body
-        className={`${inter.variable} ${jetbrainsMono.variable} antialiased font-sans`}
+        className={`${inter.variable} ${jetbrainsMono.variable} antialiased font-sans overflow-x-hidden w-full`}
       >
         <NextIntlClientProvider messages={messages}>
           <Header locale={resolvedParams.locale} />
