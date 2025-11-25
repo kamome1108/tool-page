@@ -1,9 +1,10 @@
 {
     "meta": {
-        "title": "JSON Formatter & Validator",
-        "description": "Format, validasi, dan perkecil data JSON.",
-        "keywords": "json, formatter, validator, minify, beautify"
+        "title": "JSON Formatter & Validator - Alat Online Gratis (Indonesian)",
+        "description": "Alat format dan validasi JSON online gratis dalam Bahasa Indonesia. Rapikan, kecilkan, dan validasi data JSON secara instan. Tanpa daftar.",
+        "keywords": "json, formatter, validator, indonesia, alat online"
     },
+    "tagline": "Rapikan dan validasi data JSON secara instan di browser Anda",
     "ui": {
         "inputJson": "Input JSON",
         "outputJson": "Output",
@@ -16,5 +17,56 @@
         "errorParsing": "❌ Kesalahan mengurai JSON:",
         "invalidJson": "JSON Tidak Valid",
         "processingNote": "💻 Semua pemrosesan terjadi di browser Anda. Data JSON Anda tidak pernah meninggalkan perangkat Anda."
+    },
+    "content": {
+        "description": {
+            "title": "Apa itu JSON Formatter?",
+            "text": "JSON Formatter adalah alat online gratis yang membantu pengembang merapikan, memvalidasi, dan mengecilkan data JSON. Baik Anda bekerja dengan API, file konfigurasi, atau debugging aplikasi web, alat ini membuat data JSON mudah dibaca manusia dengan indentasi dan penyorotan sintaks yang tepat. Semua pemrosesan terjadi secara lokal di browser Anda, memastikan data sensitif Anda tidak pernah meninggalkan perangkat Anda."
+        },
+        "howTo": {
+            "title": "Cara Menggunakan JSON Formatter",
+            "steps": [
+                "Tempelkan kode JSON Anda ke kolom input",
+                "Klik 'Format' untuk merapikan atau 'Minify' untuk mengecilkan",
+                "Salin hasil yang diformat dengan satu klik",
+                "Sesuaikan spasi indentasi jika diperlukan"
+            ]
+        },
+        "features": {
+            "title": "Fitur Utama",
+            "list": [
+                "🆓 Sepenuhnya gratis, tidak perlu registrasi",
+                "⚡ Format dan validasi instan",
+                "🔒 Berfokus pada privasi: Semua pemrosesan di browser",
+                "🎨 Penyorotan sintaks untuk keterbacaan yang lebih baik",
+                "📱 Bekerja di ponsel dan desktop",
+                "♾️ Tidak ada batas ukuran file"
+            ]
+        },
+        "faq": {
+            "title": "Pertanyaan yang Sering Diajukan",
+            "questions": [
+                {
+                    "q": "Apakah JSON Formatter gratis digunakan?",
+                    "a": "Ya, alat ini sepenuhnya gratis tanpa batasan penggunaan atau ukuran file."
+                },
+                {
+                    "q": "Apakah data JSON saya aman?",
+                    "a": "Tentu saja. Semua pemrosesan terjadi secara lokal di browser Anda menggunakan JavaScript. Data Anda tidak pernah dikirim ke server mana pun."
+                },
+                {
+                    "q": "Apa perbedaan antara Format dan Minify?",
+                    "a": "Format (beautify) menambahkan indentasi untuk membuat JSON mudah dibaca manusia. Minify menghapus semua spasi putih untuk mengurangi ukuran file."
+                },
+                {
+                    "q": "Bisakah saya memvalidasi sintaks JSON?",
+                    "a": "Ya! Alat ini secara otomatis memvalidasi sintaks JSON Anda saat Anda mengklik Format atau Minify."
+                },
+                {
+                    "q": "Berapa ukuran file JSON maksimum?",
+                    "a": "Tidak ada batas keras, tetapi untuk kinerja terbaik kami menyarankan file di bawah 5MB."
+                }
+            ]
+        }
     }
 }

@@ -1,9 +1,10 @@
 {
     "meta": {
-        "title": "JSON Formatter & Validator",
-        "description": "Định dạng, xác thực và thu nhỏ dữ liệu JSON.",
-        "keywords": "json, formatter, validator, minify, beautify"
+        "title": "JSON Formatter & Validator - Công cụ trực tuyến miễn phí (Vietnamese)",
+        "description": "Công cụ định dạng và xác thực JSON trực tuyến miễn phí bằng tiếng Việt. Làm đẹp, thu nhỏ và xác thực dữ liệu JSON ngay lập tức. Không cần đăng ký.",
+        "keywords": "json, định dạng, xác thực, tiếng việt, công cụ trực tuyến"
     },
+    "tagline": "Làm đẹp và xác thực dữ liệu JSON ngay lập tức trong trình duyệt của bạn",
     "ui": {
         "inputJson": "JSON đầu vào",
         "outputJson": "Đầu ra",
@@ -16,5 +17,56 @@
         "errorParsing": "❌ Lỗi phân tích cú pháp JSON:",
         "invalidJson": "JSON không hợp lệ",
         "processingNote": "💻 Tất cả quá trình xử lý diễn ra trong trình duyệt của bạn. Dữ liệu JSON của bạn không bao giờ rời khỏi thiết bị của bạn."
+    },
+    "content": {
+        "description": {
+            "title": "JSON Formatter là gì?",
+            "text": "JSON Formatter là một công cụ trực tuyến miễn phí giúp các nhà phát triển làm đẹp, xác thực và thu nhỏ dữ liệu JSON. Cho dù bạn đang làm việc với API, tệp cấu hình hay gỡ lỗi ứng dụng web, công cụ này giúp dữ liệu JSON dễ đọc đối với con người với thụt đầu dòng và tô sáng cú pháp thích hợp. Tất cả quá trình xử lý diễn ra cục bộ trong trình duyệt của bạn, đảm bảo dữ liệu nhạy cảm của bạn không bao giờ rời khỏi thiết bị của bạn."
+        },
+        "howTo": {
+            "title": "Cách sử dụng JSON Formatter",
+            "steps": [
+                "Dán mã JSON của bạn vào trường nhập liệu",
+                "Nhấp vào 'Format' để làm đẹp hoặc 'Minify' để thu nhỏ",
+                "Sao chép kết quả đã định dạng bằng một cú nhấp chuột",
+                "Điều chỉnh khoảng cách thụt đầu dòng nếu cần"
+            ]
+        },
+        "features": {
+            "title": "Các tính năng chính",
+            "list": [
+                "🆓 Hoàn toàn miễn phí, không cần đăng ký",
+                "⚡ Định dạng và xác thực ngay lập tức",
+                "🔒 Tập trung vào quyền riêng tư: Tất cả xử lý trong trình duyệt",
+                "🎨 Tô sáng cú pháp để dễ đọc hơn",
+                "📱 Hoạt động trên thiết bị di động và máy tính để bàn",
+                "♾️ Không giới hạn kích thước tệp"
+            ]
+        },
+        "faq": {
+            "title": "Câu hỏi thường gặp",
+            "questions": [
+                {
+                    "q": "JSON Formatter có miễn phí sử dụng không?",
+                    "a": "Có, công cụ này hoàn toàn miễn phí mà không có giới hạn về việc sử dụng hoặc kích thước tệp."
+                },
+                {
+                    "q": "Dữ liệu JSON của tôi có an toàn không?",
+                    "a": "Chắc chắn rồi. Tất cả quá trình xử lý diễn ra cục bộ trong trình duyệt của bạn bằng JavaScript. Dữ liệu của bạn không bao giờ được gửi đến bất kỳ máy chủ nào."
+                },
+                {
+                    "q": "Sự khác biệt giữa Format và Minify là gì?",
+                    "a": "Format (làm đẹp) thêm thụt đầu dòng để làm cho JSON dễ đọc đối với con người. Minify loại bỏ tất cả khoảng trắng để giảm kích thước tệp."
+                },
+                {
+                    "q": "Tôi có thể xác thực cú pháp JSON không?",
+                    "a": "Có! Công cụ tự động xác thực cú pháp JSON của bạn khi bạn nhấp vào Format hoặc Minify."
+                },
+                {
+                    "q": "Kích thước tệp JSON tối đa là bao nhiêu?",
+                    "a": "Không có giới hạn cứng, nhưng để có hiệu suất tốt nhất, chúng tôi khuyên dùng các tệp dưới 5MB."
+                }
+            ]
+        }
     }
 }

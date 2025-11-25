@@ -1,9 +1,10 @@
 {
     "meta": {
-        "title": "JSON Formatter & Validator",
-        "description": "I-format, i-validate, at i-minify ang JSON data.",
-        "keywords": "json, formatter, validator, minify, beautify"
+        "title": "JSON Formatter & Validator - Libreng Online Tool (Tagalog)",
+        "description": "Libreng online na JSON formatter at validator sa Tagalog. Pagandahin, paliitin, at i-validate ang JSON data agad. Walang signup na kailangan.",
+        "keywords": "json, formatter, validator, tagalog, online tool"
     },
+    "tagline": "Pagandahin at i-validate ang JSON data agad sa iyong browser",
     "ui": {
         "inputJson": "Input JSON",
         "outputJson": "Output",
@@ -15,6 +16,57 @@
         "spaces": "Mga Puwang",
         "errorParsing": "❌ Error sa pag-parse ng JSON:",
         "invalidJson": "Hindi wastong JSON",
-        "processingNote": "💻 Ang lahat ng pagproseso ay nangyayari sa iyong browser. Ang iyong JSON data ay hindi kailanman umaalis sa iyong device."
+        "processingNote": "💻 Ang lahat ng pagpoproseso ay nangyayari sa iyong browser. Ang iyong JSON data ay hindi kailanman umaalis sa iyong device."
+    },
+    "content": {
+        "description": {
+            "title": "Ano ang JSON Formatter?",
+            "text": "Ang JSON Formatter ay isang libreng online na tool na tumutulong sa mga developer na pagandahin, i-validate, at paliitin ang JSON data. Nagtatrabaho ka man sa mga API, configuration file, o nagde-debug ng mga web application, ginagawa ng tool na ito na nababasa ng tao ang JSON data na may wastong indentation at syntax highlighting. Ang lahat ng pagpoproseso ay nangyayari nang lokal sa iyong browser, na tinitiyak na ang iyong sensitibong data ay hindi kailanman umaalis sa iyong device."
+        },
+        "howTo": {
+            "title": "Paano Gamitin ang JSON Formatter",
+            "steps": [
+                "I-paste ang iyong JSON code sa input field",
+                "I-click ang 'Format' para pagandahin o 'Minify' para paliitin",
+                "Kopyahin ang na-format na resulta sa isang click",
+                "Ayusin ang indentation spacing kung kinakailangan"
+            ]
+        },
+        "features": {
+            "title": "Mga Pangunahing Tampok",
+            "list": [
+                "🆓 Ganap na libre, walang kinakailangang pagpaparehistro",
+                "⚡ Agarang pag-format at validation",
+                "🔒 Nakatuon sa privacy: Lahat ng pagpoproseso sa browser",
+                "🎨 Syntax highlighting para sa mas mahusay na pagbasa",
+                "📱 Gumagana sa mobile at desktop",
+                "♾️ Walang limitasyon sa laki ng file"
+            ]
+        },
+        "faq": {
+            "title": "Mga Madalas Itanong",
+            "questions": [
+                {
+                    "q": "Libre bang gamitin ang JSON Formatter?",
+                    "a": "Oo, ang tool na ito ay ganap na libre nang walang limitasyon sa paggamit o laki ng file."
+                },
+                {
+                    "q": "Ligtas ba ang aking JSON data?",
+                    "a": "Oo naman. Ang lahat ng pagpoproseso ay nangyayari nang lokal sa iyong browser gamit ang JavaScript. Ang iyong data ay hindi kailanman ipinapadala sa anumang server."
+                },
+                {
+                    "q": "Ano ang pagkakaiba sa pagitan ng Format at Minify?",
+                    "a": "Ang Format (beautify) ay nagdaragdag ng indentation upang gawing nababasa ng tao ang JSON. Inaalis ng Minify ang lahat ng whitespace upang bawasan ang laki ng file."
+                },
+                {
+                    "q": "Maaari ko bang i-validate ang JSON syntax?",
+                    "a": "Oo! Awtomatikong bina-validate ng tool ang iyong JSON syntax kapag nag-click ka sa Format o Minify."
+                },
+                {
+                    "q": "Ano ang maximum na laki ng JSON file?",
+                    "a": "Walang hard limit, ngunit para sa pinakamahusay na pagganap inirerekomenda namin ang mga file na wala pang 5MB."
+                }
+            ]
+        }
     }
 }
