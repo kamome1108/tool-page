@@ -4,6 +4,7 @@
         "description": "無料のオンラインJSON整形・検証ツール。JSONデータを瞬時に整形、圧縮、検証できます。登録不要。API開発、設定ファイル編集、JSONデバッグに最適です。",
         "keywords": "json, 整形, バリデーション, 圧縮, フォーマット, json オンライン, json ツール"
     },
+    "tagline": "ブラウザ上でJSONデータを瞬時に整形・検証",
     "ui": {
         "inputJson": "入力JSON",
         "outputJson": "出力",

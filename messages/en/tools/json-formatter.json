@@ -4,6 +4,7 @@
         "description": "Free online JSON formatter and validator. Beautify, minify, and validate JSON data instantly in your browser. No signup required. Perfect for developers working with APIs, configuration files, and JSON debugging.",
         "keywords": "json, formatter, validator, minify, beautify, json online, json tool, json beautifier"
     },
+    "tagline": "Beautify and validate JSON data instantly in your browser",
     "ui": {
         "inputJson": "Input JSON",
         "outputJson": "Output",
