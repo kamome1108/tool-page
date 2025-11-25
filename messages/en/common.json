@@ -18,6 +18,9 @@
         "resultsTitle": "Search Results for \"{query}\"",
         "clear": "Clear search"
     },
+    "relatedTools": {
+        "title": "Related Tools"
+    },
     "meta": {
         "title": "Tool Suite - Free Online Tools for Developers & Creators",
         "description": "A collection of free, privacy-focused online tools including password generators, formatters, and calculators. No sign-up required, runs entirely in your browser."
