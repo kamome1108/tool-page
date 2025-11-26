@@ -1,0 +1,68 @@
+{
+    "meta": {
+        "title": "SVG Placeholder Generator - Tạo Hình Ảnh Giả Tùy Chỉnh",
+        "description": "Tạo hình ảnh giữ chỗ SVG tùy chỉnh cho các dự án web của bạn. Điều chỉnh kích thước, màu sắc và văn bản. Miễn phí, nhanh chóng và không cần tải lên.",
+        "keywords": "svg placeholder, hình ảnh giả, tạo hình ảnh, công cụ phát triển web, svg creator"
+    },
+    "tagline": "Tạo hình ảnh giữ chỗ SVG nhẹ và có thể tùy chỉnh ngay lập tức trong trình duyệt của bạn",
+    "ui": {
+        "width": "Chiều rộng (Width)",
+        "height": "Chiều cao (Height)",
+        "backgroundColor": "Màu nền",
+        "textColor": "Màu văn bản",
+        "text": "Văn bản (Tùy chọn)",
+        "fontSize": "Cỡ chữ",
+        "copy": "Sao chép mã SVG",
+        "download": "Tải xuống SVG",
+        "copied": "Đã sao chép vào clipboard!",
+        "processingNote": "💻 Tất cả quá trình xử lý diễn ra trong trình duyệt của bạn. Không cần gửi yêu cầu đến máy chủ."
+    },
+    "content": {
+        "description": {
+            "title": "SVG Placeholder Generator là gì?",
+            "text": "SVG Placeholder Generator là một công cụ miễn phí dành cho nhà phát triển được thiết kế để tạo hình ảnh giữ chỗ nhẹ cho các dự án web của bạn. Không giống như hình ảnh giữ chỗ truyền thống yêu cầu các yêu cầu HTTP bên ngoài, công cụ của chúng tôi tạo ra mã SVG thuần túy mà bạn có thể nhúng trực tiếp vào HTML hoặc CSS của mình. Điều này đảm bảo tải trang nhanh hơn và hiệu suất tốt hơn. Bạn có thể tùy chỉnh hoàn toàn kích thước, màu sắc và văn bản để phù hợp với yêu cầu thiết kế của mình."
+        },
+        "howTo": {
+            "title": "Cách sử dụng SVG Placeholder Generator",
+            "steps": [
+                "Nhập chiều rộng và chiều cao mong muốn cho hình ảnh giữ chỗ của bạn",
+                "Chọn màu nền và màu văn bản bằng công cụ chọn màu",
+                "Tùy chọn, nhập văn bản tùy chỉnh để hiển thị (mặc định là kích thước)",
+                "Điều chỉnh cỡ chữ nếu cần",
+                "Nhấp vào 'Sao chép mã SVG' để sử dụng ngay hoặc 'Tải xuống SVG' để lưu tệp"
+            ]
+        },
+        "features": {
+            "title": "Các tính năng chính",
+            "list": [
+                "⚡ Nhẹ: Tạo mã SVG thuần túy cho kích thước tệp tối thiểu",
+                "🎨 Có thể tùy chỉnh: Kiểm soát hoàn toàn kích thước, màu sắc và kiểu chữ",
+                "🚀 Nhanh: Tạo ngay lập tức trực tiếp trong trình duyệt của bạn",
+                "🔒 Riêng tư: Không tải lên máy chủ, mọi thứ diễn ra cục bộ",
+                "📱 Đáp ứng: SVG chia tỷ lệ hoàn hảo mà không làm giảm chất lượng",
+                "🆓 Miễn phí: Sử dụng không giới hạn cho các dự án cá nhân và thương mại"
+            ]
+        },
+        "faq": {
+            "title": "Câu hỏi thường gặp",
+            "questions": [
+                {
+                    "q": "Tại sao sử dụng SVG cho hình ảnh giữ chỗ?",
+                    "a": "SVG dựa trên vector, có nghĩa là chúng cực kỳ nhẹ và chia tỷ lệ vô hạn mà không bị vỡ hạt. Chúng hoàn hảo cho các thiết kế đáp ứng và không làm tăng thêm trọng lượng không cần thiết cho việc tải trang của bạn."
+                },
+                {
+                    "q": "Tôi có thể sử dụng công cụ này cho các dự án thương mại không?",
+                    "a": "Chắc chắn rồi! Các SVG được tạo ra là mã tiêu chuẩn hoạt động trong tất cả các trình duyệt hiện đại. Bạn có thể sử dụng chúng làm 'src' trong thẻ hình ảnh hoặc làm hình nền trong CSS."
+                },
+                {
+                    "q": "Tôi có cần ghi công cụ này không?",
+                    "a": "Không cần ghi công. Bạn có thể tự do sử dụng các hình ảnh giữ chỗ đã tạo trong bất kỳ dự án nào, cá nhân hoặc thương mại."
+                },
+                {
+                    "q": "Có giới hạn kích thước hình ảnh không?",
+                    "a": "Về mặt kỹ thuật là không, nhưng đối với kích thước rất lớn, bạn có thể muốn đảm bảo cỡ chữ được điều chỉnh phù hợp để vẫn có thể nhìn thấy."
+                }
+            ]
+        }
+    }
+}

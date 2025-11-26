@@ -1,28 +1,27 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
-import ToolLayout from '@/app/components/ToolLayout';
 import UnixTimestampConverterClient from './UnixTimestampConverterClient';
+import ToolJsonLd from '@/app/components/ToolJsonLd';
+import { getToolContent } from '@/app/utils/tool-content';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
-    const { locale } = await params;
-    const t = await getTranslations({ locale, namespace: 'Tools.unix-timestamp-converter' });
+type Props = {
+    params: Promise<{ locale: string }>;
+};
 
-    return {
-        title: t('meta.title'),
-        description: t('meta.description'),
-    };
-}
-
-export default async function UnixTimestampConverterPage({ params }: { params: Promise<{ locale: string }> }) {
+export default async function UnixTimestampConverterPage({ params }: Props) {
     const { locale } = await params;
     setRequestLocale(locale);
     const t = await getTranslations({ locale, namespace: 'Tools.unix-timestamp-converter' });
+    const content = getToolContent(t);
 
     return (
-        <ToolLayout
-            title={t('title')}
-            description={t('description')}
-        >
-            <UnixTimestampConverterClient locale={locale} />
-        </ToolLayout>
+        <>
+            <ToolJsonLd
+                content={content}
+                baseUrl="https://tools.kamo-me.com"
+                locale={locale}
+                slug="unix-timestamp-converter"
+            />
+            <UnixTimestampConverterClient locale={locale} content={content} />
+        </>
     );
 }

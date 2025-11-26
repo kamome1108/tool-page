@@ -1,6 +1,8 @@
 import { Metadata } from 'next';
-import { getTranslations } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import JwtDecoderClient from './JwtDecoderClient';
+import ToolJsonLd from '@/app/components/ToolJsonLd';
+import { getToolContent } from '@/app/utils/tool-content';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
     const { locale } = await params;
@@ -12,7 +14,25 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     };
 }
 
-export default async function JwtDecoderPage({ params }: { params: Promise<{ locale: string }> }) {
+type Props = {
+    params: Promise<{ locale: string }>;
+};
+
+export default async function JwtDecoderPage({ params }: Props) {
     const { locale } = await params;
-    return <JwtDecoderClient />;
+    setRequestLocale(locale);
+    const t = await getTranslations({ locale, namespace: 'Tools.jwt-decoder' });
+    const content = getToolContent(t);
+
+    return (
+        <>
+            <ToolJsonLd
+                content={content}
+                baseUrl="https://tools.kamo-me.com"
+                locale={locale}
+                slug="jwt-decoder"
+            />
+            <JwtDecoderClient locale={locale} content={content} />
+        </>
+    );
 }

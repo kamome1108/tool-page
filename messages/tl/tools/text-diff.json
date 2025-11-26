@@ -1,10 +1,9 @@
 {
     "meta": {
         "title": "Text Diff Checker - Paghambingin ang Dalawang Teksto Online",
-        "description": "Libreng online na Text Diff Checker. Paghambingin ang dalawang teksto at hanapin ang mga pagkakaiba agad. I-highlight ang mga idinagdag, tinanggal, at binago. Kapaki-pakinabang para sa code, dokumento, at listahan."
+        "description": "Libreng online na Text Diff Checker. Paghambingin ang dalawang teksto at hanapin ang mga pagkakaiba agad. I-highlight ang mga idinagdag, tinanggal, at binago."
     },
-    "title": "Text Diff Checker",
-    "description": "Paghambingin ang dalawang teksto at i-highlight ang mga pagkakaiba.",
+    "tagline": "Paghambingin ang dalawang teksto at i-highlight ang mga pagkakaiba agad",
     "ui": {
         "original": "Orihinal na Teksto",
         "modified": "Binagong Teksto",
@@ -15,6 +14,50 @@
         "legend": "Legend",
         "removed": "Tinanggal",
         "added": "Idinagdag",
-        "unchanged": "Walang Pagbabago"
+        "unchanged": "Walang Pagbabago",
+        "processingNote": "🔒 Lahat ng pagproseso ay ginagawa sa iyong browser."
+    },
+    "content": {
+        "description": {
+            "title": "Ano ang Text Diff Checker?",
+            "text": "Ang Text Diff Checker ay isang makapangyarihang online tool na nagbibigay-daan sa iyo na paghambingin ang dalawang bloke ng teksto at agad na makita ang mga pagkakaiba. I-highlight nito ang mga idinagdag, tinanggal, at binagong linya, na ginagawang madali ang pagsubaybay sa mga pagbabago sa pagitan ng mga bersyon ng code, dokumento, o listahan."
+        },
+        "howTo": {
+            "title": "Paano Gamitin ang Text Diff Checker",
+            "steps": [
+                "I-paste ang orihinal na teksto sa kaliwang panel",
+                "I-paste ang binagong teksto sa kanang panel",
+                "Awtomatikong paghahambingin ng tool ang mga teksto",
+                "Tingnan ang mga naka-highlight na pagkakaiba sa ibaba",
+                "Ang pula ay nagpapahiwatig ng tinanggal na teksto, ang berde ay nagpapahiwatig ng idinagdag na teksto"
+            ]
+        },
+        "features": {
+            "title": "Pangunahing Tampok",
+            "list": [
+                "⚡ Mabilis na Paghahambing: Makita ang mga pagkakaiba habang nagta-type",
+                "🎨 Color-Coded Highlights: Madaling makilala ang mga idinagdag at tinanggal",
+                "🔒 Ligtas: Ang paghahambing ay nangyayari nang lokal sa iyong browser",
+                "📝 Side-by-Side View: Paghambingin ang mga teksto nang mahusay",
+                "🆓 Libre at Walang Limitasyon: Walang limitasyon sa paggamit"
+            ]
+        },
+        "faq": {
+            "title": "Madalas Itanong",
+            "questions": [
+                {
+                    "q": "Ipinapadala ba ang aking teksto sa server?",
+                    "a": "Hindi, lahat ng paghahambing ay ginagawa nang buo sa iyong browser gamit ang JavaScript. Ang iyong teksto ay hindi kailanman umaalis sa iyong device."
+                },
+                {
+                    "q": "Pwede ko bang paghambingin ang code snippets?",
+                    "a": "Oo, ang tool na ito ay mahusay para sa paghahambing ng code snippets, configuration files, o anumang iba pang nilalaman na batay sa teksto."
+                },
+                {
+                    "q": "May limitasyon ba sa haba ng teksto?",
+                    "a": "Walang mahigpit na limitasyon, ngunit ang napakahabang teksto ay maaaring magpabagal nang bahagya sa iyong browser. Kaya nitong hawakan ang karaniwang laki ng dokumento nang madali."
+                }
+            ]
+        }
     }
 }

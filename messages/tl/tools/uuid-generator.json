@@ -1,10 +1,9 @@
 {
     "meta": {
-        "title": "UUID Generator - Gumawa ng Random na UUIDs Online",
-        "description": "Libreng online na UUID Generator. Gumawa ng random na UUIDs (v4) agad. Gumawa ng isa o maraming UUIDs, kopyahin sa clipboard, at i-download bilang text."
+        "title": "UUID Generator - Gumawa ng Random UUIDs Online",
+        "description": "Libreng online na UUID Generator. Gumawa ng random UUIDs (v4) agad. Gumawa ng isa o marami, kopyahin sa clipboard, at i-download bilang text."
     },
-    "title": "UUID Generator",
-    "description": "Gumawa ng random na UUIDs (Universally Unique Identifiers) version 4.",
+    "tagline": "Gumawa ng random UUIDs (v4) agad sa iyong browser",
     "ui": {
         "generate": "Gumawa ng UUIDs",
         "quantity": "Dami",
@@ -14,6 +13,49 @@
         "copied": "Nakopya na!",
         "download": "I-download ang Listahan",
         "clear": "I-clear",
-        "generated": "Nagawa na UUIDs"
+        "generated": "Nagawa na UUIDs",
+        "processingNote": "🔒 Lahat ng pagproseso ay ginagawa sa iyong browser."
+    },
+    "content": {
+        "description": {
+            "title": "Ano ang UUID Generator?",
+            "text": "Ang UUID Generator ay isang tool para sa mga developer na gumagawa ng Universally Unique Identifiers (UUIDs) version 4. Ang mga 128-bit identifier na ito ay random na ginagawa at garantisadong natatangi sa lahat ng device at oras. Malawakang ginagamit ang mga ito sa software development para sa database keys, session IDs, at iba pa."
+        },
+        "howTo": {
+            "title": "Paano Gamitin ang UUID Generator",
+            "steps": [
+                "Piliin ang bilang ng UUIDs na gusto mong gawin (default ay 1)",
+                "I-click ang 'Gumawa ng UUIDs' para gumawa ng mga bagong identifier",
+                "I-click ang 'Kopyahin Lahat' para kopyahin ang listahan sa iyong clipboard",
+                "Gamitin ang 'I-download ang Listahan' para i-save bilang text file"
+            ]
+        },
+        "features": {
+            "title": "Pangunahing Tampok",
+            "list": [
+                "⚡ Mabilis na Paggawa: Gumawa ng hanggang 100 UUIDs nang sabay-sabay",
+                "🔒 Ligtas: Ginagawa nang lokal sa iyong browser gamit ang crypto API",
+                "📋 Maramihang Aksyon: Madaling kopyahin o i-download ang mga nagawang UUID",
+                "🆔 Sumusunod sa Standard: Gumagawa ng valid na RFC 4122 v4 UUIDs",
+                "🆓 Libre at Walang Limitasyon: Walang limitasyon sa paggamit"
+            ]
+        },
+        "faq": {
+            "title": "Madalas Itanong",
+            "questions": [
+                {
+                    "q": "Ano ang UUID v4?",
+                    "a": "Ang Version 4 UUIDs ay ginagawa gamit ang mga random na numero. Hindi tulad ng ibang bersyon na gumagamit ng MAC addresses o timestamps, ang v4 ay nakadepende lamang sa randomness, kaya angkop ito para sa karamihan ng gamit kung saan kailangan ang privacy at uniqueness."
+                },
+                {
+                    "q": "May posibilidad ba na magkaroon ng duplicate?",
+                    "a": "Sa teorya ay oo, pero sa praktikal ay hindi. Ang posibilidad na makagawa ng dalawang magkaparehong v4 UUIDs ay napakaliit kaya maaari itong ipagwalang-bahala."
+                },
+                {
+                    "q": "Naka-save ba ang mga UUID na ito sa inyong server?",
+                    "a": "Hindi, ang mga UUID ay ginagawa sa client-side gamit ang cryptographic capabilities ng iyong browser. Hindi namin ito itinatago o nakikita."
+                }
+            ]
+        }
     }
 }

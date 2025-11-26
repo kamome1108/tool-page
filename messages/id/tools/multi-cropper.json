@@ -1,19 +1,64 @@
 {
     "meta": {
-        "title": "Multi Image Cropper",
-        "description": "Pangkas beberapa area dari satu gambar dan unduh secara individual atau sebagai ZIP.",
-        "keywords": "crop, image, multi crop, zip, download"
+        "title": "Pemotong Banyak Gambar - Potong Banyak Area Online",
+        "description": "Alat pemotong banyak gambar online gratis. Potong banyak area dari satu gambar dan unduh secara individual atau sebagai file ZIP."
     },
+    "tagline": "Potong banyak area dari gambar secara instan",
     "ui": {
+        "title": "Pemotong Banyak Gambar",
+        "description": "Potong banyak area dari gambar dan unduh secara individual atau sebagai ZIP.",
         "uploadImage": "Klik untuk Mengunggah Gambar",
         "supports": "Mendukung JPG, PNG, WebP",
         "reset": "Atur Ulang Gambar",
         "downloadZip": "Unduh ZIP",
-        "crops": "Pangkasan",
-        "noCrops": "Belum ada pangkasan yang dipilih.",
-        "dragInstruction": "✂️ Klik dan seret untuk membuat area pangkas",
+        "crops": "Potongan",
+        "noCrops": "Belum ada potongan yang dipilih.",
+        "dragInstruction": "✂️ Klik dan seret untuk membuat area potong",
         "processingNote": "✂️ Semua pemrosesan terjadi di browser Anda. Gambar Anda tidak pernah meninggalkan perangkat Anda.",
         "download": "Unduh",
         "delete": "Hapus"
+    },
+    "content": {
+        "description": {
+            "title": "Apa itu Pemotong Banyak Gambar?",
+            "text": "Pemotong Banyak Gambar adalah alat online gratis yang memungkinkan Anda memilih dan memotong banyak area dari satu gambar secara bersamaan. Daripada memotong satu per satu, Anda dapat menentukan beberapa wilayah dan mengunduh semuanya sekaligus."
+        },
+        "howTo": {
+            "title": "Cara Menggunakan Pemotong Banyak Gambar",
+            "steps": [
+                "Unggah gambar dengan mengklik area unggah",
+                "Klik dan seret pada gambar untuk membuat area potong",
+                "Ulangi untuk membuat beberapa area potong",
+                "Sesuaikan ukuran dan posisi setiap area potong sesuai kebutuhan",
+                "Klik 'Unduh' pada potongan individual atau 'Unduh ZIP' untuk mendapatkan semua potongan sekaligus"
+            ]
+        },
+        "features": {
+            "title": "Fitur Utama",
+            "list": [
+                "✂️ Multi-Potong: Pilih banyak area dari satu gambar",
+                "📦 Unduhan ZIP: Unduh semua gambar yang dipotong dalam satu file ZIP",
+                "🖼️ Dukungan Format: Mendukung format JPG, PNG, dan WebP",
+                "🔒 Aman: Pemrosesan terjadi secara lokal di browser Anda",
+                "🆓 Gratis & Tidak Terbatas: Tidak ada batasan penggunaan"
+            ]
+        },
+        "faq": {
+            "title": "Pertanyaan yang Sering Diajukan",
+            "questions": [
+                {
+                    "q": "Apakah gambar saya dikirim ke server?",
+                    "a": "Tidak, semua pemrosesan gambar dilakukan sepenuhnya di dalam browser Anda menggunakan JavaScript. Gambar Anda tidak pernah meninggalkan perangkat Anda."
+                },
+                {
+                    "q": "Bisakah saya memotong banyak gambar sekaligus?",
+                    "a": "Saat ini, alat ini berfokus pada memotong banyak area dari *satu* gambar. Untuk memotong banyak gambar yang berbeda, Anda perlu memprosesnya satu per satu."
+                },
+                {
+                    "q": "Format gambar apa yang didukung?",
+                    "a": "Kami mendukung format gambar web umum termasuk JPG, PNG, dan WebP."
+                }
+            ]
+        }
     }
 }

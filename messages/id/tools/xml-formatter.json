@@ -1,21 +1,65 @@
 {
     "meta": {
-        "title": "XML Formatter - Format & Perkecil XML Online",
-        "description": "Alat formatter dan minifier XML online gratis. Percantik atau kompres kode XML Anda dengan indentasi yang tepat."
+        "title": "Pemformat XML - Format & Minify XML Online",
+        "description": "Alat pemformat dan pengecil XML online gratis. Percantik atau kompres kode XML Anda dengan indentasi yang tepat. Validasi sintaks XML secara instan."
     },
+    "tagline": "Format, minify, dan validasi kode XML secara instan",
     "ui": {
-        "title": "XML Formatter",
-        "description": "Format atau perkecil kode XML Anda.",
+        "title": "Pemformat XML",
+        "description": "Format atau minify kode XML Anda.",
         "inputLabel": "Input XML",
         "inputPlaceholder": "Tempel XML Anda di sini...",
-        "outputLabel": "XML yang Diformat",
+        "outputLabel": "XML Terformat",
         "format": "Format XML",
-        "minify": "Perkecil XML",
+        "minify": "Minify XML",
         "clear": "Bersihkan",
         "copy": "Salin",
         "success": "XML berhasil diformat!",
-        "minifySuccess": "XML berhasil diperkecil!",
+        "minifySuccess": "XML berhasil diminify!",
         "error": "Format XML tidak valid",
-        "copied": "Disalin ke papan klip!"
+        "copied": "Disalin ke papan klip!",
+        "processingNote": "🔒 Semua pemrosesan dilakukan di browser Anda."
+    },
+    "content": {
+        "description": {
+            "title": "Apa itu Pemformat XML?",
+            "text": "Pemformat XML adalah alat online gratis yang dirancang untuk membantu pengembang memformat, mengecilkan, dan memvalidasi data XML. Ini mengubah XML yang tidak dapat dibaca atau diminimalkan menjadi format terstruktur yang mudah dibaca dengan indentasi yang tepat, atau mengompresnya untuk penyimpanan dan transmisi yang efisien."
+        },
+        "howTo": {
+            "title": "Cara Menggunakan Pemformat XML",
+            "steps": [
+                "Tempelkan kode XML Anda ke dalam kotak input",
+                "Klik 'Format XML' untuk mempercantik kode dengan indentasi yang tepat",
+                "Klik 'Minify XML' untuk menghapus spasi putih dan mengurangi ukuran file",
+                "Gunakan tombol 'Salin' untuk menyalin hasil ke papan klip Anda"
+            ]
+        },
+        "features": {
+            "title": "Fitur Utama",
+            "list": [
+                "⚡ Pemformatan Instan: Percantik kode XML secara instan",
+                "📦 Minifikasi: Kompres XML dengan menghapus spasi putih yang tidak perlu",
+                "✅ Validasi Sintaks: Secara otomatis memeriksa kesalahan sintaks XML",
+                "🔒 Aman: Pemrosesan terjadi secara lokal di browser Anda",
+                "🆓 Gratis & Tidak Terbatas: Tidak ada batasan penggunaan"
+            ]
+        },
+        "faq": {
+            "title": "Pertanyaan yang Sering Diajukan",
+            "questions": [
+                {
+                    "q": "Apakah data XML saya dikirim ke server?",
+                    "a": "Tidak, semua pemformatan dan validasi dilakukan sepenuhnya di dalam browser Anda menggunakan JavaScript. Data Anda tidak pernah meninggalkan perangkat Anda."
+                },
+                {
+                    "q": "Apakah ini menangani file XML besar?",
+                    "a": "Ya, ini dapat menangani file XML yang cukup besar secara efisien dalam batas memori browser Anda."
+                },
+                {
+                    "q": "Bisakah ini memperbaiki XML yang tidak valid?",
+                    "a": "Ini dapat membantu mengidentifikasi kesalahan sintaks, tetapi tidak dapat secara otomatis memperbaiki struktur XML yang rusak. Anda perlu memperbaiki kesalahan berdasarkan umpan balik yang diberikan."
+                }
+            ]
+        }
     }
 }

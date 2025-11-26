@@ -1,28 +1,27 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
-import ToolLayout from '@/app/components/ToolLayout';
 import HtmlEntityEncoderDecoderClient from './HtmlEntityEncoderDecoderClient';
+import ToolJsonLd from '@/app/components/ToolJsonLd';
+import { getToolContent } from '@/app/utils/tool-content';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
-    const { locale } = await params;
-    const t = await getTranslations({ locale, namespace: 'Tools.html-entity-encoder-decoder' });
+type Props = {
+    params: Promise<{ locale: string }>;
+};
 
-    return {
-        title: t('meta.title'),
-        description: t('meta.description'),
-    };
-}
-
-export default async function HtmlEntityEncoderDecoderPage({ params }: { params: Promise<{ locale: string }> }) {
+export default async function HtmlEntityEncoderDecoderPage({ params }: Props) {
     const { locale } = await params;
     setRequestLocale(locale);
     const t = await getTranslations({ locale, namespace: 'Tools.html-entity-encoder-decoder' });
+    const content = getToolContent(t);
 
     return (
-        <ToolLayout
-            title={t('title')}
-            description={t('description')}
-        >
-            <HtmlEntityEncoderDecoderClient locale={locale} />
-        </ToolLayout>
+        <>
+            <ToolJsonLd
+                content={content}
+                baseUrl="https://tools.kamo-me.com"
+                locale={locale}
+                slug="html-entity-encoder-decoder"
+            />
+            <HtmlEntityEncoderDecoderClient locale={locale} content={content} />
+        </>
     );
 }

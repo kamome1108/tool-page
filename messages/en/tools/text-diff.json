@@ -3,8 +3,7 @@
         "title": "Text Diff Checker - Compare Two Texts Online",
         "description": "Free online Text Diff Checker. Compare two texts and find differences instantly. Highlights additions, deletions, and changes. Useful for code, documents, and lists."
     },
-    "title": "Text Diff Checker",
-    "description": "Compare two texts and highlight the differences.",
+    "tagline": "Compare two texts and highlight differences instantly",
     "ui": {
         "original": "Original Text",
         "modified": "Modified Text",
@@ -15,6 +14,50 @@
         "legend": "Legend",
         "removed": "Removed",
         "added": "Added",
-        "unchanged": "Unchanged"
+        "unchanged": "Unchanged",
+        "processingNote": "🔒 All processing is done in your browser."
+    },
+    "content": {
+        "description": {
+            "title": "What is Text Diff Checker?",
+            "text": "Text Diff Checker is a powerful online tool that allows you to compare two blocks of text and instantly spot the differences. It highlights added, removed, and modified lines, making it easy to track changes between versions of code, documents, or lists."
+        },
+        "howTo": {
+            "title": "How to Use Text Diff Checker",
+            "steps": [
+                "Paste the original text into the left panel",
+                "Paste the modified text into the right panel",
+                "The tool automatically compares the texts",
+                "View the highlighted differences below",
+                "Red indicates removed text, Green indicates added text"
+            ]
+        },
+        "features": {
+            "title": "Key Features",
+            "list": [
+                "⚡ Instant Comparison: See differences as you type",
+                "🎨 Color-Coded Highlights: Easily distinguish between additions and deletions",
+                "🔒 Secure: Comparison happens locally in your browser",
+                "📝 Side-by-Side View: Compare texts efficiently",
+                "🆓 Free & Unlimited: No usage limits"
+            ]
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "questions": [
+                {
+                    "q": "Is my text sent to a server?",
+                    "a": "No, all comparisons are performed entirely within your browser using JavaScript. Your text never leaves your device."
+                },
+                {
+                    "q": "Can I compare code snippets?",
+                    "a": "Yes, this tool is excellent for comparing code snippets, configuration files, or any other text-based content."
+                },
+                {
+                    "q": "Is there a limit on text length?",
+                    "a": "There is no strict limit, but extremely large texts might slow down your browser slightly. It handles typical document sizes with ease."
+                }
+            ]
+        }
     }
 }

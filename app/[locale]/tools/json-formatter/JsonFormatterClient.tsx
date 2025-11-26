@@ -4,8 +4,14 @@ import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Button } from '@/app/components/ui/Button';
 import EnhancedToolLayout from '@/app/components/EnhancedToolLayout';
+import { ToolContent } from '@/app/types/tool';
 
-export default function JsonFormatterClient({ locale }: { locale: string }) {
+interface Props {
+    locale: string;
+    content: ToolContent;
+}
+
+export default function JsonFormatterClient({ locale, content }: Props) {
     const t = useTranslations('Tools.json-formatter');
 
     const [input, setInput] = useState('');
@@ -49,40 +55,11 @@ export default function JsonFormatterClient({ locale }: { locale: string }) {
         }
     };
 
-    // Prepare content data for the layout
-    const description = {
-        title: t('content.description.title'),
-        text: t('content.description.text')
-    };
-
-    const howTo = {
-        title: t('content.howTo.title'),
-        steps: [0, 1, 2, 3].map(i => t(`content.howTo.steps.${i}`))
-    };
-
-    const features = {
-        title: t('content.features.title'),
-        list: [0, 1, 2, 3, 4, 5].map(i => t(`content.features.list.${i}`))
-    };
-
-    const faq = {
-        title: t('content.faq.title'),
-        questions: [0, 1, 2, 3, 4].map(i => ({
-            q: t(`content.faq.questions.${i}.q`),
-            a: t(`content.faq.questions.${i}.a`)
-        }))
-    };
-
     return (
         <EnhancedToolLayout
-            title={t('meta.title')}
-            tagline={t('tagline')}
+            {...content}
             toolId="json-formatter"
             locale={locale}
-            description={description}
-            howTo={howTo}
-            features={features}
-            faq={faq}
         >
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 h-auto lg:h-[600px]">
                 {/* Input */}

@@ -1,19 +1,61 @@
 {
     "meta": {
-        "title": "CSS Minifier - Minify CSS Online",
-        "description": "Free online CSS minifier tool. Compress your CSS code by removing whitespace and comments to reduce file size."
+        "title": "CSS Minifier - Compress CSS Code Online",
+        "description": "Minify and compress your CSS code to reduce file size and improve website load speed. Free online CSS minifier tool.",
+        "keywords": "css minifier, css compressor, minify css, optimize css, web development tool"
     },
+    "tagline": "Compress your CSS code instantly to boost website performance",
     "ui": {
-        "title": "CSS Minifier",
-        "description": "Minify your CSS code to reduce file size.",
-        "inputLabel": "Input CSS",
-        "inputPlaceholder": "Paste your CSS here...",
+        "inputLabel": "Paste your CSS here",
         "outputLabel": "Minified CSS",
         "minify": "Minify CSS",
         "clear": "Clear",
         "copy": "Copy",
+        "copied": "Copied to clipboard!",
         "success": "CSS minified successfully!",
-        "error": "Failed to minify CSS",
-        "copied": "Copied to clipboard!"
+        "error": "Invalid CSS. Please check your input.",
+        "processingNote": "💻 All processing happens in your browser. Your code is never sent to a server."
+    },
+    "content": {
+        "description": {
+            "title": "What is CSS Minifier?",
+            "text": "CSS Minifier is a free online tool that compresses your CSS code by removing unnecessary characters like whitespace, comments, and newlines. This process, known as minification, significantly reduces the file size of your stylesheets, leading to faster page load times and improved SEO performance. It's an essential step for deploying production-ready websites."
+        },
+        "howTo": {
+            "title": "How to Use CSS Minifier",
+            "steps": [
+                "Paste your CSS code into the input box",
+                "Click the 'Minify CSS' button",
+                "The compressed CSS will appear in the output box instantly",
+                "Click 'Copy' to copy the minified code to your clipboard"
+            ]
+        },
+        "features": {
+            "title": "Key Features",
+            "list": [
+                "⚡ Instant Compression: Minifies your CSS in milliseconds",
+                "🔒 Privacy Focused: All processing is done locally in your browser",
+                "📉 Size Reduction: Significantly reduces CSS file size",
+                "🚀 Performance Boost: Helps your website load faster",
+                "🆓 Free to Use: No limits on usage or file size"
+            ]
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "questions": [
+                {
+                    "q": "Why should I minify my CSS?",
+                    "a": "Minifying CSS reduces the file size, which means the browser can download and parse it faster. This improves your website's loading speed and user experience."
+                },
+                {
+                    "q": "Is it safe to use this tool?",
+                    "a": "Yes, completely. The tool runs entirely in your browser using JavaScript. Your code is never uploaded to any server."
+                },
+                {
+                    "q": "Will minification break my CSS?",
+                    "a": "No, minification only removes unnecessary characters (like spaces and comments) that are not required for the browser to understand the code. The functionality remains exactly the same."
+                }
+            ]
+        }
     }
 }

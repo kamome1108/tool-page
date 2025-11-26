@@ -1,10 +1,12 @@
 {
     "meta": {
-        "title": "Multi Image Cropper",
-        "description": "Cắt nhiều vùng từ một hình ảnh và tải xuống riêng lẻ hoặc dưới dạng ZIP.",
-        "keywords": "crop, image, multi crop, zip, download"
+        "title": "Trình cắt nhiều ảnh - Cắt nhiều vùng trực tuyến",
+        "description": "Công cụ cắt nhiều ảnh trực tuyến miễn phí. Cắt nhiều vùng từ một hình ảnh và tải xuống riêng lẻ hoặc dưới dạng tệp ZIP."
     },
+    "tagline": "Cắt nhiều vùng từ một hình ảnh ngay lập tức",
     "ui": {
+        "title": "Trình cắt nhiều ảnh",
+        "description": "Cắt nhiều vùng từ một hình ảnh và tải xuống riêng lẻ hoặc dưới dạng ZIP.",
         "uploadImage": "Nhấp để tải lên hình ảnh",
         "supports": "Hỗ trợ JPG, PNG, WebP",
         "reset": "Đặt lại hình ảnh",
@@ -15,5 +17,48 @@
         "processingNote": "✂️ Tất cả quá trình xử lý diễn ra trong trình duyệt của bạn. Hình ảnh của bạn không bao giờ rời khỏi thiết bị của bạn.",
         "download": "Tải xuống",
         "delete": "Xóa"
+    },
+    "content": {
+        "description": {
+            "title": "Trình cắt nhiều ảnh là gì?",
+            "text": "Trình cắt nhiều ảnh là một công cụ trực tuyến miễn phí cho phép bạn chọn và cắt nhiều vùng từ một hình ảnh cùng một lúc. Thay vì cắt từng cái một, bạn có thể xác định nhiều vùng và tải xuống tất cả chúng cùng một lúc."
+        },
+        "howTo": {
+            "title": "Cách sử dụng Trình cắt nhiều ảnh",
+            "steps": [
+                "Tải lên hình ảnh bằng cách nhấp vào vùng tải lên",
+                "Nhấp và kéo trên hình ảnh để tạo vùng cắt",
+                "Lặp lại để tạo nhiều vùng cắt",
+                "Điều chỉnh kích thước và vị trí của từng vùng cắt nếu cần",
+                "Nhấp vào 'Tải xuống' trên từng vùng cắt hoặc 'Tải xuống ZIP' để lấy tất cả các vùng cắt cùng một lúc"
+            ]
+        },
+        "features": {
+            "title": "Các tính năng chính",
+            "list": [
+                "✂️ Đa cắt: Chọn nhiều vùng từ một hình ảnh",
+                "📦 Tải xuống ZIP: Tải xuống tất cả các hình ảnh đã cắt trong một tệp ZIP",
+                "🖼️ Hỗ trợ định dạng: Hỗ trợ các định dạng JPG, PNG và WebP",
+                "🔒 An toàn: Quá trình xử lý diễn ra cục bộ trong trình duyệt của bạn",
+                "🆓 Miễn phí & Không giới hạn: Không giới hạn sử dụng"
+            ]
+        },
+        "faq": {
+            "title": "Câu hỏi thường gặp",
+            "questions": [
+                {
+                    "q": "Hình ảnh của tôi có được gửi đến máy chủ không?",
+                    "a": "Không, tất cả quá trình xử lý hình ảnh được thực hiện hoàn toàn trong trình duyệt của bạn bằng JavaScript. Hình ảnh của bạn không bao giờ rời khỏi thiết bị của bạn."
+                },
+                {
+                    "q": "Tôi có thể cắt nhiều hình ảnh cùng một lúc không?",
+                    "a": "Hiện tại, công cụ này tập trung vào việc cắt nhiều vùng từ *một* hình ảnh. Để cắt nhiều hình ảnh khác nhau, bạn sẽ cần xử lý từng cái một."
+                },
+                {
+                    "q": "Những định dạng hình ảnh nào được hỗ trợ?",
+                    "a": "Chúng tôi hỗ trợ các định dạng hình ảnh web phổ biến bao gồm JPG, PNG và WebP."
+                }
+            ]
+        }
     }
 }

@@ -1,18 +1,26 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
-import { Card } from '@/app/components/ui/Card';
+import EnhancedToolLayout from '@/app/components/EnhancedToolLayout';
+import { Button } from '@/app/components/ui/Button';
+import toast from 'react-hot-toast';
+import { ToolContent } from '@/app/types/tool';
 
-export default function JwtDecoderClient() {
-    const t = useTranslations('Tools.jwt-decoder.ui');
-    const [input, setInput] = useState('');
-    const [header, setHeader] = useState<any>(null);
-    const [payload, setPayload] = useState<any>(null);
+interface Props {
+    locale: string;
+    content: ToolContent;
+}
+
+export default function JwtDecoderClient({ locale, content }: Props) {
+    const t = useTranslations('Tools.jwt-decoder');
+    const [token, setToken] = useState('');
+    const [header, setHeader] = useState<object | null>(null);
+    const [payload, setPayload] = useState<object | null>(null);
     const [error, setError] = useState('');
 
     useEffect(() => {
-        if (!input.trim()) {
+        if (!token) {
             setHeader(null);
             setPayload(null);
             setError('');
@@ -20,20 +28,20 @@ export default function JwtDecoderClient() {
         }
 
         try {
-            const parts = input.split('.');
+            const parts = token.split('.');
             if (parts.length !== 3) {
-                throw new Error('Invalid JWT format');
+                throw new Error(t('ui.invalidToken'));
             }
 
             const decode = (str: string) => {
                 try {
                     // Replace URL-safe chars
                     const base64 = str.replace(/-/g, '+').replace(/_/g, '/');
-                    // Pad with =
-                    const padded = base64.padEnd(base64.length + (4 - base64.length % 4) % 4, '=');
-                    return JSON.parse(atob(padded));
+                    // Pad with = (atob usually handles this, but explicit padding can prevent issues)
+                    // The new code removes explicit padding, relying on atob's robustness.
+                    return JSON.parse(atob(base64));
                 } catch (e) {
-                    throw new Error('Invalid Base64');
+                    throw new Error(t('ui.invalidToken'));
                 }
             };
 
@@ -46,48 +54,88 @@ export default function JwtDecoderClient() {
         } catch (err) {
             setHeader(null);
             setPayload(null);
-            setError(t('invalidToken'));
+            setError((err as Error).message);
         }
-    }, [input, t]);
+    }, [token, t]);
+
+    const handleCopy = (text: string) => {
+        navigator.clipboard.writeText(text);
+        toast.success(t('ui.copied'));
+    };
 
     return (
-        <div className="max-w-4xl mx-auto space-y-6">
-            <Card className="p-6">
-                <textarea
-                    value={input}
-                    onChange={(e) => setInput(e.target.value)}
-                    placeholder={t('inputPlaceholder')}
-                    className="w-full h-32 p-4 text-sm font-mono border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
-                />
-            </Card>
-
-            {error && (
-                <div className="bg-red-50 border border-red-200 text-red-600 p-4 rounded-lg text-center">
-                    {error}
+        <EnhancedToolLayout
+            {...content}
+            toolId="jwt-decoder"
+            locale={locale}
+        >
+            <div className="space-y-6">
+                {/* Input Section */}
+                <div className="space-y-2">
+                    <textarea
+                        value={token}
+                        onChange={(e) => setToken(e.target.value)}
+                        className="w-full h-32 p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none font-mono text-sm"
+                        placeholder={t('ui.inputPlaceholder')}
+                    />
+                    {error && (
+                        <div className="text-red-500 text-sm font-medium">
+                            {error}
+                        </div>
+                    )}
                 </div>
-            )}
 
-            {(header || payload) && (
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <Card className="p-6">
-                        <h3 className="text-lg font-semibold mb-4 text-gray-700">{t('header')}</h3>
-                        <pre className="bg-gray-50 p-4 rounded-lg overflow-auto text-sm font-mono text-gray-800 h-64">
-                            {JSON.stringify(header, null, 2)}
-                        </pre>
-                    </Card>
+                {/* Decoded Sections */}
+                {(header || payload) && (
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        {/* Header */}
+                        <div className="space-y-2">
+                            <div className="flex justify-between items-center">
+                                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                                    {t('ui.header')}
+                                </h3>
+                                <Button
+                                    onClick={() => handleCopy(JSON.stringify(header, null, 2))}
+                                    variant="secondary"
+                                    size="sm"
+                                >
+                                    {t('ui.copy')}
+                                </Button>
+                            </div>
+                            <div className="relative">
+                                <pre className="w-full h-64 p-4 rounded-lg border border-red-200 dark:border-red-900 bg-red-50 dark:bg-red-900/20 font-mono text-sm overflow-auto text-red-800 dark:text-red-200">
+                                    {JSON.stringify(header, null, 2)}
+                                </pre>
+                            </div>
+                        </div>
 
-                    <Card className="p-6">
-                        <h3 className="text-lg font-semibold mb-4 text-gray-700">{t('payload')}</h3>
-                        <pre className="bg-gray-50 p-4 rounded-lg overflow-auto text-sm font-mono text-gray-800 h-64">
-                            {JSON.stringify(payload, null, 2)}
-                        </pre>
-                    </Card>
+                        {/* Payload */}
+                        <div className="space-y-2">
+                            <div className="flex justify-between items-center">
+                                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                                    {t('ui.payload')}
+                                </h3>
+                                <Button
+                                    onClick={() => handleCopy(JSON.stringify(payload, null, 2))}
+                                    variant="secondary"
+                                    size="sm"
+                                >
+                                    {t('ui.copy')}
+                                </Button>
+                            </div>
+                            <div className="relative">
+                                <pre className="w-full h-64 p-4 rounded-lg border border-purple-200 dark:border-purple-900 bg-purple-50 dark:bg-purple-900/20 font-mono text-sm overflow-auto text-purple-800 dark:text-purple-200">
+                                    {JSON.stringify(payload, null, 2)}
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                )}
+
+                <div className="text-center text-sm text-gray-500 dark:text-gray-400">
+                    {t('ui.processingNote')}
                 </div>
-            )}
-
-            <div className="text-center text-sm text-gray-500">
-                {t('processingNote')}
             </div>
-        </div>
+        </EnhancedToolLayout>
     );
 }

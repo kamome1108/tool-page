@@ -1,19 +1,61 @@
 {
     "meta": {
-        "title": "CSS Minifier - Thu nhỏ CSS Trực tuyến",
-        "description": "Công cụ thu nhỏ CSS trực tuyến miễn phí. Nén mã CSS của bạn bằng cách loại bỏ khoảng trắng và nhận xét để giảm kích thước tệp."
+        "title": "CSS Minifier - Nén Mã CSS Trực Tuyến",
+        "description": "Thu nhỏ và nén mã CSS của bạn để giảm kích thước tệp và cải thiện tốc độ tải trang web. Công cụ CSS minifier trực tuyến miễn phí.",
+        "keywords": "css minifier, css compressor, minify css, optimize css, web development tool"
     },
+    "tagline": "Nén mã CSS của bạn ngay lập tức để tăng hiệu suất trang web",
     "ui": {
-        "title": "CSS Minifier",
-        "description": "Thu nhỏ mã CSS của bạn để giảm kích thước tệp.",
-        "inputLabel": "Đầu vào CSS",
-        "inputPlaceholder": "Dán CSS của bạn vào đây...",
-        "outputLabel": "CSS đã thu nhỏ",
+        "inputLabel": "Dán CSS của bạn vào đây",
+        "outputLabel": "CSS Đã Thu Nhỏ",
         "minify": "Thu nhỏ CSS",
         "clear": "Xóa",
         "copy": "Sao chép",
+        "copied": "Đã sao chép vào clipboard!",
         "success": "CSS đã được thu nhỏ thành công!",
-        "error": "Không thể thu nhỏ CSS",
-        "copied": "Đã sao chép vào khay nhớ tạm!"
+        "error": "CSS không hợp lệ. Vui lòng kiểm tra đầu vào của bạn.",
+        "processingNote": "💻 Tất cả quá trình xử lý diễn ra trong trình duyệt của bạn. Mã của bạn không bao giờ được gửi đến máy chủ."
+    },
+    "content": {
+        "description": {
+            "title": "CSS Minifier là gì?",
+            "text": "CSS Minifier là một công cụ trực tuyến miễn phí giúp nén mã CSS của bạn bằng cách loại bỏ các ký tự không cần thiết như khoảng trắng, nhận xét và dòng mới. Quá trình này, được gọi là thu nhỏ (minification), làm giảm đáng kể kích thước tệp của các bảng định kiểu của bạn, dẫn đến thời gian tải trang nhanh hơn và hiệu suất SEO được cải thiện. Đây là một bước thiết yếu để triển khai các trang web sẵn sàng sản xuất."
+        },
+        "howTo": {
+            "title": "Cách sử dụng CSS Minifier",
+            "steps": [
+                "Dán mã CSS của bạn vào hộp nhập liệu",
+                "Nhấp vào nút 'Thu nhỏ CSS'",
+                "CSS đã nén sẽ xuất hiện trong hộp đầu ra ngay lập tức",
+                "Nhấp vào 'Sao chép' để sao chép mã đã thu nhỏ vào clipboard của bạn"
+            ]
+        },
+        "features": {
+            "title": "Các tính năng chính",
+            "list": [
+                "⚡ Nén Tức Thì: Thu nhỏ CSS của bạn trong mili giây",
+                "🔒 Tập trung vào Quyền riêng tư: Tất cả quá trình xử lý được thực hiện cục bộ trong trình duyệt của bạn",
+                "📉 Giảm Kích Thước: Giảm đáng kể kích thước tệp CSS",
+                "🚀 Tăng Hiệu Suất: Giúp trang web của bạn tải nhanh hơn",
+                "🆓 Sử dụng Miễn phí: Không giới hạn sử dụng hoặc kích thước tệp"
+            ]
+        },
+        "faq": {
+            "title": "Câu hỏi thường gặp",
+            "questions": [
+                {
+                    "q": "Tại sao tôi nên thu nhỏ CSS của mình?",
+                    "a": "Thu nhỏ CSS làm giảm kích thước tệp, có nghĩa là trình duyệt có thể tải xuống và phân tích cú pháp nhanh hơn. Điều này cải thiện tốc độ tải trang web của bạn và trải nghiệm người dùng."
+                },
+                {
+                    "q": "Sử dụng công cụ này có an toàn không?",
+                    "a": "Có, hoàn toàn an toàn. Công cụ chạy hoàn toàn trong trình duyệt của bạn bằng JavaScript. Mã của bạn không bao giờ được tải lên bất kỳ máy chủ nào."
+                },
+                {
+                    "q": "Việc thu nhỏ có làm hỏng CSS của tôi không?",
+                    "a": "Không, việc thu nhỏ chỉ loại bỏ các ký tự không cần thiết (như khoảng trắng và nhận xét) không bắt buộc để trình duyệt hiểu mã. Chức năng vẫn hoàn toàn giống nhau."
+                }
+            ]
+        }
     }
 }

@@ -3,8 +3,7 @@
         "title": "Unix Timestamp Converter - Epoch Time Tool",
         "description": "Free online Unix timestamp converter. Convert Unix timestamps to human-readable dates and vice versa. Supports both seconds and milliseconds."
     },
-    "title": "Unix Timestamp Converter",
-    "description": "Convert between Unix timestamps and human-readable dates.",
+    "tagline": "Convert between Unix timestamps and human-readable dates instantly",
     "ui": {
         "currentTimestamp": "Current Unix Timestamp",
         "convertTimestamp": "Convert Timestamp to Date",
@@ -15,6 +14,53 @@
         "result": "Result",
         "copy": "Copy",
         "copied": "Copied!",
-        "processingNote": "🔒 All processing is done in your browser."
+        "processingNote": "🔒 All processing is done in your browser.",
+        "seconds": "Seconds",
+        "milliseconds": "Milliseconds",
+        "localTime": "Local Time",
+        "gmtTime": "GMT/UTC Time",
+        "relative": "Relative"
+    },
+    "content": {
+        "description": {
+            "title": "What is Unix Timestamp Converter?",
+            "text": "Unix Timestamp Converter is a developer tool designed to convert Unix timestamps (Epoch time) into human-readable date formats and vice versa. It supports both seconds and milliseconds precisions, making it essential for debugging, database management, and logging analysis."
+        },
+        "howTo": {
+            "title": "How to Use Unix Timestamp Converter",
+            "steps": [
+                "To convert a timestamp: Enter the numeric timestamp in the input field",
+                "To convert a date: Select or enter a date and time",
+                "Click the 'Convert' button to see the result",
+                "View the converted time in Local, GMT, and Relative formats"
+            ]
+        },
+        "features": {
+            "title": "Key Features",
+            "list": [
+                "⚡ Instant Conversion: Real-time timestamp and date conversion",
+                "🕒 Dual Precision: Supports both seconds and milliseconds",
+                "🌍 Timezone Aware: Displays both Local and GMT/UTC times",
+                "📅 Relative Time: Shows how long ago or in the future a date is",
+                "🔒 Privacy Focused: No data is sent to any server"
+            ]
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "questions": [
+                {
+                    "q": "What is a Unix Timestamp?",
+                    "a": "A Unix timestamp represents the number of seconds that have elapsed since January 1, 1970 (UTC), not counting leap seconds. It is widely used in computer systems to track time."
+                },
+                {
+                    "q": "What is the Year 2038 problem?",
+                    "a": "The Year 2038 problem refers to a potential issue where 32-bit systems will no longer be able to store Unix timestamps after January 19, 2038, as the value will overflow."
+                },
+                {
+                    "q": "Does this tool handle timezones?",
+                    "a": "Yes, the tool converts timestamps to your browser's local time and also provides the GMT/UTC equivalent."
+                }
+            ]
+        }
     }
 }

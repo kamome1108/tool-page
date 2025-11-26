@@ -1,8 +1,9 @@
 {
     "meta": {
-        "title": "JSON Minifier - Minify JSON Online",
-        "description": "Free online JSON minifier tool. Compress your JSON code by removing whitespace and comments to reduce file size."
+        "title": "JSON Minifier - Minify & Compress JSON Online",
+        "description": "Free online JSON minifier tool. Compress your JSON code by removing whitespace and comments to reduce file size. Validate JSON syntax instantly."
     },
+    "tagline": "Minify, compress, and validate JSON code instantly",
     "ui": {
         "title": "JSON Minifier",
         "description": "Minify your JSON code to save space.",
@@ -14,6 +15,49 @@
         "copy": "Copy",
         "success": "JSON minified successfully!",
         "error": "Invalid JSON format",
-        "copied": "Copied to clipboard!"
+        "copied": "Copied to clipboard!",
+        "processingNote": "🔒 All processing is done in your browser."
+    },
+    "content": {
+        "description": {
+            "title": "What is JSON Minifier?",
+            "text": "JSON Minifier is a free online tool designed to help developers compress JSON data. It removes unnecessary whitespace, newlines, and indentation from your JSON code, significantly reducing its file size for faster transmission and storage."
+        },
+        "howTo": {
+            "title": "How to Use JSON Minifier",
+            "steps": [
+                "Paste your JSON code into the input box",
+                "Click 'Minify JSON' to compress the code",
+                "The tool will automatically validate and minify your JSON",
+                "Use the 'Copy' button to copy the result to your clipboard"
+            ]
+        },
+        "features": {
+            "title": "Key Features",
+            "list": [
+                "⚡ Instant Minification: Compress JSON code instantly",
+                "📦 Size Reduction: Significantly reduces file size by removing whitespace",
+                "✅ Syntax Validation: Automatically checks for JSON syntax errors",
+                "🔒 Secure: Processing happens locally in your browser",
+                "🆓 Free & Unlimited: No usage limits"
+            ]
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "questions": [
+                {
+                    "q": "Is my JSON data sent to a server?",
+                    "a": "No, all minification and validation are performed entirely within your browser using JavaScript. Your data never leaves your device."
+                },
+                {
+                    "q": "Why should I minify JSON?",
+                    "a": "Minifying JSON reduces the amount of data that needs to be transferred over the network, which can improve the loading speed and performance of your applications."
+                },
+                {
+                    "q": "Can I reverse the minification?",
+                    "a": "Yes, you can use a JSON Formatter tool to restore the indentation and readability of minified JSON."
+                }
+            ]
+        }
     }
 }

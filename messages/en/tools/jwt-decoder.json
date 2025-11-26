@@ -1,15 +1,62 @@
 {
     "meta": {
-        "title": "JWT Decoder - Decode JSON Web Tokens",
-        "description": "Free online JWT Decoder. Decode and inspect JSON Web Tokens (JWT) header and payload without sending data to a server."
+        "title": "JWT Decoder - Decode JSON Web Tokens Online",
+        "description": "Free online JWT Decoder. Decode and inspect JSON Web Tokens (JWT) header and payload instantly. Debug tokens securely in your browser."
     },
-    "title": "JWT Decoder",
-    "description": "Decode and inspect JSON Web Tokens.",
+    "tagline": "Decode and inspect JSON Web Tokens instantly",
     "ui": {
         "inputPlaceholder": "Paste your JWT here...",
         "header": "Header",
         "payload": "Payload",
         "invalidToken": "Invalid JWT format",
-        "processingNote": "🔒 Decoding happens locally in your browser. Your tokens are never sent to our servers."
+        "processingNote": "🔒 Decoding happens locally in your browser. Your tokens are never sent to our servers.",
+        "algorithm": "Algorithm",
+        "type": "Type",
+        "issuedAt": "Issued At",
+        "expiration": "Expiration",
+        "copy": "Copy",
+        "copied": "Copied!"
+    },
+    "content": {
+        "description": {
+            "title": "What is JWT Decoder?",
+            "text": "JWT Decoder is a developer tool that allows you to decode and inspect the contents of JSON Web Tokens (JWT). It splits the token into its three parts: Header, Payload, and Signature, and displays the decoded JSON data in a readable format. This is essential for debugging authentication issues and verifying token contents."
+        },
+        "howTo": {
+            "title": "How to Use JWT Decoder",
+            "steps": [
+                "Paste your JWT string into the input field",
+                "The tool automatically decodes the token",
+                "View the decoded Header and Payload sections",
+                "Check standard claims like expiration (exp) and issued at (iat)"
+            ]
+        },
+        "features": {
+            "title": "Key Features",
+            "list": [
+                "⚡ Instant Decoding: Decodes tokens as you type",
+                "🔒 Secure: All processing happens locally in your browser",
+                "🎨 Color-coded: Visually separates Header, Payload, and Signature",
+                "🕒 Date Formatting: Automatically formats timestamps (exp, iat)",
+                "📋 Easy Copy: One-click copy for decoded JSON"
+            ]
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "questions": [
+                {
+                    "q": "What is a JWT?",
+                    "a": "JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object."
+                },
+                {
+                    "q": "Is it safe to paste my production tokens here?",
+                    "a": "Yes, this tool runs entirely in your browser. Your tokens are never sent to any server. However, as a best practice, always be cautious with production credentials."
+                },
+                {
+                    "q": "Does this tool verify the signature?",
+                    "a": "No, this tool only decodes the token to show its contents. It does not verify the signature, as that requires the secret key."
+                }
+            ]
+        }
     }
 }

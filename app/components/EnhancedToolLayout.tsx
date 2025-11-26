@@ -2,30 +2,12 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { Section } from '@/app/components/ui/Section';
 import RelatedTools from '@/app/components/tools/RelatedTools';
+import { ToolContent } from '@/app/types/tool';
 
-interface EnhancedToolLayoutProps {
-    title: string;
-    tagline: string;
+interface EnhancedToolLayoutProps extends ToolContent {
     toolId: string;
     locale: string;
     children: React.ReactNode;
-    // Optional content sections - if provided, they will be rendered
-    description?: {
-        title: string;
-        text: string;
-    };
-    howTo?: {
-        title: string;
-        steps: string[];
-    };
-    features?: {
-        title: string;
-        list: string[];
-    };
-    faq?: {
-        title: string;
-        questions: { q: string; a: string }[];
-    };
 }
 
 export default function EnhancedToolLayout({

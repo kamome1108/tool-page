@@ -1,0 +1,68 @@
+{
+    "meta": {
+        "title": "SVG Placeholder Generator - Gumawa ng Custom Dummy Images",
+        "description": "Gumawa ng custom SVG placeholder images para sa iyong web projects. I-adjust ang sukat, kulay, at text. Libre, mabilis, at walang upload.",
+        "keywords": "svg placeholder, dummy image, image generator, web development tool, svg creator"
+    },
+    "tagline": "Gumawa ng magaan at nako-customize na SVG placeholder images agad sa iyong browser",
+    "ui": {
+        "width": "Lapad (Width)",
+        "height": "Taas (Height)",
+        "backgroundColor": "Kulay ng Background",
+        "textColor": "Kulay ng Text",
+        "text": "Text (Opsyonal)",
+        "fontSize": "Laki ng Font",
+        "copy": "Kopyahin ang SVG Code",
+        "download": "I-download ang SVG",
+        "copied": "Nakopya na sa clipboard!",
+        "processingNote": "💻 Ang lahat ng pagpoproseso ay nangyayari sa iyong browser. Walang kailangang server request."
+    },
+    "content": {
+        "description": {
+            "title": "Ano ang SVG Placeholder Generator?",
+            "text": "Ang SVG Placeholder Generator ay isang libreng tool na dinisenyo para sa mga developer upang gumawa ng magaan na placeholder images para sa kanilang web projects. Hindi tulad ng tradisyonal na placeholder images na nangangailangan ng external HTTP requests, ang aming tool ay gumagawa ng purong SVG code na maaari mong i-embed direkta sa iyong HTML o CSS. Tinitiyak nito ang mas mabilis na pag-load ng page at mas mahusay na performance. Maaari mong ganap na i-customize ang mga sukat, kulay, at text upang tumugma sa iyong mga kinakailangan sa disenyo."
+        },
+        "howTo": {
+            "title": "Paano Gamitin ang SVG Placeholder Generator",
+            "steps": [
+                "Ilagay ang nais na lapad at taas para sa iyong placeholder image",
+                "Piliin ang kulay ng background at kulay ng text gamit ang color pickers",
+                "Opsyonal, maglagay ng custom text na ipapakita (default ay ang sukat)",
+                "I-adjust ang laki ng font kung kinakailangan",
+                "I-click ang 'Kopyahin ang SVG Code' para magamit agad o 'I-download ang SVG' para i-save ang file"
+            ]
+        },
+        "features": {
+            "title": "Mga Pangunahing Tampok",
+            "list": [
+                "⚡ Magaan: Gumagawa ng purong SVG code para sa minimal na laki ng file",
+                "🎨 Nako-customize: Buong kontrol sa laki, kulay, at typography",
+                "🚀 Mabilis: Agarang paggawa direkta sa iyong browser",
+                "🔒 Pribado: Walang server uploads, lahat ay nangyayari nang lokal",
+                "📱 Responsive: Ang mga SVG ay perpektong nag-i-scale nang hindi nawawala ang kalidad",
+                "🆓 Libre: Walang limitasyong paggamit para sa personal at komersyal na proyekto"
+            ]
+        },
+        "faq": {
+            "title": "Madalas Itanong (FAQ)",
+            "questions": [
+                {
+                    "q": "Bakit gagamit ng SVG para sa placeholders?",
+                    "a": "Ang SVG ay vector-based, ibig sabihin ay napakagaan nito at nag-i-scale nang walang hanggan nang hindi nagiging pixelated. Perpekto ang mga ito para sa responsive designs at hindi nagdaragdag ng hindi kinakailangang bigat sa pag-load ng iyong page."
+                },
+                {
+                    "q": "Maaari ko bang gamitin ito para sa komersyal na proyekto?",
+                    "a": "Oo naman! Ang mga nabuong SVG ay standard code na gumagana sa lahat ng modernong browsers. Maaari mong gamitin ang mga ito bilang 'src' sa image tags o bilang background images sa CSS."
+                },
+                {
+                    "q": "Kailangan ko bang i-credit ang tool na ito?",
+                    "a": "Hindi kailangan ng attribution. Malaya kang gamitin ang mga nabuong placeholders sa anumang proyekto, personal man o komersyal."
+                },
+                {
+                    "q": "May limitasyon ba sa laki ng imahe?",
+                    "a": "Sa teknikal ay wala, ngunit para sa napakalaking sukat, maaaring gusto mong tiyakin na ang laki ng font ay na-adjust nang naaayon upang manatiling nakikita."
+                }
+            ]
+        }
+    }
+}

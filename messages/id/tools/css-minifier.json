@@ -1,19 +1,61 @@
 {
     "meta": {
-        "title": "CSS Minifier - Perkecil CSS Online",
-        "description": "Alat pengecil CSS online gratis. Kompres kode CSS Anda dengan menghapus spasi dan komentar untuk mengurangi ukuran file."
+        "title": "CSS Minifier - Kompres Kode CSS Online",
+        "description": "Minimalkan dan kompres kode CSS Anda untuk mengurangi ukuran file dan meningkatkan kecepatan muat situs web. Alat CSS minifier online gratis.",
+        "keywords": "css minifier, css compressor, minify css, optimize css, web development tool"
     },
+    "tagline": "Kompres kode CSS Anda secara instan untuk meningkatkan kinerja situs web",
     "ui": {
-        "title": "CSS Minifier",
-        "description": "Perkecil kode CSS Anda untuk mengurangi ukuran file.",
-        "inputLabel": "Input CSS",
-        "inputPlaceholder": "Tempel CSS Anda di sini...",
-        "outputLabel": "CSS yang Diperkecil",
-        "minify": "Perkecil CSS",
+        "inputLabel": "Tempel CSS Anda di sini",
+        "outputLabel": "CSS yang Diminimalkan",
+        "minify": "Minimalkan CSS",
         "clear": "Bersihkan",
         "copy": "Salin",
-        "success": "CSS berhasil diperkecil!",
-        "error": "Gagal memperkecil CSS",
-        "copied": "Disalin ke papan klip!"
+        "copied": "Disalin ke papan klip!",
+        "success": "CSS berhasil diminimalkan!",
+        "error": "CSS tidak valid. Silakan periksa masukan Anda.",
+        "processingNote": "💻 Semua pemrosesan terjadi di browser Anda. Kode Anda tidak pernah dikirim ke server."
+    },
+    "content": {
+        "description": {
+            "title": "Apa itu CSS Minifier?",
+            "text": "CSS Minifier adalah alat online gratis yang mengompres kode CSS Anda dengan menghapus karakter yang tidak perlu seperti spasi, komentar, dan baris baru. Proses ini, yang dikenal sebagai minifikasi, secara signifikan mengurangi ukuran file stylesheet Anda, yang mengarah pada waktu muat halaman yang lebih cepat dan kinerja SEO yang lebih baik. Ini adalah langkah penting untuk menyebarkan situs web yang siap produksi."
+        },
+        "howTo": {
+            "title": "Cara Menggunakan CSS Minifier",
+            "steps": [
+                "Tempel kode CSS Anda ke dalam kotak input",
+                "Klik tombol 'Minimalkan CSS'",
+                "CSS yang dikompres akan muncul di kotak output secara instan",
+                "Klik 'Salin' untuk menyalin kode yang diminimalkan ke papan klip Anda"
+            ]
+        },
+        "features": {
+            "title": "Fitur Utama",
+            "list": [
+                "⚡ Kompresi Instan: Meminimalkan CSS Anda dalam milidetik",
+                "🔒 Fokus Privasi: Semua pemrosesan dilakukan secara lokal di browser Anda",
+                "📉 Pengurangan Ukuran: Secara signifikan mengurangi ukuran file CSS",
+                "🚀 Peningkatan Kinerja: Membantu situs web Anda memuat lebih cepat",
+                "🆓 Gratis Digunakan: Tidak ada batasan penggunaan atau ukuran file"
+            ]
+        },
+        "faq": {
+            "title": "Pertanyaan yang Sering Diajukan",
+            "questions": [
+                {
+                    "q": "Mengapa saya harus meminimalkan CSS saya?",
+                    "a": "Meminimalkan CSS mengurangi ukuran file, yang berarti browser dapat mengunduh dan menguraikannya lebih cepat. Ini meningkatkan kecepatan memuat situs web Anda dan pengalaman pengguna."
+                },
+                {
+                    "q": "Apakah aman menggunakan alat ini?",
+                    "a": "Ya, sepenuhnya. Alat ini berjalan sepenuhnya di browser Anda menggunakan JavaScript. Kode Anda tidak pernah diunggah ke server mana pun."
+                },
+                {
+                    "q": "Apakah minifikasi akan merusak CSS saya?",
+                    "a": "Tidak, minifikasi hanya menghapus karakter yang tidak perlu (seperti spasi dan komentar) yang tidak diperlukan browser untuk memahami kode. Fungsionalitasnya tetap sama persis."
+                }
+            ]
+        }
     }
 }

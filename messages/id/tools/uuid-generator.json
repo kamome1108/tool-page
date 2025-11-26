@@ -1,19 +1,61 @@
 {
     "meta": {
-        "title": "Pembuat UUID - Hasilkan UUID Acak Online",
-        "description": "Pembuat UUID online gratis. Hasilkan UUID acak (v4) secara instan. Hasilkan satu atau beberapa UUID, salin ke papan klip, dan unduh sebagai teks."
+        "title": "UUID Generator - Buat UUID Acak Online",
+        "description": "Generator UUID online gratis. Buat UUID acak (v4) secara instan. Buat satu atau banyak UUID, salin ke clipboard, dan unduh sebagai teks."
     },
-    "title": "Pembuat UUID",
-    "description": "Hasilkan UUID (Universally Unique Identifier) acak versi 4.",
+    "tagline": "Buat UUID acak (v4) secara instan di browser Anda",
     "ui": {
-        "generate": "Hasilkan UUID",
+        "generate": "Buat UUID",
         "quantity": "Jumlah",
         "version": "Versi",
         "v4": "Versi 4 (Acak)",
         "copy": "Salin Semua",
         "copied": "Disalin!",
         "download": "Unduh Daftar",
-        "clear": "Hapus",
-        "generated": "UUID yang Dihasilkan"
+        "clear": "Bersihkan",
+        "generated": "UUID Dibuat",
+        "processingNote": "🔒 Semua pemrosesan dilakukan di browser Anda."
+    },
+    "content": {
+        "description": {
+            "title": "Apa itu UUID Generator?",
+            "text": "UUID Generator adalah alat pengembang yang membuat Universally Unique Identifiers (UUID) versi 4. Pengidentifikasi 128-bit ini dibuat secara acak dan secara statistik dijamin unik di semua perangkat dan waktu. Mereka banyak digunakan dalam pengembangan perangkat lunak untuk kunci database, ID sesi, dan banyak lagi."
+        },
+        "howTo": {
+            "title": "Cara Menggunakan UUID Generator",
+            "steps": [
+                "Pilih jumlah UUID yang ingin Anda buat (default adalah 1)",
+                "Klik 'Buat UUID' untuk membuat pengidentifikasi baru",
+                "Klik 'Salin Semua' untuk menyalin daftar ke clipboard Anda",
+                "Gunakan 'Unduh Daftar' untuk menyimpannya sebagai file teks"
+            ]
+        },
+        "features": {
+            "title": "Fitur Utama",
+            "list": [
+                "⚡ Pembuatan Instan: Buat hingga 100 UUID sekaligus",
+                "🔒 Aman: Dibuat secara lokal di browser Anda menggunakan crypto API",
+                "📋 Tindakan Massal: Salin atau unduh UUID yang dibuat dengan mudah",
+                "🆔 Sesuai Standar: Menghasilkan UUID RFC 4122 v4 yang valid",
+                "🆓 Gratis & Tidak Terbatas: Tidak ada batasan penggunaan"
+            ]
+        },
+        "faq": {
+            "title": "Pertanyaan yang Sering Diajukan",
+            "questions": [
+                {
+                    "q": "Apa itu UUID v4?",
+                    "a": "UUID Versi 4 dibuat menggunakan angka acak. Tidak seperti versi lain yang menggunakan alamat MAC atau stempel waktu, v4 hanya mengandalkan keacakan, membuatnya cocok untuk sebagian besar kasus penggunaan di mana privasi dan keunikan diperlukan."
+                },
+                {
+                    "q": "Apakah ada kemungkinan tabrakan (UUID duplikat)?",
+                    "a": "Secara teoritis ya, tetapi secara praktis tidak. Kemungkinan menghasilkan dua UUID v4 yang identik sangat kecil sehingga dapat diabaikan untuk semua tujuan praktis."
+                },
+                {
+                    "q": "Apakah UUID ini disimpan di server Anda?",
+                    "a": "Tidak, UUID dibuat di sisi klien menggunakan kemampuan kriptografi browser Anda. Kami tidak menyimpan atau melihatnya."
+                }
+            ]
+        }
     }
 }

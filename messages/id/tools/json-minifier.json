@@ -1,19 +1,63 @@
 {
     "meta": {
-        "title": "JSON Minifier - Perkecil JSON Online",
-        "description": "Alat pengecil JSON online gratis. Kompres kode JSON Anda dengan menghapus spasi dan komentar untuk mengurangi ukuran file."
+        "title": "Pengecil JSON - Minify & Kompres JSON Online",
+        "description": "Alat pengecil JSON online gratis. Kompres kode JSON Anda dengan menghapus spasi putih dan komentar untuk mengurangi ukuran file."
     },
+    "tagline": "Minify, kompres, dan validasi kode JSON secara instan",
     "ui": {
-        "title": "JSON Minifier",
-        "description": "Perkecil kode JSON Anda untuk menghemat ruang.",
+        "title": "Pengecil JSON",
+        "description": "Minify kode JSON Anda untuk menghemat ruang.",
         "inputLabel": "Input JSON",
         "inputPlaceholder": "Tempel JSON Anda di sini...",
-        "outputLabel": "JSON yang Diperkecil",
-        "minify": "Perkecil JSON",
+        "outputLabel": "JSON Diminify",
+        "minify": "Minify JSON",
         "clear": "Bersihkan",
         "copy": "Salin",
-        "success": "JSON berhasil diperkecil!",
+        "success": "JSON berhasil diminify!",
         "error": "Format JSON tidak valid",
-        "copied": "Disalin ke papan klip!"
+        "copied": "Disalin ke papan klip!",
+        "processingNote": "🔒 Semua pemrosesan dilakukan di browser Anda."
+    },
+    "content": {
+        "description": {
+            "title": "Apa itu Pengecil JSON?",
+            "text": "Pengecil JSON adalah alat online gratis yang dirancang untuk membantu pengembang mengompres data JSON. Ini menghapus spasi putih, baris baru, dan indentasi yang tidak perlu dari kode JSON Anda, secara signifikan mengurangi ukuran filenya untuk transmisi dan penyimpanan yang lebih cepat."
+        },
+        "howTo": {
+            "title": "Cara Menggunakan Pengecil JSON",
+            "steps": [
+                "Tempelkan kode JSON Anda ke dalam kotak input",
+                "Klik 'Minify JSON' untuk mengompres kode",
+                "Alat ini akan secara otomatis memvalidasi dan meminify JSON Anda",
+                "Gunakan tombol 'Salin' untuk menyalin hasil ke papan klip Anda"
+            ]
+        },
+        "features": {
+            "title": "Fitur Utama",
+            "list": [
+                "⚡ Minifikasi Instan: Kompres kode JSON secara instan",
+                "📦 Pengurangan Ukuran: Secara signifikan mengurangi ukuran file dengan menghapus spasi putih",
+                "✅ Validasi Sintaks: Secara otomatis memeriksa kesalahan sintaks JSON",
+                "🔒 Aman: Pemrosesan terjadi secara lokal di browser Anda",
+                "🆓 Gratis & Tidak Terbatas: Tidak ada batasan penggunaan"
+            ]
+        },
+        "faq": {
+            "title": "Pertanyaan yang Sering Diajukan",
+            "questions": [
+                {
+                    "q": "Apakah data JSON saya dikirim ke server?",
+                    "a": "Tidak, semua minifikasi dan validasi dilakukan sepenuhnya di dalam browser Anda menggunakan JavaScript. Data Anda tidak pernah meninggalkan perangkat Anda."
+                },
+                {
+                    "q": "Mengapa saya harus meminify JSON?",
+                    "a": "Meminify JSON mengurangi jumlah data yang perlu ditransfer melalui jaringan, yang dapat meningkatkan kecepatan pemuatan dan kinerja aplikasi Anda."
+                },
+                {
+                    "q": "Bisakah saya membalikkan minifikasi?",
+                    "a": "Ya, Anda dapat menggunakan alat Pemformat JSON untuk memulihkan indentasi dan keterbacaan JSON yang diminify."
+                }
+            ]
+        }
     }
 }

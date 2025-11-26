@@ -1,19 +1,63 @@
 {
     "meta": {
-        "title": "JSON Minifier - Thu nhỏ JSON Trực tuyến",
-        "description": "Công cụ thu nhỏ JSON trực tuyến miễn phí. Nén mã JSON của bạn bằng cách loại bỏ khoảng trắng và nhận xét để giảm kích thước tệp."
+        "title": "Trình thu nhỏ JSON - Thu nhỏ & Nén JSON Trực tuyến",
+        "description": "Công cụ thu nhỏ JSON trực tuyến miễn phí. Nén mã JSON của bạn bằng cách xóa khoảng trắng và nhận xét để giảm kích thước tệp."
     },
+    "tagline": "Thu nhỏ, nén và xác thực mã JSON ngay lập tức",
     "ui": {
-        "title": "JSON Minifier",
+        "title": "Trình thu nhỏ JSON",
         "description": "Thu nhỏ mã JSON của bạn để tiết kiệm dung lượng.",
-        "inputLabel": "Đầu vào JSON",
+        "inputLabel": "JSON đầu vào",
         "inputPlaceholder": "Dán JSON của bạn vào đây...",
         "outputLabel": "JSON đã thu nhỏ",
         "minify": "Thu nhỏ JSON",
         "clear": "Xóa",
         "copy": "Sao chép",
-        "success": "JSON đã được thu nhỏ thành công!",
+        "success": "Đã thu nhỏ JSON thành công!",
         "error": "Định dạng JSON không hợp lệ",
-        "copied": "Đã sao chép vào khay nhớ tạm!"
+        "copied": "Đã sao chép vào clipboard!",
+        "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."
+    },
+    "content": {
+        "description": {
+            "title": "Trình thu nhỏ JSON là gì?",
+            "text": "Trình thu nhỏ JSON là một công cụ trực tuyến miễn phí được thiết kế để giúp các nhà phát triển nén dữ liệu JSON. Nó xóa khoảng trắng, dòng mới và thụt lề không cần thiết khỏi mã JSON của bạn, giảm đáng kể kích thước tệp để truyền và lưu trữ nhanh hơn."
+        },
+        "howTo": {
+            "title": "Cách sử dụng Trình thu nhỏ JSON",
+            "steps": [
+                "Dán mã JSON của bạn vào hộp nhập liệu",
+                "Nhấp vào 'Thu nhỏ JSON' để nén mã",
+                "Công cụ sẽ tự động xác thực và thu nhỏ JSON của bạn",
+                "Sử dụng nút 'Sao chép' để sao chép kết quả vào clipboard của bạn"
+            ]
+        },
+        "features": {
+            "title": "Các tính năng chính",
+            "list": [
+                "⚡ Thu nhỏ tức thì: Nén mã JSON ngay lập tức",
+                "📦 Giảm kích thước: Giảm đáng kể kích thước tệp bằng cách xóa khoảng trắng",
+                "✅ Xác thực cú pháp: Tự động kiểm tra lỗi cú pháp JSON",
+                "🔒 An toàn: Quá trình xử lý diễn ra cục bộ trong trình duyệt của bạn",
+                "🆓 Miễn phí & Không giới hạn: Không giới hạn sử dụng"
+            ]
+        },
+        "faq": {
+            "title": "Câu hỏi thường gặp",
+            "questions": [
+                {
+                    "q": "Dữ liệu JSON của tôi có được gửi đến máy chủ không?",
+                    "a": "Không, tất cả quá trình thu nhỏ và xác thực được thực hiện hoàn toàn trong trình duyệt của bạn bằng JavaScript. Dữ liệu của bạn không bao giờ rời khỏi thiết bị của bạn."
+                },
+                {
+                    "q": "Tại sao tôi nên thu nhỏ JSON?",
+                    "a": "Thu nhỏ JSON làm giảm lượng dữ liệu cần truyền qua mạng, điều này có thể cải thiện tốc độ tải và hiệu suất của các ứng dụng của bạn."
+                },
+                {
+                    "q": "Tôi có thể đảo ngược quá trình thu nhỏ không?",
+                    "a": "Có, bạn có thể sử dụng công cụ Trình định dạng JSON để khôi phục thụt lề và khả năng đọc của JSON đã thu nhỏ."
+                }
+            ]
+        }
     }
 }

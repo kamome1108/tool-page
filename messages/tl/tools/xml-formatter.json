@@ -1,21 +1,65 @@
 {
     "meta": {
         "title": "XML Formatter - I-format at I-minify ang XML Online",
-        "description": "Libreng online na XML formatter at minifier tool. Gawing maganda o i-compress ang iyong XML code na may wastong indentation."
+        "description": "Libreng online na XML formatter at minifier tool. Pagandahin o i-compress ang iyong XML code na may tamang indentation. I-validate ang XML syntax agad."
     },
+    "tagline": "I-format, i-minify, at i-validate ang XML code agad",
     "ui": {
         "title": "XML Formatter",
         "description": "I-format o i-minify ang iyong XML code.",
         "inputLabel": "Input XML",
         "inputPlaceholder": "I-paste ang iyong XML dito...",
-        "outputLabel": "Na-format na XML",
+        "outputLabel": "Formatted XML",
         "format": "I-format ang XML",
         "minify": "I-minify ang XML",
         "clear": "I-clear",
         "copy": "Kopyahin",
         "success": "Matagumpay na na-format ang XML!",
         "minifySuccess": "Matagumpay na na-minify ang XML!",
-        "error": "Hindi wastong format ng XML",
-        "copied": "Kinopya sa clipboard!"
+        "error": "Hindi valid na format ng XML",
+        "copied": "Nakopya sa clipboard!",
+        "processingNote": "🔒 Lahat ng pagproseso ay ginagawa sa iyong browser."
+    },
+    "content": {
+        "description": {
+            "title": "Ano ang XML Formatter?",
+            "text": "Ang XML Formatter ay isang libreng online tool na dinisenyo para tulungan ang mga developer na mag-format, mag-minify, at mag-validate ng XML data. Binabago nito ang hindi mabasa o minified na XML sa isang structured, madaling basahin na format na may tamang indentation, o kino-compress ito para sa mahusay na storage at transmission."
+        },
+        "howTo": {
+            "title": "Paano Gamitin ang XML Formatter",
+            "steps": [
+                "I-paste ang iyong XML code sa input box",
+                "I-click ang 'I-format ang XML' para pagandahin ang code na may tamang indentation",
+                "I-click ang 'I-minify ang XML' para alisin ang whitespace at bawasan ang laki ng file",
+                "Gamitin ang 'Kopyahin' button para kopyahin ang resulta sa iyong clipboard"
+            ]
+        },
+        "features": {
+            "title": "Pangunahing Tampok",
+            "list": [
+                "⚡ Mabilis na Pag-format: Pagandahin ang XML code agad",
+                "📦 Minification: I-compress ang XML sa pamamagitan ng pag-alis ng hindi kailangang whitespace",
+                "✅ Syntax Validation: Awtomatikong sinusuri ang mga error sa XML syntax",
+                "🔒 Ligtas: Ang pagproseso ay nangyayari nang lokal sa iyong browser",
+                "🆓 Libre at Walang Limitasyon: Walang limitasyon sa paggamit"
+            ]
+        },
+        "faq": {
+            "title": "Madalas Itanong",
+            "questions": [
+                {
+                    "q": "Ipinapadala ba ang aking XML data sa server?",
+                    "a": "Hindi, lahat ng pag-format at validation ay ginagawa nang buo sa iyong browser gamit ang JavaScript. Ang iyong data ay hindi kailanman umaalis sa iyong device."
+                },
+                {
+                    "q": "Kaya ba nitong hawakan ang malalaking XML files?",
+                    "a": "Oo, kaya nitong hawakan ang makatwirang malalaking XML files nang mahusay sa loob ng memory limits ng iyong browser."
+                },
+                {
+                    "q": "Kaya ba nitong ayusin ang invalid na XML?",
+                    "a": "Makakatulong ito na matukoy ang mga syntax error, ngunit hindi nito awtomatikong maaayos ang sirang istraktura ng XML. Kailangan mong itama ang mga error batay sa feedback na ibinigay."
+                }
+            ]
+        }
     }
 }

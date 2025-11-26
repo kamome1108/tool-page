@@ -1,18 +1,27 @@
-import { Metadata } from 'next';
-import { getTranslations } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import TextDiffClient from './TextDiffClient';
+import ToolJsonLd from '@/app/components/ToolJsonLd';
+import { getToolContent } from '@/app/utils/tool-content';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+type Props = {
+    params: Promise<{ locale: string }>;
+};
+
+export default async function TextDiffPage({ params }: Props) {
     const { locale } = await params;
-    const t = await getTranslations({ locale, namespace: 'Tools.text-diff.meta' });
+    setRequestLocale(locale);
+    const t = await getTranslations({ locale, namespace: 'Tools.text-diff' });
+    const content = getToolContent(t);
 
-    return {
-        title: t('title'),
-        description: t('description'),
-    };
-}
-
-export default async function TextDiffPage({ params }: { params: Promise<{ locale: string }> }) {
-    const { locale } = await params;
-    return <TextDiffClient />;
+    return (
+        <>
+            <ToolJsonLd
+                content={content}
+                baseUrl="https://tools.kamo-me.com"
+                locale={locale}
+                slug="text-diff"
+            />
+            <TextDiffClient locale={locale} content={content} />
+        </>
+    );
 }

@@ -1,19 +1,64 @@
 {
     "meta": {
-        "title": "Multi Image Cropper",
-        "description": "Mag-crop ng maraming lugar mula sa isang larawan at i-download ang mga ito nang paisa-isa o bilang ZIP.",
-        "keywords": "crop, image, multi crop, zip, download"
+        "title": "Multi Image Cropper - I-crop ang Maraming Areas Online",
+        "description": "Libreng online na multi-image cropper tool. I-crop ang maraming areas mula sa isang larawan at i-download ang mga ito nang paisa-isa o bilang isang ZIP file."
     },
+    "tagline": "I-crop ang maraming areas mula sa isang larawan agad",
     "ui": {
-        "uploadImage": "Mag-click upang Mag-upload ng Larawan",
-        "supports": "Sumusuporta sa JPG, PNG, WebP",
+        "title": "Multi Image Cropper",
+        "description": "I-crop ang maraming areas mula sa isang larawan at i-download ang mga ito nang paisa-isa o bilang isang ZIP.",
+        "uploadImage": "I-click para Mag-upload ng Larawan",
+        "supports": "Sinusuportahan ang JPG, PNG, WebP",
         "reset": "I-reset ang Larawan",
         "downloadZip": "I-download ang ZIP",
         "crops": "Mga Crop",
-        "noCrops": "Wala pang napiling mga crop.",
-        "dragInstruction": "✂️ Mag-click at mag-drag upang lumikha ng mga lugar ng crop",
-        "processingNote": "✂️ Ang lahat ng pagproseso ay nangyayari sa iyong browser. Ang iyong mga larawan ay hindi kailanman umaalis sa iyong device.",
+        "noCrops": "Wala pang napiling crops.",
+        "dragInstruction": "✂️ I-click at i-drag para gumawa ng crop areas",
+        "processingNote": "✂️ Lahat ng pagproseso ay nangyayari sa iyong browser. Ang iyong mga larawan ay hindi kailanman umaalis sa iyong device.",
         "download": "I-download",
         "delete": "Tanggalin"
+    },
+    "content": {
+        "description": {
+            "title": "Ano ang Multi Image Cropper?",
+            "text": "Ang Multi Image Cropper ay isang libreng online tool na nagbibigay-daan sa iyo na pumili at mag-crop ng maraming areas mula sa isang larawan nang sabay-sabay. Sa halip na mag-crop nang paisa-isa, maaari kang magtakda ng maraming rehiyon at i-download ang lahat ng ito nang sabay-sabay."
+        },
+        "howTo": {
+            "title": "Paano Gamitin ang Multi Image Cropper",
+            "steps": [
+                "Mag-upload ng larawan sa pamamagitan ng pag-click sa upload area",
+                "I-click at i-drag sa larawan para gumawa ng crop area",
+                "Ulitin para gumawa ng maraming crop areas",
+                "Ayusin ang laki at posisyon ng bawat crop area kung kinakailangan",
+                "I-click ang 'I-download' sa mga indibidwal na crops o 'I-download ang ZIP' para makuha ang lahat ng crops nang sabay-sabay"
+            ]
+        },
+        "features": {
+            "title": "Pangunahing Tampok",
+            "list": [
+                "✂️ Multi-Crop: Pumili ng maraming areas mula sa isang larawan",
+                "📦 ZIP Download: I-download ang lahat ng na-crop na larawan sa isang ZIP file",
+                "🖼️ Format Support: Sinusuportahan ang JPG, PNG, at WebP formats",
+                "🔒 Ligtas: Ang pagproseso ay nangyayari nang lokal sa iyong browser",
+                "🆓 Libre at Walang Limitasyon: Walang limitasyon sa paggamit"
+            ]
+        },
+        "faq": {
+            "title": "Madalas Itanong",
+            "questions": [
+                {
+                    "q": "Ipinapadala ba ang aking larawan sa server?",
+                    "a": "Hindi, lahat ng pagproseso ng larawan ay ginagawa nang buo sa iyong browser gamit ang JavaScript. Ang iyong mga larawan ay hindi kailanman umaalis sa iyong device."
+                },
+                {
+                    "q": "Pwede ba akong mag-crop ng maraming larawan nang sabay-sabay?",
+                    "a": "Sa kasalukuyan, nakatuon ang tool na ito sa pag-crop ng maraming areas mula sa *isang* larawan. Para mag-crop ng maraming magkakaibang larawan, kailangan mong iproseso ang mga ito nang paisa-isa."
+                },
+                {
+                    "q": "Anong mga format ng larawan ang sinusuportahan?",
+                    "a": "Sinusuportahan namin ang mga karaniwang format ng web image kabilang ang JPG, PNG, at WebP."
+                }
+            ]
+        }
     }
 }

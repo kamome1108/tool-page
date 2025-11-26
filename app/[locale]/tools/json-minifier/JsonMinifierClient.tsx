@@ -1,13 +1,19 @@
 'use client';
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useTranslations } from 'next-intl';
+import EnhancedToolLayout from '@/app/components/EnhancedToolLayout';
 import { Button } from '@/app/components/ui/Button';
-import { Card } from '@/app/components/ui/Card';
-import { Toaster, toast } from 'react-hot-toast';
+import toast from 'react-hot-toast';
+import { ToolContent } from '@/app/types/tool';
 
-export default function JsonMinifierClient() {
-    const t = useTranslations('Tools.json-minifier.ui');
+interface Props {
+    locale: string;
+    content: ToolContent;
+}
+
+export default function JsonMinifierClient({ locale, content }: Props) {
+    const t = useTranslations('Tools.json-minifier');
     const [input, setInput] = useState('');
     const [output, setOutput] = useState('');
 
@@ -20,16 +26,16 @@ export default function JsonMinifierClient() {
             const parsed = JSON.parse(input);
             const minified = JSON.stringify(parsed);
             setOutput(minified);
-            toast.success(t('success'));
+            toast.success(t('ui.success'));
         } catch (error) {
-            toast.error(t('error'));
+            toast.error(t('ui.error'));
         }
     };
 
     const copyToClipboard = () => {
         if (!output) return;
         navigator.clipboard.writeText(output);
-        toast.success(t('copied'));
+        toast.success(t('ui.copied'));
     };
 
     const clear = () => {
@@ -38,49 +44,65 @@ export default function JsonMinifierClient() {
     };
 
     return (
-        <div className="max-w-4xl mx-auto space-y-6">
-            <Toaster position="bottom-right" />
-
-            <Card className="p-6 space-y-4">
-                <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">{t('inputLabel')}</label>
+        <EnhancedToolLayout
+            {...content}
+            toolId="json-minifier"
+            locale={locale}
+        >
+            <div className="space-y-6">
+                {/* Input Section */}
+                <div className="space-y-2">
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300">
+                        {t('ui.inputLabel')}
+                    </label>
                     <textarea
                         value={input}
                         onChange={(e) => setInput(e.target.value)}
-                        className="w-full h-64 p-4 border border-gray-300 rounded-lg font-mono text-sm focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                        placeholder={t('inputPlaceholder')}
+                        className="w-full h-64 p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none font-mono text-sm"
+                        placeholder={t('ui.inputPlaceholder')}
+                        spellCheck={false}
                     />
                 </div>
 
+                {/* Controls */}
                 <div className="flex flex-wrap gap-4">
-                    <Button onClick={minify} className="bg-blue-600 hover:bg-blue-700 text-white">
-                        {t('minify')}
+                    <Button onClick={minify} variant="primary">
+                        {t('ui.minify')}
                     </Button>
-                    <Button onClick={clear} variant="ghost" className="text-red-600 hover:text-red-700">
-                        {t('clear')}
+                    <Button onClick={clear} variant="ghost" className="text-red-500 hover:text-red-600 hover:bg-red-50 dark:hover:bg-red-900/20">
+                        {t('ui.clear')}
                     </Button>
                 </div>
 
+                {/* Output Section */}
                 {output && (
-                    <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">{t('outputLabel')}</label>
+                    <div className="space-y-2">
+                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300">
+                            {t('ui.outputLabel')}
+                        </label>
                         <div className="relative">
                             <textarea
                                 readOnly
                                 value={output}
-                                className="w-full h-64 p-4 border border-gray-300 rounded-lg font-mono text-sm bg-gray-50"
+                                className="w-full h-64 p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 font-mono text-sm resize-none"
                             />
-                            <Button
-                                onClick={copyToClipboard}
-                                className="absolute top-2 right-2 bg-white shadow-sm border border-gray-200 hover:bg-gray-50"
-                                size="sm"
-                            >
-                                {t('copy')}
-                            </Button>
+                            <div className="absolute top-2 right-2">
+                                <Button
+                                    onClick={copyToClipboard}
+                                    variant="secondary"
+                                    size="sm"
+                                >
+                                    {t('ui.copy')}
+                                </Button>
+                            </div>
                         </div>
                     </div>
                 )}
-            </Card>
-        </div>
+
+                <div className="text-center text-sm text-gray-500 dark:text-gray-400">
+                    {t('ui.processingNote')}
+                </div>
+            </div>
+        </EnhancedToolLayout>
     );
 }

@@ -1,95 +1,96 @@
 'use client';
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useTranslations } from 'next-intl';
+import EnhancedToolLayout from '@/app/components/EnhancedToolLayout';
 import { Button } from '@/app/components/ui/Button';
-import { Card } from '@/app/components/ui/Card';
+import toast from 'react-hot-toast';
+import { ToolContent } from '@/app/types/tool';
 
-interface HtmlEntityEncoderDecoderClientProps {
+interface Props {
     locale: string;
+    content: ToolContent;
 }
 
-export default function HtmlEntityEncoderDecoderClient({ locale }: HtmlEntityEncoderDecoderClientProps) {
+export default function HtmlEntityEncoderDecoderClient({ locale, content }: Props) {
     const t = useTranslations('Tools.html-entity-encoder-decoder');
     const [input, setInput] = useState('');
-    const [result, setResult] = useState('');
-    const [copied, setCopied] = useState(false);
+    const [output, setOutput] = useState('');
 
-    const encode = () => {
-        const textarea = document.createElement('textarea');
-        textarea.textContent = input;
-        // Basic encoding for common characters, plus using the browser's behavior
-        // However, textarea.textContent doesn't encode. 
-        // We can use Option 2: Replace characters
-        const encoded = input.replace(/[\u00A0-\u9999<>\&]/g, function (i) {
-            return '&#' + i.charCodeAt(0) + ';';
-        });
-        setResult(encoded);
+    const handleEncode = () => {
+        const encoded = input.replace(/[\u00A0-\u9999<>&]/g, (i) => '&#' + i.charCodeAt(0) + ';');
+        setOutput(encoded);
     };
 
-    const decode = () => {
-        const textarea = document.createElement('textarea');
-        textarea.innerHTML = input;
-        setResult(textarea.value);
+    const handleDecode = () => {
+        const txt = document.createElement('textarea');
+        txt.innerHTML = input;
+        setOutput(txt.value);
     };
 
     const handleCopy = () => {
-        navigator.clipboard.writeText(result);
-        setCopied(true);
-        setTimeout(() => setCopied(false), 2000);
+        if (!output) return;
+        navigator.clipboard.writeText(output);
+        toast.success(t('ui.copied'));
+    };
+
+    const handleClear = () => {
+        setInput('');
+        setOutput('');
     };
 
     return (
-        <div className="space-y-6 max-w-2xl mx-auto">
-            <Card padding="lg" className="space-y-6">
-                <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
-                        {t('ui.inputLabel')}
-                    </label>
-                    <textarea
-                        value={input}
-                        onChange={(e) => setInput(e.target.value)}
-                        className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent h-32"
-                        placeholder="<p>Hello & World</p>"
-                    />
-                </div>
-
-                <div className="flex gap-4">
-                    <Button onClick={encode} className="flex-1">
-                        {t('ui.encode')}
-                    </Button>
-                    <Button onClick={decode} variant="outline" className="flex-1">
-                        {t('ui.decode')}
-                    </Button>
-                </div>
-            </Card>
-
-            {result && (
-                <Card padding="lg" className="space-y-4 relative">
-                    <div className="absolute top-4 right-4">
-                        <Button
-                            onClick={handleCopy}
-                            variant="outline"
-                            size="sm"
-                            className={copied ? "bg-green-50 border-green-200 text-green-700" : ""}
-                        >
-                            {copied ? t('ui.copied') : t('ui.copy')}
-                        </Button>
-                    </div>
-                    <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
-                            {t('ui.result')}
+        <EnhancedToolLayout
+            {...content}
+            toolId="html-entity-encoder-decoder"
+            locale={locale}
+        >
+            <div className="space-y-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    {/* Input Section */}
+                    <div className="space-y-2">
+                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300">
+                            {t('ui.inputLabel')}
                         </label>
-                        <div className="bg-gray-50 p-4 border border-gray-200 rounded-md whitespace-pre-wrap h-32 overflow-y-auto font-mono text-sm">
-                            {result}
+                        <textarea
+                            value={input}
+                            onChange={(e) => setInput(e.target.value)}
+                            className="w-full h-64 p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none font-mono text-sm"
+                            placeholder="&lt;div&gt;Hello&lt;/div&gt;"
+                        />
+                        <div className="flex gap-2">
+                            <Button onClick={handleEncode} variant="primary" className="flex-1">
+                                {t('ui.encode')}
+                            </Button>
+                            <Button onClick={handleDecode} variant="secondary" className="flex-1">
+                                {t('ui.decode')}
+                            </Button>
+                            <Button onClick={handleClear} variant="outline">
+                                {t('ui.clear')}
+                            </Button>
                         </div>
                     </div>
-                </Card>
-            )}
 
-            <div className="text-center text-sm text-gray-500">
-                {t('ui.processingNote')}
+                    {/* Output Section */}
+                    <div className="space-y-2">
+                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300">
+                            {t('ui.outputLabel')}
+                        </label>
+                        <textarea
+                            value={output}
+                            readOnly
+                            className="w-full h-64 p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 font-mono text-sm"
+                        />
+                        <Button onClick={handleCopy} variant="secondary" className="w-full" disabled={!output}>
+                            {t('ui.copy')}
+                        </Button>
+                    </div>
+                </div>
+
+                <div className="text-center text-sm text-gray-500 dark:text-gray-400">
+                    {t('ui.processingNote')}
+                </div>
             </div>
-        </div>
+        </EnhancedToolLayout>
     );
 }

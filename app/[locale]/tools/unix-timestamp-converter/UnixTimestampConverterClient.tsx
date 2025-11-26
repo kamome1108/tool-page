@@ -1,22 +1,23 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
+import EnhancedToolLayout from '@/app/components/EnhancedToolLayout';
 import { Button } from '@/app/components/ui/Button';
-import { Card } from '@/app/components/ui/Card';
+import toast from 'react-hot-toast';
+import { ToolContent } from '@/app/types/tool';
 
-interface UnixTimestampConverterClientProps {
+interface Props {
     locale: string;
+    content: ToolContent;
 }
 
-export default function UnixTimestampConverterClient({ locale }: UnixTimestampConverterClientProps) {
+export default function UnixTimestampConverterClient({ locale, content }: Props) {
     const t = useTranslations('Tools.unix-timestamp-converter');
-    const [currentTimestamp, setCurrentTimestamp] = useState<number>(Math.floor(Date.now() / 1000));
-    const [inputTimestamp, setInputTimestamp] = useState<string>('');
-    const [inputDate, setInputDate] = useState<string>('');
-    const [resultDate, setResultDate] = useState<string>('');
-    const [resultTimestamp, setResultTimestamp] = useState<string>('');
-    const [copied, setCopied] = useState<string | null>(null);
+    const [currentTimestamp, setCurrentTimestamp] = useState(Math.floor(Date.now() / 1000));
+    const [inputTimestamp, setInputTimestamp] = useState('');
+    const [inputDate, setInputDate] = useState('');
+    const [result, setResult] = useState<string | null>(null);
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -25,103 +26,138 @@ export default function UnixTimestampConverterClient({ locale }: UnixTimestampCo
         return () => clearInterval(interval);
     }, []);
 
-    const convertToDate = () => {
-        if (!inputTimestamp) return;
-        const ts = Number(inputTimestamp);
-        // Check if it's seconds or milliseconds (heuristic: if > 10000000000, assume ms)
-        const date = new Date(ts > 10000000000 ? ts : ts * 1000);
-        setResultDate(date.toLocaleString(locale));
+    const convertTimestamp = () => {
+        const ts = parseInt(inputTimestamp);
+        if (isNaN(ts)) {
+            toast.error('Invalid timestamp');
+            return;
+        }
+
+        // Check if milliseconds (roughly check digits)
+        const isMs = inputTimestamp.length > 11;
+        const date = new Date(isMs ? ts : ts * 1000);
+
+        setResult(formatDate(date));
     };
 
-    const convertToTimestamp = () => {
-        if (!inputDate) return;
+    const convertDate = () => {
         const date = new Date(inputDate);
-        setResultTimestamp(Math.floor(date.getTime() / 1000).toString());
+        if (isNaN(date.getTime())) {
+            toast.error('Invalid date');
+            return;
+        }
+        setResult(Math.floor(date.getTime() / 1000).toString());
     };
 
-    const handleCopy = (text: string, id: string) => {
-        navigator.clipboard.writeText(text);
-        setCopied(id);
-        setTimeout(() => setCopied(null), 2000);
+    const formatDate = (date: Date) => {
+        return `
+${t('ui.localTime')}: ${date.toLocaleString()}
+${t('ui.gmtTime')}: ${date.toUTCString()}
+${t('ui.relative')}: ${getRelativeTime(date)}
+        `.trim();
+    };
+
+    const getRelativeTime = (date: Date) => {
+        const diff = Math.floor((Date.now() - date.getTime()) / 1000);
+        if (diff < 60) return `${diff} ${t('ui.seconds')} ago`;
+        if (diff < 3600) return `${Math.floor(diff / 60)} minutes ago`;
+        if (diff < 86400) return `${Math.floor(diff / 3600)} hours ago`;
+        return `${Math.floor(diff / 86400)} days ago`;
+    };
+
+    const handleCopy = () => {
+        if (!result) return;
+        navigator.clipboard.writeText(result);
+        toast.success(t('ui.copied'));
     };
 
     return (
-        <div className="space-y-8 max-w-2xl mx-auto">
-            <Card padding="lg" className="text-center bg-blue-50 border-blue-100">
-                <div className="text-sm text-gray-500 mb-2">{t('ui.currentTimestamp')}</div>
-                <div className="text-4xl font-mono font-bold text-blue-600 tracking-wider">
-                    {currentTimestamp}
+        <EnhancedToolLayout
+            {...content}
+            toolId="unix-timestamp-converter"
+            locale={locale}
+        >
+            <div className="space-y-8">
+                {/* Current Timestamp */}
+                <div className="text-center p-6 bg-blue-50 dark:bg-blue-900/20 rounded-xl border border-blue-100 dark:border-blue-800">
+                    <h2 className="text-lg font-medium text-blue-900 dark:text-blue-100 mb-2">
+                        {t('ui.currentTimestamp')}
+                    </h2>
+                    <div className="text-4xl font-mono font-bold text-blue-600 dark:text-blue-400">
+                        {currentTimestamp}
+                    </div>
                 </div>
-            </Card>
 
-            <div className="grid md:grid-cols-2 gap-6">
-                {/* Timestamp to Date */}
-                <Card padding="lg" className="space-y-4">
-                    <h3 className="font-semibold text-gray-900">{t('ui.convertTimestamp')}</h3>
-                    <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
-                            {t('ui.timestampInput')}
-                        </label>
-                        <input
-                            type="number"
-                            value={inputTimestamp}
-                            onChange={(e) => setInputTimestamp(e.target.value)}
-                            className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent font-mono"
-                            placeholder="1672531200"
-                        />
-                    </div>
-                    <Button onClick={convertToDate} className="w-full">
-                        {t('ui.convert')}
-                    </Button>
-                    {resultDate && (
-                        <div className="mt-4 p-3 bg-gray-50 rounded-md border border-gray-200 relative">
-                            <div className="text-sm text-gray-500 mb-1">{t('ui.result')}</div>
-                            <div className="font-medium break-all">{resultDate}</div>
-                            <button
-                                onClick={() => handleCopy(resultDate, 'date')}
-                                className="absolute top-2 right-2 text-xs text-blue-600 hover:text-blue-800"
-                            >
-                                {copied === 'date' ? t('ui.copied') : t('ui.copy')}
-                            </button>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    {/* Timestamp to Date */}
+                    <div className="space-y-4 p-6 bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                            {t('ui.convertTimestamp')}
+                        </h3>
+                        <div className="space-y-2">
+                            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300">
+                                {t('ui.timestampInput')}
+                            </label>
+                            <input
+                                type="number"
+                                value={inputTimestamp}
+                                onChange={(e) => setInputTimestamp(e.target.value)}
+                                className="w-full p-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:ring-2 focus:ring-blue-500"
+                                placeholder="1678900000"
+                            />
+                            <Button onClick={convertTimestamp} variant="primary" className="w-full">
+                                {t('ui.convert')}
+                            </Button>
                         </div>
-                    )}
-                </Card>
-
-                {/* Date to Timestamp */}
-                <Card padding="lg" className="space-y-4">
-                    <h3 className="font-semibold text-gray-900">{t('ui.convertDate')}</h3>
-                    <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
-                            {t('ui.dateInput')}
-                        </label>
-                        <input
-                            type="datetime-local"
-                            value={inputDate}
-                            onChange={(e) => setInputDate(e.target.value)}
-                            className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                        />
                     </div>
-                    <Button onClick={convertToTimestamp} className="w-full">
-                        {t('ui.convert')}
-                    </Button>
-                    {resultTimestamp && (
-                        <div className="mt-4 p-3 bg-gray-50 rounded-md border border-gray-200 relative">
-                            <div className="text-sm text-gray-500 mb-1">{t('ui.result')}</div>
-                            <div className="font-mono font-medium">{resultTimestamp}</div>
-                            <button
-                                onClick={() => handleCopy(resultTimestamp, 'ts')}
-                                className="absolute top-2 right-2 text-xs text-blue-600 hover:text-blue-800"
-                            >
-                                {copied === 'ts' ? t('ui.copied') : t('ui.copy')}
-                            </button>
-                        </div>
-                    )}
-                </Card>
-            </div>
 
-            <div className="text-center text-sm text-gray-500">
-                {t('ui.processingNote')}
+                    {/* Date to Timestamp */}
+                    <div className="space-y-4 p-6 bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                            {t('ui.convertDate')}
+                        </h3>
+                        <div className="space-y-2">
+                            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300">
+                                {t('ui.dateInput')}
+                            </label>
+                            <input
+                                type="datetime-local"
+                                value={inputDate}
+                                onChange={(e) => setInputDate(e.target.value)}
+                                className="w-full p-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:ring-2 focus:ring-blue-500"
+                            />
+                            <Button onClick={convertDate} variant="primary" className="w-full">
+                                {t('ui.convert')}
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Result */}
+                {result && (
+                    <div className="space-y-2">
+                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300">
+                            {t('ui.result')}
+                        </label>
+                        <div className="relative">
+                            <textarea
+                                value={result}
+                                readOnly
+                                className="w-full h-32 p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 font-mono text-sm"
+                            />
+                            <div className="absolute top-2 right-2">
+                                <Button onClick={handleCopy} variant="secondary" size="sm">
+                                    {t('ui.copy')}
+                                </Button>
+                            </div>
+                        </div>
+                    </div>
+                )}
+
+                <div className="text-center text-sm text-gray-500 dark:text-gray-400">
+                    {t('ui.processingNote')}
+                </div>
             </div>
-        </div>
+        </EnhancedToolLayout>
     );
 }

@@ -1,19 +1,61 @@
 {
     "meta": {
-        "title": "CSS Minifier - Paliitin ang CSS Online",
-        "description": "Libreng online na CSS minifier tool. I-compress ang iyong CSS code sa pamamagitan ng pag-alis ng whitespace at mga komento upang mabawasan ang laki ng file."
+        "title": "CSS Minifier - I-compress ang CSS Code Online",
+        "description": "I-minify at i-compress ang iyong CSS code upang bawasan ang laki ng file at mapabuti ang bilis ng pag-load ng website. Libreng online CSS minifier tool.",
+        "keywords": "css minifier, css compressor, minify css, optimize css, web development tool"
     },
+    "tagline": "I-compress ang iyong CSS code agad upang mapalakas ang performance ng website",
     "ui": {
-        "title": "CSS Minifier",
-        "description": "Paliitin ang iyong CSS code upang mabawasan ang laki ng file.",
-        "inputLabel": "Input CSS",
-        "inputPlaceholder": "I-paste ang iyong CSS dito...",
-        "outputLabel": "Pinaliit na CSS",
-        "minify": "Paliitin ang CSS",
+        "inputLabel": "I-paste ang iyong CSS dito",
+        "outputLabel": "Minified CSS",
+        "minify": "I-minify ang CSS",
         "clear": "I-clear",
         "copy": "Kopyahin",
-        "success": "Matagumpay na napaliit ang CSS!",
-        "error": "Nabigo ang pag-minify ng CSS",
-        "copied": "Kinopya sa clipboard!"
+        "copied": "Nakopya na sa clipboard!",
+        "success": "Matagumpay na na-minify ang CSS!",
+        "error": "Hindi valid ang CSS. Pakisuri ang iyong input.",
+        "processingNote": "💻 Ang lahat ng pagpoproseso ay nangyayari sa iyong browser. Ang iyong code ay hindi kailanman ipinapadala sa server."
+    },
+    "content": {
+        "description": {
+            "title": "Ano ang CSS Minifier?",
+            "text": "Ang CSS Minifier ay isang libreng online tool na nagko-compress ng iyong CSS code sa pamamagitan ng pag-alis ng mga hindi kinakailangang character tulad ng whitespace, comments, at newlines. Ang prosesong ito, na kilala bilang minification, ay makabuluhang binabawasan ang laki ng file ng iyong stylesheets, na humahantong sa mas mabilis na oras ng pag-load ng page at pinabuting SEO performance. Ito ay isang mahalagang hakbang para sa pag-deploy ng production-ready na websites."
+        },
+        "howTo": {
+            "title": "Paano Gamitin ang CSS Minifier",
+            "steps": [
+                "I-paste ang iyong CSS code sa input box",
+                "I-click ang 'I-minify ang CSS' button",
+                "Ang compressed CSS ay lilitaw sa output box agad",
+                "I-click ang 'Kopyahin' upang kopyahin ang minified code sa iyong clipboard"
+            ]
+        },
+        "features": {
+            "title": "Mga Pangunahing Tampok",
+            "list": [
+                "⚡ Agarang Compression: I-minify ang iyong CSS sa milliseconds",
+                "🔒 Nakatuon sa Privacy: Ang lahat ng pagpoproseso ay ginagawa nang lokal sa iyong browser",
+                "📉 Pagbawas ng Laki: Makabuluhang binabawasan ang laki ng CSS file",
+                "🚀 Pagpapalakas ng Performance: Tumutulong sa iyong website na mag-load nang mas mabilis",
+                "🆓 Libreng Gamitin: Walang limitasyon sa paggamit o laki ng file"
+            ]
+        },
+        "faq": {
+            "title": "Madalas Itanong (FAQ)",
+            "questions": [
+                {
+                    "q": "Bakit ko dapat i-minify ang aking CSS?",
+                    "a": "Ang pag-minify ng CSS ay binabawasan ang laki ng file, na nangangahulugang mas mabilis itong ma-download at ma-parse ng browser. Pinapabuti nito ang bilis ng pag-load ng iyong website at karanasan ng user."
+                },
+                {
+                    "q": "Ligtas bang gamitin ang tool na ito?",
+                    "a": "Oo, ganap. Ang tool ay tumatakbo nang buo sa iyong browser gamit ang JavaScript. Ang iyong code ay hindi kailanman ina-upload sa anumang server."
+                },
+                {
+                    "q": "Masisisira ba ng minification ang aking CSS?",
+                    "a": "Hindi, inaalis lang ng minification ang mga hindi kinakailangang character (tulad ng mga puwang at komento) na hindi kailangan para maunawaan ng browser ang code. Ang functionality ay nananatiling eksaktong pareho."
+                }
+            ]
+        }
     }
 }

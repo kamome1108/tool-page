@@ -1,8 +1,9 @@
 {
     "meta": {
         "title": "XML Formatter - Format & Minify XML Online",
-        "description": "Free online XML formatter and minifier tool. Beautify or compress your XML code with proper indentation."
+        "description": "Free online XML formatter and minifier tool. Beautify or compress your XML code with proper indentation. Validate XML syntax instantly."
     },
+    "tagline": "Format, minify, and validate XML code instantly",
     "ui": {
         "title": "XML Formatter",
         "description": "Format or minify your XML code.",
@@ -16,6 +17,49 @@
         "success": "XML formatted successfully!",
         "minifySuccess": "XML minified successfully!",
         "error": "Invalid XML format",
-        "copied": "Copied to clipboard!"
+        "copied": "Copied to clipboard!",
+        "processingNote": "🔒 All processing is done in your browser."
+    },
+    "content": {
+        "description": {
+            "title": "What is XML Formatter?",
+            "text": "XML Formatter is a free online tool designed to help developers format, minify, and validate XML data. It transforms unreadable or minified XML into a structured, easy-to-read format with proper indentation, or compresses it for efficient storage and transmission."
+        },
+        "howTo": {
+            "title": "How to Use XML Formatter",
+            "steps": [
+                "Paste your XML code into the input box",
+                "Click 'Format XML' to beautify the code with proper indentation",
+                "Click 'Minify XML' to remove whitespace and reduce file size",
+                "Use the 'Copy' button to copy the result to your clipboard"
+            ]
+        },
+        "features": {
+            "title": "Key Features",
+            "list": [
+                "⚡ Instant Formatting: Beautify XML code instantly",
+                "📦 Minification: Compress XML by removing unnecessary whitespace",
+                "✅ Syntax Validation: Automatically checks for XML syntax errors",
+                "🔒 Secure: Processing happens locally in your browser",
+                "🆓 Free & Unlimited: No usage limits"
+            ]
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "questions": [
+                {
+                    "q": "Is my XML data sent to a server?",
+                    "a": "No, all formatting and validation are performed entirely within your browser using JavaScript. Your data never leaves your device."
+                },
+                {
+                    "q": "Does it handle large XML files?",
+                    "a": "Yes, it can handle reasonably large XML files efficiently within your browser's memory limits."
+                },
+                {
+                    "q": "Can it fix invalid XML?",
+                    "a": "It can help identify syntax errors, but it cannot automatically fix broken XML structure. You'll need to correct the errors based on the feedback provided."
+                }
+            ]
+        }
     }
 }

@@ -1,0 +1,68 @@
+{
+    "meta": {
+        "title": "SVG Placeholder Generator - Create Custom Placeholder Images",
+        "description": "Generate custom SVG placeholder images for your web projects. Adjustable dimensions, colors, and text. Free, fast, and no upload required.",
+        "keywords": "svg placeholder, placeholder generator, dummy image, image generator, web development tool, svg creator"
+    },
+    "tagline": "Create lightweight, customizable SVG placeholder images instantly in your browser",
+    "ui": {
+        "width": "Width",
+        "height": "Height",
+        "backgroundColor": "Background Color",
+        "textColor": "Text Color",
+        "text": "Text (Optional)",
+        "fontSize": "Font Size",
+        "copy": "Copy SVG Code",
+        "download": "Download SVG",
+        "copied": "Copied to clipboard!",
+        "processingNote": "💻 All generation happens in your browser. No server requests needed."
+    },
+    "content": {
+        "description": {
+            "title": "What is SVG Placeholder Generator?",
+            "text": "SVG Placeholder Generator is a free, developer-friendly tool designed to create lightweight placeholder images for your web projects. Unlike traditional image placeholders that require external HTTP requests, our tool generates pure SVG code that you can embed directly into your HTML or CSS. This ensures faster page loads and better performance. You can fully customize the dimensions, colors, and text to match your design requirements."
+        },
+        "howTo": {
+            "title": "How to Use SVG Placeholder Generator",
+            "steps": [
+                "Enter the desired width and height for your placeholder image",
+                "Choose a background color and text color using the color pickers",
+                "Optionally, enter custom text to display (defaults to dimensions)",
+                "Adjust the font size if needed",
+                "Click 'Copy SVG Code' to use it immediately or 'Download SVG' to save the file"
+            ]
+        },
+        "features": {
+            "title": "Key Features",
+            "list": [
+                "⚡ Lightweight: Generates pure SVG code for minimal file size",
+                "🎨 Customizable: Full control over size, colors, and typography",
+                "🚀 Fast: Instant generation directly in your browser",
+                "🔒 Private: No server uploads, everything happens locally",
+                "📱 Responsive: SVGs scale perfectly without losing quality",
+                "🆓 Free: Unlimited usage for personal and commercial projects"
+            ]
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "questions": [
+                {
+                    "q": "Why use SVG for placeholders?",
+                    "a": "SVGs are vector-based, meaning they are extremely lightweight and scale infinitely without pixelation. They are perfect for responsive designs and don't add unnecessary weight to your page load."
+                },
+                {
+                    "q": "Can I use these placeholders in production?",
+                    "a": "Absolutely! The generated SVGs are standard code that works in all modern browsers. You can use them as 'src' in image tags or as background images in CSS."
+                },
+                {
+                    "q": "Do I need to attribute this tool?",
+                    "a": "No attribution is required. You are free to use the generated placeholders in any project, personal or commercial."
+                },
+                {
+                    "q": "Is there a limit to the image size?",
+                    "a": "Technically no, but for very large dimensions, you might want to ensure the font size is adjusted accordingly to remain visible."
+                }
+            ]
+        }
+    }
+}

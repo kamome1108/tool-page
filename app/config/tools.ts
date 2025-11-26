@@ -518,4 +518,10 @@ export const tools: Tool[] = [
         category: 'dev',
         icon: '🎨',
     },
+    {
+        id: 'svg-placeholder-generator',
+        slug: 'svg-placeholder-generator',
+        category: 'image',
+        icon: '🖼️',
+    },
 ];

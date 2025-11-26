@@ -1,0 +1,68 @@
+{
+    "meta": {
+        "title": "SVG Placeholder Generator - Buat Gambar Dummy Kustom",
+        "description": "Buat gambar placeholder SVG kustom untuk proyek web Anda. Sesuaikan dimensi, warna, dan teks. Gratis, cepat, dan tanpa unggahan.",
+        "keywords": "svg placeholder, gambar dummy, pembuat gambar, alat pengembangan web, svg creator"
+    },
+    "tagline": "Buat gambar placeholder SVG yang ringan dan dapat disesuaikan secara instan di browser Anda",
+    "ui": {
+        "width": "Lebar (Width)",
+        "height": "Tinggi (Height)",
+        "backgroundColor": "Warna Latar",
+        "textColor": "Warna Teks",
+        "text": "Teks (Opsional)",
+        "fontSize": "Ukuran Font",
+        "copy": "Salin Kode SVG",
+        "download": "Unduh SVG",
+        "copied": "Disalin ke papan klip!",
+        "processingNote": "💻 Semua pemrosesan terjadi di browser Anda. Tidak ada permintaan server yang diperlukan."
+    },
+    "content": {
+        "description": {
+            "title": "Apa itu SVG Placeholder Generator?",
+            "text": "SVG Placeholder Generator adalah alat gratis yang ramah pengembang yang dirancang untuk membuat gambar placeholder ringan untuk proyek web Anda. Tidak seperti placeholder gambar tradisional yang memerlukan permintaan HTTP eksternal, alat kami menghasilkan kode SVG murni yang dapat Anda sematkan langsung ke dalam HTML atau CSS Anda. Ini memastikan pemuatan halaman yang lebih cepat dan kinerja yang lebih baik. Anda dapat sepenuhnya menyesuaikan dimensi, warna, dan teks agar sesuai dengan kebutuhan desain Anda."
+        },
+        "howTo": {
+            "title": "Cara Menggunakan SVG Placeholder Generator",
+            "steps": [
+                "Masukkan lebar dan tinggi yang diinginkan untuk gambar placeholder Anda",
+                "Pilih warna latar belakang dan warna teks menggunakan pemilih warna",
+                "Secara opsional, masukkan teks kustom untuk ditampilkan (defaultnya adalah dimensi)",
+                "Sesuaikan ukuran font jika diperlukan",
+                "Klik 'Salin Kode SVG' untuk segera menggunakannya atau 'Unduh SVG' untuk menyimpan file"
+            ]
+        },
+        "features": {
+            "title": "Fitur Utama",
+            "list": [
+                "⚡ Ringan: Menghasilkan kode SVG murni untuk ukuran file minimal",
+                "🎨 Dapat Disesuaikan: Kontrol penuh atas ukuran, warna, dan tipografi",
+                "🚀 Cepat: Pembuatan instan langsung di browser Anda",
+                "🔒 Pribadi: Tidak ada unggahan server, semuanya terjadi secara lokal",
+                "📱 Responsif: SVG berskala sempurna tanpa kehilangan kualitas",
+                "🆓 Gratis: Penggunaan tanpa batas untuk proyek pribadi dan komersial"
+            ]
+        },
+        "faq": {
+            "title": "Pertanyaan yang Sering Diajukan",
+            "questions": [
+                {
+                    "q": "Mengapa menggunakan SVG untuk placeholder?",
+                    "a": "SVG berbasis vektor, artinya sangat ringan dan berskala tanpa batas tanpa pikselasi. Mereka sempurna untuk desain responsif dan tidak menambah beban yang tidak perlu pada pemuatan halaman Anda."
+                },
+                {
+                    "q": "Bisakah saya menggunakan ini untuk proyek komersial?",
+                    "a": "Tentu saja! SVG yang dihasilkan adalah kode standar yang berfungsi di semua browser modern. Anda dapat menggunakannya sebagai 'src' dalam tag gambar atau sebagai gambar latar belakang di CSS."
+                },
+                {
+                    "q": "Apakah saya perlu memberikan kredit untuk alat ini?",
+                    "a": "Tidak ada atribusi yang diperlukan. Anda bebas menggunakan placeholder yang dihasilkan dalam proyek apa pun, pribadi atau komersial."
+                },
+                {
+                    "q": "Apakah ada batasan ukuran gambar?",
+                    "a": "Secara teknis tidak, tetapi untuk dimensi yang sangat besar, Anda mungkin ingin memastikan ukuran font disesuaikan agar tetap terlihat."
+                }
+            ]
+        }
+    }
+}

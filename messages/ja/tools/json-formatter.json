@@ -12,7 +12,7 @@
         "minify": "圧縮",
         "copy": "コピー",
         "clear": "クリア",
-        "pastePlaceholder": "JSONをここに貼り付け... {\"key\": \"value\"}",
+        "pastePlaceholder": "JSONをここに貼り付け... '{'\"key\": \"value\"'}'",
         "spaces": "スペース",
         "errorParsing": "❌ JSONの解析エラー:",
         "invalidJson": "無効なJSONです",

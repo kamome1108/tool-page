@@ -1,10 +1,12 @@
 {
     "meta": {
+        "title": "Multi Image Cropper - Crop Multiple Areas Online",
+        "description": "Free online multi-image cropper tool. Crop multiple areas from a single image and download them individually or as a ZIP file."
+    },
+    "tagline": "Crop multiple areas from an image instantly",
+    "ui": {
         "title": "Multi Image Cropper",
         "description": "Crop multiple areas from an image and download them individually or as a ZIP.",
-        "keywords": "crop, image, multi crop, zip, download"
-    },
-    "ui": {
         "uploadImage": "Click to Upload Image",
         "supports": "Supports JPG, PNG, WebP",
         "reset": "Reset Image",
@@ -15,5 +17,48 @@
         "processingNote": "✂️ All processing happens in your browser. Your images never leave your device.",
         "download": "Download",
         "delete": "Delete"
+    },
+    "content": {
+        "description": {
+            "title": "What is Multi Image Cropper?",
+            "text": "Multi Image Cropper is a free online tool that allows you to select and crop multiple areas from a single image simultaneously. Instead of cropping one by one, you can define multiple regions and download them all at once."
+        },
+        "howTo": {
+            "title": "How to Use Multi Image Cropper",
+            "steps": [
+                "Upload an image by clicking the upload area",
+                "Click and drag on the image to create a crop area",
+                "Repeat to create multiple crop areas",
+                "Adjust the size and position of each crop area as needed",
+                "Click 'Download' on individual crops or 'Download ZIP' to get all crops at once"
+            ]
+        },
+        "features": {
+            "title": "Key Features",
+            "list": [
+                "✂️ Multi-Crop: Select multiple areas from one image",
+                "📦 ZIP Download: Download all cropped images in a single ZIP file",
+                "🖼️ Format Support: Supports JPG, PNG, and WebP formats",
+                "🔒 Secure: Processing happens locally in your browser",
+                "🆓 Free & Unlimited: No usage limits"
+            ]
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "questions": [
+                {
+                    "q": "Is my image sent to a server?",
+                    "a": "No, all image processing is performed entirely within your browser using JavaScript. Your images never leave your device."
+                },
+                {
+                    "q": "Can I crop multiple images at once?",
+                    "a": "Currently, this tool focuses on cropping multiple areas from a *single* image. To crop multiple different images, you would need to process them one by one."
+                },
+                {
+                    "q": "What image formats are supported?",
+                    "a": "We support common web image formats including JPG, PNG, and WebP."
+                }
+            ]
+        }
     }
 }

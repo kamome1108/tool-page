@@ -3,8 +3,7 @@
         "title": "SQL Formatter - Beautify SQL Online",
         "description": "Free online SQL Formatter. Beautify and format your SQL queries for better readability. Supports Standard SQL, MySQL, PostgreSQL, and more."
     },
-    "title": "SQL Formatter",
-    "description": "Format and beautify your SQL queries.",
+    "tagline": "Format and beautify your SQL queries instantly",
     "ui": {
         "inputPlaceholder": "Paste your SQL query here...",
         "format": "Format SQL",
@@ -14,6 +13,50 @@
         "indent": "Indentation",
         "spaces": "{count} Spaces",
         "tabs": "Tabs",
-        "error": "Error formatting SQL"
+        "error": "Error formatting SQL",
+        "processingNote": "🔒 All processing is done in your browser."
+    },
+    "content": {
+        "description": {
+            "title": "What is SQL Formatter?",
+            "text": "SQL Formatter is a powerful online tool designed to beautify and standardize your SQL queries. Whether you're dealing with messy, minified code or just want to improve readability, this tool automatically formats your SQL with proper indentation and spacing."
+        },
+        "howTo": {
+            "title": "How to Use SQL Formatter",
+            "steps": [
+                "Paste your raw SQL query into the editor",
+                "Select your SQL dialect (Standard, MySQL, PostgreSQL, etc.)",
+                "Choose your preferred indentation style (Spaces or Tabs)",
+                "Click 'Format SQL' to beautify your code",
+                "Copy the formatted SQL to your clipboard"
+            ]
+        },
+        "features": {
+            "title": "Key Features",
+            "list": [
+                "⚡ Instant Formatting: Beautifies SQL as you type",
+                "🌍 Multi-Dialect Support: Standard SQL, MySQL, PostgreSQL, SQLite, and more",
+                "🔧 Customizable Indentation: Choose between spaces and tabs",
+                "🔒 Privacy First: Code is processed locally in your browser",
+                "📋 One-Click Copy: Easily copy formatted code"
+            ]
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "questions": [
+                {
+                    "q": "Which SQL dialects are supported?",
+                    "a": "We support a wide range of dialects including Standard SQL, MySQL, PostgreSQL, SQLite, MariaDB, T-SQL (SQL Server), and PL/SQL."
+                },
+                {
+                    "q": "Is my SQL code sent to a server?",
+                    "a": "No, all formatting is performed entirely within your browser using JavaScript. Your code never leaves your device."
+                },
+                {
+                    "q": "Can I format minified SQL?",
+                    "a": "Yes, simply paste the minified SQL into the input area and click Format. The tool will restructure it with proper indentation and line breaks."
+                }
+            ]
+        }
     }
 }

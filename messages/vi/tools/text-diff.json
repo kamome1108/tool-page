@@ -1,10 +1,9 @@
 {
     "meta": {
-        "title": "Kiểm tra khác biệt văn bản - So sánh hai văn bản trực tuyến",
-        "description": "Công cụ kiểm tra khác biệt văn bản trực tuyến miễn phí. So sánh hai văn bản và tìm sự khác biệt ngay lập tức. Làm nổi bật các phần thêm, xóa và thay đổi. Hữu ích cho mã, tài liệu và danh sách."
+        "title": "Trình kiểm tra khác biệt văn bản - So sánh hai văn bản trực tuyến",
+        "description": "Trình kiểm tra khác biệt văn bản trực tuyến miễn phí. So sánh hai văn bản và tìm sự khác biệt ngay lập tức. Làm nổi bật các bổ sung, xóa và thay đổi."
     },
-    "title": "Kiểm tra khác biệt văn bản",
-    "description": "So sánh hai văn bản và làm nổi bật sự khác biệt.",
+    "tagline": "So sánh hai văn bản và làm nổi bật sự khác biệt ngay lập tức",
     "ui": {
         "original": "Văn bản gốc",
         "modified": "Văn bản đã sửa đổi",
@@ -15,6 +14,50 @@
         "legend": "Chú giải",
         "removed": "Đã xóa",
         "added": "Đã thêm",
-        "unchanged": "Không thay đổi"
+        "unchanged": "Không thay đổi",
+        "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."
+    },
+    "content": {
+        "description": {
+            "title": "Trình kiểm tra khác biệt văn bản là gì?",
+            "text": "Trình kiểm tra khác biệt văn bản là một công cụ trực tuyến mạnh mẽ cho phép bạn so sánh hai khối văn bản và phát hiện sự khác biệt ngay lập tức. Nó làm nổi bật các dòng đã thêm, đã xóa và đã sửa đổi, giúp dễ dàng theo dõi các thay đổi giữa các phiên bản mã, tài liệu hoặc danh sách."
+        },
+        "howTo": {
+            "title": "Cách sử dụng Trình kiểm tra khác biệt văn bản",
+            "steps": [
+                "Dán văn bản gốc vào bảng điều khiển bên trái",
+                "Dán văn bản đã sửa đổi vào bảng điều khiển bên phải",
+                "Công cụ tự động so sánh các văn bản",
+                "Xem sự khác biệt được làm nổi bật bên dưới",
+                "Màu đỏ biểu thị văn bản đã xóa, Màu xanh lá cây biểu thị văn bản đã thêm"
+            ]
+        },
+        "features": {
+            "title": "Các tính năng chính",
+            "list": [
+                "⚡ So sánh tức thì: Xem sự khác biệt khi bạn nhập",
+                "🎨 Điểm nổi bật được mã hóa màu: Dễ dàng phân biệt giữa thêm và xóa",
+                "🔒 An toàn: So sánh diễn ra cục bộ trong trình duyệt của bạn",
+                "📝 Chế độ xem song song: So sánh văn bản hiệu quả",
+                "🆓 Miễn phí & Không giới hạn: Không giới hạn sử dụng"
+            ]
+        },
+        "faq": {
+            "title": "Câu hỏi thường gặp",
+            "questions": [
+                {
+                    "q": "Văn bản của tôi có được gửi đến máy chủ không?",
+                    "a": "Không, tất cả các so sánh được thực hiện hoàn toàn trong trình duyệt của bạn bằng JavaScript. Văn bản của bạn không bao giờ rời khỏi thiết bị của bạn."
+                },
+                {
+                    "q": "Tôi có thể so sánh các đoạn mã không?",
+                    "a": "Có, công cụ này rất tuyệt vời để so sánh các đoạn mã, tệp cấu hình hoặc bất kỳ nội dung dựa trên văn bản nào khác."
+                },
+                {
+                    "q": "Có giới hạn về độ dài văn bản không?",
+                    "a": "Không có giới hạn nghiêm ngặt, nhưng văn bản cực dài có thể làm chậm trình duyệt của bạn một chút. Nó xử lý kích thước tài liệu điển hình một cách dễ dàng."
+                }
+            ]
+        }
     }
 }

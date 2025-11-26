@@ -3,8 +3,7 @@
         "title": "Pemformat SQL - Percantik SQL Online",
         "description": "Pemformat SQL online gratis. Percantik dan format kueri SQL Anda agar lebih mudah dibaca. Mendukung SQL Standar, MySQL, PostgreSQL, dan lainnya."
     },
-    "title": "Pemformat SQL",
-    "description": "Format dan percantik kueri SQL Anda.",
+    "tagline": "Format dan percantik kueri SQL Anda secara instan",
     "ui": {
         "inputPlaceholder": "Tempel kueri SQL Anda di sini...",
         "format": "Format SQL",
@@ -14,6 +13,50 @@
         "indent": "Indentasi",
         "spaces": "{count} Spasi",
         "tabs": "Tab",
-        "error": "Kesalahan saat memformat SQL"
+        "error": "Kesalahan saat memformat SQL",
+        "processingNote": "🔒 Semua pemrosesan dilakukan di browser Anda."
+    },
+    "content": {
+        "description": {
+            "title": "Apa itu Pemformat SQL?",
+            "text": "Pemformat SQL adalah alat online canggih yang dirancang untuk mempercantik dan menstandarisasi kueri SQL Anda. Baik Anda berurusan dengan kode yang berantakan, diminimalkan, atau hanya ingin meningkatkan keterbacaan, alat ini secara otomatis memformat SQL Anda dengan indentasi dan spasi yang tepat."
+        },
+        "howTo": {
+            "title": "Cara Menggunakan Pemformat SQL",
+            "steps": [
+                "Tempelkan kueri SQL mentah Anda ke dalam editor",
+                "Pilih dialek SQL Anda (Standar, MySQL, PostgreSQL, dll.)",
+                "Pilih gaya indentasi yang Anda inginkan (Spasi atau Tab)",
+                "Klik 'Format SQL' untuk mempercantik kode Anda",
+                "Salin SQL yang diformat ke papan klip Anda"
+            ]
+        },
+        "features": {
+            "title": "Fitur Utama",
+            "list": [
+                "⚡ Pemformatan Instan: Mempercantik SQL saat Anda mengetik",
+                "🌍 Dukungan Multi-Dialek: SQL Standar, MySQL, PostgreSQL, SQLite, dan banyak lagi",
+                "🔧 Indentasi yang Dapat Disesuaikan: Pilih antara spasi dan tab",
+                "🔒 Privasi Terjamin: Kode diproses secara lokal di browser Anda",
+                "📋 Salin Satu Klik: Salin kode yang diformat dengan mudah"
+            ]
+        },
+        "faq": {
+            "title": "Pertanyaan yang Sering Diajukan",
+            "questions": [
+                {
+                    "q": "Dialek SQL mana yang didukung?",
+                    "a": "Kami mendukung berbagai dialek termasuk SQL Standar, MySQL, PostgreSQL, SQLite, MariaDB, T-SQL (SQL Server), dan PL/SQL."
+                },
+                {
+                    "q": "Apakah kode SQL saya dikirim ke server?",
+                    "a": "Tidak, semua pemformatan dilakukan sepenuhnya di dalam browser Anda menggunakan JavaScript. Kode Anda tidak pernah meninggalkan perangkat Anda."
+                },
+                {
+                    "q": "Bisakah saya memformat SQL yang diminimalkan?",
+                    "a": "Ya, cukup tempel SQL yang diminimalkan ke area input dan klik Format. Alat ini akan merestrukturisasinya dengan indentasi dan jeda baris yang tepat."
+                }
+            ]
+        }
     }
 }

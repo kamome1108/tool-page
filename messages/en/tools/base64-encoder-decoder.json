@@ -1,17 +1,59 @@
 {
     "meta": {
-        "title": "Base64 Encoder/Decoder - Encode & Decode Text",
-        "description": "Free online Base64 encoder and decoder. Convert text to Base64 format and decode Base64 strings back to text. Secure and easy to use."
+        "title": "Base64 Encoder/Decoder - Encode & Decode Text Online",
+        "description": "Free online Base64 encoder and decoder. Convert text to Base64 format and decode Base64 strings back to text instantly. Secure, private, and easy to use."
     },
-    "title": "Base64 Encoder/Decoder",
-    "description": "Encode text to Base64 or decode Base64 to text.",
+    "tagline": "Encode and decode Base64 strings instantly in your browser",
     "ui": {
-        "inputLabel": "Enter Text",
+        "inputLabel": "Input Text",
+        "outputLabel": "Result",
         "encode": "Encode",
         "decode": "Decode",
-        "result": "Result",
         "copy": "Copy",
+        "clear": "Clear",
         "copied": "Copied!",
         "processingNote": "🔒 All processing is done in your browser."
+    },
+    "content": {
+        "description": {
+            "title": "What is Base64 Encoder/Decoder?",
+            "text": "Base64 Encoder/Decoder is a versatile online tool that allows you to convert text into Base64 format and vice versa. Base64 encoding is commonly used in web development to transmit data without loss or modification, such as embedding images directly into HTML or CSS, or encoding credentials for basic authentication."
+        },
+        "howTo": {
+            "title": "How to Use Base64 Encoder/Decoder",
+            "steps": [
+                "Enter or paste your text into the input field",
+                "Click 'Encode' to convert plain text to Base64",
+                "Click 'Decode' to convert Base64 string back to plain text",
+                "Copy the result to your clipboard with one click"
+            ]
+        },
+        "features": {
+            "title": "Key Features",
+            "list": [
+                "⚡ Instant Processing: Encode and decode in real-time",
+                "🔒 Privacy First: All data remains in your browser",
+                "📝 Supports UTF-8 characters",
+                "📋 Easy copy-paste functionality",
+                "🆓 100% Free and unlimited"
+            ]
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "questions": [
+                {
+                    "q": "What is Base64 encoding?",
+                    "a": "Base64 is a binary-to-text encoding scheme that represents binary data in an ASCII string format. It's designed to carry data stored in binary formats across channels that only reliably support text content."
+                },
+                {
+                    "q": "Is my data secure?",
+                    "a": "Yes, absolutely. This tool runs entirely on the client-side (in your browser). Your data is never sent to our servers."
+                },
+                {
+                    "q": "Can I decode any Base64 string?",
+                    "a": "Yes, as long as the Base64 string is valid, this tool can decode it back to its original text format."
+                }
+            ]
+        }
     }
 }

@@ -1,10 +1,9 @@
 {
     "meta": {
         "title": "Trình tạo UUID - Tạo UUID ngẫu nhiên trực tuyến",
-        "description": "Trình tạo UUID trực tuyến miễn phí. Tạo UUID ngẫu nhiên (v4) ngay lập tức. Tạo một hoặc nhiều UUID, sao chép vào bảng nhớ tạm và tải xuống dưới dạng văn bản."
+        "description": "Trình tạo UUID trực tuyến miễn phí. Tạo UUID ngẫu nhiên (v4) ngay lập tức. Tạo một hoặc nhiều UUID, sao chép vào clipboard và tải xuống dưới dạng văn bản."
     },
-    "title": "Trình tạo UUID",
-    "description": "Tạo UUID (Mã định danh duy nhất toàn cầu) ngẫu nhiên phiên bản 4.",
+    "tagline": "Tạo UUID ngẫu nhiên (v4) ngay lập tức trong trình duyệt của bạn",
     "ui": {
         "generate": "Tạo UUID",
         "quantity": "Số lượng",
@@ -14,6 +13,49 @@
         "copied": "Đã sao chép!",
         "download": "Tải xuống danh sách",
         "clear": "Xóa",
-        "generated": "UUID đã tạo"
+        "generated": "UUID đã tạo",
+        "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."
+    },
+    "content": {
+        "description": {
+            "title": "Trình tạo UUID là gì?",
+            "text": "Trình tạo UUID là một công cụ dành cho nhà phát triển tạo ra Mã định danh duy nhất toàn cầu (UUID) phiên bản 4. Các mã định danh 128-bit này được tạo ngẫu nhiên và được đảm bảo thống kê là duy nhất trên tất cả các thiết bị và thời gian. Chúng được sử dụng rộng rãi trong phát triển phần mềm cho các khóa cơ sở dữ liệu, ID phiên và hơn thế nữa."
+        },
+        "howTo": {
+            "title": "Cách sử dụng Trình tạo UUID",
+            "steps": [
+                "Chọn số lượng UUID bạn muốn tạo (mặc định là 1)",
+                "Nhấp vào 'Tạo UUID' để tạo mã định danh mới",
+                "Nhấp vào 'Sao chép tất cả' để sao chép danh sách vào clipboard của bạn",
+                "Sử dụng 'Tải xuống danh sách' để lưu chúng dưới dạng tệp văn bản"
+            ]
+        },
+        "features": {
+            "title": "Các tính năng chính",
+            "list": [
+                "⚡ Tạo tức thì: Tạo tối đa 100 UUID cùng một lúc",
+                "🔒 An toàn: Được tạo cục bộ trong trình duyệt của bạn bằng API tiền điện tử",
+                "📋 Hành động hàng loạt: Sao chép hoặc tải xuống UUID đã tạo dễ dàng",
+                "🆔 Tuân thủ tiêu chuẩn: Tạo UUID RFC 4122 v4 hợp lệ",
+                "🆓 Miễn phí & Không giới hạn: Không giới hạn sử dụng"
+            ]
+        },
+        "faq": {
+            "title": "Câu hỏi thường gặp",
+            "questions": [
+                {
+                    "q": "UUID v4 là gì?",
+                    "a": "UUID phiên bản 4 được tạo bằng cách sử dụng các số ngẫu nhiên. Không giống như các phiên bản khác sử dụng địa chỉ MAC hoặc dấu thời gian, v4 chỉ dựa vào tính ngẫu nhiên, làm cho nó phù hợp với hầu hết các trường hợp sử dụng cần sự riêng tư và tính duy nhất."
+                },
+                {
+                    "q": "Có khả năng trùng lặp (UUID trùng lặp) không?",
+                    "a": "Về mặt lý thuyết là có, nhưng thực tế là không. Xác suất tạo ra hai UUID v4 giống hệt nhau là cực kỳ nhỏ đến mức có thể bỏ qua cho tất cả các mục đích thực tế."
+                },
+                {
+                    "q": "Các UUID này có được lưu trữ trên máy chủ của bạn không?",
+                    "a": "Không, các UUID được tạo ở phía máy khách bằng cách sử dụng khả năng mã hóa của trình duyệt của bạn. Chúng tôi không lưu trữ hoặc xem chúng."
+                }
+            ]
+        }
     }
 }

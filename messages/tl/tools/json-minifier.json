@@ -1,19 +1,63 @@
 {
     "meta": {
-        "title": "JSON Minifier - Paliitin ang JSON Online",
-        "description": "Libreng online na JSON minifier tool. I-compress ang iyong JSON code sa pamamagitan ng pag-alis ng whitespace at mga komento upang mabawasan ang laki ng file."
+        "title": "JSON Minifier - I-minify at I-compress ang JSON Online",
+        "description": "Libreng online na JSON minifier tool. I-compress ang iyong JSON code sa pamamagitan ng pag-alis ng whitespace at comments para bawasan ang laki ng file."
     },
+    "tagline": "I-minify, i-compress, at i-validate ang JSON code agad",
     "ui": {
         "title": "JSON Minifier",
-        "description": "Paliitin ang iyong JSON code upang makatipid ng espasyo.",
+        "description": "I-minify ang iyong JSON code para makatipid ng espasyo.",
         "inputLabel": "Input JSON",
         "inputPlaceholder": "I-paste ang iyong JSON dito...",
-        "outputLabel": "Pinaliit na JSON",
-        "minify": "Paliitin ang JSON",
+        "outputLabel": "Minified JSON",
+        "minify": "I-minify ang JSON",
         "clear": "I-clear",
         "copy": "Kopyahin",
-        "success": "Matagumpay na napaliit ang JSON!",
-        "error": "Hindi wastong format ng JSON",
-        "copied": "Kinopya sa clipboard!"
+        "success": "Matagumpay na na-minify ang JSON!",
+        "error": "Hindi valid na format ng JSON",
+        "copied": "Nakopya sa clipboard!",
+        "processingNote": "🔒 Lahat ng pagproseso ay ginagawa sa iyong browser."
+    },
+    "content": {
+        "description": {
+            "title": "Ano ang JSON Minifier?",
+            "text": "Ang JSON Minifier ay isang libreng online tool na dinisenyo para tulungan ang mga developer na i-compress ang JSON data. Inaalis nito ang hindi kailangang whitespace, newlines, at indentation mula sa iyong JSON code, na makabuluhang binabawasan ang laki ng file nito para sa mas mabilis na transmission at storage."
+        },
+        "howTo": {
+            "title": "Paano Gamitin ang JSON Minifier",
+            "steps": [
+                "I-paste ang iyong JSON code sa input box",
+                "I-click ang 'I-minify ang JSON' para i-compress ang code",
+                "Awtomatikong i-validate at i-minify ng tool ang iyong JSON",
+                "Gamitin ang 'Kopyahin' button para kopyahin ang resulta sa iyong clipboard"
+            ]
+        },
+        "features": {
+            "title": "Pangunahing Tampok",
+            "list": [
+                "⚡ Mabilis na Minification: I-compress ang JSON code agad",
+                "📦 Pagbawas ng Laki: Makabuluhang binabawasan ang laki ng file sa pamamagitan ng pag-alis ng whitespace",
+                "✅ Syntax Validation: Awtomatikong sinusuri ang mga error sa JSON syntax",
+                "🔒 Ligtas: Ang pagproseso ay nangyayari nang lokal sa iyong browser",
+                "🆓 Libre at Walang Limitasyon: Walang limitasyon sa paggamit"
+            ]
+        },
+        "faq": {
+            "title": "Madalas Itanong",
+            "questions": [
+                {
+                    "q": "Ipinapadala ba ang aking JSON data sa server?",
+                    "a": "Hindi, lahat ng minification at validation ay ginagawa nang buo sa iyong browser gamit ang JavaScript. Ang iyong data ay hindi kailanman umaalis sa iyong device."
+                },
+                {
+                    "q": "Bakit ko dapat i-minify ang JSON?",
+                    "a": "Ang pag-minify ng JSON ay binabawasan ang dami ng data na kailangang ilipat sa network, na maaaring mapabuti ang bilis ng pag-load at pagganap ng iyong mga application."
+                },
+                {
+                    "q": "Pwede ko bang ibalik ang minification?",
+                    "a": "Oo, maaari kang gumamit ng JSON Formatter tool para ibalik ang indentation at readability ng minified JSON."
+                }
+            ]
+        }
     }
 }

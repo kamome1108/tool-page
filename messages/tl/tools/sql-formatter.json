@@ -3,17 +3,60 @@
         "title": "SQL Formatter - Pagandahin ang SQL Online",
         "description": "Libreng online na SQL Formatter. Pagandahin at i-format ang iyong mga SQL query para sa mas madaling pagbasa. Sinusuportahan ang Standard SQL, MySQL, PostgreSQL, at iba pa."
     },
-    "title": "SQL Formatter",
-    "description": "I-format at pagandahin ang iyong mga SQL query.",
+    "tagline": "I-format at pagandahin ang iyong mga SQL query agad",
     "ui": {
         "inputPlaceholder": "I-paste ang iyong SQL query dito...",
         "format": "I-format ang SQL",
         "copy": "Kopyahin",
-        "copied": "Nakopya na!",
+        "copied": "Nakopya!",
         "dialect": "Dialect",
         "indent": "Indentation",
         "spaces": "{count} Spaces",
         "tabs": "Tabs",
-        "error": "Error sa pag-format ng SQL"
+        "error": "Error sa pag-format ng SQL",
+        "processingNote": "🔒 Lahat ng pagproseso ay ginagawa sa iyong browser."
+    },
+    "content": {
+        "description": {
+            "title": "Ano ang SQL Formatter?",
+            "text": "Ang SQL Formatter ay isang makapangyarihang online tool na dinisenyo para pagandahin at i-standardize ang iyong mga SQL query. Kung ikaw ay may kinakaharap na magulo, minified na code o gusto mo lang mapabuti ang readability, awtomatikong fina-format ng tool na ito ang iyong SQL na may tamang indentation at spacing."
+        },
+        "howTo": {
+            "title": "Paano Gamitin ang SQL Formatter",
+            "steps": [
+                "I-paste ang iyong raw SQL query sa editor",
+                "Piliin ang iyong SQL dialect (Standard, MySQL, PostgreSQL, atbp.)",
+                "Piliin ang iyong gustong indentation style (Spaces o Tabs)",
+                "I-click ang 'I-format ang SQL' para pagandahin ang iyong code",
+                "Kopyahin ang formatted SQL sa iyong clipboard"
+            ]
+        },
+        "features": {
+            "title": "Pangunahing Tampok",
+            "list": [
+                "⚡ Mabilis na Pag-format: Pinapaganda ang SQL habang nagta-type ka",
+                "🌍 Multi-Dialect Support: Standard SQL, MySQL, PostgreSQL, SQLite, at marami pang iba",
+                "🔧 Customizable Indentation: Pumili sa pagitan ng spaces at tabs",
+                "🔒 Privacy Una: Ang code ay pinoproseso nang lokal sa iyong browser",
+                "📋 One-Click Copy: Madaling kopyahin ang formatted code"
+            ]
+        },
+        "faq": {
+            "title": "Madalas Itanong",
+            "questions": [
+                {
+                    "q": "Anong mga SQL dialect ang sinusuportahan?",
+                    "a": "Sinusuportahan namin ang malawak na hanay ng mga dialect kabilang ang Standard SQL, MySQL, PostgreSQL, SQLite, MariaDB, T-SQL (SQL Server), at PL/SQL."
+                },
+                {
+                    "q": "Ipinapadala ba ang aking SQL code sa server?",
+                    "a": "Hindi, lahat ng pag-format ay ginagawa nang buo sa iyong browser gamit ang JavaScript. Ang iyong code ay hindi kailanman umaalis sa iyong device."
+                },
+                {
+                    "q": "Pwede ko bang i-format ang minified SQL?",
+                    "a": "Oo, i-paste lang ang minified SQL sa input area at i-click ang Format. Ire-restructure ito ng tool na may tamang indentation at line breaks."
+                }
+            ]
+        }
     }
 }

@@ -1,11 +1,12 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import JSZip from 'jszip';
 import { saveAs } from 'file-saver';
 import { useTranslations } from 'next-intl';
-import ToolLayout from '@/app/components/ToolLayout';
+import EnhancedToolLayout from '@/app/components/EnhancedToolLayout';
 import { Button } from '@/app/components/ui/Button';
+import { ToolContent } from '@/app/types/tool';
 
 interface Crop {
     id: string;
@@ -15,7 +16,12 @@ interface Crop {
     h: number;
 }
 
-export default function MultiCropperClient({ locale }: { locale: string }) {
+interface Props {
+    locale: string;
+    content: ToolContent;
+}
+
+export default function MultiCropperClient({ locale, content }: Props) {
     const t = useTranslations('Tools.multi-cropper');
 
     const [imageSrc, setImageSrc] = useState<string | null>(null);
@@ -179,24 +185,25 @@ export default function MultiCropperClient({ locale }: { locale: string }) {
     };
 
     return (
-        <ToolLayout
-            title={t('meta.title')}
-            description={t('meta.description')}
+        <EnhancedToolLayout
+            {...content}
+            toolId="multi-cropper"
+            locale={locale}
         >
-            <div className="max-w-7xl mx-auto">
+            <div className="space-y-6">
                 {!imageSrc ? (
-                    <div className="w-full max-w-2xl mx-auto h-64 border-2 border-dashed border-gray-300 rounded-2xl flex flex-col items-center justify-center bg-white hover:border-orange-400 transition-colors shadow-sm">
-                        <label className="cursor-pointer flex flex-col items-center">
+                    <div className="w-full max-w-2xl mx-auto h-64 border-2 border-dashed border-gray-300 dark:border-gray-700 rounded-2xl flex flex-col items-center justify-center bg-white dark:bg-gray-800 hover:border-orange-400 dark:hover:border-orange-500 transition-colors shadow-sm cursor-pointer">
+                        <label className="cursor-pointer flex flex-col items-center w-full h-full justify-center">
                             <span className="text-6xl mb-4">📁</span>
-                            <span className="text-xl font-semibold text-gray-700">{t('ui.uploadImage')}</span>
-                            <span className="text-sm text-gray-500 mt-2">{t('ui.supports')}</span>
+                            <span className="text-xl font-semibold text-gray-700 dark:text-gray-300">{t('ui.uploadImage')}</span>
+                            <span className="text-sm text-gray-500 dark:text-gray-400 mt-2">{t('ui.supports')}</span>
                             <input type="file" accept="image/*" onChange={handleImageUpload} className="hidden" />
                         </label>
                     </div>
                 ) : (
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                         {/* Canvas Area */}
-                        <div className="lg:col-span-2 bg-white p-4 rounded-2xl border border-gray-200 overflow-auto shadow-sm">
+                        <div className="lg:col-span-2 bg-white dark:bg-gray-800 p-4 rounded-2xl border border-gray-200 dark:border-gray-700 overflow-auto shadow-sm">
                             <div className="relative" ref={containerRef}>
                                 <canvas
                                     ref={canvasRef}
@@ -208,12 +215,12 @@ export default function MultiCropperClient({ locale }: { locale: string }) {
                                 />
                             </div>
                             <div className="mt-4 flex justify-between items-center">
-                                <p className="text-sm text-gray-600">{t('ui.dragInstruction')}</p>
+                                <p className="text-sm text-gray-600 dark:text-gray-400">{t('ui.dragInstruction')}</p>
                                 <Button
                                     onClick={() => setImageSrc(null)}
                                     variant="ghost"
                                     size="sm"
-                                    className="text-red-600 hover:text-red-700 hover:bg-red-50"
+                                    className="text-red-600 hover:text-red-700 hover:bg-red-50 dark:hover:bg-red-900/20"
                                 >
                                     {t('ui.reset')}
                                 </Button>
@@ -221,9 +228,9 @@ export default function MultiCropperClient({ locale }: { locale: string }) {
                         </div>
 
                         {/* Sidebar */}
-                        <div className="bg-white p-6 rounded-2xl border border-gray-200 h-fit shadow-sm">
+                        <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 h-fit shadow-sm">
                             <div className="flex justify-between items-center mb-6">
-                                <h2 className="text-xl font-bold text-gray-900">{t('ui.crops')} ({crops.length})</h2>
+                                <h2 className="text-xl font-bold text-gray-900 dark:text-white">{t('ui.crops')} ({crops.length})</h2>
                                 {crops.length > 0 && (
                                     <Button
                                         onClick={downloadAll}
@@ -238,9 +245,9 @@ export default function MultiCropperClient({ locale }: { locale: string }) {
 
                             <div className="space-y-3 max-h-[600px] overflow-y-auto pr-2">
                                 {crops.map((crop, index) => (
-                                    <div key={index} className="bg-gray-50 p-3 rounded-xl flex justify-between items-center border border-gray-200">
-                                        <span className="font-mono text-blue-600 font-bold">#{crop.id}</span>
-                                        <div className="text-xs text-gray-600">
+                                    <div key={index} className="bg-gray-50 dark:bg-gray-700 p-3 rounded-xl flex justify-between items-center border border-gray-200 dark:border-gray-600">
+                                        <span className="font-mono text-blue-600 dark:text-blue-400 font-bold">#{crop.id}</span>
+                                        <div className="text-xs text-gray-600 dark:text-gray-300">
                                             {Math.round(crop.w)} × {Math.round(crop.h)}
                                         </div>
                                         <div className="space-x-2 flex items-center">
@@ -248,7 +255,7 @@ export default function MultiCropperClient({ locale }: { locale: string }) {
                                                 onClick={() => downloadSingle(crop)}
                                                 variant="ghost"
                                                 size="sm"
-                                                className="text-green-600 hover:text-green-700 hover:bg-green-50 px-2 min-h-8 h-8"
+                                                className="text-green-600 hover:text-green-700 hover:bg-green-50 dark:hover:bg-green-900/20 px-2 min-h-8 h-8"
                                                 title={t('ui.download')}
                                             >
                                                 ⬇️
@@ -257,7 +264,7 @@ export default function MultiCropperClient({ locale }: { locale: string }) {
                                                 onClick={() => deleteCrop(index)}
                                                 variant="ghost"
                                                 size="sm"
-                                                className="text-red-600 hover:text-red-700 hover:bg-red-50 px-2 min-h-8 h-8"
+                                                className="text-red-600 hover:text-red-700 hover:bg-red-50 dark:hover:bg-red-900/20 px-2 min-h-8 h-8"
                                                 title={t('ui.delete')}
                                             >
                                                 ✕
@@ -266,17 +273,17 @@ export default function MultiCropperClient({ locale }: { locale: string }) {
                                     </div>
                                 ))}
                                 {crops.length === 0 && (
-                                    <p className="text-gray-500 text-center py-8">{t('ui.noCrops')}</p>
+                                    <p className="text-gray-500 dark:text-gray-400 text-center py-8">{t('ui.noCrops')}</p>
                                 )}
                             </div>
                         </div>
                     </div>
                 )}
 
-                <div className="mt-8 text-gray-600 text-sm text-center bg-orange-50 p-4 rounded-xl">
+                <div className="mt-8 text-gray-600 dark:text-gray-400 text-sm text-center bg-orange-50 dark:bg-orange-900/10 p-4 rounded-xl">
                     <p>{t('ui.processingNote')}</p>
                 </div>
             </div>
-        </ToolLayout>
+        </EnhancedToolLayout>
     );
 }

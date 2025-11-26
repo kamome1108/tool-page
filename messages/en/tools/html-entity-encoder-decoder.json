@@ -3,15 +3,57 @@
         "title": "HTML Entity Encoder/Decoder - Convert Text to HTML Entities",
         "description": "Free online HTML entity encoder and decoder. Convert special characters to HTML entities and vice versa. Securely encode text for web use."
     },
-    "title": "HTML Entity Encoder/Decoder",
-    "description": "Encode or decode text to/from HTML entities.",
+    "tagline": "Convert special characters to HTML entities instantly",
     "ui": {
-        "inputLabel": "Enter Text",
+        "inputLabel": "Input Text",
+        "outputLabel": "Result",
         "encode": "Encode",
         "decode": "Decode",
-        "result": "Result",
         "copy": "Copy",
+        "clear": "Clear",
         "copied": "Copied!",
         "processingNote": "🔒 All processing is done in your browser."
+    },
+    "content": {
+        "description": {
+            "title": "What is HTML Entity Encoder/Decoder?",
+            "text": "HTML Entity Encoder/Decoder is a free online tool that converts special characters into their corresponding HTML entities (e.g., '<' becomes '&lt;') and vice versa. This is essential for web developers to ensure that text is displayed correctly in browsers and to prevent security vulnerabilities like Cross-Site Scripting (XSS)."
+        },
+        "howTo": {
+            "title": "How to Use HTML Entity Encoder/Decoder",
+            "steps": [
+                "Paste your text into the input field",
+                "Click 'Encode' to convert characters to HTML entities",
+                "Click 'Decode' to convert HTML entities back to text",
+                "Copy the result to your clipboard"
+            ]
+        },
+        "features": {
+            "title": "Key Features",
+            "list": [
+                "⚡ Instant Conversion: Encode/Decode in real-time",
+                "🔒 Secure: All processing happens locally in your browser",
+                "📝 Supports all standard HTML entities",
+                "📋 One-click copy to clipboard",
+                "🆓 Completely free to use"
+            ]
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "questions": [
+                {
+                    "q": "Why do I need to encode HTML entities?",
+                    "a": "Encoding ensures that special characters like <, >, and & are displayed literally by the browser instead of being interpreted as HTML tags. It also helps prevent XSS attacks."
+                },
+                {
+                    "q": "Is my data safe?",
+                    "a": "Yes, this tool runs entirely in your browser using JavaScript. Your text is never sent to any server."
+                },
+                {
+                    "q": "Does it support all characters?",
+                    "a": "It supports all standard HTML reserved characters and symbols that have entity references."
+                }
+            ]
+        }
     }
 }

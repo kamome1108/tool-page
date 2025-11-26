@@ -5,5 +5,20 @@ export const relatedTools: Record<string, string[]> = {
         'yaml-to-json',
         'xml-formatter'
     ],
+    'image-converter': [
+        'svg-placeholder-generator',
+        'image-resizer',
+        'image-compressor'
+    ],
+    'svg-placeholder-generator': [
+        'image-converter',
+        'image-resizer',
+        'color-picker'
+    ],
+    'css-minifier': [
+        'json-formatter',
+        'html-entity-encoder-decoder',
+        'color-converter'
+    ],
     // Add other tools here as we implement them
 };

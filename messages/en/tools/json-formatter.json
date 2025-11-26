@@ -12,7 +12,7 @@
         "minify": "Minify",
         "copy": "Copy",
         "clear": "Clear",
-        "pastePlaceholder": "Paste JSON here... {\"key\": \"value\"}",
+        "pastePlaceholder": "Paste JSON here... '{'\"key\": \"value\"'}'",
         "spaces": "Spaces",
         "errorParsing": "❌ Error parsing JSON:",
         "invalidJson": "Invalid JSON",

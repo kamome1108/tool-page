@@ -3,8 +3,7 @@
         "title": "UUID Generator - Generate Random UUIDs Online",
         "description": "Free online UUID Generator. Generate random UUIDs (v4) instantly. Generate single or multiple UUIDs, copy to clipboard, and download as text."
     },
-    "title": "UUID Generator",
-    "description": "Generate random UUIDs (Universally Unique Identifiers) version 4.",
+    "tagline": "Generate random UUIDs (v4) instantly in your browser",
     "ui": {
         "generate": "Generate UUIDs",
         "quantity": "Quantity",
@@ -14,6 +13,49 @@
         "copied": "Copied!",
         "download": "Download List",
         "clear": "Clear",
-        "generated": "Generated UUIDs"
+        "generated": "Generated UUIDs",
+        "processingNote": "🔒 All processing is done in your browser."
+    },
+    "content": {
+        "description": {
+            "title": "What is UUID Generator?",
+            "text": "UUID Generator is a developer tool that creates Universally Unique Identifiers (UUIDs) version 4. These 128-bit identifiers are generated randomly and are statistically guaranteed to be unique across all devices and time. They are widely used in software development for database keys, session IDs, and more."
+        },
+        "howTo": {
+            "title": "How to Use UUID Generator",
+            "steps": [
+                "Select the number of UUIDs you want to generate (default is 1)",
+                "Click 'Generate UUIDs' to create new identifiers",
+                "Click 'Copy All' to copy the list to your clipboard",
+                "Use 'Download List' to save them as a text file"
+            ]
+        },
+        "features": {
+            "title": "Key Features",
+            "list": [
+                "⚡ Instant Generation: Create up to 100 UUIDs at once",
+                "🔒 Secure: Generated locally in your browser using crypto API",
+                "📋 Bulk Actions: Copy or download generated UUIDs easily",
+                "🆔 Standard Compliant: Generates valid RFC 4122 v4 UUIDs",
+                "🆓 Free & Unlimited: No usage limits"
+            ]
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "questions": [
+                {
+                    "q": "What is a UUID v4?",
+                    "a": "Version 4 UUIDs are generated using random numbers. Unlike other versions that use MAC addresses or timestamps, v4 relies solely on randomness, making it suitable for most use cases where privacy and uniqueness are required."
+                },
+                {
+                    "q": "Is there a chance of collision (duplicate UUIDs)?",
+                    "a": "Theoretically yes, but practically no. The probability of generating two identical v4 UUIDs is so infinitesimally small that it can be ignored for all practical purposes."
+                },
+                {
+                    "q": "Are these UUIDs stored on your server?",
+                    "a": "No, the UUIDs are generated client-side using your browser's cryptographic capabilities. We do not store or see them."
+                }
+            ]
+        }
     }
 }

@@ -1,20 +1,63 @@
 {
     "meta": {
         "title": "Pemeriksa Perbedaan Teks - Bandingkan Dua Teks Online",
-        "description": "Pemeriksa Perbedaan Teks online gratis. Bandingkan dua teks dan temukan perbedaannya secara instan. Menyoroti penambahan, penghapusan, dan perubahan. Berguna untuk kode, dokumen, dan daftar."
+        "description": "Pemeriksa Perbedaan Teks online gratis. Bandingkan dua teks dan temukan perbedaannya secara instan. Menyoroti penambahan, penghapusan, dan perubahan."
     },
-    "title": "Pemeriksa Perbedaan Teks",
-    "description": "Bandingkan dua teks dan soroti perbedaannya.",
+    "tagline": "Bandingkan dua teks dan sorot perbedaannya secara instan",
     "ui": {
         "original": "Teks Asli",
-        "modified": "Teks yang Diubah",
+        "modified": "Teks Dimodifikasi",
         "compare": "Bandingkan",
-        "clear": "Hapus",
+        "clear": "Bersihkan",
         "diff": "Perbedaan",
         "noDiff": "Teks identik.",
         "legend": "Legenda",
         "removed": "Dihapus",
         "added": "Ditambahkan",
-        "unchanged": "Tidak Berubah"
+        "unchanged": "Tidak Berubah",
+        "processingNote": "🔒 Semua pemrosesan dilakukan di browser Anda."
+    },
+    "content": {
+        "description": {
+            "title": "Apa itu Pemeriksa Perbedaan Teks?",
+            "text": "Pemeriksa Perbedaan Teks adalah alat online yang ampuh yang memungkinkan Anda membandingkan dua blok teks dan menemukan perbedaannya secara instan. Ini menyoroti baris yang ditambahkan, dihapus, dan dimodifikasi, sehingga mudah untuk melacak perubahan antara versi kode, dokumen, atau daftar."
+        },
+        "howTo": {
+            "title": "Cara Menggunakan Pemeriksa Perbedaan Teks",
+            "steps": [
+                "Tempelkan teks asli ke panel kiri",
+                "Tempelkan teks yang dimodifikasi ke panel kanan",
+                "Alat ini secara otomatis membandingkan teks",
+                "Lihat perbedaan yang disorot di bawah ini",
+                "Merah menunjukkan teks yang dihapus, Hijau menunjukkan teks yang ditambahkan"
+            ]
+        },
+        "features": {
+            "title": "Fitur Utama",
+            "list": [
+                "⚡ Perbandingan Instan: Lihat perbedaan saat Anda mengetik",
+                "🎨 Sorotan Kode Warna: Membedakan dengan mudah antara penambahan dan penghapusan",
+                "🔒 Aman: Perbandingan terjadi secara lokal di browser Anda",
+                "📝 Tampilan Berdampingan: Bandingkan teks secara efisien",
+                "🆓 Gratis & Tidak Terbatas: Tidak ada batasan penggunaan"
+            ]
+        },
+        "faq": {
+            "title": "Pertanyaan yang Sering Diajukan",
+            "questions": [
+                {
+                    "q": "Apakah teks saya dikirim ke server?",
+                    "a": "Tidak, semua perbandingan dilakukan sepenuhnya di dalam browser Anda menggunakan JavaScript. Teks Anda tidak pernah meninggalkan perangkat Anda."
+                },
+                {
+                    "q": "Bisakah saya membandingkan cuplikan kode?",
+                    "a": "Ya, alat ini sangat baik untuk membandingkan cuplikan kode, file konfigurasi, atau konten berbasis teks lainnya."
+                },
+                {
+                    "q": "Apakah ada batasan panjang teks?",
+                    "a": "Tidak ada batasan ketat, tetapi teks yang sangat panjang mungkin sedikit memperlambat browser Anda. Ini menangani ukuran dokumen biasa dengan mudah."
+                }
+            ]
+        }
     }
 }

@@ -1,102 +1,105 @@
 'use client';
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useTranslations } from 'next-intl';
+import EnhancedToolLayout from '@/app/components/EnhancedToolLayout';
 import { Button } from '@/app/components/ui/Button';
-import { Card } from '@/app/components/ui/Card';
-import { Toaster, toast } from 'react-hot-toast';
+import toast from 'react-hot-toast';
+import { ToolContent } from '@/app/types/tool';
 
-export default function CssMinifierClient() {
-    const t = useTranslations('Tools.css-minifier.ui');
+interface Props {
+    locale: string;
+    content: ToolContent;
+}
+
+export default function CssMinifierClient({ locale, content }: Props) {
+    const t = useTranslations('Tools.css-minifier');
     const [input, setInput] = useState('');
     const [output, setOutput] = useState('');
 
-    const minify = () => {
-        try {
-            if (!input.trim()) {
-                setOutput('');
-                return;
-            }
+    const handleMinify = () => {
+        if (!input.trim()) {
+            toast.error(t('ui.error'));
+            return;
+        }
 
-            // Simple CSS minification
-            let minified = input
-                // Remove comments
-                .replace(/\/\*[\s\S]*?\*\//g, '')
-                // Remove whitespace around operators
-                .replace(/\s*([{}:;,>+~])\s*/g, '$1')
-                // Remove unnecessary semicolons
-                .replace(/;}/g, '}')
-                // Remove leading/trailing whitespace
-                .replace(/^\s+|\s+$/gm, '')
-                // Collapse multiple spaces
-                .replace(/\s+/g, ' ')
-                // Remove spaces around braces
-                .replace(/\s*{\s*/g, '{')
-                .replace(/\s*}\s*/g, '}')
+        try {
+            // Simple but effective CSS minification regex
+            const minified = input
+                .replace(/\/\*[\s\S]*?\*\//g, '') // Remove comments
+                .replace(/\s+/g, ' ') // Collapse whitespace
+                .replace(/\s*([{}:;,])\s*/g, '$1') // Remove space around delimiters
+                .replace(/;\}/g, '}') // Remove trailing semicolon in block
                 .trim();
 
             setOutput(minified);
-            toast.success(t('success'));
+            toast.success(t('ui.success'));
         } catch (error) {
-            toast.error(t('error'));
+            console.error('Minification error:', error);
+            toast.error(t('ui.error'));
         }
     };
 
-    const copyToClipboard = () => {
+    const handleCopy = () => {
         if (!output) return;
         navigator.clipboard.writeText(output);
-        toast.success(t('copied'));
+        toast.success(t('ui.copied'));
     };
 
-    const clear = () => {
+    const handleClear = () => {
         setInput('');
         setOutput('');
     };
 
     return (
-        <div className="max-w-4xl mx-auto space-y-6">
-            <Toaster position="bottom-right" />
-
-            <Card className="p-6 space-y-4">
-                <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">{t('inputLabel')}</label>
-                    <textarea
-                        value={input}
-                        onChange={(e) => setInput(e.target.value)}
-                        className="w-full h-64 p-4 border border-gray-300 rounded-lg font-mono text-sm focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                        placeholder={t('inputPlaceholder')}
-                    />
-                </div>
-
-                <div className="flex flex-wrap gap-4">
-                    <Button onClick={minify} className="bg-blue-600 hover:bg-blue-700 text-white">
-                        {t('minify')}
-                    </Button>
-                    <Button onClick={clear} variant="ghost" className="text-red-600 hover:text-red-700">
-                        {t('clear')}
-                    </Button>
-                </div>
-
-                {output && (
-                    <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">{t('outputLabel')}</label>
-                        <div className="relative">
-                            <textarea
-                                readOnly
-                                value={output}
-                                className="w-full h-64 p-4 border border-gray-300 rounded-lg font-mono text-sm bg-gray-50"
-                            />
-                            <Button
-                                onClick={copyToClipboard}
-                                className="absolute top-2 right-2 bg-white shadow-sm border border-gray-200 hover:bg-gray-50"
-                                size="sm"
-                            >
-                                {t('copy')}
+        <EnhancedToolLayout
+            {...content}
+            toolId="css-minifier"
+            locale={locale}
+        >
+            <div className="space-y-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    {/* Input Section */}
+                    <div className="space-y-2">
+                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300">
+                            {t('ui.inputLabel')}
+                        </label>
+                        <textarea
+                            value={input}
+                            onChange={(e) => setInput(e.target.value)}
+                            className="w-full h-64 p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none font-mono text-sm"
+                            placeholder="body { color: #333; }"
+                        />
+                        <div className="flex gap-2">
+                            <Button onClick={handleMinify} variant="primary" className="flex-1">
+                                {t('ui.minify')}
+                            </Button>
+                            <Button onClick={handleClear} variant="outline">
+                                {t('ui.clear')}
                             </Button>
                         </div>
                     </div>
-                )}
-            </Card>
-        </div>
+
+                    {/* Output Section */}
+                    <div className="space-y-2">
+                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300">
+                            {t('ui.outputLabel')}
+                        </label>
+                        <textarea
+                            value={output}
+                            readOnly
+                            className="w-full h-64 p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 font-mono text-sm"
+                        />
+                        <Button onClick={handleCopy} variant="secondary" className="w-full" disabled={!output}>
+                            {t('ui.copy')}
+                        </Button>
+                    </div>
+                </div>
+
+                <div className="text-center text-sm text-gray-500 dark:text-gray-400">
+                    {t('ui.processingNote')}
+                </div>
+            </div>
+        </EnhancedToolLayout>
     );
 }

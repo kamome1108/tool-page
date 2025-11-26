@@ -1,10 +1,9 @@
 {
     "meta": {
-        "title": "Định dạng SQL - Làm đẹp SQL trực tuyến",
-        "description": "Công cụ định dạng SQL trực tuyến miễn phí. Làm đẹp và định dạng các truy vấn SQL của bạn để dễ đọc hơn. Hỗ trợ Standard SQL, MySQL, PostgreSQL và nhiều hơn nữa."
+        "title": "Trình định dạng SQL - Làm đẹp SQL Trực tuyến",
+        "description": "Trình định dạng SQL trực tuyến miễn phí. Làm đẹp và định dạng các truy vấn SQL của bạn để dễ đọc hơn. Hỗ trợ Standard SQL, MySQL, PostgreSQL và hơn thế nữa."
     },
-    "title": "Định dạng SQL",
-    "description": "Định dạng và làm đẹp các truy vấn SQL của bạn.",
+    "tagline": "Định dạng và làm đẹp các truy vấn SQL của bạn ngay lập tức",
     "ui": {
         "inputPlaceholder": "Dán truy vấn SQL của bạn vào đây...",
         "format": "Định dạng SQL",
@@ -12,8 +11,52 @@
         "copied": "Đã sao chép!",
         "dialect": "Phương ngữ",
         "indent": "Thụt lề",
-        "spaces": "{count} Khoảng trắng",
+        "spaces": "{count} Dấu cách",
         "tabs": "Tab",
-        "error": "Lỗi khi định dạng SQL"
+        "error": "Lỗi định dạng SQL",
+        "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."
+    },
+    "content": {
+        "description": {
+            "title": "Trình định dạng SQL là gì?",
+            "text": "Trình định dạng SQL là một công cụ trực tuyến mạnh mẽ được thiết kế để làm đẹp và chuẩn hóa các truy vấn SQL của bạn. Cho dù bạn đang xử lý mã lộn xộn, đã thu nhỏ hay chỉ muốn cải thiện khả năng đọc, công cụ này sẽ tự động định dạng SQL của bạn với thụt lề và khoảng cách thích hợp."
+        },
+        "howTo": {
+            "title": "Cách sử dụng Trình định dạng SQL",
+            "steps": [
+                "Dán truy vấn SQL thô của bạn vào trình chỉnh sửa",
+                "Chọn phương ngữ SQL của bạn (Standard, MySQL, PostgreSQL, v.v.)",
+                "Chọn kiểu thụt lề ưa thích của bạn (Dấu cách hoặc Tab)",
+                "Nhấp vào 'Định dạng SQL' để làm đẹp mã của bạn",
+                "Sao chép SQL đã định dạng vào clipboard của bạn"
+            ]
+        },
+        "features": {
+            "title": "Các tính năng chính",
+            "list": [
+                "⚡ Định dạng tức thì: Làm đẹp SQL khi bạn nhập",
+                "🌍 Hỗ trợ đa phương ngữ: Standard SQL, MySQL, PostgreSQL, SQLite, v.v.",
+                "🔧 Thụt lề tùy chỉnh: Chọn giữa dấu cách và tab",
+                "🔒 Quyền riêng tư là trên hết: Mã được xử lý cục bộ trong trình duyệt của bạn",
+                "📋 Sao chép một cú nhấp chuột: Dễ dàng sao chép mã đã định dạng"
+            ]
+        },
+        "faq": {
+            "title": "Câu hỏi thường gặp",
+            "questions": [
+                {
+                    "q": "Những phương ngữ SQL nào được hỗ trợ?",
+                    "a": "Chúng tôi hỗ trợ nhiều loại phương ngữ bao gồm Standard SQL, MySQL, PostgreSQL, SQLite, MariaDB, T-SQL (SQL Server) và PL/SQL."
+                },
+                {
+                    "q": "Mã SQL của tôi có được gửi đến máy chủ không?",
+                    "a": "Không, tất cả định dạng được thực hiện hoàn toàn trong trình duyệt của bạn bằng JavaScript. Mã của bạn không bao giờ rời khỏi thiết bị của bạn."
+                },
+                {
+                    "q": "Tôi có thể định dạng SQL đã thu nhỏ không?",
+                    "a": "Có, chỉ cần dán SQL đã thu nhỏ vào vùng nhập liệu và nhấp vào Định dạng. Công cụ sẽ cấu trúc lại nó với thụt lề và ngắt dòng thích hợp."
+                }
+            ]
+        }
     }
 }

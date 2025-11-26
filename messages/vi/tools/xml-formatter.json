@@ -1,21 +1,65 @@
 {
     "meta": {
-        "title": "XML Formatter - Định dạng & Thu nhỏ XML Trực tuyến",
-        "description": "Công cụ định dạng và thu nhỏ XML trực tuyến miễn phí. Làm đẹp hoặc nén mã XML của bạn với thụt lề phù hợp."
+        "title": "Trình định dạng XML - Định dạng & Thu nhỏ XML Trực tuyến",
+        "description": "Công cụ định dạng và thu nhỏ XML trực tuyến miễn phí. Làm đẹp hoặc nén mã XML của bạn với thụt lề thích hợp. Xác thực cú pháp XML ngay lập tức."
     },
+    "tagline": "Định dạng, thu nhỏ và xác thực mã XML ngay lập tức",
     "ui": {
-        "title": "XML Formatter",
+        "title": "Trình định dạng XML",
         "description": "Định dạng hoặc thu nhỏ mã XML của bạn.",
-        "inputLabel": "Đầu vào XML",
+        "inputLabel": "XML đầu vào",
         "inputPlaceholder": "Dán XML của bạn vào đây...",
         "outputLabel": "XML đã định dạng",
         "format": "Định dạng XML",
         "minify": "Thu nhỏ XML",
         "clear": "Xóa",
         "copy": "Sao chép",
-        "success": "XML đã được định dạng thành công!",
-        "minifySuccess": "XML đã được thu nhỏ thành công!",
+        "success": "Đã định dạng XML thành công!",
+        "minifySuccess": "Đã thu nhỏ XML thành công!",
         "error": "Định dạng XML không hợp lệ",
-        "copied": "Đã sao chép vào khay nhớ tạm!"
+        "copied": "Đã sao chép vào clipboard!",
+        "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."
+    },
+    "content": {
+        "description": {
+            "title": "Trình định dạng XML là gì?",
+            "text": "Trình định dạng XML là một công cụ trực tuyến miễn phí được thiết kế để giúp các nhà phát triển định dạng, thu nhỏ và xác thực dữ liệu XML. Nó chuyển đổi XML không thể đọc được hoặc đã thu nhỏ thành một định dạng có cấu trúc, dễ đọc với thụt lề thích hợp, hoặc nén nó để lưu trữ và truyền tải hiệu quả."
+        },
+        "howTo": {
+            "title": "Cách sử dụng Trình định dạng XML",
+            "steps": [
+                "Dán mã XML của bạn vào hộp nhập liệu",
+                "Nhấp vào 'Định dạng XML' để làm đẹp mã với thụt lề thích hợp",
+                "Nhấp vào 'Thu nhỏ XML' để xóa khoảng trắng và giảm kích thước tệp",
+                "Sử dụng nút 'Sao chép' để sao chép kết quả vào clipboard của bạn"
+            ]
+        },
+        "features": {
+            "title": "Các tính năng chính",
+            "list": [
+                "⚡ Định dạng tức thì: Làm đẹp mã XML ngay lập tức",
+                "📦 Thu nhỏ: Nén XML bằng cách xóa khoảng trắng không cần thiết",
+                "✅ Xác thực cú pháp: Tự động kiểm tra lỗi cú pháp XML",
+                "🔒 An toàn: Quá trình xử lý diễn ra cục bộ trong trình duyệt của bạn",
+                "🆓 Miễn phí & Không giới hạn: Không giới hạn sử dụng"
+            ]
+        },
+        "faq": {
+            "title": "Câu hỏi thường gặp",
+            "questions": [
+                {
+                    "q": "Dữ liệu XML của tôi có được gửi đến máy chủ không?",
+                    "a": "Không, tất cả định dạng và xác thực được thực hiện hoàn toàn trong trình duyệt của bạn bằng JavaScript. Dữ liệu của bạn không bao giờ rời khỏi thiết bị của bạn."
+                },
+                {
+                    "q": "Nó có xử lý các tệp XML lớn không?",
+                    "a": "Có, nó có thể xử lý các tệp XML lớn một cách hiệu quả trong giới hạn bộ nhớ của trình duyệt của bạn."
+                },
+                {
+                    "q": "Nó có thể sửa XML không hợp lệ không?",
+                    "a": "Nó có thể giúp xác định lỗi cú pháp, nhưng nó không thể tự động sửa cấu trúc XML bị hỏng. Bạn sẽ cần sửa lỗi dựa trên phản hồi được cung cấp."
+                }
+            ]
+        }
     }
 }
