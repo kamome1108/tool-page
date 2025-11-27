@@ -21,5 +21,8 @@
     "meta": {
         "title": "Tool Suite - Libreng Online Tools para sa mga Developer at Creator",
         "description": "Isang koleksyon ng mga libre at privacy-focused na online tool kabilang ang mga password generator, formatter, at calculator. Hindi kailangan mag-sign up, gumagana nang buo sa iyong browser."
+    },
+    "relatedTools": {
+        "title": "Mga Kaugnay na Tool"
     }
 }

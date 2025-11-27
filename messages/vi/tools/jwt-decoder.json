@@ -1,15 +1,64 @@
 {
     "meta": {
-        "title": "Bộ giải mã JWT - Giải mã JSON Web Tokens",
-        "description": "Bộ giải mã JWT trực tuyến miễn phí. Giải mã và kiểm tra tiêu đề và tải trọng của JSON Web Tokens (JWT) mà không cần gửi dữ liệu đến máy chủ."
+        "title": "Bộ giải mã JWT - Giải mã JSON Web Tokens trực tuyến",
+        "description": "Bộ giải mã JWT trực tuyến miễn phí. Giải mã và kiểm tra tiêu đề và tải trọng của JSON Web Tokens (JWT) ngay lập tức. Gỡ lỗi mã thông báo an toàn trong trình duyệt của bạn."
     },
-    "title": "Bộ giải mã JWT",
-    "description": "Giải mã và kiểm tra JSON Web Tokens.",
+    "tagline": "Giải mã và kiểm tra JSON Web Tokens ngay lập tức",
     "ui": {
         "inputPlaceholder": "Dán JWT của bạn vào đây...",
-        "header": "Tiêu đề (Header)",
-        "payload": "Tải trọng (Payload)",
+        "header": "Tiêu đề",
+        "payload": "Tải trọng",
         "invalidToken": "Định dạng JWT không hợp lệ",
-        "processingNote": "🔒 Việc giải mã diễn ra cục bộ trong trình duyệt của bạn. Mã thông báo của bạn không bao giờ được gửi đến máy chủ của chúng tôi."
+        "processingNote": "🔒 Quá trình giải mã diễn ra cục bộ trong trình duyệt của bạn. Mã thông báo của bạn không bao giờ được gửi đến máy chủ của chúng tôi.",
+        "algorithm": "Thuật toán",
+        "type": "Loại",
+        "issuedAt": "Phát hành tại",
+        "expiration": "Hết hạn",
+        "copy": "Sao chép",
+        "copied": "Đã sao chép!",
+        "clear": "Xóa",
+        "outputLabel": "Kết quả"
+    },
+    "content": {
+        "description": {
+            "title": "Bộ giải mã JWT là gì?",
+            "text": "Bộ giải mã JWT là một công cụ dành cho nhà phát triển cho phép bạn giải mã và kiểm tra nội dung của JSON Web Tokens (JWT). Nó chia mã thông báo thành ba phần: Tiêu đề, Tải trọng và Chữ ký, đồng thời hiển thị dữ liệu JSON đã giải mã ở định dạng có thể đọc được. Điều này rất cần thiết để gỡ lỗi các vấn đề xác thực và xác minh nội dung mã thông báo."
+        },
+        "howTo": {
+            "title": "Cách sử dụng Bộ giải mã JWT",
+            "steps": [
+                "Dán chuỗi JWT của bạn vào trường nhập liệu",
+                "Công cụ tự động giải mã mã thông báo",
+                "Xem các phần Tiêu đề và Tải trọng đã giải mã",
+                "Kiểm tra các xác nhận quyền sở hữu tiêu chuẩn như hết hạn (exp) và phát hành tại (iat)"
+            ]
+        },
+        "features": {
+            "title": "Các tính năng chính",
+            "list": [
+                "⚡ Giải mã tức thì: Giải mã mã thông báo khi bạn nhập",
+                "🔒 An toàn: Tất cả quá trình xử lý diễn ra cục bộ trong trình duyệt của bạn",
+                "🎨 Mã màu: Phân tách trực quan Tiêu đề, Tải trọng và Chữ ký",
+                "🕒 Định dạng ngày: Tự động định dạng dấu thời gian (exp, iat)",
+                "📋 Sao chép dễ dàng: Sao chép một cú nhấp chuột cho JSON đã giải mã"
+            ]
+        },
+        "faq": {
+            "title": "Câu hỏi thường gặp",
+            "questions": [
+                {
+                    "q": "JWT là gì?",
+                    "a": "JSON Web Token (JWT) là một tiêu chuẩn mở (RFC 7519) xác định một cách nhỏ gọn và khép kín để truyền thông tin an toàn giữa các bên dưới dạng đối tượng JSON."
+                },
+                {
+                    "q": "Có an toàn khi dán mã thông báo sản xuất của tôi vào đây không?",
+                    "a": "Có, công cụ này chạy hoàn toàn trong trình duyệt của bạn. Mã thông báo của bạn không bao giờ được gửi đến bất kỳ máy chủ nào. Tuy nhiên, theo phương pháp hay nhất, hãy luôn thận trọng với thông tin đăng nhập sản xuất."
+                },
+                {
+                    "q": "Công cụ này có xác minh chữ ký không?",
+                    "a": "Không, công cụ này chỉ giải mã mã thông báo để hiển thị nội dung của nó. Nó không xác minh chữ ký, vì điều đó yêu cầu khóa bí mật."
+                }
+            ]
+        }
     }
 }

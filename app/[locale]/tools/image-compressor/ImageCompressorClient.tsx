@@ -2,12 +2,18 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
+import EnhancedToolLayout from '@/app/components/EnhancedToolLayout';
 import { Button } from '@/app/components/ui/Button';
-import { Card } from '@/app/components/ui/Card';
 import imageCompression from 'browser-image-compression';
 import { Toaster, toast } from 'react-hot-toast';
+import { ToolContent } from '@/app/types/tool';
 
-export default function ImageCompressorClient() {
+interface Props {
+    locale: string;
+    content: ToolContent;
+}
+
+export default function ImageCompressorClient({ locale, content }: Props) {
     const t = useTranslations('Tools.image-compressor.ui');
     const [file, setFile] = useState<File | null>(null);
     const [compressedFile, setCompressedFile] = useState<File | null>(null);
@@ -67,10 +73,15 @@ export default function ImageCompressorClient() {
     };
 
     return (
-        <div className="max-w-3xl mx-auto space-y-6">
-            <Toaster position="bottom-right" />
-            <Card className="p-8">
-                <div className="border-2 border-dashed border-gray-300 rounded-lg p-12 text-center hover:border-blue-500 transition-colors">
+        <EnhancedToolLayout
+            {...content}
+            toolId="image-compressor"
+            locale={locale}
+        >
+            <div className="space-y-6">
+                <Toaster position="bottom-right" />
+
+                <div className="border-2 border-dashed border-gray-300 dark:border-gray-700 rounded-lg p-12 text-center hover:border-blue-500 dark:hover:border-blue-500 transition-colors bg-white dark:bg-gray-800">
                     <input
                         type="file"
                         accept="image/*"
@@ -82,16 +93,16 @@ export default function ImageCompressorClient() {
                         htmlFor="image-upload"
                         className="cursor-pointer flex flex-col items-center gap-4"
                     >
-                        <div className="bg-blue-50 p-4 rounded-full">
-                            <svg className="w-12 h-12 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-full">
+                            <svg className="w-12 h-12 text-blue-500 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                             </svg>
                         </div>
                         <div className="space-y-2">
-                            <span className="text-xl font-semibold text-gray-700 block">
+                            <span className="text-xl font-semibold text-gray-700 dark:text-gray-200 block">
                                 {t('selectImage')}
                             </span>
-                            <span className="text-sm text-gray-500 block">
+                            <span className="text-sm text-gray-500 dark:text-gray-400 block">
                                 {t('dragDrop')}
                             </span>
                         </div>
@@ -100,14 +111,14 @@ export default function ImageCompressorClient() {
 
                 {file && (
                     <div className="mt-8 space-y-6">
-                        <div className="bg-gray-50 p-6 rounded-lg space-y-4">
+                        <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg space-y-4">
                             <div className="flex items-center justify-between">
-                                <span className="font-medium text-gray-700">{file.name}</span>
-                                <span className="text-sm text-gray-500">{t('originalSize', { size: formatSize(file.size) })}</span>
+                                <span className="font-medium text-gray-700 dark:text-gray-200">{file.name}</span>
+                                <span className="text-sm text-gray-500 dark:text-gray-400">{t('originalSize', { size: formatSize(file.size) })}</span>
                             </div>
 
                             <div className="space-y-2">
-                                <div className="flex justify-between text-sm text-gray-600">
+                                <div className="flex justify-between text-sm text-gray-600 dark:text-gray-300">
                                     <span>{t('quality', { value: quality })}</span>
                                 </div>
                                 <input
@@ -116,7 +127,7 @@ export default function ImageCompressorClient() {
                                     max="100"
                                     value={quality}
                                     onChange={(e) => setQuality(Number(e.target.value))}
-                                    className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-blue-600"
+                                    className="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-lg appearance-none cursor-pointer accent-blue-600"
                                 />
                             </div>
                         </div>
@@ -141,12 +152,12 @@ export default function ImageCompressorClient() {
                         </div>
 
                         {compressedFile && (
-                            <div className="bg-green-50 border border-green-200 p-4 rounded-lg">
+                            <div className="bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 p-4 rounded-lg">
                                 <div className="flex justify-between items-center">
-                                    <span className="text-green-700 font-medium">
+                                    <span className="text-green-700 dark:text-green-400 font-medium">
                                         {t('compressedSize', { size: formatSize(compressedFile.size) })}
                                     </span>
-                                    <span className="text-green-600 text-sm font-bold bg-green-100 px-2 py-1 rounded">
+                                    <span className="text-green-600 dark:text-green-400 text-sm font-bold bg-green-100 dark:bg-green-900/40 px-2 py-1 rounded">
                                         {t('reduction', { percent: Math.round((1 - compressedFile.size / file.size) * 100) })}
                                     </span>
                                 </div>
@@ -154,11 +165,11 @@ export default function ImageCompressorClient() {
                         )}
                     </div>
                 )}
-            </Card>
 
-            <div className="text-center text-sm text-gray-500">
-                {t('processingNote')}
+                <div className="text-center text-sm text-gray-500 dark:text-gray-400">
+                    {t('processingNote')}
+                </div>
             </div>
-        </div>
+        </EnhancedToolLayout>
     );
 }

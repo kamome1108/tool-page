@@ -1,17 +1,59 @@
 {
     "meta": {
-        "title": "Encoder/Decoder Base64 - Enkode & Dekode Teks",
-        "description": "Encoder dan decoder Base64 online gratis. Konversi teks ke format Base64 dan dekode string Base64 kembali ke teks. Aman dan mudah digunakan."
+        "title": "Base64 Encoder/Decoder - Enkode & Dekode Teks Online",
+        "description": "Enkode dan dekode Base64 online gratis. Konversi teks ke format Base64 dan dekode string Base64 kembali ke teks secara instan. Aman, pribadi, dan mudah digunakan."
     },
-    "title": "Encoder/Decoder Base64",
-    "description": "Enkode teks ke Base64 atau dekode Base64 ke teks.",
+    "tagline": "Enkode dan dekode string Base64 secara instan di browser Anda",
     "ui": {
-        "inputLabel": "Masukkan Teks",
+        "inputLabel": "Teks Input",
+        "outputLabel": "Hasil",
         "encode": "Enkode",
         "decode": "Dekode",
-        "result": "Hasil",
         "copy": "Salin",
+        "clear": "Hapus",
         "copied": "Disalin!",
         "processingNote": "🔒 Semua pemrosesan dilakukan di browser Anda."
+    },
+    "content": {
+        "description": {
+            "title": "Apa itu Base64 Encoder/Decoder?",
+            "text": "Base64 Encoder/Decoder adalah alat online serbaguna yang memungkinkan Anda mengonversi teks ke format Base64 dan sebaliknya. Pengkodean Base64 umumnya digunakan dalam pengembangan web untuk mengirimkan data tanpa kehilangan atau modifikasi, seperti menyematkan gambar langsung ke HTML atau CSS, atau menyandikan kredensial untuk otentikasi dasar."
+        },
+        "howTo": {
+            "title": "Cara Menggunakan Base64 Encoder/Decoder",
+            "steps": [
+                "Masukkan atau tempel teks Anda ke bidang input",
+                "Klik 'Enkode' untuk mengonversi teks biasa ke Base64",
+                "Klik 'Dekode' untuk mengonversi string Base64 kembali ke teks biasa",
+                "Salin hasilnya ke papan klip Anda dengan satu klik"
+            ]
+        },
+        "features": {
+            "title": "Fitur Utama",
+            "list": [
+                "⚡ Pemrosesan Instan: Enkode dan dekode secara real-time",
+                "🔒 Privasi Pertama: Semua data tetap ada di browser Anda",
+                "📝 Mendukung karakter UTF-8",
+                "📋 Fungsionalitas salin-tempel yang mudah",
+                "🆓 100% Gratis dan tidak terbatas"
+            ]
+        },
+        "faq": {
+            "title": "Pertanyaan yang Sering Diajukan",
+            "questions": [
+                {
+                    "q": "Apa itu pengkodean Base64?",
+                    "a": "Base64 adalah skema pengkodean biner-ke-teks yang mewakili data biner dalam format string ASCII. Ini dirancang untuk membawa data yang disimpan dalam format biner melintasi saluran yang hanya mendukung konten teks secara andal."
+                },
+                {
+                    "q": "Apakah data saya aman?",
+                    "a": "Ya, tentu saja. Alat ini berjalan sepenuhnya di sisi klien (di browser Anda). Data Anda tidak pernah dikirim ke server kami."
+                },
+                {
+                    "q": "Bisakah saya mendekode string Base64 apa pun?",
+                    "a": "Ya, selama string Base64 valid, alat ini dapat mendekodekannya kembali ke format teks aslinya."
+                }
+            ]
+        }
     }
 }

@@ -1,17 +1,59 @@
 {
     "meta": {
-        "title": "Base64 Encoder/Decoder - I-encode at I-decode ang Teksto",
-        "description": "Libreng online na Base64 encoder at decoder. I-convert ang teksto sa Base64 format at i-decode ang mga Base64 string pabalik sa teksto. Ligtas at madaling gamitin."
+        "title": "Base64 Encoder/Decoder - I-encode at I-decode ang Text Online",
+        "description": "Libreng online na Base64 encoder at decoder. I-convert ang text sa Base64 format at i-decode ang Base64 strings pabalik sa text nang agaran. Ligtas, pribado, at madaling gamitin."
     },
-    "title": "Base64 Encoder/Decoder",
-    "description": "I-encode ang teksto sa Base64 o i-decode ang Base64 sa teksto.",
+    "tagline": "I-encode at i-decode ang mga Base64 string nang agaran sa iyong browser",
     "ui": {
-        "inputLabel": "Ilagay ang Teksto",
+        "inputLabel": "Input Text",
+        "outputLabel": "Resulta",
         "encode": "I-encode",
         "decode": "I-decode",
-        "result": "Resulta",
         "copy": "Kopyahin",
+        "clear": "I-clear",
         "copied": "Nakopya na!",
         "processingNote": "🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."
+    },
+    "content": {
+        "description": {
+            "title": "Ano ang Base64 Encoder/Decoder?",
+            "text": "Ang Base64 Encoder/Decoder ay isang versatile na online tool na nagbibigay-daan sa iyo na i-convert ang text sa Base64 format at vice versa. Ang Base64 encoding ay karaniwang ginagamit sa web development upang magpadala ng data nang walang pagkawala o pagbabago, tulad ng pag-embed ng mga imahe nang direkta sa HTML o CSS, o pag-encode ng mga kredensyal para sa basic authentication."
+        },
+        "howTo": {
+            "title": "Paano Gamitin ang Base64 Encoder/Decoder",
+            "steps": [
+                "Ilagay o i-paste ang iyong text sa input field",
+                "I-click ang 'I-encode' upang i-convert ang plain text sa Base64",
+                "I-click ang 'I-decode' upang i-convert ang Base64 string pabalik sa plain text",
+                "Kopyahin ang resulta sa iyong clipboard sa isang click"
+            ]
+        },
+        "features": {
+            "title": "Pangunahing Tampok",
+            "list": [
+                "⚡ Agarang Pagproseso: I-encode at i-decode nang real-time",
+                "🔒 Privacy First: Ang lahat ng data ay nananatili sa iyong browser",
+                "📝 Sinusuportahan ang UTF-8 characters",
+                "📋 Madaling copy-paste functionality",
+                "🆓 100% Libre at walang limitasyon"
+            ]
+        },
+        "faq": {
+            "title": "Madalas Itanong",
+            "questions": [
+                {
+                    "q": "Ano ang Base64 encoding?",
+                    "a": "Ang Base64 ay isang binary-to-text encoding scheme na kumakatawan sa binary data sa isang ASCII string format. Ito ay idinisenyo upang magdala ng data na nakaimbak sa binary formats sa mga channel na maaasahan lamang na sumusuporta sa text content."
+                },
+                {
+                    "q": "Ligtas ba ang aking data?",
+                    "a": "Oo, ganap. Ang tool na ito ay tumatakbo nang buo sa client-side (sa iyong browser). Ang iyong data ay hindi kailanman ipinapadala sa aming mga server."
+                },
+                {
+                    "q": "Maaari ko bang i-decode ang anumang Base64 string?",
+                    "a": "Oo, hangga't ang Base64 string ay valid, maaaring i-decode ito ng tool pabalik sa orihinal nitong text format."
+                }
+            ]
+        }
     }
 }

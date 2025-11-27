@@ -1,19 +1,74 @@
 {
     "meta": {
-        "title": "Image Color Picker - Kumuha ng mga Kulay mula sa mga Larawan Online",
-        "description": "Pumili ng mga kulay mula sa mga larawan online. Mag-upload ng larawan at kunin ang HEX, RGB, at HSL color codes mula sa anumang pixel. Libre at madaling gamitin."
+        "title": "Color Picker - Online na HEX, RGB, HSL Color Selection Tool",
+        "description": "Libreng online na color picker tool. Pumili ng mga kulay at kumuha ng HEX, RGB, HSL, at CMYK codes. Lumikha ng mga color palette at mag-convert sa pagitan ng mga format agad."
     },
-    "title": "Image Color Picker",
-    "description": "Kumuha ng mga kulay mula sa iyong mga larawan. Kunin ang HEX, RGB, at HSL codes.",
-    "dropzone": {
-        "label": "I-drop ang isang larawan dito, o mag-click upang pumili"
+    "tagline": "Pumili, mag-convert, at bumuo ng mga color code agad",
+    "ui": {
+        "title": "Color Picker",
+        "description": "Pumili ng mga kulay at kumuha ng HEX, RGB, HSL codes.",
+        "hex": "HEX",
+        "rgb": "RGB",
+        "hsl": "HSL",
+        "cmyk": "CMYK",
+        "copy": "Kopyahin",
+        "copied": "Nakopya na!",
+        "red": "Pula",
+        "green": "Berde",
+        "blue": "Asul",
+        "hue": "Hue",
+        "saturation": "Saturation",
+        "lightness": "Lightness",
+        "alpha": "Alpha",
+        "preview": "Color Preview",
+        "palette": "Color Palette",
+        "save": "Save Color",
+        "clear": "Clear Palette",
+        "dropzone": {
+            "label": "I-drop ang isang imahe dito, o i-click upang pumili"
+        }
     },
-    "pickedColor": "Napiling Kulay",
-    "hex": "HEX",
-    "rgb": "RGB",
-    "hsl": "HSL",
-    "copy": "Kopyahin",
-    "copied": "Nakopya!",
-    "reset": "I-reset",
-    "clickToPick": "Mag-click sa larawan upang pumili ng kulay"
+    "content": {
+        "description": {
+            "title": "Ano ang Color Picker?",
+            "text": "Ang Color Picker ay isang versatile na online tool na nagbibigay-daan sa mga designer, developer, at artist na pumili, bumuo, at mag-convert ng mga kulay. Kung kailangan mo ng isang partikular na HEX code para sa web design o RGB values para sa digital art, ang tool na ito ay nagbibigay ng tumpak na impormasyon ng kulay sa maraming format."
+        },
+        "howTo": {
+            "title": "Paano Gamitin ang Color Picker",
+            "steps": [
+                "Gamitin ang color spectrum area upang pumili ng base hue",
+                "Ayusin ang saturation at lightness sa main color box",
+                "I-fine-tune ang mga value gamit ang RGB o HSL sliders",
+                "Kopyahin ang nabuong HEX, RGB, o HSL codes",
+                "I-save ang iyong mga paboritong kulay sa temporary palette"
+            ]
+        },
+        "features": {
+            "title": "Pangunahing Tampok",
+            "list": [
+                "🎨 Visual na Pagpili ng Kulay: Intuitive na interface para sa pagpili ng mga kulay",
+                "🔄 Format Conversion: Agad na mag-convert sa pagitan ng HEX, RGB, HSL, at CMYK",
+                "📋 One-Click Copy: Madaling kopyahin ang mga color code sa iyong clipboard",
+                "🎚️ Tumpak na Kontrol: I-fine-tune ang mga kulay gamit ang mga slider at input",
+                "💾 Palette History: I-save at pamahalaan ang isang listahan ng mga napiling kulay"
+            ]
+        },
+        "faq": {
+            "title": "Madalas Itanong",
+            "questions": [
+                {
+                    "q": "Ano ang HEX code?",
+                    "a": "Ang HEX code ay isang anim na digit na hexadecimal number na ginagamit sa web design upang kumatawan sa mga kulay. Nagsisimula ito sa hash symbol (#) na sinusundan ng tatlong pares ng mga character na kumakatawan sa pula, berde, at asul na mga value."
+                },
+                {
+                    "q": "Ano ang pagkakaiba sa pagitan ng RGB at CMYK?",
+                    "a": "Ang RGB (Red, Green, Blue) ay isang additive color model na ginagamit para sa mga digital screen. Ang CMYK (Cyan, Magenta, Yellow, Key/Black) ay isang subtractive color model na ginagamit para sa pag-print."
+                },
+                {
+                    "q": "Libre bang gamitin ang tool na ito?",
+                    "a": "Oo, ang aming Color Picker ay ganap na libreng gamitin para sa parehong personal at komersyal na mga proyekto."
+                }
+            ]
+        }
+    }
 }

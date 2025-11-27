@@ -3,8 +3,7 @@
         "title": "Unix Timestamp Converter - Epoch Time Tool",
         "description": "Libreng online na Unix timestamp converter. I-convert ang Unix timestamps sa mga petsang nababasa ng tao at vice versa. Sinusuportahan ang parehong segundo at millisecond."
     },
-    "title": "Unix Timestamp Converter",
-    "description": "I-convert sa pagitan ng Unix timestamps at mga petsang nababasa ng tao.",
+    "tagline": "I-convert ang Unix timestamps at mga petsang nababasa ng tao nang agaran",
     "ui": {
         "currentTimestamp": "Kasalukuyang Unix Timestamp",
         "convertTimestamp": "I-convert ang Timestamp sa Petsa",
@@ -15,6 +14,53 @@
         "result": "Resulta",
         "copy": "Kopyahin",
         "copied": "Nakopya na!",
-        "processingNote": "🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."
+        "processingNote": "🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser.",
+        "seconds": "Segundo",
+        "milliseconds": "Millisecond",
+        "localTime": "Lokal na Oras",
+        "gmtTime": "Oras ng GMT/UTC",
+        "relative": "Kamag-anak"
+    },
+    "content": {
+        "description": {
+            "title": "Ano ang Unix Timestamp Converter?",
+            "text": "Ang Unix Timestamp Converter ay isang tool para sa mga developer na idinisenyo upang i-convert ang Unix timestamps (Epoch time) sa mga format ng petsa na nababasa ng tao at vice versa. Sinusuportahan nito ang parehong segundo at millisecond na katumpakan, na ginagawang mahalaga para sa debugging, pamamahala ng database, at pagsusuri ng log."
+        },
+        "howTo": {
+            "title": "Paano Gamitin ang Unix Timestamp Converter",
+            "steps": [
+                "Upang i-convert ang timestamp: Ilagay ang numeric timestamp sa input field",
+                "Upang i-convert ang petsa: Pumili o maglagay ng petsa at oras",
+                "I-click ang 'I-convert' na button upang makita ang resulta",
+                "Tingnan ang na-convert na oras sa Local, GMT, at Relative na mga format"
+            ]
+        },
+        "features": {
+            "title": "Pangunahing Tampok",
+            "list": [
+                "⚡ Agarang Pag-convert: Real-time na conversion ng timestamp at petsa",
+                "🕒 Dalawang Katumpakan: Sinusuportahan ang parehong segundo at millisecond",
+                "🌍 Timezone Aware: Ipinapakita ang parehong Local at GMT/UTC na oras",
+                "📅 Relative Time: Ipinapakita kung gaano katagal ang nakalipas o sa hinaharap ang isang petsa",
+                "🔒 Privacy Focused: Walang data na ipinapadala sa anumang server"
+            ]
+        },
+        "faq": {
+            "title": "Madalas Itanong",
+            "questions": [
+                {
+                    "q": "Ano ang Unix Timestamp?",
+                    "a": "Ang Unix timestamp ay kumakatawan sa bilang ng mga segundo na lumipas mula noong Enero 1, 1970 (UTC), hindi kasama ang leap seconds. Malawakang ginagamit ito sa mga computer system upang subaybayan ang oras."
+                },
+                {
+                    "q": "Ano ang Year 2038 problem?",
+                    "a": "Ang Year 2038 problem ay tumutukoy sa isang potensyal na isyu kung saan ang mga 32-bit system ay hindi na makakapag-imbak ng Unix timestamps pagkatapos ng Enero 19, 2038, dahil ang halaga ay mag-o-overflow."
+                },
+                {
+                    "q": "Pinangangasiwaan ba ng tool na ito ang mga timezone?",
+                    "a": "Oo, kino-convert ng tool ang mga timestamp sa lokal na oras ng iyong browser at nagbibigay din ng katumbas na GMT/UTC."
+                }
+            ]
+        }
     }
 }

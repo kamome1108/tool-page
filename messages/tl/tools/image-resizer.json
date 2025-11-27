@@ -1,19 +1,66 @@
 {
     "meta": {
-        "title": "Image Resizer - I-resize ang mga Larawan Online nang Libre",
-        "description": "I-resize ang iyong mga larawan sa eksaktong pixel dimensions online. Libre, mabilis, at secure na tool sa pag-resize ng larawan na gumagana sa iyong browser."
+        "title": "Image Resizer - Baguhin ang Laki ng Larawan Online nang Libre",
+        "description": "Libreng online na image resizer. Baguhin ang laki ng JPG, PNG, at WebP images sa eksaktong pixel dimensions o porsyento. Panatilihin ang aspect ratio at i-download agad."
     },
-    "title": "Image Resizer",
-    "description": "I-resize ang mga larawan sa mga partikular na sukat habang pinapanatili ang aspect ratio.",
-    "dropzone": {
-        "label": "I-drop ang isang larawan dito, o mag-click upang pumili"
+    "tagline": "Baguhin ang laki ng mga larawan sa eksaktong sukat agad",
+    "ui": {
+        "title": "Image Resizer",
+        "description": "Baguhin ang laki ng mga larawan sa mga partikular na sukat habang pinapanatili ang aspect ratio.",
+        "dropzone": {
+            "label": "I-drop ang isang larawan dito, o i-click para pumili"
+        },
+        "width": "Lapad (px)",
+        "height": "Taas (px)",
+        "maintainAspectRatio": "Panatilihin ang aspect ratio",
+        "resize": "Baguhin ang Laki ng Larawan",
+        "download": "I-download ang Binagong Larawan",
+        "reset": "I-reset",
+        "original": "Orihinal: {width} x {height}",
+        "new": "Bago: {width} x {height}",
+        "processingNote": "🔒 Lahat ng pagproseso ay nangyayari sa iyong browser. Ang iyong mga larawan ay hindi kailanman umaalis sa iyong device."
     },
-    "width": "Lapad (px)",
-    "height": "Taas (px)",
-    "maintainAspectRatio": "Panatilihin ang aspect ratio",
-    "resize": "I-resize ang Larawan",
-    "download": "I-download ang Na-resize na Larawan",
-    "reset": "I-reset",
-    "original": "Orihinal: {width} x {height}",
-    "new": "Bago: {width} x {height}"
+    "content": {
+        "description": {
+            "title": "Ano ang Image Resizer?",
+            "text": "Ang Image Resizer ay isang libre, mabilis, at ligtas na online tool na nagbibigay-daan sa iyo na baguhin ang mga sukat ng iyong mga larawan. Kung kailangan mong baguhin ang laki para sa social media, website, o email, pinapadali ng tool na ito na makuha ang eksaktong laki na kailangan mo nang hindi isinasakripisyo ang kalidad."
+        },
+        "howTo": {
+            "title": "Paano Gamitin ang Image Resizer",
+            "steps": [
+                "Mag-upload ng larawan sa pamamagitan ng pag-drag at drop o pag-click sa upload area",
+                "Ilagay ang iyong gustong lapad o taas sa pixels",
+                "Panatilihing naka-check ang 'Panatilihin ang aspect ratio' para maiwasan ang distortion",
+                "I-click ang 'Baguhin ang Laki ng Larawan' para iproseso ang file",
+                "I-download ang iyong binagong larawan agad"
+            ]
+        },
+        "features": {
+            "title": "Pangunahing Tampok",
+            "list": [
+                "⚡ Mabilis na Pag-resize: Baguhin ang laki ng mga larawan sa milliseconds",
+                "📏 Tumpak na Kontrol: Itakda ang eksaktong pixel dimensions",
+                "🔒 Privacy Una: Ang mga larawan ay pinoproseso nang lokal sa iyong browser",
+                "🖼️ Format Support: Gumagana sa JPG, PNG, at WebP",
+                "🔗 Aspect Ratio Lock: Awtomatikong kinakalkula ang mga sukat para maiwasan ang distortion"
+            ]
+        },
+        "faq": {
+            "title": "Madalas Itanong",
+            "questions": [
+                {
+                    "q": "Ina-upload ba ang aking larawan sa server?",
+                    "a": "Hindi, lahat ng pag-resize ay ginagawa nang buo sa iyong browser gamit ang JavaScript. Ang iyong mga larawan ay hindi kailanman umaalis sa iyong device."
+                },
+                {
+                    "q": "Nakakabawas ba ng kalidad ang pag-resize?",
+                    "a": "Ang pag-resize pababa (pagpapaliit) ay karaniwang nagpapanatili ng kalidad. Ang pag-resize pataas (pagpapalaki) ay maaaring magdulot ng ilang pixelation, ngunit gumagamit ang aming tool ng high-quality algorithms para mabawasan ito."
+                },
+                {
+                    "q": "Anong mga format ang sinusuportahan?",
+                    "a": "Sinusuportahan namin ang lahat ng karaniwang web image formats kabilang ang JPEG, PNG, at WebP."
+                }
+            ]
+        }
+    }
 }

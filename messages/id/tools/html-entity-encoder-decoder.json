@@ -1,17 +1,59 @@
 {
     "meta": {
-        "title": "Encoder/Decoder Entitas HTML - Konversi Teks ke Entitas HTML",
+        "title": "HTML Entity Encoder/Decoder - Konversi Teks ke Entitas HTML",
         "description": "Encoder dan decoder entitas HTML online gratis. Konversi karakter khusus ke entitas HTML dan sebaliknya. Enkode teks dengan aman untuk penggunaan web."
     },
-    "title": "Encoder/Decoder Entitas HTML",
-    "description": "Enkode atau dekode teks ke/dari entitas HTML.",
+    "tagline": "Konversi karakter khusus ke entitas HTML secara instan",
     "ui": {
-        "inputLabel": "Masukkan Teks",
+        "inputLabel": "Teks Input",
+        "outputLabel": "Hasil",
         "encode": "Enkode",
         "decode": "Dekode",
-        "result": "Hasil",
         "copy": "Salin",
+        "clear": "Hapus",
         "copied": "Disalin!",
         "processingNote": "🔒 Semua pemrosesan dilakukan di browser Anda."
+    },
+    "content": {
+        "description": {
+            "title": "Apa itu HTML Entity Encoder/Decoder?",
+            "text": "HTML Entity Encoder/Decoder adalah alat online gratis yang mengonversi karakter khusus menjadi entitas HTML yang sesuai (misalnya, '<' menjadi '&lt;') dan sebaliknya. Ini penting bagi pengembang web untuk memastikan bahwa teks ditampilkan dengan benar di browser dan untuk mencegah kerentanan keamanan seperti Cross-Site Scripting (XSS)."
+        },
+        "howTo": {
+            "title": "Cara Menggunakan HTML Entity Encoder/Decoder",
+            "steps": [
+                "Tempel teks Anda ke bidang input",
+                "Klik 'Enkode' untuk mengonversi karakter ke entitas HTML",
+                "Klik 'Dekode' untuk mengonversi entitas HTML kembali ke teks",
+                "Salin hasilnya ke papan klip Anda"
+            ]
+        },
+        "features": {
+            "title": "Fitur Utama",
+            "list": [
+                "⚡ Konversi Instan: Enkode/Dekode secara real-time",
+                "🔒 Aman: Semua pemrosesan terjadi secara lokal di browser Anda",
+                "📝 Mendukung semua entitas HTML standar",
+                "📋 Salin satu klik ke papan klip",
+                "🆓 Sepenuhnya gratis untuk digunakan"
+            ]
+        },
+        "faq": {
+            "title": "Pertanyaan yang Sering Diajukan",
+            "questions": [
+                {
+                    "q": "Mengapa saya perlu menyandikan entitas HTML?",
+                    "a": "Pengkodean memastikan bahwa karakter khusus seperti <, >, dan & ditampilkan secara harfiah oleh browser alih-alih ditafsirkan sebagai tag HTML. Ini juga membantu mencegah serangan XSS."
+                },
+                {
+                    "q": "Apakah data saya aman?",
+                    "a": "Ya, alat ini berjalan sepenuhnya di browser Anda menggunakan JavaScript. Teks Anda tidak pernah dikirim ke server mana pun."
+                },
+                {
+                    "q": "Apakah ini mendukung semua karakter?",
+                    "a": "Ini mendukung semua karakter dan simbol khusus HTML standar yang memiliki referensi entitas."
+                }
+            ]
+        }
     }
 }

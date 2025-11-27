@@ -1,17 +1,59 @@
 {
     "meta": {
-        "title": "Bộ mã hóa/giải mã thực thể HTML - Chuyển đổi văn bản sang thực thể HTML",
-        "description": "Bộ mã hóa và giải mã thực thể HTML trực tuyến miễn phí. Chuyển đổi các ký tự đặc biệt sang thực thể HTML và ngược lại. Mã hóa văn bản an toàn để sử dụng trên web."
+        "title": "Bộ mã hóa/giải mã thực thể HTML - Chuyển đổi văn bản thành thực thể HTML",
+        "description": "Bộ mã hóa và giải mã thực thể HTML trực tuyến miễn phí. Chuyển đổi các ký tự đặc biệt thành các thực thể HTML và ngược lại. Mã hóa văn bản an toàn để sử dụng trên web."
     },
-    "title": "Bộ mã hóa/giải mã thực thể HTML",
-    "description": "Mã hóa hoặc giải mã văn bản sang/từ thực thể HTML.",
+    "tagline": "Chuyển đổi các ký tự đặc biệt thành các thực thể HTML ngay lập tức",
     "ui": {
         "inputLabel": "Nhập văn bản",
+        "outputLabel": "Kết quả",
         "encode": "Mã hóa",
         "decode": "Giải mã",
-        "result": "Kết quả",
         "copy": "Sao chép",
+        "clear": "Xóa",
         "copied": "Đã sao chép!",
         "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."
+    },
+    "content": {
+        "description": {
+            "title": "Bộ mã hóa/giải mã thực thể HTML là gì?",
+            "text": "Bộ mã hóa/giải mã thực thể HTML là một công cụ trực tuyến miễn phí giúp chuyển đổi các ký tự đặc biệt thành các thực thể HTML tương ứng (ví dụ: '<' trở thành '&lt;') và ngược lại. Điều này rất cần thiết cho các nhà phát triển web để đảm bảo rằng văn bản được hiển thị chính xác trong trình duyệt và để ngăn chặn các lỗ hổng bảo mật như Cross-Site Scripting (XSS)."
+        },
+        "howTo": {
+            "title": "Cách sử dụng Bộ mã hóa/giải mã thực thể HTML",
+            "steps": [
+                "Dán văn bản của bạn vào trường nhập liệu",
+                "Nhấp vào 'Mã hóa' để chuyển đổi các ký tự thành các thực thể HTML",
+                "Nhấp vào 'Giải mã' để chuyển đổi các thực thể HTML trở lại văn bản",
+                "Sao chép kết quả vào khay nhớ tạm của bạn"
+            ]
+        },
+        "features": {
+            "title": "Các tính năng chính",
+            "list": [
+                "⚡ Chuyển đổi tức thì: Mã hóa/Giải mã trong thời gian thực",
+                "🔒 An toàn: Tất cả quá trình xử lý diễn ra cục bộ trong trình duyệt của bạn",
+                "📝 Hỗ trợ tất cả các thực thể HTML tiêu chuẩn",
+                "📋 Sao chép vào khay nhớ tạm bằng một cú nhấp chuột",
+                "🆓 Hoàn toàn miễn phí sử dụng"
+            ]
+        },
+        "faq": {
+            "title": "Câu hỏi thường gặp",
+            "questions": [
+                {
+                    "q": "Tại sao tôi cần mã hóa các thực thể HTML?",
+                    "a": "Mã hóa đảm bảo rằng các ký tự đặc biệt như <, >, và & được trình duyệt hiển thị theo nghĩa đen thay vì được hiểu là các thẻ HTML. Nó cũng giúp ngăn chặn các cuộc tấn công XSS."
+                },
+                {
+                    "q": "Dữ liệu của tôi có an toàn không?",
+                    "a": "Có, công cụ này chạy hoàn toàn trong trình duyệt của bạn bằng JavaScript. Văn bản của bạn không bao giờ được gửi đến bất kỳ máy chủ nào."
+                },
+                {
+                    "q": "Nó có hỗ trợ tất cả các ký tự không?",
+                    "a": "Nó hỗ trợ tất cả các ký tự dành riêng cho HTML tiêu chuẩn và các ký hiệu có tham chiếu thực thể."
+                }
+            ]
+        }
     }
 }

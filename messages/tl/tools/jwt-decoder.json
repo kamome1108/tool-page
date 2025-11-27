@@ -1,15 +1,64 @@
 {
     "meta": {
-        "title": "JWT Decoder - I-decode ang JSON Web Tokens",
-        "description": "Libreng online na JWT Decoder. I-decode at suriin ang JSON Web Tokens (JWT) header at payload nang hindi nagpapadala ng data sa isang server."
+        "title": "JWT Decoder - I-decode ang JSON Web Tokens Online",
+        "description": "Libreng online na JWT Decoder. I-decode at suriin ang JSON Web Tokens (JWT) header at payload nang agaran. I-debug ang mga token nang ligtas sa iyong browser."
     },
-    "title": "JWT Decoder",
-    "description": "I-decode at suriin ang JSON Web Tokens.",
+    "tagline": "I-decode at suriin ang JSON Web Tokens nang agaran",
     "ui": {
         "inputPlaceholder": "I-paste ang iyong JWT dito...",
         "header": "Header",
         "payload": "Payload",
-        "invalidToken": "Hindi wastong format ng JWT",
-        "processingNote": "🔒 Ang pag-decode ay lokal na nangyayari sa iyong browser. Ang iyong mga token ay hindi kailanman ipinapadala sa aming mga server."
+        "invalidToken": "Hindi valid na format ng JWT",
+        "processingNote": "🔒 Ang pag-decode ay nangyayari nang lokal sa iyong browser. Ang iyong mga token ay hindi kailanman ipinapadala sa aming mga server.",
+        "algorithm": "Algorithm",
+        "type": "Uri",
+        "issuedAt": "Inisyu Noong",
+        "expiration": "Pag-expire",
+        "copy": "Kopyahin",
+        "copied": "Nakopya na!",
+        "clear": "I-clear",
+        "outputLabel": "Resulta"
+    },
+    "content": {
+        "description": {
+            "title": "Ano ang JWT Decoder?",
+            "text": "Ang JWT Decoder ay isang tool para sa mga developer na nagbibigay-daan sa iyo na i-decode at suriin ang mga nilalaman ng JSON Web Tokens (JWT). Hinahati nito ang token sa tatlong bahagi: Header, Payload, at Signature, at ipinapakita ang na-decode na data ng JSON sa isang format na nababasa. Mahalaga ito para sa pag-debug ng mga isyu sa pagpapatotoo at pag-verify ng mga nilalaman ng token."
+        },
+        "howTo": {
+            "title": "Paano Gamitin ang JWT Decoder",
+            "steps": [
+                "I-paste ang iyong JWT string sa input field",
+                "Awtomatikong ide-decode ng tool ang token",
+                "Tingnan ang na-decode na mga seksyon ng Header at Payload",
+                "Suriin ang mga karaniwang claim tulad ng expiration (exp) at issued at (iat)"
+            ]
+        },
+        "features": {
+            "title": "Pangunahing Tampok",
+            "list": [
+                "⚡ Agarang Pag-decode: Nagde-decode ng mga token habang nagta-type ka",
+                "🔒 Ligtas: Ang lahat ng pagproseso ay nangyayari nang lokal sa iyong browser",
+                "🎨 Color-coded: Biswal na pinaghihiwalay ang Header, Payload, at Signature",
+                "🕒 Pag-format ng Petsa: Awtomatikong pina-format ang mga timestamp (exp, iat)",
+                "📋 Madaling Kopyahin: One-click copy para sa na-decode na JSON"
+            ]
+        },
+        "faq": {
+            "title": "Madalas Itanong",
+            "questions": [
+                {
+                    "q": "Ano ang JWT?",
+                    "a": "Ang JSON Web Token (JWT) ay isang bukas na pamantayan (RFC 7519) na tumutukoy sa isang compact at self-contained na paraan para sa ligtas na pagpapadala ng impormasyon sa pagitan ng mga partido bilang isang JSON object."
+                },
+                {
+                    "q": "Ligtas bang i-paste ang aking mga production token dito?",
+                    "a": "Oo, ang tool na ito ay tumatakbo nang buo sa iyong browser. Ang iyong mga token ay hindi kailanman ipinapadala sa anumang server. Gayunpaman, bilang isang pinakamahusay na kasanayan, laging maging maingat sa mga kredensyal sa produksyon."
+                },
+                {
+                    "q": "Vini-verify ba ng tool na ito ang signature?",
+                    "a": "Hindi, dine-decode lang ng tool na ito ang token upang ipakita ang mga nilalaman nito. Hindi nito vini-verify ang signature, dahil nangangailangan iyon ng secret key."
+                }
+            ]
+        }
     }
 }

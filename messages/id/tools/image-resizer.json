@@ -1,20 +1,66 @@
 {
     "meta": {
-        "title": "Image Resizer - Ubah Ukuran Gambar Online Gratis",
-        "description": "Ubah ukuran gambar Anda ke dimensi piksel yang tepat secara online. Alat pengubah ukuran gambar gratis, cepat, dan aman yang berjalan di browser Anda.",
-        "keywords": "image resizer, resize image, change dimensions, image scaling"
+        "title": "Pengubah Ukuran Gambar - Ubah Ukuran Gambar Online Gratis",
+        "description": "Pengubah ukuran gambar online gratis. Ubah ukuran gambar JPG, PNG, dan WebP ke dimensi piksel atau persentase yang tepat. Pertahankan rasio aspek dan unduh secara instan."
     },
-    "title": "Image Resizer",
-    "description": "Ubah ukuran gambar ke dimensi tertentu sambil mempertahankan rasio aspek.",
-    "dropzone": {
-        "label": "Jatuhkan gambar di sini, atau klik untuk memilih"
+    "tagline": "Ubah ukuran gambar ke dimensi yang tepat secara instan",
+    "ui": {
+        "title": "Pengubah Ukuran Gambar",
+        "description": "Ubah ukuran gambar ke dimensi tertentu sambil mempertahankan rasio aspek.",
+        "dropzone": {
+            "label": "Jatuhkan gambar di sini, atau klik untuk memilih"
+        },
+        "width": "Lebar (px)",
+        "height": "Tinggi (px)",
+        "maintainAspectRatio": "Pertahankan rasio aspek",
+        "resize": "Ubah Ukuran Gambar",
+        "download": "Unduh Gambar yang Diubah Ukurannya",
+        "reset": "Atur Ulang",
+        "original": "Asli: {width} x {height}",
+        "new": "Baru: {width} x {height}",
+        "processingNote": "🔒 Semua pemrosesan terjadi di browser Anda. Gambar Anda tidak pernah meninggalkan perangkat Anda."
     },
-    "width": "Lebar (px)",
-    "height": "Tinggi (px)",
-    "maintainAspectRatio": "Pertahankan rasio aspek",
-    "resize": "Ubah Ukuran Gambar",
-    "download": "Unduh Gambar yang Diubah Ukurannya",
-    "reset": "Atur Ulang",
-    "original": "Asli: {width} x {height}",
-    "new": "Baru: {width} x {height}"
+    "content": {
+        "description": {
+            "title": "Apa itu Pengubah Ukuran Gambar?",
+            "text": "Pengubah Ukuran Gambar adalah alat online gratis, cepat, dan aman yang memungkinkan Anda mengubah dimensi gambar Anda. Baik Anda perlu mengubah ukuran untuk media sosial, situs web, atau email, alat ini memudahkan untuk mendapatkan ukuran persis yang Anda butuhkan tanpa mengorbankan kualitas."
+        },
+        "howTo": {
+            "title": "Cara Menggunakan Pengubah Ukuran Gambar",
+            "steps": [
+                "Unggah gambar dengan menyeret dan menjatuhkan atau mengklik area unggah",
+                "Masukkan lebar atau tinggi yang Anda inginkan dalam piksel",
+                "Biarkan 'Pertahankan rasio aspek' dicentang untuk mencegah distorsi",
+                "Klik 'Ubah Ukuran Gambar' untuk memproses file",
+                "Unduh gambar yang diubah ukurannya secara instan"
+            ]
+        },
+        "features": {
+            "title": "Fitur Utama",
+            "list": [
+                "⚡ Pengubahan Ukuran Instan: Ubah ukuran gambar dalam milidetik",
+                "📏 Kontrol Tepat: Tetapkan dimensi piksel yang tepat",
+                "🔒 Privasi Terjamin: Gambar diproses secara lokal di browser Anda",
+                "🖼️ Dukungan Format: Bekerja dengan JPG, PNG, dan WebP",
+                "🔗 Kunci Rasio Aspek: Secara otomatis menghitung dimensi untuk mencegah distorsi"
+            ]
+        },
+        "faq": {
+            "title": "Pertanyaan yang Sering Diajukan",
+            "questions": [
+                {
+                    "q": "Apakah gambar saya diunggah ke server?",
+                    "a": "Tidak, semua pengubahan ukuran dilakukan sepenuhnya di dalam browser Anda menggunakan JavaScript. Foto Anda tidak pernah meninggalkan perangkat Anda."
+                },
+                {
+                    "q": "Apakah mengubah ukuran mengurangi kualitas gambar?",
+                    "a": "Mengubah ukuran ke bawah (memperkecil) umumnya mempertahankan kualitas. Mengubah ukuran ke atas (memperbesar) dapat menyebabkan beberapa pikselasi, tetapi alat kami menggunakan algoritma berkualitas tinggi untuk meminimalkan hal ini."
+                },
+                {
+                    "q": "Format apa yang didukung?",
+                    "a": "Kami mendukung semua format gambar web umum termasuk JPEG, PNG, dan WebP."
+                }
+            ]
+        }
+    }
 }

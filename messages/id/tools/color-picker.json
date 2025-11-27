@@ -1,20 +1,74 @@
 {
     "meta": {
-        "title": "Image Color Picker - Ekstrak Warna dari Gambar Online",
-        "description": "Pilih warna dari gambar online. Unggah gambar dan dapatkan kode warna HEX, RGB, dan HSL dari piksel mana pun. Gratis dan mudah digunakan.",
-        "keywords": "color picker, image color, hex code, rgb code, hsl code"
+        "title": "Pemilih Warna - Alat Pemilihan Warna HEX, RGB, HSL Online",
+        "description": "Alat pemilih warna online gratis. Pilih warna dan dapatkan kode HEX, RGB, HSL, dan CMYK. Buat palet warna dan konversi antar format secara instan."
     },
-    "title": "Image Color Picker",
-    "description": "Ekstrak warna dari gambar Anda. Dapatkan kode HEX, RGB, dan HSL.",
-    "dropzone": {
-        "label": "Jatuhkan gambar di sini, atau klik untuk memilih"
+    "tagline": "Pilih, konversi, dan buat kode warna secara instan",
+    "ui": {
+        "title": "Pemilih Warna",
+        "description": "Pilih warna dan dapatkan kode HEX, RGB, HSL.",
+        "hex": "HEX",
+        "rgb": "RGB",
+        "hsl": "HSL",
+        "cmyk": "CMYK",
+        "copy": "Salin",
+        "copied": "Disalin!",
+        "red": "Merah",
+        "green": "Hijau",
+        "blue": "Biru",
+        "hue": "Rona",
+        "saturation": "Saturasi",
+        "lightness": "Kecerahan",
+        "alpha": "Alpha",
+        "preview": "Pratinjau Warna",
+        "palette": "Palet Warna",
+        "save": "Simpan Warna",
+        "clear": "Hapus Palet",
+        "dropzone": {
+            "label": "Jatuhkan gambar di sini, atau klik untuk memilih"
+        }
     },
-    "pickedColor": "Warna Terpilih",
-    "hex": "HEX",
-    "rgb": "RGB",
-    "hsl": "HSL",
-    "copy": "Salin",
-    "copied": "Disalin!",
-    "reset": "Atur Ulang",
-    "clickToPick": "Klik pada gambar untuk memilih warna"
+    "content": {
+        "description": {
+            "title": "Apa itu Pemilih Warna?",
+            "text": "Pemilih Warna adalah alat online serbaguna yang memungkinkan desainer, pengembang, dan seniman untuk memilih, menghasilkan, dan mengonversi warna. Baik Anda memerlukan kode HEX tertentu untuk desain web atau nilai RGB untuk seni digital, alat ini memberikan informasi warna yang tepat dalam berbagai format."
+        },
+        "howTo": {
+            "title": "Cara Menggunakan Pemilih Warna",
+            "steps": [
+                "Gunakan area spektrum warna untuk memilih rona dasar",
+                "Sesuaikan saturasi dan kecerahan di kotak warna utama",
+                "Sempurnakan nilai menggunakan penggeser RGB atau HSL",
+                "Salin kode HEX, RGB, atau HSL yang dihasilkan",
+                "Simpan warna favorit Anda ke palet sementara"
+            ]
+        },
+        "features": {
+            "title": "Fitur Utama",
+            "list": [
+                "🎨 Pemilihan Warna Visual: Antarmuka intuitif untuk memilih warna",
+                "🔄 Konversi Format: Konversi instan antara HEX, RGB, HSL, dan CMYK",
+                "📋 Salin Satu Klik: Salin kode warna dengan mudah ke papan klip Anda",
+                "🎚️ Kontrol Tepat: Sempurnakan warna dengan penggeser dan input",
+                "💾 Riwayat Palet: Simpan dan kelola daftar warna yang dipilih"
+            ]
+        },
+        "faq": {
+            "title": "Pertanyaan yang Sering Diajukan",
+            "questions": [
+                {
+                    "q": "Apa itu kode HEX?",
+                    "a": "Kode HEX adalah angka heksadesimal enam digit yang digunakan dalam desain web untuk mewakili warna. Dimulai dengan simbol pagar (#) diikuti oleh tiga pasang karakter yang mewakili nilai merah, hijau, dan biru."
+                },
+                {
+                    "q": "Apa perbedaan antara RGB dan CMYK?",
+                    "a": "RGB (Merah, Hijau, Biru) adalah model warna aditif yang digunakan untuk layar digital. CMYK (Cyan, Magenta, Kuning, Kunci/Hitam) adalah model warna subtraktif yang digunakan untuk pencetakan."
+                },
+                {
+                    "q": "Apakah alat ini gratis untuk digunakan?",
+                    "a": "Ya, Pemilih Warna kami sepenuhnya gratis untuk digunakan baik untuk proyek pribadi maupun komersial."
+                }
+            ]
+        }
+    }
 }

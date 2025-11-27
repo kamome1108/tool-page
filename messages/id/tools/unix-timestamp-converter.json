@@ -1,20 +1,66 @@
 {
     "meta": {
-        "title": "Konverter Timestamp Unix - Alat Waktu Epoch",
-        "description": "Konverter timestamp Unix online gratis. Konversi timestamp Unix ke tanggal yang dapat dibaca manusia dan sebaliknya. Mendukung detik dan milidetik."
+        "title": "Unix Timestamp Converter - Epoch Time Tool",
+        "description": "Konverter stempel waktu Unix online gratis. Konversi stempel waktu Unix ke tanggal yang dapat dibaca manusia dan sebaliknya. Mendukung detik dan milidetik."
     },
-    "title": "Konverter Timestamp Unix",
-    "description": "Konversi antara timestamp Unix dan tanggal yang dapat dibaca manusia.",
+    "tagline": "Konversi antara stempel waktu Unix dan tanggal yang dapat dibaca manusia secara instan",
     "ui": {
-        "currentTimestamp": "Timestamp Unix Saat Ini",
-        "convertTimestamp": "Konversi Timestamp ke Tanggal",
-        "convertDate": "Konversi Tanggal ke Timestamp",
-        "timestampInput": "Timestamp Unix",
+        "currentTimestamp": "Stempel Waktu Unix Saat Ini",
+        "convertTimestamp": "Konversi Stempel Waktu ke Tanggal",
+        "convertDate": "Konversi Tanggal ke Stempel Waktu",
+        "timestampInput": "Stempel Waktu Unix",
         "dateInput": "Tanggal & Waktu",
         "convert": "Konversi",
         "result": "Hasil",
         "copy": "Salin",
         "copied": "Disalin!",
-        "processingNote": "🔒 Semua pemrosesan dilakukan di browser Anda."
+        "processingNote": "🔒 Semua pemrosesan dilakukan di browser Anda.",
+        "seconds": "Detik",
+        "milliseconds": "Milidetik",
+        "localTime": "Waktu Lokal",
+        "gmtTime": "Waktu GMT/UTC",
+        "relative": "Relatif"
+    },
+    "content": {
+        "description": {
+            "title": "Apa itu Konverter Stempel Waktu Unix?",
+            "text": "Konverter Stempel Waktu Unix adalah alat pengembang yang dirancang untuk mengonversi stempel waktu Unix (waktu Epoch) menjadi format tanggal yang dapat dibaca manusia dan sebaliknya. Ini mendukung presisi detik dan milidetik, menjadikannya penting untuk debugging, manajemen basis data, dan analisis logging."
+        },
+        "howTo": {
+            "title": "Cara Menggunakan Konverter Stempel Waktu Unix",
+            "steps": [
+                "Untuk mengonversi stempel waktu: Masukkan stempel waktu numerik di bidang input",
+                "Untuk mengonversi tanggal: Pilih atau masukkan tanggal dan waktu",
+                "Klik tombol 'Konversi' untuk melihat hasilnya",
+                "Lihat waktu yang dikonversi dalam format Lokal, GMT, dan Relatif"
+            ]
+        },
+        "features": {
+            "title": "Fitur Utama",
+            "list": [
+                "⚡ Konversi Instan: Konversi stempel waktu dan tanggal waktu nyata",
+                "🕒 Presisi Ganda: Mendukung detik dan milidetik",
+                "🌍 Sadar Zona Waktu: Menampilkan waktu Lokal dan GMT/UTC",
+                "📅 Waktu Relatif: Menunjukkan berapa lama yang lalu atau di masa depan suatu tanggal",
+                "🔒 Fokus Privasi: Tidak ada data yang dikirim ke server mana pun"
+            ]
+        },
+        "faq": {
+            "title": "Pertanyaan yang Sering Diajukan",
+            "questions": [
+                {
+                    "q": "Apa itu Stempel Waktu Unix?",
+                    "a": "Stempel waktu Unix mewakili jumlah detik yang telah berlalu sejak 1 Januari 1970 (UTC), tidak termasuk detik kabisat. Ini banyak digunakan dalam sistem komputer untuk melacak waktu."
+                },
+                {
+                    "q": "Apa itu masalah Tahun 2038?",
+                    "a": "Masalah Tahun 2038 mengacu pada masalah potensial di mana sistem 32-bit tidak lagi dapat menyimpan stempel waktu Unix setelah 19 Januari 2038, karena nilainya akan meluap."
+                },
+                {
+                    "q": "Apakah alat ini menangani zona waktu?",
+                    "a": "Ya, alat ini mengonversi stempel waktu ke waktu lokal browser Anda dan juga menyediakan ekuivalen GMT/UTC."
+                }
+            ]
+        }
     }
 }

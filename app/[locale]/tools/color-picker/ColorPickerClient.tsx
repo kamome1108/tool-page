@@ -2,12 +2,14 @@
 
 import { useState, useRef, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
+import EnhancedToolLayout from '@/app/components/EnhancedToolLayout';
 import { Button } from '@/app/components/ui/Button';
-import { Card } from '@/app/components/ui/Card';
 import { FileDropzone } from '@/app/components/ui/FileDropzone';
+import { ToolContent } from '@/app/types/tool';
 
 interface ColorPickerClientProps {
     locale: string;
+    content: ToolContent;
 }
 
 interface Color {
@@ -16,7 +18,7 @@ interface Color {
     hsl: string;
 }
 
-export default function ColorPickerClient({ locale }: ColorPickerClientProps) {
+export default function ColorPickerClient({ locale, content }: ColorPickerClientProps) {
     const t = useTranslations('Tools.color-picker');
     const [file, setFile] = useState<File | null>(null);
     const [previewUrl, setPreviewUrl] = useState<string | null>(null);
@@ -147,105 +149,107 @@ export default function ColorPickerClient({ locale }: ColorPickerClientProps) {
     };
 
     return (
-        <div className="max-w-4xl mx-auto">
-            <Card padding="lg">
+        <EnhancedToolLayout
+            {...content}
+            toolId="color-picker"
+            locale={locale}
+        >
+            <div className="space-y-8">
                 {!file ? (
                     <FileDropzone
                         onFileSelect={processFile}
-                        label={t('dropzone.label')}
+                        label={t('ui.dropzone.label')}
                         icon={<div className="text-6xl mb-4">🎨</div>}
                     />
                 ) : (
-                    <div className="space-y-8">
-                        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                            <div className="lg:col-span-2">
-                                <div className="relative bg-gray-100 rounded-lg overflow-hidden cursor-crosshair">
-                                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                                    <img
-                                        ref={imageRef}
-                                        src={previewUrl!}
-                                        alt="Pick color"
-                                        className="w-full h-auto"
-                                        onClick={handleImageClick}
-                                        onMouseMove={handleImageMouseMove}
-                                        onMouseLeave={handleMouseLeave}
-                                    />
-                                    {hoverColor && (
-                                        <div
-                                            className="absolute top-4 right-4 w-12 h-12 rounded-full border-2 border-white shadow-lg pointer-events-none"
-                                            style={{ backgroundColor: hoverColor }}
-                                        />
-                                    )}
-                                </div>
-                                <p className="text-sm text-gray-500 mt-2 text-center">
-                                    {t('clickToPick')}
-                                </p>
-                            </div>
-
-                            <div className="space-y-6">
-                                <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                                    <h3 className="text-lg font-semibold text-gray-900 mb-4">
-                                        {t('pickedColor')}
-                                    </h3>
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                        <div className="lg:col-span-2">
+                            <div className="relative bg-gray-100 rounded-lg overflow-hidden cursor-crosshair">
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
+                                <img
+                                    ref={imageRef}
+                                    src={previewUrl!}
+                                    alt="Pick color"
+                                    className="w-full h-auto"
+                                    onClick={handleImageClick}
+                                    onMouseMove={handleImageMouseMove}
+                                    onMouseLeave={handleMouseLeave}
+                                />
+                                {hoverColor && (
                                     <div
-                                        className="w-full h-24 rounded-lg shadow-inner mb-6 border border-gray-200"
-                                        style={{ backgroundColor: pickedColor?.hex || '#FFFFFF' }}
+                                        className="absolute top-4 right-4 w-12 h-12 rounded-full border-2 border-white shadow-lg pointer-events-none"
+                                        style={{ backgroundColor: hoverColor }}
                                     />
+                                )}
+                            </div>
+                            <p className="text-sm text-gray-500 mt-2 text-center">
+                                {t('ui.clickToPick')}
+                            </p>
+                        </div>
 
-                                    {pickedColor && (
-                                        <div className="space-y-4">
-                                            <div>
-                                                <label className="block text-xs font-medium text-gray-500 mb-1">{t('hex')}</label>
-                                                <div className="flex gap-2">
-                                                    <input
-                                                        readOnly
-                                                        value={pickedColor.hex}
-                                                        className="flex-1 px-3 py-2 bg-white border border-gray-300 rounded-md text-sm font-mono"
-                                                    />
-                                                    <Button size="sm" variant="outline" onClick={() => copyToClipboard(pickedColor.hex)}>
-                                                        {t('copy')}
-                                                    </Button>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <label className="block text-xs font-medium text-gray-500 mb-1">{t('rgb')}</label>
-                                                <div className="flex gap-2">
-                                                    <input
-                                                        readOnly
-                                                        value={pickedColor.rgb}
-                                                        className="flex-1 px-3 py-2 bg-white border border-gray-300 rounded-md text-sm font-mono"
-                                                    />
-                                                    <Button size="sm" variant="outline" onClick={() => copyToClipboard(pickedColor.rgb)}>
-                                                        {t('copy')}
-                                                    </Button>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <label className="block text-xs font-medium text-gray-500 mb-1">{t('hsl')}</label>
-                                                <div className="flex gap-2">
-                                                    <input
-                                                        readOnly
-                                                        value={pickedColor.hsl}
-                                                        className="flex-1 px-3 py-2 bg-white border border-gray-300 rounded-md text-sm font-mono"
-                                                    />
-                                                    <Button size="sm" variant="outline" onClick={() => copyToClipboard(pickedColor.hsl)}>
-                                                        {t('copy')}
-                                                    </Button>
-                                                </div>
+                        <div className="space-y-6">
+                            <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
+                                <h3 className="text-lg font-semibold text-gray-900 mb-4">
+                                    {t('ui.pickedColor')}
+                                </h3>
+                                <div
+                                    className="w-full h-24 rounded-lg shadow-inner mb-6 border border-gray-200"
+                                    style={{ backgroundColor: pickedColor?.hex || '#FFFFFF' }}
+                                />
+
+                                {pickedColor && (
+                                    <div className="space-y-4">
+                                        <div>
+                                            <label className="block text-xs font-medium text-gray-500 mb-1">{t('ui.hex')}</label>
+                                            <div className="flex gap-2">
+                                                <input
+                                                    readOnly
+                                                    value={pickedColor.hex}
+                                                    className="flex-1 px-3 py-2 bg-white border border-gray-300 rounded-md text-sm font-mono"
+                                                />
+                                                <Button size="sm" variant="outline" onClick={() => copyToClipboard(pickedColor.hex)}>
+                                                    {t('ui.copy')}
+                                                </Button>
                                             </div>
                                         </div>
-                                    )}
-                                </div>
-
-                                <Button onClick={handleReset} variant="outline" size="lg" className="w-full">
-                                    {t('reset')}
-                                </Button>
+                                        <div>
+                                            <label className="block text-xs font-medium text-gray-500 mb-1">{t('ui.rgb')}</label>
+                                            <div className="flex gap-2">
+                                                <input
+                                                    readOnly
+                                                    value={pickedColor.rgb}
+                                                    className="flex-1 px-3 py-2 bg-white border border-gray-300 rounded-md text-sm font-mono"
+                                                />
+                                                <Button size="sm" variant="outline" onClick={() => copyToClipboard(pickedColor.rgb)}>
+                                                    {t('ui.copy')}
+                                                </Button>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <label className="block text-xs font-medium text-gray-500 mb-1">{t('ui.hsl')}</label>
+                                            <div className="flex gap-2">
+                                                <input
+                                                    readOnly
+                                                    value={pickedColor.hsl}
+                                                    className="flex-1 px-3 py-2 bg-white border border-gray-300 rounded-md text-sm font-mono"
+                                                />
+                                                <Button size="sm" variant="outline" onClick={() => copyToClipboard(pickedColor.hsl)}>
+                                                    {t('ui.copy')}
+                                                </Button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                )}
                             </div>
+
+                            <Button onClick={handleReset} variant="outline" size="lg" className="w-full">
+                                {t('ui.reset')}
+                            </Button>
                         </div>
                     </div>
                 )}
                 <canvas ref={canvasRef} className="hidden" />
-            </Card>
-        </div>
+            </div>
+        </EnhancedToolLayout>
     );
 }

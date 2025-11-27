@@ -1,19 +1,74 @@
 {
     "meta": {
-        "title": "Image Color Picker - Extract Colors from Images Online",
-        "description": "Pick colors from images online. Upload an image and get HEX, RGB, and HSL color codes from any pixel. Free and easy to use."
+        "title": "Color Picker - Online HEX, RGB, HSL Color Selection Tool",
+        "description": "Free online color picker tool. Select colors and get HEX, RGB, HSL, and CMYK codes. Create color palettes and convert between formats instantly."
     },
-    "title": "Image Color Picker",
-    "description": "Extract colors from your images. Get HEX, RGB, and HSL codes.",
-    "dropzone": {
-        "label": "Drop an image here, or click to select"
+    "tagline": "Select, convert, and generate color codes instantly",
+    "ui": {
+        "title": "Color Picker",
+        "description": "Select colors and get HEX, RGB, HSL codes.",
+        "hex": "HEX",
+        "rgb": "RGB",
+        "hsl": "HSL",
+        "cmyk": "CMYK",
+        "copy": "Copy",
+        "copied": "Copied!",
+        "red": "Red",
+        "green": "Green",
+        "blue": "Blue",
+        "hue": "Hue",
+        "saturation": "Saturation",
+        "lightness": "Lightness",
+        "alpha": "Alpha",
+        "preview": "Color Preview",
+        "palette": "Color Palette",
+        "save": "Save Color",
+        "clear": "Clear Palette",
+        "dropzone": {
+            "label": "Drop an image here, or click to select"
+        }
     },
-    "pickedColor": "Picked Color",
-    "hex": "HEX",
-    "rgb": "RGB",
-    "hsl": "HSL",
-    "copy": "Copy",
-    "copied": "Copied!",
-    "reset": "Reset",
-    "clickToPick": "Click on the image to pick a color"
+    "content": {
+        "description": {
+            "title": "What is Color Picker?",
+            "text": "Color Picker is a versatile online tool that allows designers, developers, and artists to select, generate, and convert colors. Whether you need a specific HEX code for web design or RGB values for digital art, this tool provides precise color information in multiple formats."
+        },
+        "howTo": {
+            "title": "How to Use Color Picker",
+            "steps": [
+                "Use the color spectrum area to select a base hue",
+                "Adjust the saturation and lightness in the main color box",
+                "Fine-tune values using the RGB or HSL sliders",
+                "Copy the generated HEX, RGB, or HSL codes",
+                "Save your favorite colors to the temporary palette"
+            ]
+        },
+        "features": {
+            "title": "Key Features",
+            "list": [
+                "🎨 Visual Color Selection: Intuitive interface for picking colors",
+                "🔄 Format Conversion: Instantly convert between HEX, RGB, HSL, and CMYK",
+                "📋 One-Click Copy: Easily copy color codes to your clipboard",
+                "🎚️ Precise Control: Fine-tune colors with sliders and inputs",
+                "💾 Palette History: Save and manage a list of selected colors"
+            ]
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "questions": [
+                {
+                    "q": "What is a HEX code?",
+                    "a": "A HEX code is a six-digit hexadecimal number used in web design to represent colors. It starts with a hash symbol (#) followed by three pairs of characters representing red, green, and blue values."
+                },
+                {
+                    "q": "What is the difference between RGB and CMYK?",
+                    "a": "RGB (Red, Green, Blue) is an additive color model used for digital screens. CMYK (Cyan, Magenta, Yellow, Key/Black) is a subtractive color model used for printing."
+                },
+                {
+                    "q": "Is this tool free to use?",
+                    "a": "Yes, our Color Picker is completely free to use for both personal and commercial projects."
+                }
+            ]
+        }
+    }
 }

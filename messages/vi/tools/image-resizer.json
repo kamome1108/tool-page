@@ -1,20 +1,66 @@
 {
     "meta": {
-        "title": "Image Resizer - Thay đổi kích thước hình ảnh trực tuyến miễn phí",
-        "description": "Thay đổi kích thước hình ảnh của bạn theo kích thước pixel chính xác trực tuyến. Công cụ thay đổi kích thước hình ảnh miễn phí, nhanh chóng và an toàn chạy trong trình duyệt của bạn.",
-        "keywords": "image resizer, resize image, change dimensions, image scaling"
+        "title": "Trình thay đổi kích thước ảnh - Thay đổi kích thước ảnh trực tuyến miễn phí",
+        "description": "Trình thay đổi kích thước ảnh trực tuyến miễn phí. Thay đổi kích thước ảnh JPG, PNG và WebP thành kích thước pixel hoặc tỷ lệ phần trăm chính xác. Duy trì tỷ lệ khung hình và tải xuống ngay lập tức."
     },
-    "title": "Image Resizer",
-    "description": "Thay đổi kích thước hình ảnh theo kích thước cụ thể trong khi vẫn duy trì tỷ lệ khung hình.",
-    "dropzone": {
-        "label": "Thả hình ảnh vào đây hoặc nhấp để chọn"
+    "tagline": "Thay đổi kích thước ảnh thành kích thước chính xác ngay lập tức",
+    "ui": {
+        "title": "Trình thay đổi kích thước ảnh",
+        "description": "Thay đổi kích thước ảnh thành kích thước cụ thể trong khi vẫn duy trì tỷ lệ khung hình.",
+        "dropzone": {
+            "label": "Thả ảnh vào đây hoặc nhấp để chọn"
+        },
+        "width": "Chiều rộng (px)",
+        "height": "Chiều cao (px)",
+        "maintainAspectRatio": "Duy trì tỷ lệ khung hình",
+        "resize": "Thay đổi kích thước ảnh",
+        "download": "Tải xuống ảnh đã thay đổi kích thước",
+        "reset": "Đặt lại",
+        "original": "Gốc: {width} x {height}",
+        "new": "Mới: {width} x {height}",
+        "processingNote": "🔒 Tất cả quá trình xử lý diễn ra trong trình duyệt của bạn. Hình ảnh của bạn không bao giờ rời khỏi thiết bị của bạn."
     },
-    "width": "Chiều rộng (px)",
-    "height": "Chiều cao (px)",
-    "maintainAspectRatio": "Duy trì tỷ lệ khung hình",
-    "resize": "Thay đổi kích thước hình ảnh",
-    "download": "Tải xuống hình ảnh đã thay đổi kích thước",
-    "reset": "Đặt lại",
-    "original": "Gốc: {width} x {height}",
-    "new": "Mới: {width} x {height}"
+    "content": {
+        "description": {
+            "title": "Trình thay đổi kích thước ảnh là gì?",
+            "text": "Trình thay đổi kích thước ảnh là một công cụ trực tuyến miễn phí, nhanh chóng và an toàn cho phép bạn thay đổi kích thước hình ảnh của mình. Cho dù bạn cần thay đổi kích thước cho mạng xã hội, trang web hay email, công cụ này giúp bạn dễ dàng có được kích thước chính xác mà bạn cần mà không làm giảm chất lượng."
+        },
+        "howTo": {
+            "title": "Cách sử dụng Trình thay đổi kích thước ảnh",
+            "steps": [
+                "Tải lên hình ảnh bằng cách kéo và thả hoặc nhấp vào vùng tải lên",
+                "Nhập chiều rộng hoặc chiều cao mong muốn của bạn bằng pixel",
+                "Giữ chọn 'Duy trì tỷ lệ khung hình' để tránh bị méo",
+                "Nhấp vào 'Thay đổi kích thước ảnh' để xử lý tệp",
+                "Tải xuống hình ảnh đã thay đổi kích thước của bạn ngay lập tức"
+            ]
+        },
+        "features": {
+            "title": "Các tính năng chính",
+            "list": [
+                "⚡ Thay đổi kích thước tức thì: Thay đổi kích thước ảnh trong mili giây",
+                "📏 Kiểm soát chính xác: Đặt kích thước pixel chính xác",
+                "🔒 Quyền riêng tư là trên hết: Hình ảnh được xử lý cục bộ trong trình duyệt của bạn",
+                "🖼️ Hỗ trợ định dạng: Hoạt động với JPG, PNG và WebP",
+                "🔗 Khóa tỷ lệ khung hình: Tự động tính toán kích thước để tránh bị méo"
+            ]
+        },
+        "faq": {
+            "title": "Câu hỏi thường gặp",
+            "questions": [
+                {
+                    "q": "Hình ảnh của tôi có được tải lên máy chủ không?",
+                    "a": "Không, tất cả việc thay đổi kích thước được thực hiện hoàn toàn trong trình duyệt của bạn bằng JavaScript. Ảnh của bạn không bao giờ rời khỏi thiết bị của bạn."
+                },
+                {
+                    "q": "Thay đổi kích thước có làm giảm chất lượng hình ảnh không?",
+                    "a": "Thay đổi kích thước xuống (làm nhỏ hơn) thường duy trì chất lượng. Thay đổi kích thước lên (làm lớn hơn) có thể gây ra một số hiện tượng vỡ hạt, nhưng công cụ của chúng tôi sử dụng các thuật toán chất lượng cao để giảm thiểu điều này."
+                },
+                {
+                    "q": "Những định dạng nào được hỗ trợ?",
+                    "a": "Chúng tôi hỗ trợ tất cả các định dạng hình ảnh web phổ biến bao gồm JPEG, PNG và WebP."
+                }
+            ]
+        }
+    }
 }

@@ -3,15 +3,57 @@
         "title": "Bộ mã hóa/giải mã Base64 - Mã hóa & Giải mã văn bản",
         "description": "Bộ mã hóa và giải mã Base64 trực tuyến miễn phí. Chuyển đổi văn bản sang định dạng Base64 và giải mã chuỗi Base64 trở lại văn bản. An toàn và dễ sử dụng."
     },
-    "title": "Bộ mã hóa/giải mã Base64",
-    "description": "Mã hóa văn bản sang Base64 hoặc giải mã Base64 sang văn bản.",
+    "tagline": "Mã hóa và giải mã chuỗi Base64 ngay lập tức trong trình duyệt của bạn",
     "ui": {
         "inputLabel": "Nhập văn bản",
+        "outputLabel": "Kết quả",
         "encode": "Mã hóa",
         "decode": "Giải mã",
-        "result": "Kết quả",
         "copy": "Sao chép",
+        "clear": "Xóa",
         "copied": "Đã sao chép!",
         "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."
+    },
+    "content": {
+        "description": {
+            "title": "Bộ mã hóa/giải mã Base64 là gì?",
+            "text": "Bộ mã hóa/giải mã Base64 là một công cụ trực tuyến đa năng cho phép bạn chuyển đổi văn bản sang định dạng Base64 và ngược lại. Mã hóa Base64 thường được sử dụng trong phát triển web để truyền dữ liệu mà không bị mất hoặc sửa đổi, chẳng hạn như nhúng hình ảnh trực tiếp vào HTML hoặc CSS hoặc mã hóa thông tin đăng nhập để xác thực cơ bản."
+        },
+        "howTo": {
+            "title": "Cách sử dụng Bộ mã hóa/giải mã Base64",
+            "steps": [
+                "Nhập hoặc dán văn bản của bạn vào trường nhập liệu",
+                "Nhấp vào 'Mã hóa' để chuyển đổi văn bản thuần túy sang Base64",
+                "Nhấp vào 'Giải mã' để chuyển đổi chuỗi Base64 trở lại văn bản thuần túy",
+                "Sao chép kết quả vào khay nhớ tạm của bạn bằng một cú nhấp chuột"
+            ]
+        },
+        "features": {
+            "title": "Các tính năng chính",
+            "list": [
+                "⚡ Xử lý tức thì: Mã hóa và giải mã trong thời gian thực",
+                "🔒 Ưu tiên quyền riêng tư: Tất cả dữ liệu vẫn còn trong trình duyệt của bạn",
+                "📝 Hỗ trợ các ký tự UTF-8",
+                "📋 Chức năng sao chép-dán dễ dàng",
+                "🆓 100% Miễn phí và không giới hạn"
+            ]
+        },
+        "faq": {
+            "title": "Câu hỏi thường gặp",
+            "questions": [
+                {
+                    "q": "Mã hóa Base64 là gì?",
+                    "a": "Base64 là một lược đồ mã hóa nhị phân sang văn bản đại diện cho dữ liệu nhị phân ở định dạng chuỗi ASCII. Nó được thiết kế để mang dữ liệu được lưu trữ ở định dạng nhị phân qua các kênh chỉ hỗ trợ nội dung văn bản một cách đáng tin cậy."
+                },
+                {
+                    "q": "Dữ liệu của tôi có an toàn không?",
+                    "a": "Có, hoàn toàn. Công cụ này chạy hoàn toàn ở phía máy khách (trong trình duyệt của bạn). Dữ liệu của bạn không bao giờ được gửi đến máy chủ của chúng tôi."
+                },
+                {
+                    "q": "Tôi có thể giải mã bất kỳ chuỗi Base64 nào không?",
+                    "a": "Có, miễn là chuỗi Base64 hợp lệ, công cụ này có thể giải mã nó trở lại định dạng văn bản gốc."
+                }
+            ]
+        }
     }
 }

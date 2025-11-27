@@ -21,5 +21,8 @@
     "meta": {
         "title": "Tool Suite - Alat Online Gratis untuk Pengembang & Pembuat Konten",
         "description": "Kumpulan alat online gratis yang berfokus pada privasi termasuk pembuat kata sandi, pemformat, dan kalkulator. Tidak perlu mendaftar, berjalan sepenuhnya di browser Anda."
+    },
+    "relatedTools": {
+        "title": "Alat Terkait"
     }
 }

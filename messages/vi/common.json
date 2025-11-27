@@ -21,5 +21,8 @@
     "meta": {
         "title": "Tool Suite - Công cụ trực tuyến miễn phí cho nhà phát triển & người sáng tạo",
         "description": "Một bộ sưu tập các công cụ trực tuyến miễn phí, tập trung vào quyền riêng tư bao gồm trình tạo mật khẩu, định dạng và máy tính. Không cần đăng ký, chạy hoàn toàn trong trình duyệt của bạn."
+    },
+    "relatedTools": {
+        "title": "Công cụ liên quan"
     }
 }

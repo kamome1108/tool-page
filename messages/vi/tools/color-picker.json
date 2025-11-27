@@ -1,20 +1,74 @@
 {
     "meta": {
-        "title": "Image Color Picker - Trích xuất màu từ hình ảnh trực tuyến",
-        "description": "Chọn màu từ hình ảnh trực tuyến. Tải lên hình ảnh và nhận mã màu HEX, RGB và HSL từ bất kỳ pixel nào. Miễn phí và dễ sử dụng.",
-        "keywords": "color picker, image color, hex code, rgb code, hsl code"
+        "title": "Bộ chọn màu - Công cụ chọn màu HEX, RGB, HSL trực tuyến",
+        "description": "Công cụ chọn màu trực tuyến miễn phí. Chọn màu và nhận mã HEX, RGB, HSL và CMYK. Tạo bảng màu và chuyển đổi giữa các định dạng ngay lập tức."
     },
-    "title": "Image Color Picker",
-    "description": "Trích xuất màu từ hình ảnh của bạn. Nhận mã HEX, RGB và HSL.",
-    "dropzone": {
-        "label": "Thả hình ảnh vào đây hoặc nhấp để chọn"
+    "tagline": "Chọn, chuyển đổi và tạo mã màu ngay lập tức",
+    "ui": {
+        "title": "Bộ chọn màu",
+        "description": "Chọn màu và nhận mã HEX, RGB, HSL.",
+        "hex": "HEX",
+        "rgb": "RGB",
+        "hsl": "HSL",
+        "cmyk": "CMYK",
+        "copy": "Sao chép",
+        "copied": "Đã sao chép!",
+        "red": "Đỏ",
+        "green": "Xanh lá",
+        "blue": "Xanh dương",
+        "hue": "Sắc độ",
+        "saturation": "Độ bão hòa",
+        "lightness": "Độ sáng",
+        "alpha": "Alpha",
+        "preview": "Xem trước màu",
+        "palette": "Bảng màu",
+        "save": "Lưu màu",
+        "clear": "Xóa bảng màu",
+        "dropzone": {
+            "label": "Thả hình ảnh vào đây, hoặc nhấp để chọn"
+        }
     },
-    "pickedColor": "Màu đã chọn",
-    "hex": "HEX",
-    "rgb": "RGB",
-    "hsl": "HSL",
-    "copy": "Sao chép",
-    "copied": "Đã sao chép!",
-    "reset": "Đặt lại",
-    "clickToPick": "Nhấp vào hình ảnh để chọn màu"
+    "content": {
+        "description": {
+            "title": "Bộ chọn màu là gì?",
+            "text": "Bộ chọn màu là một công cụ trực tuyến đa năng cho phép các nhà thiết kế, nhà phát triển và nghệ sĩ chọn, tạo và chuyển đổi màu sắc. Cho dù bạn cần mã HEX cụ thể cho thiết kế web hay giá trị RGB cho nghệ thuật kỹ thuật số, công cụ này cung cấp thông tin màu chính xác ở nhiều định dạng."
+        },
+        "howTo": {
+            "title": "Cách sử dụng Bộ chọn màu",
+            "steps": [
+                "Sử dụng vùng phổ màu để chọn sắc độ cơ bản",
+                "Điều chỉnh độ bão hòa và độ sáng trong hộp màu chính",
+                "Tinh chỉnh các giá trị bằng thanh trượt RGB hoặc HSL",
+                "Sao chép mã HEX, RGB hoặc HSL đã tạo",
+                "Lưu màu sắc yêu thích của bạn vào bảng màu tạm thời"
+            ]
+        },
+        "features": {
+            "title": "Các tính năng chính",
+            "list": [
+                "🎨 Chọn màu trực quan: Giao diện trực quan để chọn màu",
+                "🔄 Chuy đổi định dạng: Chuyển đổi ngay lập tức giữa HEX, RGB, HSL và CMYK",
+                "📋 Sao chép một cú nhấp chuột: Dễ dàng sao chép mã màu vào khay nhớ tạm của bạn",
+                "🎚️ Kiểm soát chính xác: Tinh chỉnh màu sắc bằng thanh trượt và đầu vào",
+                "💾 Lịch sử bảng màu: Lưu và quản lý danh sách các màu đã chọn"
+            ]
+        },
+        "faq": {
+            "title": "Câu hỏi thường gặp",
+            "questions": [
+                {
+                    "q": "Mã HEX là gì?",
+                    "a": "Mã HEX là một số thập lục phân sáu chữ số được sử dụng trong thiết kế web để thể hiện màu sắc. Nó bắt đầu bằng ký hiệu thăng (#) theo sau là ba cặp ký tự đại diện cho các giá trị đỏ, xanh lá cây và xanh lam."
+                },
+                {
+                    "q": "Sự khác biệt giữa RGB và CMYK là gì?",
+                    "a": "RGB (Đỏ, Xanh lá, Xanh dương) là mô hình màu cộng được sử dụng cho màn hình kỹ thuật số. CMYK (Cyan, Magenta, Yellow, Key/Black) là mô hình màu trừ được sử dụng cho in ấn."
+                },
+                {
+                    "q": "Công cụ này có miễn phí sử dụng không?",
+                    "a": "Có, Bộ chọn màu của chúng tôi hoàn toàn miễn phí sử dụng cho cả các dự án cá nhân và thương mại."
+                }
+            ]
+        }
+    }
 }

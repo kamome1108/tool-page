@@ -1,15 +1,64 @@
 {
     "meta": {
-        "title": "Dekoder JWT - Dekode Token Web JSON",
-        "description": "Dekoder JWT online gratis. Dekode dan periksa header dan payload Token Web JSON (JWT) tanpa mengirim data ke server."
+        "title": "JWT Decoder - Dekode Token Web JSON Online",
+        "description": "JWT Decoder online gratis. Dekode dan periksa header dan payload Token Web JSON (JWT) secara instan. Debug token dengan aman di browser Anda."
     },
-    "title": "Dekoder JWT",
-    "description": "Dekode dan periksa Token Web JSON.",
+    "tagline": "Dekode dan periksa Token Web JSON secara instan",
     "ui": {
         "inputPlaceholder": "Tempel JWT Anda di sini...",
         "header": "Header",
         "payload": "Payload",
         "invalidToken": "Format JWT tidak valid",
-        "processingNote": "🔒 Penguraian kode terjadi secara lokal di browser Anda. Token Anda tidak pernah dikirim ke server kami."
+        "processingNote": "🔒 Decoding terjadi secara lokal di browser Anda. Token Anda tidak pernah dikirim ke server kami.",
+        "algorithm": "Algoritma",
+        "type": "Tipe",
+        "issuedAt": "Diterbitkan Pada",
+        "expiration": "Kedaluwarsa",
+        "copy": "Salin",
+        "copied": "Disalin!",
+        "clear": "Hapus",
+        "outputLabel": "Hasil"
+    },
+    "content": {
+        "description": {
+            "title": "Apa itu JWT Decoder?",
+            "text": "JWT Decoder adalah alat pengembang yang memungkinkan Anda mendekode dan memeriksa konten Token Web JSON (JWT). Ini membagi token menjadi tiga bagian: Header, Payload, dan Tanda Tangan, dan menampilkan data JSON yang didekodekan dalam format yang dapat dibaca. Ini penting untuk men-debug masalah otentikasi dan memverifikasi konten token."
+        },
+        "howTo": {
+            "title": "Cara Menggunakan JWT Decoder",
+            "steps": [
+                "Tempel string JWT Anda ke bidang input",
+                "Alat ini secara otomatis mendekode token",
+                "Lihat bagian Header dan Payload yang didekodekan",
+                "Periksa klaim standar seperti kedaluwarsa (exp) dan diterbitkan pada (iat)"
+            ]
+        },
+        "features": {
+            "title": "Fitur Utama",
+            "list": [
+                "⚡ Decoding Instan: Mendekode token saat Anda mengetik",
+                "🔒 Aman: Semua pemrosesan terjadi secara lokal di browser Anda",
+                "🎨 Kode warna: Memisahkan Header, Payload, dan Tanda Tangan secara visual",
+                "🕒 Pemformatan Tanggal: Memformat stempel waktu secara otomatis (exp, iat)",
+                "📋 Salin Mudah: Salin satu klik untuk JSON yang didekodekan"
+            ]
+        },
+        "faq": {
+            "title": "Pertanyaan yang Sering Diajukan",
+            "questions": [
+                {
+                    "q": "Apa itu JWT?",
+                    "a": "JSON Web Token (JWT) adalah standar terbuka (RFC 7519) yang mendefinisikan cara yang ringkas dan mandiri untuk mengirimkan informasi secara aman antar pihak sebagai objek JSON."
+                },
+                {
+                    "q": "Apakah aman menempelkan token produksi saya di sini?",
+                    "a": "Ya, alat ini berjalan sepenuhnya di browser Anda. Token Anda tidak pernah dikirim ke server mana pun. Namun, sebagai praktik terbaik, selalu berhati-hatilah dengan kredensial produksi."
+                },
+                {
+                    "q": "Apakah alat ini memverifikasi tanda tangan?",
+                    "a": "Tidak, alat ini hanya mendekode token untuk menampilkan isinya. Itu tidak memverifikasi tanda tangan, karena itu memerlukan kunci rahasia."
+                }
+            ]
+        }
     }
 }

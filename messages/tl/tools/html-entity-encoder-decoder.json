@@ -1,17 +1,59 @@
 {
     "meta": {
-        "title": "HTML Entity Encoder/Decoder - I-convert ang Teksto sa HTML Entities",
-        "description": "Libreng online na HTML entity encoder at decoder. I-convert ang mga espesyal na character sa HTML entities at vice versa. Ligtas na i-encode ang teksto para sa paggamit sa web."
+        "title": "HTML Entity Encoder/Decoder - I-convert ang Text sa HTML Entities",
+        "description": "Libreng online na HTML entity encoder at decoder. I-convert ang mga espesyal na character sa HTML entities at vice versa. Ligtas na i-encode ang text para sa paggamit sa web."
     },
-    "title": "HTML Entity Encoder/Decoder",
-    "description": "I-encode o i-decode ang teksto sa/mula sa HTML entities.",
+    "tagline": "I-convert ang mga espesyal na character sa HTML entities nang agaran",
     "ui": {
-        "inputLabel": "Ilagay ang Teksto",
+        "inputLabel": "Input Text",
+        "outputLabel": "Resulta",
         "encode": "I-encode",
         "decode": "I-decode",
-        "result": "Resulta",
         "copy": "Kopyahin",
+        "clear": "I-clear",
         "copied": "Nakopya na!",
         "processingNote": "🔒 Ang lahat ng pagproseso ay ginagawa sa iyong browser."
+    },
+    "content": {
+        "description": {
+            "title": "Ano ang HTML Entity Encoder/Decoder?",
+            "text": "Ang HTML Entity Encoder/Decoder ay isang libreng online tool na nagko-convert ng mga espesyal na character sa kanilang kaukulang HTML entities (hal., '<' ay nagiging '&lt;') at vice versa. Mahalaga ito para sa mga web developer upang matiyak na ang text ay ipinapakita nang tama sa mga browser at upang maiwasan ang mga kahinaan sa seguridad tulad ng Cross-Site Scripting (XSS)."
+        },
+        "howTo": {
+            "title": "Paano Gamitin ang HTML Entity Encoder/Decoder",
+            "steps": [
+                "I-paste ang iyong text sa input field",
+                "I-click ang 'I-encode' upang i-convert ang mga character sa HTML entities",
+                "I-click ang 'I-decode' upang i-convert ang HTML entities pabalik sa text",
+                "Kopyahin ang resulta sa iyong clipboard"
+            ]
+        },
+        "features": {
+            "title": "Pangunahing Tampok",
+            "list": [
+                "⚡ Agarang Pag-convert: I-encode/I-decode nang real-time",
+                "🔒 Ligtas: Ang lahat ng pagproseso ay nangyayari nang lokal sa iyong browser",
+                "📝 Sinusuportahan ang lahat ng karaniwang HTML entities",
+                "📋 One-click copy sa clipboard",
+                "🆓 Ganap na libreng gamitin"
+            ]
+        },
+        "faq": {
+            "title": "Madalas Itanong",
+            "questions": [
+                {
+                    "q": "Bakit kailangan kong i-encode ang HTML entities?",
+                    "a": "Tinitiyak ng pag-encode na ang mga espesyal na character tulad ng <, >, at & ay ipinapakita nang literal ng browser sa halip na bigyang-kahulugan bilang mga HTML tag. Nakakatulong din ito na maiwasan ang mga pag-atake ng XSS."
+                },
+                {
+                    "q": "Ligtas ba ang aking data?",
+                    "a": "Oo, ang tool na ito ay tumatakbo nang buo sa iyong browser gamit ang JavaScript. Ang iyong text ay hindi kailanman ipinapadala sa anumang server."
+                },
+                {
+                    "q": "Sinusuportahan ba nito ang lahat ng character?",
+                    "a": "Sinusuportahan nito ang lahat ng karaniwang HTML reserved characters at simbolo na may mga entity reference."
+                }
+            ]
+        }
     }
 }

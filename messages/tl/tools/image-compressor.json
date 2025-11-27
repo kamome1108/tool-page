@@ -1,11 +1,12 @@
 {
     "meta": {
-        "title": "Image Compressor - I-compress ang mga Larawan Online",
+        "title": "Image Compressor - I-compress ang mga Larawan Online nang Libre",
         "description": "Libreng online na Image Compressor. Bawasan ang laki ng file ng larawan nang hindi nawawala ang kalidad. Sinusuportahan ang JPG, PNG, at WebP. Hindi kailangan mag-upload sa server."
     },
-    "title": "Image Compressor",
-    "description": "Bawasan ang laki ng file ng larawan habang pinapanatili ang kalidad.",
+    "tagline": "Bawasan ang laki ng file ng larawan agad nang hindi nawawala ang kalidad",
     "ui": {
+        "title": "Image Compressor",
+        "description": "Bawasan ang laki ng file ng larawan habang pinapanatili ang kalidad.",
         "selectImage": "Pumili ng Larawan",
         "compress": "I-compress ang Larawan",
         "download": "I-download ang Compressed na Larawan",
@@ -18,6 +19,49 @@
         "processing": "Nagko-compress...",
         "success": "Matagumpay na na-compress!",
         "error": "Error sa pag-compress ng larawan",
-        "processingNote": "🔒 Ang compression ay lokal na nangyayari sa iyong browser. Ang iyong mga larawan ay hindi kailanman ipinapadala sa aming mga server."
+        "processingNote": "🔒 Ang compression ay nangyayari nang lokal sa iyong browser. Ang iyong mga larawan ay hindi kailanman ipinapadala sa aming mga server."
+    },
+    "content": {
+        "description": {
+            "title": "Ano ang Image Compressor?",
+            "text": "Ang Image Compressor ay isang libreng online tool na dinisenyo upang bawasan ang laki ng file ng iyong mga larawan nang hindi gaanong naaapektuhan ang kanilang visual na kalidad. Perpekto ito para sa pag-optimize ng mga larawan para sa mga website, email, o pagtitipid ng storage space sa iyong device."
+        },
+        "howTo": {
+            "title": "Paano Gamitin ang Image Compressor",
+            "steps": [
+                "Mag-upload ng larawan sa pamamagitan ng pag-drag at drop o pag-click sa upload area",
+                "Ayusin ang compression quality slider sa iyong kagustuhan",
+                "Hintayin na matapos ang awtomatikong compression",
+                "Ikumpara ang orihinal at compressed na laki",
+                "I-click ang 'I-download ang Compressed na Larawan' para i-save ang optimized na file"
+            ]
+        },
+        "features": {
+            "title": "Pangunahing Tampok",
+            "list": [
+                "⚡ Mabilis na Compression: I-optimize ang mga larawan sa ilang segundo",
+                "📉 Mataas na Compression Ratio: Makabuluhang bawasan ang laki ng file",
+                "🔒 Privacy Una: Ang mga larawan ay pinoproseso nang lokal sa iyong browser",
+                "🖼️ Format Support: Gumagana sa JPG, PNG, at WebP",
+                "🎚️ Adjustable Quality: Kontrolin ang balanse sa pagitan ng laki at kalidad"
+            ]
+        },
+        "faq": {
+            "title": "Madalas Itanong",
+            "questions": [
+                {
+                    "q": "Ina-upload ba ang aking larawan sa server?",
+                    "a": "Hindi, lahat ng compression ay ginagawa nang buo sa iyong browser gamit ang JavaScript. Ang iyong mga larawan ay hindi kailanman umaalis sa iyong device."
+                },
+                {
+                    "q": "Nakakabawas ba ng kalidad ng larawan ang compression?",
+                    "a": "Gumagamit ang aming tool ng smart compression algorithms upang bawasan ang laki ng file habang pinapanatili ang pinakamahusay na posibleng visual na kalidad. Maaari mong ayusin ang quality setting upang mahanap ang perpektong balanse."
+                },
+                {
+                    "q": "Anong mga format ang sinusuportahan?",
+                    "a": "Sinusuportahan namin ang mga karaniwang web image formats kabilang ang JPEG, PNG, at WebP."
+                }
+            ]
+        }
     }
 }

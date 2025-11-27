@@ -1,19 +1,66 @@
 {
     "meta": {
         "title": "Image Resizer - Resize Images Online for Free",
-        "description": "Resize your images to exact pixel dimensions online. Free, fast, and secure image resizing tool that runs in your browser."
+        "description": "Free online image resizer. Resize JPG, PNG, and WebP images to exact pixel dimensions or percentage. Maintain aspect ratio and download instantly."
     },
-    "title": "Image Resizer",
-    "description": "Resize images to specific dimensions while maintaining aspect ratio.",
-    "dropzone": {
-        "label": "Drop an image here, or click to select"
+    "tagline": "Resize images to exact dimensions instantly",
+    "ui": {
+        "title": "Image Resizer",
+        "description": "Resize images to specific dimensions while maintaining aspect ratio.",
+        "dropzone": {
+            "label": "Drop an image here, or click to select"
+        },
+        "width": "Width (px)",
+        "height": "Height (px)",
+        "maintainAspectRatio": "Maintain aspect ratio",
+        "resize": "Resize Image",
+        "download": "Download Resized Image",
+        "reset": "Reset",
+        "original": "Original: {width} x {height}",
+        "new": "New: {width} x {height}",
+        "processingNote": "🔒 All processing happens in your browser. Your images never leave your device."
     },
-    "width": "Width (px)",
-    "height": "Height (px)",
-    "maintainAspectRatio": "Maintain aspect ratio",
-    "resize": "Resize Image",
-    "download": "Download Resized Image",
-    "reset": "Reset",
-    "original": "Original: {width} x {height}",
-    "new": "New: {width} x {height}"
+    "content": {
+        "description": {
+            "title": "What is Image Resizer?",
+            "text": "Image Resizer is a free, fast, and secure online tool that allows you to change the dimensions of your images. Whether you need to resize for social media, a website, or email, this tool makes it easy to get the exact size you need without sacrificing quality."
+        },
+        "howTo": {
+            "title": "How to Use Image Resizer",
+            "steps": [
+                "Upload an image by dragging and dropping or clicking the upload area",
+                "Enter your desired width or height in pixels",
+                "Keep 'Maintain aspect ratio' checked to prevent distortion",
+                "Click 'Resize Image' to process the file",
+                "Download your resized image instantly"
+            ]
+        },
+        "features": {
+            "title": "Key Features",
+            "list": [
+                "⚡ Instant Resizing: Resize images in milliseconds",
+                "📏 Precise Control: Set exact pixel dimensions",
+                "🔒 Privacy First: Images are processed locally in your browser",
+                "🖼️ Format Support: Works with JPG, PNG, and WebP",
+                "🔗 Aspect Ratio Lock: Automatically calculates dimensions to prevent distortion"
+            ]
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "questions": [
+                {
+                    "q": "Is my image uploaded to a server?",
+                    "a": "No, all resizing is done entirely within your browser using JavaScript. Your photos never leave your device."
+                },
+                {
+                    "q": "Does resizing reduce image quality?",
+                    "a": "Resizing down (making smaller) generally maintains quality. Resizing up (making larger) may cause some pixelation, but our tool uses high-quality algorithms to minimize this."
+                },
+                {
+                    "q": "What formats are supported?",
+                    "a": "We support all common web image formats including JPEG, PNG, and WebP."
+                }
+            ]
+        }
+    }
 }

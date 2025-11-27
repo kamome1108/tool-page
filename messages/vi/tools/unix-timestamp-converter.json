@@ -1,20 +1,66 @@
 {
     "meta": {
-        "title": "Bộ chuyển đổi dấu thời gian Unix - Công cụ thời gian Epoch",
-        "description": "Bộ chuyển đổi dấu thời gian Unix trực tuyến miễn phí. Chuyển đổi dấu thời gian Unix sang ngày tháng con người có thể đọc được và ngược lại. Hỗ trợ cả giây và mili giây."
+        "title": "Unix Timestamp Converter - Epoch Time Tool",
+        "description": "Công cụ chuyển đổi dấu thời gian Unix trực tuyến miễn phí. Chuyển đổi dấu thời gian Unix sang ngày tháng có thể đọc được và ngược lại. Hỗ trợ cả giây và mili giây."
     },
-    "title": "Bộ chuyển đổi dấu thời gian Unix",
-    "description": "Chuyển đổi giữa dấu thời gian Unix và ngày tháng con người có thể đọc được.",
+    "tagline": "Chuyển đổi giữa dấu thời gian Unix và ngày tháng có thể đọc được ngay lập tức",
     "ui": {
         "currentTimestamp": "Dấu thời gian Unix hiện tại",
-        "convertTimestamp": "Chuyển đổi dấu thời gian sang ngày",
-        "convertDate": "Chuyển đổi ngày sang dấu thời gian",
+        "convertTimestamp": "Chuyển đổi Dấu thời gian sang Ngày",
+        "convertDate": "Chuyển đổi Ngày sang Dấu thời gian",
         "timestampInput": "Dấu thời gian Unix",
         "dateInput": "Ngày & Giờ",
         "convert": "Chuyển đổi",
         "result": "Kết quả",
         "copy": "Sao chép",
         "copied": "Đã sao chép!",
-        "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn."
+        "processingNote": "🔒 Tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn.",
+        "seconds": "Giây",
+        "milliseconds": "Mili giây",
+        "localTime": "Giờ địa phương",
+        "gmtTime": "Giờ GMT/UTC",
+        "relative": "Tương đối"
+    },
+    "content": {
+        "description": {
+            "title": "Bộ chuyển đổi dấu thời gian Unix là gì?",
+            "text": "Bộ chuyển đổi dấu thời gian Unix là một công cụ dành cho nhà phát triển được thiết kế để chuyển đổi dấu thời gian Unix (thời gian Epoch) sang định dạng ngày tháng có thể đọc được và ngược lại. Nó hỗ trợ cả độ chính xác giây và mili giây, làm cho nó trở nên cần thiết cho việc gỡ lỗi, quản lý cơ sở dữ liệu và phân tích nhật ký."
+        },
+        "howTo": {
+            "title": "Cách sử dụng Bộ chuyển đổi dấu thời gian Unix",
+            "steps": [
+                "Để chuyển đổi dấu thời gian: Nhập dấu thời gian số vào trường nhập liệu",
+                "Để chuyển đổi ngày: Chọn hoặc nhập ngày và giờ",
+                "Nhấp vào nút 'Chuyển đổi' để xem kết quả",
+                "Xem thời gian đã chuyển đổi ở các định dạng Cục bộ, GMT và Tương đối"
+            ]
+        },
+        "features": {
+            "title": "Các tính năng chính",
+            "list": [
+                "⚡ Chuyển đổi tức thì: Chuyển đổi dấu thời gian và ngày tháng theo thời gian thực",
+                "🕒 Độ chính xác kép: Hỗ trợ cả giây và mili giây",
+                "🌍 Nhận biết múi giờ: Hiển thị cả thời gian Cục bộ và GMT/UTC",
+                "📅 Thời gian tương đối: Hiển thị khoảng thời gian trước đây hoặc trong tương lai của một ngày",
+                "🔒 Tập trung vào quyền riêng tư: Không có dữ liệu nào được gửi đến bất kỳ máy chủ nào"
+            ]
+        },
+        "faq": {
+            "title": "Câu hỏi thường gặp",
+            "questions": [
+                {
+                    "q": "Dấu thời gian Unix là gì?",
+                    "a": "Dấu thời gian Unix đại diện cho số giây đã trôi qua kể từ ngày 1 tháng 1 năm 1970 (UTC), không tính giây nhuận. Nó được sử dụng rộng rãi trong các hệ thống máy tính để theo dõi thời gian."
+                },
+                {
+                    "q": "Vấn đề năm 2038 là gì?",
+                    "a": "Vấn đề năm 2038 đề cập đến một vấn đề tiềm ẩn trong đó các hệ thống 32-bit sẽ không còn có thể lưu trữ dấu thời gian Unix sau ngày 19 tháng 1 năm 2038, vì giá trị sẽ bị tràn."
+                },
+                {
+                    "q": "Công cụ này có xử lý múi giờ không?",
+                    "a": "Có, công cụ chuyển đổi dấu thời gian sang giờ địa phương của trình duyệt của bạn và cũng cung cấp tương đương GMT/UTC."
+                }
+            ]
+        }
     }
 }

@@ -1,23 +1,67 @@
 {
     "meta": {
-        "title": "Trình nén ảnh - Nén ảnh trực tuyến",
+        "title": "Trình nén ảnh - Nén ảnh trực tuyến miễn phí",
         "description": "Trình nén ảnh trực tuyến miễn phí. Giảm kích thước tệp hình ảnh mà không làm giảm chất lượng. Hỗ trợ JPG, PNG và WebP. Không cần tải lên máy chủ."
     },
-    "title": "Trình nén ảnh",
-    "description": "Giảm kích thước tệp hình ảnh trong khi vẫn duy trì chất lượng.",
+    "tagline": "Giảm kích thước tệp hình ảnh ngay lập tức mà không làm giảm chất lượng",
     "ui": {
-        "selectImage": "Chọn ảnh",
-        "compress": "Nén ảnh",
-        "download": "Tải xuống ảnh đã nén",
-        "noFile": "Chưa chọn tệp nào",
-        "dragDrop": "hoặc kéo và thả ảnh vào đây",
+        "title": "Trình nén ảnh",
+        "description": "Giảm kích thước tệp hình ảnh trong khi vẫn duy trì chất lượng.",
+        "selectImage": "Chọn hình ảnh",
+        "compress": "Nén hình ảnh",
+        "download": "Tải xuống hình ảnh đã nén",
+        "noFile": "Chưa chọn tệp",
+        "dragDrop": "hoặc kéo và thả hình ảnh vào đây",
         "originalSize": "Kích thước gốc: {size}",
         "compressedSize": "Kích thước đã nén: {size}",
         "reduction": "Giảm: {percent}%",
         "quality": "Chất lượng: {value}%",
         "processing": "Đang nén...",
         "success": "Đã nén thành công!",
-        "error": "Lỗi khi nén ảnh",
-        "processingNote": "🔒 Việc nén diễn ra cục bộ trong trình duyệt của bạn. Ảnh của bạn không bao giờ được gửi đến máy chủ của chúng tôi."
+        "error": "Lỗi khi nén hình ảnh",
+        "processingNote": "🔒 Quá trình nén diễn ra cục bộ trong trình duyệt của bạn. Hình ảnh của bạn không bao giờ được gửi đến máy chủ của chúng tôi."
+    },
+    "content": {
+        "description": {
+            "title": "Trình nén ảnh là gì?",
+            "text": "Trình nén ảnh là một công cụ trực tuyến miễn phí được thiết kế để giảm kích thước tệp hình ảnh của bạn mà không ảnh hưởng đáng kể đến chất lượng hình ảnh của chúng. Nó hoàn hảo để tối ưu hóa hình ảnh cho các trang web, email hoặc tiết kiệm dung lượng lưu trữ trên thiết bị của bạn."
+        },
+        "howTo": {
+            "title": "Cách sử dụng Trình nén ảnh",
+            "steps": [
+                "Tải lên hình ảnh bằng cách kéo và thả hoặc nhấp vào vùng tải lên",
+                "Điều chỉnh thanh trượt chất lượng nén theo sở thích của bạn",
+                "Chờ quá trình nén tự động kết thúc",
+                "So sánh kích thước gốc và kích thước đã nén",
+                "Nhấp vào 'Tải xuống hình ảnh đã nén' để lưu tệp đã tối ưu hóa"
+            ]
+        },
+        "features": {
+            "title": "Các tính năng chính",
+            "list": [
+                "⚡ Nén nhanh: Tối ưu hóa hình ảnh trong vài giây",
+                "📉 Tỷ lệ nén cao: Giảm đáng kể kích thước tệp",
+                "🔒 Quyền riêng tư là trên hết: Hình ảnh được xử lý cục bộ trong trình duyệt của bạn",
+                "🖼️ Hỗ trợ định dạng: Hoạt động với JPG, PNG và WebP",
+                "🎚️ Chất lượng có thể điều chỉnh: Kiểm soát sự cân bằng giữa kích thước và chất lượng"
+            ]
+        },
+        "faq": {
+            "title": "Câu hỏi thường gặp",
+            "questions": [
+                {
+                    "q": "Hình ảnh của tôi có được tải lên máy chủ không?",
+                    "a": "Không, tất cả quá trình nén được thực hiện hoàn toàn trong trình duyệt của bạn bằng JavaScript. Ảnh của bạn không bao giờ rời khỏi thiết bị của bạn."
+                },
+                {
+                    "q": "Nén có làm giảm chất lượng hình ảnh không?",
+                    "a": "Công cụ của chúng tôi sử dụng các thuật toán nén thông minh để giảm kích thước tệp trong khi vẫn duy trì chất lượng hình ảnh tốt nhất có thể. Bạn có thể điều chỉnh cài đặt chất lượng để tìm sự cân bằng hoàn hảo."
+                },
+                {
+                    "q": "Những định dạng nào được hỗ trợ?",
+                    "a": "Chúng tôi hỗ trợ các định dạng hình ảnh web phổ biến bao gồm JPEG, PNG và WebP."
+                }
+            ]
+        }
     }
 }

@@ -1,18 +1,20 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
+import EnhancedToolLayout from '@/app/components/EnhancedToolLayout';
 import { Button } from '@/app/components/ui/Button';
-import { Card } from '@/app/components/ui/Card';
 import { FileDropzone } from '@/app/components/ui/FileDropzone';
 import { ImagePreview } from '@/app/components/ui/ImagePreview';
 import { saveAs } from 'file-saver';
+import { ToolContent } from '@/app/types/tool';
 
-interface ImageResizerClientProps {
+interface Props {
     locale: string;
+    content: ToolContent;
 }
 
-export default function ImageResizerClient({ locale }: ImageResizerClientProps) {
+export default function ImageResizerClient({ locale, content }: Props) {
     const t = useTranslations('Tools.image-resizer');
     const [file, setFile] = useState<File | null>(null);
     const [previewUrl, setPreviewUrl] = useState<string | null>(null);
@@ -94,12 +96,16 @@ export default function ImageResizerClient({ locale }: ImageResizerClientProps) 
     };
 
     return (
-        <div className="max-w-4xl mx-auto">
-            <Card padding="lg">
+        <EnhancedToolLayout
+            {...content}
+            toolId="image-resizer"
+            locale={locale}
+        >
+            <div className="space-y-6">
                 {!file ? (
                     <FileDropzone
                         onFileSelect={processFile}
-                        label={t('dropzone.label')}
+                        label={t('ui.dropzone.label')}
                     />
                 ) : (
                     <div className="space-y-8">
@@ -107,25 +113,25 @@ export default function ImageResizerClient({ locale }: ImageResizerClientProps) 
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div>
-                                <label className="block text-sm font-medium text-gray-700 mb-1">
-                                    {t('width')}
+                                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                                    {t('ui.width')}
                                 </label>
                                 <input
                                     type="number"
                                     value={width}
                                     onChange={handleWidthChange}
-                                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+                                    className="w-full px-3 py-2 border border-gray-300 dark:border-gray-700 rounded-md bg-white dark:bg-gray-800 focus:ring-blue-500 focus:border-blue-500"
                                 />
                             </div>
                             <div>
-                                <label className="block text-sm font-medium text-gray-700 mb-1">
-                                    {t('height')}
+                                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                                    {t('ui.height')}
                                 </label>
                                 <input
                                     type="number"
                                     value={height}
                                     onChange={handleHeightChange}
-                                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+                                    className="w-full px-3 py-2 border border-gray-300 dark:border-gray-700 rounded-md bg-white dark:bg-gray-800 focus:ring-blue-500 focus:border-blue-500"
                                 />
                             </div>
                         </div>
@@ -138,28 +144,32 @@ export default function ImageResizerClient({ locale }: ImageResizerClientProps) 
                                 onChange={(e) => setMaintainAspectRatio(e.target.checked)}
                                 className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
                             />
-                            <label htmlFor="aspectRatio" className="text-sm text-gray-700">
-                                {t('maintainAspectRatio')}
+                            <label htmlFor="aspectRatio" className="text-sm text-gray-700 dark:text-gray-300">
+                                {t('ui.maintainAspectRatio')}
                             </label>
                         </div>
 
-                        <div className="text-sm text-gray-500">
-                            <p>{t('original', { width: originalWidth, height: originalHeight })}</p>
-                            <p>{t('new', { width, height })}</p>
+                        <div className="text-sm text-gray-500 dark:text-gray-400">
+                            <p>{t('ui.original', { width: originalWidth, height: originalHeight })}</p>
+                            <p>{t('ui.new', { width, height })}</p>
                         </div>
 
                         <div className="flex flex-col sm:flex-row gap-4">
-                            <Button onClick={handleResizeAndDownload} size="lg" className="flex-1">
-                                {t('download')}
+                            <Button onClick={handleResizeAndDownload} size="lg" className="flex-1" variant="primary">
+                                {t('ui.download')}
                             </Button>
-                            <Button onClick={handleReset} variant="outline" size="lg">
-                                {t('reset')}
+                            <Button onClick={handleReset} variant="ghost" size="lg" className="text-red-600 hover:text-red-700 hover:bg-red-50 dark:hover:bg-red-900/20">
+                                {t('ui.reset')}
                             </Button>
                         </div>
                     </div>
                 )}
                 <canvas ref={canvasRef} className="hidden" />
-            </Card>
-        </div>
+
+                <div className="text-center text-sm text-gray-500 dark:text-gray-400">
+                    {t('ui.processingNote')}
+                </div>
+            </div>
+        </EnhancedToolLayout>
     );
 }
