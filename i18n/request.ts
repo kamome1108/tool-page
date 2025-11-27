@@ -19,7 +19,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
             const toolMsg = (await import(`../messages/${locale}/tools/${tool.id}.json`)).default;
             toolsMessages[tool.id] = toolMsg;
         } catch (e) {
-            console.warn(`Translation not found for tool: ${tool.id} in locale: ${locale}`);
+            console.error(`CRITICAL: Translation file not found for tool: ${tool.id} in locale: ${locale}`);
+            throw new Error(`Translation file missing: ${tool.id} (${locale})`);
         }
     }
 
@@ -30,6 +31,13 @@ export default getRequestConfig(async ({ requestLocale }) => {
             Home: home,
             Categories: categories,
             Tools: toolsMessages
+        },
+        onError(error) {
+            if (error.code === 'MISSING_MESSAGE') {
+                console.error(`CRITICAL: Missing translation key: ${error.message}`);
+                throw new Error(`Missing translation key: ${error.message}`);
+            }
+            console.error(error);
         }
     };
 });
