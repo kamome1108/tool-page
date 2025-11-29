@@ -49,6 +49,7 @@ export default function Base64EncoderDecoderClient({ locale, content }: Props) {
     return (
         <EnhancedToolLayout
             {...content}
+            title={content.meta.title}
             toolId="base64-encoder-decoder"
             locale={locale}
         >

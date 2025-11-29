@@ -1,16 +1,62 @@
 {
     "meta": {
         "title": "Image Blur - Làm mờ hình ảnh trực tuyến miễn phí",
-        "description": "Làm mờ hình ảnh của bạn trực tuyến. Điều chỉnh cường độ làm mờ và tải xuống kết quả. Công cụ làm mờ hình ảnh miễn phí, nhanh chóng và an toàn.",
-        "keywords": "image blur, blur tool, privacy, obfuscate"
+        "description": "Làm mờ hình ảnh của bạn trực tuyến ngay lập tức. Điều chỉnh cường độ làm mờ để ẩn thông tin nhạy cảm hoặc tạo hiệu ứng nghệ thuật. Xử lý cục bộ miễn phí, nhanh chóng và an toàn."
     },
-    "title": "Image Blur",
-    "description": "Áp dụng hiệu ứng làm mờ cho hình ảnh của bạn với cường độ có thể điều chỉnh.",
-    "dropzone": {
-        "label": "Thả hình ảnh vào đây hoặc nhấp để chọn"
+    "tagline": "Làm mờ hình ảnh ngay lập tức với cường độ có thể điều chỉnh",
+    "ui": {
+        "title": "Image Blur",
+        "description": "Áp dụng hiệu ứng làm mờ cho hình ảnh của bạn một cách an toàn trong trình duyệt của bạn.",
+        "dropzone": {
+            "label": "Thả hình ảnh vào đây, hoặc nhấp để chọn"
+        },
+        "intensity": "Cường độ làm mờ",
+        "apply": "Áp dụng làm mờ",
+        "download": "Tải xuống hình ảnh bị mờ",
+        "reset": "Đặt lại",
+        "preview": "Xem trước",
+        "original": "Bản gốc"
     },
-    "intensity": "Cường độ làm mờ",
-    "apply": "Áp dụng làm mờ",
-    "download": "Tải xuống hình ảnh đã làm mờ",
-    "reset": "Đặt lại"
+    "content": {
+        "description": {
+            "title": "Image Blur là gì?",
+            "text": "Image Blur là một công cụ trực tuyến miễn phí cho phép bạn áp dụng hiệu ứng làm mờ cho hình ảnh của mình trực tiếp trong trình duyệt. Cho dù bạn cần che khuất thông tin nhạy cảm như khuôn mặt hoặc biển số xe, hay bạn muốn tạo nền nghệ thuật mềm mại, công cụ này giúp bạn thực hiện dễ dàng. Với các điều khiển cường độ có thể điều chỉnh, bạn có thể có được giao diện chính xác mà bạn muốn."
+        },
+        "howTo": {
+            "title": "Cách sử dụng Image Blur",
+            "steps": [
+                "Tải lên hình ảnh của bạn bằng cách kéo và thả nó vào hộp hoặc nhấp để chọn.",
+                "Điều chỉnh thanh trượt 'Cường độ làm mờ' để kiểm soát lượng mờ.",
+                "Bản xem trước cập nhật ngay lập tức khi bạn điều chỉnh thanh trượt.",
+                "Nhấp vào 'Tải xuống' để lưu hình ảnh bị mờ của bạn."
+            ]
+        },
+        "features": {
+            "title": "Các tính năng chính",
+            "list": [
+                "🔒 Ưu tiên quyền riêng tư: Tất cả quá trình xử lý diễn ra cục bộ trong trình duyệt của bạn. Hình ảnh của bạn không bao giờ được tải lên máy chủ.",
+                "⚡ Xem trước tức thì: Xem hiệu ứng làm mờ trong thời gian thực khi bạn điều chỉnh cài đặt.",
+                "🎚️ Cường độ có thể điều chỉnh: Tinh chỉnh mức độ mờ từ làm mềm tinh tế đến che khuất hoàn toàn.",
+                "📂 Hỗ trợ định dạng rộng: Hoạt động với các định dạng hình ảnh phổ biến như JPG, PNG và WebP.",
+                "🆓 100% miễn phí: Không có chi phí ẩn, hình mờ hoặc đăng ký bắt buộc."
+            ]
+        },
+        "faq": {
+            "title": "Câu hỏi thường gặp",
+            "questions": [
+                {
+                    "q": "Hình ảnh của tôi có được tải lên máy chủ không?",
+                    "a": "Không. Công cụ này chạy hoàn toàn trong trình duyệt web của bạn. Hình ảnh của bạn không bao giờ rời khỏi thiết bị của bạn, đảm bảo quyền riêng tư hoàn toàn."
+                },
+                {
+                    "q": "Tôi có thể chỉ làm mờ một phần cụ thể của hình ảnh không?",
+                    "a": "Hiện tại, công cụ này áp dụng độ mờ đồng đều cho toàn bộ hình ảnh. Chúng tôi đang nỗ lực thêm các tính năng làm mờ chọn lọc trong các bản cập nhật trong tương lai."
+                },
+                {
+                    "q": "Điều này có làm giảm chất lượng hình ảnh không?",
+                    "a": "Công cụ duy trì độ phân giải gốc của hình ảnh của bạn trong khi áp dụng hiệu ứng làm mờ. Kích thước tệp có thể thay đổi một chút tùy thuộc vào định dạng và mức độ mờ."
+                }
+            ]
+        }
+    }
 }

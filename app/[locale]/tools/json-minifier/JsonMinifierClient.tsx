@@ -46,6 +46,7 @@ export default function JsonMinifierClient({ locale, content }: Props) {
     return (
         <EnhancedToolLayout
             {...content}
+            title={content.meta.title}
             toolId="json-minifier"
             locale={locale}
         >

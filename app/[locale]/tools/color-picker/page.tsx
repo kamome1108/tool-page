@@ -1,4 +1,4 @@
-import { setRequestLocale, getTranslations } from 'next-intl/server';
+
 import ColorPickerClient from './ColorPickerClient';
 import ToolJsonLd from '@/app/components/ToolJsonLd';
 import { getToolContent } from '@/app/utils/tool-content';
@@ -9,9 +9,7 @@ type Props = {
 
 export default async function ColorPickerPage({ params }: Props) {
     const { locale } = await params;
-    setRequestLocale(locale);
-    const t = await getTranslations({ locale, namespace: 'Tools.color-picker' });
-    const content = getToolContent(t);
+    const content = await getToolContent(locale, 'color-picker');
 
     return (
         <>

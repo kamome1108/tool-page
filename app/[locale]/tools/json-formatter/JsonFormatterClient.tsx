@@ -58,6 +58,7 @@ export default function JsonFormatterClient({ locale, content }: Props) {
     return (
         <EnhancedToolLayout
             {...content}
+            title={content.meta.title}
             toolId="json-formatter"
             locale={locale}
         >

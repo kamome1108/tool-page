@@ -1,8 +1,14 @@
+import { getTranslations } from 'next-intl/server';
 import { ToolContent } from '@/app/types/tool';
 
-export function getToolContent(t: any): ToolContent {
+export async function getToolContent(locale: string, toolId: string): Promise<ToolContent> {
+    const t = await getTranslations({ locale, namespace: `Tools.${toolId}` });
+
     const content: ToolContent = {
-        title: t('meta.title'),
+        meta: {
+            title: t('meta.title'),
+            description: t('meta.description'),
+        },
         tagline: t('tagline'),
     };
 

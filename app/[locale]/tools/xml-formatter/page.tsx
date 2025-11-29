@@ -9,9 +9,7 @@ type Props = {
 
 export default async function XmlFormatterPage({ params }: Props) {
     const { locale } = await params;
-    setRequestLocale(locale);
-    const t = await getTranslations({ locale, namespace: 'Tools.xml-formatter' });
-    const content = getToolContent(t);
+    const content = await getToolContent(locale, 'xml-formatter');
 
     return (
         <>

@@ -80,6 +80,7 @@ export default function XmlFormatterClient({ locale, content }: Props) {
     return (
         <EnhancedToolLayout
             {...content}
+            title={content.meta.title}
             toolId="xml-formatter"
             locale={locale}
         >

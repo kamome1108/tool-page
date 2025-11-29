@@ -9,9 +9,7 @@ type Props = {
 
 export default async function UnixTimestampConverterPage({ params }: Props) {
     const { locale } = await params;
-    setRequestLocale(locale);
-    const t = await getTranslations({ locale, namespace: 'Tools.unix-timestamp-converter' });
-    const content = getToolContent(t);
+    const content = await getToolContent(locale, 'unix-timestamp-converter');
 
     return (
         <>

@@ -5,6 +5,7 @@ import RelatedTools from '@/app/components/tools/RelatedTools';
 import { ToolContent } from '@/app/types/tool';
 
 interface EnhancedToolLayoutProps extends ToolContent {
+    title: string;
     toolId: string;
     locale: string;
     children: React.ReactNode;

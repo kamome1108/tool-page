@@ -1,41 +1,38 @@
-import { setRequestLocale, getTranslations } from 'next-intl/server';
-import ImageBlurClient from './ImageBlurClient';
-import JsonLd from '@/app/components/JsonLd';
-import { Section } from '@/app/components/ui/Section';
+import { getToolContent } from '@/app/utils/tool-content';
+import ToolJsonLd from '@/app/components/ToolJsonLd';
+import ImageBlurWrapper from './ImageBlurWrapper';
 
-type Props = {
-    params: Promise<{ locale: string }>;
-};
+// export const runtime = 'edge';
 
-export default async function ImageBlurPage({ params }: Props) {
+interface PageProps {
+    params: Promise<{
+        locale: string;
+    }>;
+}
+
+export async function generateMetadata({ params }: PageProps) {
     const { locale } = await params;
-    setRequestLocale(locale);
-    const t = await getTranslations({ locale, namespace: 'Tools.image-blur' });
+    const content = await getToolContent(locale, 'image-blur');
 
-    const jsonLd = {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": t('meta.title'),
-        "description": t('meta.description'),
-        "applicationCategory": "MultimediaApplication",
-        "operatingSystem": "Any",
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        }
+    return {
+        title: content.meta.title,
+        description: content.meta.description,
     };
+}
+
+export default async function ImageBlurPage({ params }: PageProps) {
+    const { locale } = await params;
+    const content = await getToolContent(locale, 'image-blur');
 
     return (
-        <div className="space-y-12">
-            <JsonLd data={jsonLd} />
-            <Section>
-                <div className="text-center mb-12">
-                    <h1 className="text-4xl font-bold text-gray-900 mb-4">{t('title')}</h1>
-                    <p className="text-xl text-gray-600 max-w-2xl mx-auto">{t('description')}</p>
-                </div>
-                <ImageBlurClient locale={locale} />
-            </Section>
-        </div>
+        <>
+            <ToolJsonLd
+                content={content}
+                baseUrl="https://tools.kamo-me.com"
+                locale={locale}
+                slug="image-blur"
+            />
+            <ImageBlurWrapper locale={locale} content={content} />
+        </>
     );
 }

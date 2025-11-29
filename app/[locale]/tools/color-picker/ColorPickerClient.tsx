@@ -151,6 +151,7 @@ export default function ColorPickerClient({ locale, content }: ColorPickerClient
     return (
         <EnhancedToolLayout
             {...content}
+            title={content.meta.title}
             toolId="color-picker"
             locale={locale}
         >

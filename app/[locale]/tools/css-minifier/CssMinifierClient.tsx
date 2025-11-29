@@ -54,6 +54,7 @@ export default function CssMinifierClient({ locale, content }: Props) {
     return (
         <EnhancedToolLayout
             {...content}
+            title={content.meta.title}
             toolId="css-minifier"
             locale={locale}
         >

@@ -1,15 +1,62 @@
 {
     "meta": {
         "title": "Image Blur - Blur Images Online for Free",
-        "description": "Blur your images online. Adjust blur intensity and download the result. Free, fast, and secure image blurring tool."
+        "description": "Blur your images online instantly. Adjust blur intensity to hide sensitive info or create artistic effects. Free, fast, and secure local processing."
     },
-    "title": "Image Blur",
-    "description": "Apply blur effect to your images with adjustable intensity.",
-    "dropzone": {
-        "label": "Drop an image here, or click to select"
+    "tagline": "Blur images instantly with adjustable intensity",
+    "ui": {
+        "title": "Image Blur",
+        "description": "Apply blur effect to your images securely in your browser.",
+        "dropzone": {
+            "label": "Drop an image here, or click to select"
+        },
+        "intensity": "Blur Intensity",
+        "apply": "Apply Blur",
+        "download": "Download Blurred Image",
+        "reset": "Reset",
+        "preview": "Preview",
+        "original": "Original"
     },
-    "intensity": "Blur Intensity",
-    "apply": "Apply Blur",
-    "download": "Download Blurred Image",
-    "reset": "Reset"
+    "content": {
+        "description": {
+            "title": "What is Image Blur?",
+            "text": "Image Blur is a free online tool that allows you to apply a blur effect to your images directly in your browser. Whether you need to obscure sensitive information like faces or license plates, or you want to create a soft, artistic background, this tool makes it easy. With adjustable intensity controls, you can get the exact look you want."
+        },
+        "howTo": {
+            "title": "How to Use Image Blur",
+            "steps": [
+                "Upload your image by dragging and dropping it into the box or clicking to select.",
+                "Adjust the 'Blur Intensity' slider to control the amount of blur.",
+                "The preview updates instantly as you adjust the slider.",
+                "Click 'Download' to save your blurred image."
+            ]
+        },
+        "features": {
+            "title": "Key Features",
+            "list": [
+                "🔒 Privacy First: All processing happens locally in your browser. Your images are never uploaded to a server.",
+                "⚡ Instant Preview: See the blur effect in real-time as you adjust the settings.",
+                "🎚️ Adjustable Intensity: Fine-tune the blur level from subtle softening to complete obscuration.",
+                "📂 Wide Format Support: Works with common image formats like JPG, PNG, and WebP.",
+                "🆓 100% Free: No hidden costs, watermarks, or sign-ups required."
+            ]
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "questions": [
+                {
+                    "q": "Is my image uploaded to a server?",
+                    "a": "No. This tool runs entirely in your web browser. Your images never leave your device, ensuring complete privacy."
+                },
+                {
+                    "q": "Can I blur only a specific part of the image?",
+                    "a": "Currently, this tool applies a uniform blur to the entire image. We are working on adding selective blur features in future updates."
+                },
+                {
+                    "q": "Does this reduce the image quality?",
+                    "a": "The tool maintains the original resolution of your image while applying the blur effect. The file size might change slightly depending on the format and blur level."
+                }
+            ]
+        }
+    }
 }

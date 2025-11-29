@@ -9,9 +9,7 @@ type Props = {
 
 export default async function ImageResizerPage({ params }: Props) {
     const { locale } = await params;
-    setRequestLocale(locale);
-    const t = await getTranslations({ locale, namespace: 'Tools.image-resizer' });
-    const content = getToolContent(t);
+    const content = await getToolContent(locale, 'image-resizer');
 
     return (
         <>

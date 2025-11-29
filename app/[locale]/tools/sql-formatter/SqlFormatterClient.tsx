@@ -54,6 +54,7 @@ export default function SqlFormatterClient({ locale, content }: Props) {
     return (
         <EnhancedToolLayout
             {...content}
+            title={content.meta.title}
             toolId="sql-formatter"
             locale={locale}
         >

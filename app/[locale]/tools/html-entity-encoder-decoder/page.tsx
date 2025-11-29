@@ -9,9 +9,7 @@ type Props = {
 
 export default async function HtmlEntityEncoderDecoderPage({ params }: Props) {
     const { locale } = await params;
-    setRequestLocale(locale);
-    const t = await getTranslations({ locale, namespace: 'Tools.html-entity-encoder-decoder' });
-    const content = getToolContent(t);
+    const content = await getToolContent(locale, 'html-entity-encoder-decoder');
 
     return (
         <>

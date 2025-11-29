@@ -35,6 +35,7 @@ export default function TextDiffClient({ locale, content }: Props) {
     return (
         <EnhancedToolLayout
             {...content}
+            title={content.meta.title}
             toolId="text-diff"
             locale={locale}
         >

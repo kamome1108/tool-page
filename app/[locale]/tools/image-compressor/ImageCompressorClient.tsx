@@ -75,6 +75,7 @@ export default function ImageCompressorClient({ locale, content }: Props) {
     return (
         <EnhancedToolLayout
             {...content}
+            title={content.meta.title}
             toolId="image-compressor"
             locale={locale}
         >

@@ -9,9 +9,7 @@ type Props = {
 
 export default async function SqlFormatterPage({ params }: Props) {
     const { locale } = await params;
-    setRequestLocale(locale);
-    const t = await getTranslations({ locale, namespace: 'Tools.sql-formatter' });
-    const content = getToolContent(t);
+    const content = await getToolContent(locale, 'sql-formatter');
 
     return (
         <>

@@ -52,6 +52,7 @@ export default function UuidGeneratorClient({ locale, content }: Props) {
     return (
         <EnhancedToolLayout
             {...content}
+            title={content.meta.title}
             toolId="uuid-generator"
             locale={locale}
         >

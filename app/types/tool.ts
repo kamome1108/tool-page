@@ -24,7 +24,10 @@ export interface ToolFaq {
 }
 
 export interface ToolContent {
-    title: string;
+    meta: {
+        title: string;
+        description: string;
+    };
     tagline: string;
     description?: ToolDescription;
     howTo?: ToolHowTo;

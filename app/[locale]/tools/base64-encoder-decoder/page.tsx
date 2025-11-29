@@ -9,9 +9,7 @@ type Props = {
 
 export default async function Base64EncoderDecoderPage({ params }: Props) {
     const { locale } = await params;
-    setRequestLocale(locale);
-    const t = await getTranslations({ locale, namespace: 'Tools.base64-encoder-decoder' });
-    const content = getToolContent(t);
+    const content = await getToolContent(locale, 'base64-encoder-decoder');
 
     return (
         <>

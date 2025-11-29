@@ -98,6 +98,7 @@ export default function ImageResizerClient({ locale, content }: Props) {
     return (
         <EnhancedToolLayout
             {...content}
+            title={content.meta.title}
             toolId="image-resizer"
             locale={locale}
         >

@@ -187,6 +187,7 @@ export default function MultiCropperClient({ locale, content }: Props) {
     return (
         <EnhancedToolLayout
             {...content}
+            title={content.meta.title}
             toolId="multi-cropper"
             locale={locale}
         >

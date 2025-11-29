@@ -66,6 +66,7 @@ export default function JwtDecoderClient({ locale, content }: Props) {
     return (
         <EnhancedToolLayout
             {...content}
+            title={content.meta.title}
             toolId="jwt-decoder"
             locale={locale}
         >

@@ -74,6 +74,7 @@ ${t('ui.relative')}: ${getRelativeTime(date)}
     return (
         <EnhancedToolLayout
             {...content}
+            title={content.meta.title}
             toolId="unix-timestamp-converter"
             locale={locale}
         >

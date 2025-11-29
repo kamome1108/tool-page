@@ -1,16 +1,62 @@
 {
     "meta": {
         "title": "Image Blur - Buramkan Gambar Online Gratis",
-        "description": "Buramkan gambar Anda secara online. Sesuaikan intensitas buram dan unduh hasilnya. Alat pemburaman gambar gratis, cepat, dan aman.",
-        "keywords": "image blur, blur tool, privacy, obfuscate"
+        "description": "Buramkan gambar Anda secara online secara instan. Sesuaikan intensitas buram untuk menyembunyikan info sensitif atau membuat efek artistik. Pemrosesan lokal gratis, cepat, dan aman."
     },
-    "title": "Image Blur",
-    "description": "Terapkan efek buram pada gambar Anda dengan intensitas yang dapat disesuaikan.",
-    "dropzone": {
-        "label": "Jatuhkan gambar di sini, atau klik untuk memilih"
+    "tagline": "Buramkan gambar secara instan dengan intensitas yang dapat disesuaikan",
+    "ui": {
+        "title": "Image Blur",
+        "description": "Terapkan efek buram pada gambar Anda dengan aman di browser Anda.",
+        "dropzone": {
+            "label": "Jatuhkan gambar di sini, atau klik untuk memilih"
+        },
+        "intensity": "Intensitas Buram",
+        "apply": "Terapkan Buram",
+        "download": "Unduh Gambar Buram",
+        "reset": "Atur Ulang",
+        "preview": "Pratinjau",
+        "original": "Asli"
     },
-    "intensity": "Intensitas Buram",
-    "apply": "Terapkan Buram",
-    "download": "Unduh Gambar Buram",
-    "reset": "Atur Ulang"
+    "content": {
+        "description": {
+            "title": "Apa itu Image Blur?",
+            "text": "Image Blur adalah alat online gratis yang memungkinkan Anda menerapkan efek buram pada gambar Anda langsung di browser Anda. Apakah Anda perlu mengaburkan informasi sensitif seperti wajah atau pelat nomor, atau Anda ingin membuat latar belakang artistik yang lembut, alat ini memudahkannya. Dengan kontrol intensitas yang dapat disesuaikan, Anda bisa mendapatkan tampilan yang tepat seperti yang Anda inginkan."
+        },
+        "howTo": {
+            "title": "Cara Menggunakan Image Blur",
+            "steps": [
+                "Unggah gambar Anda dengan menyeret dan menjatuhkannya ke dalam kotak atau mengklik untuk memilih.",
+                "Sesuaikan penggeser 'Intensitas Buram' untuk mengontrol jumlah buram.",
+                "Pratinjau diperbarui secara instan saat Anda menyesuaikan penggeser.",
+                "Klik 'Unduh' untuk menyimpan gambar buram Anda."
+            ]
+        },
+        "features": {
+            "title": "Fitur Utama",
+            "list": [
+                "🔒 Privasi Terlebih Dahulu: Semua pemrosesan terjadi secara lokal di browser Anda. Gambar Anda tidak pernah diunggah ke server.",
+                "⚡ Pratinjau Instan: Lihat efek buram secara real-time saat Anda menyesuaikan pengaturan.",
+                "🎚️ Intensitas yang Dapat Disesuaikan: Sempurnakan tingkat keburaman dari pelunakan halus hingga pengaburan total.",
+                "📂 Dukungan Format Luas: Bekerja dengan format gambar umum seperti JPG, PNG, dan WebP.",
+                "🆓 100% Gratis: Tidak ada biaya tersembunyi, tanda air, atau pendaftaran yang diperlukan."
+            ]
+        },
+        "faq": {
+            "title": "Pertanyaan yang Sering Diajukan",
+            "questions": [
+                {
+                    "q": "Apakah gambar saya diunggah ke server?",
+                    "a": "Tidak. Alat ini berjalan sepenuhnya di browser web Anda. Gambar Anda tidak pernah meninggalkan perangkat Anda, memastikan privasi lengkap."
+                },
+                {
+                    "q": "Bisakah saya memburamkan hanya bagian tertentu dari gambar?",
+                    "a": "Saat ini, alat ini menerapkan keburaman seragam ke seluruh gambar. Kami sedang berupaya menambahkan fitur buram selektif di pembaruan mendatang."
+                },
+                {
+                    "q": "Apakah ini mengurangi kualitas gambar?",
+                    "a": "Alat ini mempertahankan resolusi asli gambar Anda saat menerapkan efek buram. Ukuran file mungkin sedikit berubah tergantung pada format dan tingkat keburaman."
+                }
+            ]
+        }
+    }
 }

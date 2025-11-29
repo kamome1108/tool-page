@@ -9,9 +9,7 @@ type Props = {
 
 export default async function JsonMinifierPage({ params }: Props) {
     const { locale } = await params;
-    setRequestLocale(locale);
-    const t = await getTranslations({ locale, namespace: 'Tools.json-minifier' });
-    const content = getToolContent(t);
+    const content = await getToolContent(locale, 'json-minifier');
 
     return (
         <>

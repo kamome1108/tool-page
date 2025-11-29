@@ -42,6 +42,7 @@ export default function HtmlEntityEncoderDecoderClient({ locale, content }: Prop
     return (
         <EnhancedToolLayout
             {...content}
+            title={content.meta.title}
             toolId="html-entity-encoder-decoder"
             locale={locale}
         >

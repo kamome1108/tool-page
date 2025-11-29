@@ -1,15 +1,62 @@
 {
     "meta": {
         "title": "Image Blur - I-blur ang mga Larawan Online nang Libre",
-        "description": "I-blur ang iyong mga larawan online. Ayusin ang tindi ng blur at i-download ang resulta. Libre, mabilis, at secure na tool sa pag-blur ng larawan."
+        "description": "I-blur ang iyong mga larawan online nang agaran. Ayusin ang intensity ng blur upang itago ang sensitibong impormasyon o lumikha ng mga artistic effect. Libre, mabilis, at ligtas na lokal na pagproseso."
     },
-    "title": "Image Blur",
-    "description": "Ilapat ang blur effect sa iyong mga larawan na may adjustable na tindi.",
-    "dropzone": {
-        "label": "I-drop ang isang larawan dito, o mag-click upang pumili"
+    "tagline": "I-blur ang mga larawan nang agaran gamit ang adjustable intensity",
+    "ui": {
+        "title": "Image Blur",
+        "description": "Ilapat ang blur effect sa iyong mga larawan nang ligtas sa iyong browser.",
+        "dropzone": {
+            "label": "I-drop ang isang larawan dito, o i-click upang pumili"
+        },
+        "intensity": "Blur Intensity",
+        "apply": "Ilapat ang Blur",
+        "download": "I-download ang Naka-blur na Larawan",
+        "reset": "I-reset",
+        "preview": "Preview",
+        "original": "Orihinal"
     },
-    "intensity": "Tindi ng Blur",
-    "apply": "Ilapat ang Blur",
-    "download": "I-download ang Naka-blur na Larawan",
-    "reset": "I-reset"
+    "content": {
+        "description": {
+            "title": "Ano ang Image Blur?",
+            "text": "Ang Image Blur ay isang libreng online tool na nagbibigay-daan sa iyo na ilapat ang blur effect sa iyong mga larawan nang direkta sa iyong browser. Kung kailangan mong itago ang sensitibong impormasyon tulad ng mga mukha o plaka ng sasakyan, o gusto mong lumikha ng malambot at artistic na background, pinapadali ito ng tool na ito. Gamit ang adjustable intensity controls, makukuha mo ang eksaktong hitsura na gusto mo."
+        },
+        "howTo": {
+            "title": "Paano Gamitin ang Image Blur",
+            "steps": [
+                "I-upload ang iyong larawan sa pamamagitan ng pag-drag at drop nito sa kahon o pag-click upang pumili.",
+                "Ayusin ang 'Blur Intensity' slider upang kontrolin ang dami ng blur.",
+                "Ang preview ay nag-a-update agad habang inaayos mo ang slider.",
+                "I-click ang 'I-download' upang i-save ang iyong naka-blur na larawan."
+            ]
+        },
+        "features": {
+            "title": "Pangunahing Tampok",
+            "list": [
+                "🔒 Privacy First: Ang lahat ng pagproseso ay nangyayari nang lokal sa iyong browser. Ang iyong mga larawan ay hindi kailanman ina-upload sa server.",
+                "⚡ Instant Preview: Tingnan ang blur effect sa real-time habang inaayos mo ang mga setting.",
+                "🎚️ Adjustable Intensity: I-fine-tune ang antas ng blur mula sa banayad na paglambot hanggang sa ganap na pagtatago.",
+                "📂 Malawak na Suporta sa Format: Gumagana sa mga karaniwang format ng larawan tulad ng JPG, PNG, at WebP.",
+                "🆓 100% Libre: Walang nakatagong gastos, watermark, o kinakailangang pag-sign up."
+            ]
+        },
+        "faq": {
+            "title": "Madalas Itanong",
+            "questions": [
+                {
+                    "q": "Ina-upload ba ang aking larawan sa server?",
+                    "a": "Hindi. Ang tool na ito ay tumatakbo nang buo sa iyong web browser. Ang iyong mga larawan ay hindi kailanman umaalis sa iyong device, na tinitiyak ang ganap na privacy."
+                },
+                {
+                    "q": "Maaari ko bang i-blur lamang ang isang partikular na bahagi ng larawan?",
+                    "a": "Sa kasalukuyan, inilalapat ng tool na ito ang isang pare-parehong blur sa buong larawan. Kami ay nagtatrabaho sa pagdaragdag ng mga selective blur feature sa mga update sa hinaharap."
+                },
+                {
+                    "q": "Binabawasan ba nito ang kalidad ng larawan?",
+                    "a": "Pinapanatili ng tool ang orihinal na resolution ng iyong larawan habang inilalapat ang blur effect. Ang laki ng file ay maaaring magbago nang bahagya depende sa format at antas ng blur."
+                }
+            ]
+        }
+    }
 }

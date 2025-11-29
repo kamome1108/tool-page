@@ -15,7 +15,7 @@ export default function ToolJsonLd({ content, baseUrl, locale, slug }: ToolJsonL
     const softwareSchema = {
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
-        "name": content.title,
+        "name": content.meta.title,
         "description": content.tagline, // Use tagline for description as it's concise
         "applicationCategory": "DeveloperApplication",
         "operatingSystem": "Any",
@@ -41,7 +41,7 @@ export default function ToolJsonLd({ content, baseUrl, locale, slug }: ToolJsonL
             {
                 "@type": "ListItem",
                 "position": 2,
-                "name": content.title,
+                "name": content.meta.title,
                 "item": url
             }
         ]

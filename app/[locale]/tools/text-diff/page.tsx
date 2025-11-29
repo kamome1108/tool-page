@@ -9,9 +9,7 @@ type Props = {
 
 export default async function TextDiffPage({ params }: Props) {
     const { locale } = await params;
-    setRequestLocale(locale);
-    const t = await getTranslations({ locale, namespace: 'Tools.text-diff' });
-    const content = getToolContent(t);
+    const content = await getToolContent(locale, 'text-diff');
 
     return (
         <>
